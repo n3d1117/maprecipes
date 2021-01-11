@@ -5,7 +5,12 @@
       <img id="georecipes_logo_img" src="../assets/logo.png" alt="logo">
     </b-navbar-brand>
 
-    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    <b-navbar-toggle target="nav-collapse">
+      <template #default="{ expanded }">
+        <b-icon v-if="expanded" icon="x"></b-icon>
+        <b-icon v-else icon="list"></b-icon>
+      </template>
+    </b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
 
