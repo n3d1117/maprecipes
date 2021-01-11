@@ -25,6 +25,8 @@
       </div>
     </div>
 
+    <HomeFooter></HomeFooter>
+
   </div>
 </template>
 
@@ -33,10 +35,12 @@ import SearchBar from "@/components/SearchBar"
 import HomeSidebar from "@/components/HomeSidebar";
 import HomeResultBlock from "@/components/HomeResultBlock";
 import MainLayer from "@/components/MainLayer";
+import HomeFooter from "@/components/HomeFooter";
 
 export default {
   name: 'Home',
   components: {
+    HomeFooter,
     MainLayer,
     HomeResultBlock,
     HomeSidebar,
