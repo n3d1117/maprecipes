@@ -1,6 +1,8 @@
 <template>
   <div id="app">
 
+    <ScrollToTopArrow></ScrollToTopArrow>
+
     <MainLayer>
       <h1 id="searchbar_title">TROVA LE RICETTE DELLA TUA CITTÀ</h1>
       <div class="offset-lg-2 col-lg-8">
@@ -36,10 +38,12 @@ import HomeSidebar from "@/components/HomeSidebar";
 import HomeResultBlock from "@/components/HomeResultBlock";
 import MainLayer from "@/components/MainLayer";
 import HomeFooter from "@/components/HomeFooter";
+import ScrollToTopArrow from "@/components/ScrollToTopArrow";
 
 export default {
   name: 'Home',
   components: {
+    ScrollToTopArrow,
     HomeFooter,
     MainLayer,
     HomeResultBlock,
