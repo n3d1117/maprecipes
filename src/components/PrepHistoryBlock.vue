@@ -80,6 +80,7 @@ $(document).ready(function() {
   background-color: transparent;
   border-radius: 19px;
   box-shadow: 2px 2px 7px;
+  min-height: 170px;
 }
 
 </style>

@@ -2,7 +2,7 @@
   <div id="app">
     <MainLayer>
 
-      <div class="container p-0" id="recipe_block">
+      <div class="container p-0 mb-3" id="recipe_block">
 
         <div class="row d-flex d-lg-block">
 
@@ -95,21 +95,31 @@ $(document).ready(function() {
   });
 
   function adapt_ingredients_block_outer() {
-    var ingredients_block_outer = document.getElementById('ingredients_block_outer');
-    var ingredients_block_inner = document.getElementById('ingredients_block_inner');
+    const ingredients_block_outer = document.getElementById('ingredients_block_outer');
+    const ingredients_block_inner = document.getElementById('ingredients_block_inner');
+    const recipe_block = document.getElementById('recipe_block');
+
     if ($(window).width() < 992) {
       ingredients_block_outer.style.backgroundColor='transparent';
-      ingredients_block_outer.style.minHeight = 'initial';
       ingredients_block_inner.style.borderTopLeftRadius = '0px';
+
+      ingredients_block_outer.style.minHeight = 'initial';
+      ingredients_block_outer.style.height = 'initial';
+      recipe_block.style.minHeight = 'initial';
+      recipe_block.style.height = 'initial';
     } else {
       ingredients_block_outer.style.backgroundColor='#c9964c';
-      ingredients_block_outer.style.minHeight = 'calc(90vh - 80px)';
       ingredients_block_inner.style.borderTopLeftRadius = '19px';
+
+      recipe_block.style.minHeight = '650px';
+      recipe_block.style.height = 'calc(90vh - 80px)';
+      ingredients_block_outer.style.minHeight = '650px';
+      ingredients_block_outer.style.height = 'calc(90vh - 80px)';
     }
   }
 
   function fixStoriaProdottoBorder() {
-    var storia_prodotto_column = document.getElementById('storia-prodotto-column');
+    const storia_prodotto_column = document.getElementById('storia-prodotto-column');
     if ($(window).width() < 992) {
       storia_prodotto_column.style.borderRight = '0px';
     } else {
@@ -129,7 +139,6 @@ $(document).ready(function() {
 }
 
 #recipe_block {
-  min-height: calc(90vh - 80px);
   border-radius: 19px;
   border-width: 1px;
   border-color: #000000;
@@ -138,13 +147,11 @@ $(document).ready(function() {
 }
 
 #ingredients_block_inner {
-  border-radius: 0;
   background-color: #c9964c;
-  border-top-left-radius: 19px;
+  border-radius: 19px 0 0 0;
 }
 
 #ingredients_block_outer {
-  min-height: calc(90vh - 80px);
   border-top-left-radius: 19px;
   border-bottom-left-radius: 19px;
   border-width: 1px;
