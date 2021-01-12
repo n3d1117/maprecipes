@@ -19,7 +19,7 @@
           <div class="col-md-9">
             <h1 class="mt-4 text-left">Elenco Ricette</h1>
 
-            <HomeResultBlock title="Antipasti"></HomeResultBlock>
+            <HomeResultBlock v-bind:recipes="recipes" title="Antipasti"></HomeResultBlock>
             <HomeResultBlock title="Primi"></HomeResultBlock>
 
           </div>
@@ -39,6 +39,7 @@ import HomeResultBlock from "@/components/HomeResultBlock";
 import MainLayer from "@/components/MainLayer";
 import HomeFooter from "@/components/HomeFooter";
 import ScrollToTopArrow from "@/components/ScrollToTopArrow";
+import recipes from '@/recipes.json'
 
 export default {
   name: 'Home',
@@ -49,6 +50,11 @@ export default {
     HomeResultBlock,
     HomeSidebar,
     SearchBar
+  },
+  data() {
+    return {
+      recipes: recipes
+    }
   }
 }
 </script>

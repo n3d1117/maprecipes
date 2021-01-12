@@ -4,10 +4,10 @@
       <div class="card result_block_card">
         <div class="card-body result_block_card_body">
           <img class="img-fluid card-img-top mb-2 result_block_card_body_img" src="../assets/CrostiniToscani.jpg" alt="fegatini">
-          <h4 class="card-title mb-0 text-center">Crostini di fegatini</h4>
+          <h4 class="card-title mb-0 text-center">{{ recipe.dish_name }}</h4>
           <ul class="text-left mb-0 pb-0 pl-3">
-            <li>Regione: Toscana</li>
-            <li>Città: Firenze</li>
+            <li>Regione: {{ recipe.region }}</li>
+            <li>Città: {{ recipe.city }}</li>
           </ul>
         </div>
       </div>
@@ -17,7 +17,8 @@
 
 <script>
 export default {
-  name: 'RecipeCard'
+  name: 'RecipeCard',
+  props: ['recipe'],
 }
 </script>
 

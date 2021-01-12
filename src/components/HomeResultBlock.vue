@@ -7,14 +7,9 @@
     <div class="container">
       <div class="row">
 
-        <RecipeCard></RecipeCard>
-        <RecipeCard></RecipeCard>
-        <RecipeCard></RecipeCard>
-        <RecipeCard></RecipeCard>
-        <RecipeCard></RecipeCard>
-        <RecipeCard></RecipeCard>
-        <RecipeCard></RecipeCard>
-        <RecipeCard></RecipeCard>
+        <RecipeCard v-for="recipe in recipes" v-bind:key="recipe.dish_id" v-bind:recipe="recipe">
+
+        </RecipeCard>
 
       </div>
     </div>
@@ -31,7 +26,7 @@ export default {
     HorizontalSeparator,
     RecipeCard
   },
-  props: ['title']
+  props: ['title', 'recipes']
 }
 </script>
 
