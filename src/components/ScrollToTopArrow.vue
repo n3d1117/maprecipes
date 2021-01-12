@@ -1,6 +1,6 @@
 <template>
   <button id="myBtn">
-    <b-icon icon="arrow-up" font-scale="1.7"></b-icon>
+    <b-icon icon="chevron-up" font-scale="1.7"></b-icon>
   </button>
 </template>
 
