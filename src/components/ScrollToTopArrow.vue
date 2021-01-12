@@ -1,5 +1,5 @@
 <template>
-  <button id="myBtn">
+  <button id="chevron">
     <b-icon icon="chevron-up" font-scale="1.7"></b-icon>
   </button>
 </template>
@@ -13,31 +13,25 @@ name: "ScrollToTopArrow"
 
 $(document).ready(function() {
 
-  //Get the button
-  var mybutton = document.getElementById("myBtn");
-  mybutton.onclick = function () {
+  const chevronButton = document.getElementById("chevron");
+  chevronButton.onclick = function () {
     $('html, body').animate({ scrollTop: 0 }, 'slow');
   }
 
-  // When the user scrolls down 20px from the top of the document, show the button
   window.onscroll = function () {
-    scrollFunction()
-  };
-
-  function scrollFunction() {
     if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-      mybutton.style.display = "block";
+      chevronButton.style.display = "block";
     } else {
-      mybutton.style.display = "none";
+      chevronButton.style.display = "none";
     }
-  }
+  };
 
 });
 
 </script>
 
 <style scoped>
-#myBtn {
+#chevron {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -54,11 +48,11 @@ $(document).ready(function() {
   border-radius: 50%;
 }
 
-#myBtn:hover {
+#chevron:hover {
   background-color: #8667ff;
 }
 
-#myBtn:active {
+#chevron:active {
   background-color: #000cb2;
 }
 
