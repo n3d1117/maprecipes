@@ -2,57 +2,57 @@
     {
         "related_recipes": {
             "2": "Agnello alla Pecorara"
-        }, 
-        "dish_type": "Secondi", 
+        },
+        "dish_type": "Secondi",
         "photos": [
-            "arrosticini_1.jpg", 
-            "arrosticini_2.jpg", 
+            "arrosticini_1.jpg",
+            "arrosticini_2.jpg",
             "arrosticini_3.jpg"
-        ], 
-        "video_recipe": "https://www.youtube.com/watch?v=5ioENe_9814", 
-        "city": "Pescara", 
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=5ioENe_9814",
+        "city": "Pescara",
         "ingredients": {
-            "Polpa di Pecora": 800, 
-            "Sale q.b": 0, 
+            "Polpa di Pecora": 800,
+            "Sale q.b": 0,
             "Pepe q.b": 0
-        }, 
-        "region": "Abruzzo", 
-        "product_history": "\n  Gli arrosticini sono espressione culinaria della pastorizia stanziale e non della transumanza, come si è ritenuto in passato: leggenda narra che furono inventati negli anni '30 da due pastori del Voltigno, area montuosa compresa tra Carpineto della Nora, Villa Celiera e Civitella Casanova, che tagliarono carne di pecora vecchia in piccoli pezzi per non sprecare cibo, prendendone anche dalle zone vicine alle ossa dell'animale. I piccoli pezzettini di carne sarebbero diventati spiedini venendo inseriti su bastoncini di legno di “vingh”, una pianta che cresce spontanea lungo le rive del fiume Pescara, per poi essere cucinati alla brace all’aperto. Il metodo di preparazione degli arrosticini, originariamente pensato per cercare di rendere appetibili i tagli di carne meno pregiati, ottenne risultati così apprezzabili da essere applicato ben presto ai tagli migliori.\n  Secondo la tradizione pastorale il vero arrosticino abruzzese è composto di carne ovina, idealmente di carne di pecora giovane chiamata in dialetto “ciavarra” o di montone castrato. Ad oggi gli arrosticini sono ampiamente consumati anche al di fuori dell'Abruzzo e in alcune zone d'Italia si sono affermati nella vendita di grande distribuzione, spesso venendo meno alla qualità e alle caratteristiche care alla tradizione abruzzese.\n  ", 
-        "preparation": "\n  Per preparare gli arrosticini, cominciate prendendo la carne. Aiutandovi con un coltello dalla lama tagliente, eliminate le parti più grasse della carne. Quindi, tagliate la carne in striscioline e quindi a cubetti spessi 1cm. Ottenuti i cubetti di carne infilzateli negli spiedini. Ripetete il procedimento per tutti gli arrosticini. Ora fate scaldare bene una griglia in ghisa e oleatela leggermente in modo da girare facilmente gli arrosticini in cottura.\nQuindi adagiate gli arrosticini sulla griglia rovente.\nLa cottura dovrebbe richiedere all’incirca 1 minuto per lato. Cuocete gli arrosticini in entrambi i lati fino a quando non noterete una leggera crosticina. Salate e guarnite il piatto con i vostri arrosticini con del rosmarino e pomodorini. I vostri arrosticini sono ora pronti da gustare.\n  ", 
+        },
+        "region": "Abruzzo",
+        "product_history": "Gli arrosticini sono espressione culinaria della pastorizia stanziale e non della transumanza, come si è ritenuto in passato: leggenda narra che furono inventati negli anni '30 da due pastori del Voltigno, area montuosa compresa tra Carpineto della Nora, Villa Celiera e Civitella Casanova, che tagliarono carne di pecora vecchia in piccoli pezzi per non sprecare cibo, prendendone anche dalle zone vicine alle ossa dell'animale. I piccoli pezzettini di carne sarebbero diventati spiedini venendo inseriti su bastoncini di legno di “vingh”, una pianta che cresce spontanea lungo le rive del fiume Pescara, per poi essere cucinati alla brace all’aperto. Il metodo di preparazione degli arrosticini, originariamente pensato per cercare di rendere appetibili i tagli di carne meno pregiati, ottenne risultati così apprezzabili da essere applicato ben presto ai tagli migliori.\nSecondo la tradizione pastorale il vero arrosticino abruzzese è composto di carne ovina, idealmente di carne di pecora giovane chiamata in dialetto “ciavarra” o di montone castrato. Ad oggi gli arrosticini sono ampiamente consumati anche al di fuori dell'Abruzzo e in alcune zone d'Italia si sono affermati nella vendita di grande distribuzione, spesso venendo meno alla qualità e alle caratteristiche care alla tradizione abruzzese.",
+        "preparation": "Per preparare gli arrosticini, cominciate prendendo la carne. Aiutandovi con un coltello dalla lama tagliente, eliminate le parti più grasse della carne. Quindi, tagliate la carne in striscioline e quindi a cubetti spessi 1cm. Ottenuti i cubetti di carne infilzateli negli spiedini. Ripetete il procedimento per tutti gli arrosticini. Ora fate scaldare bene una griglia in ghisa e oleatela leggermente in modo da girare facilmente gli arrosticini in cottura.\nQuindi adagiate gli arrosticini sulla griglia rovente.\nLa cottura dovrebbe richiedere all’incirca 1 minuto per lato. Cuocete gli arrosticini in entrambi i lati fino a quando non noterete una leggera crosticina. Salate e guarnite il piatto con i vostri arrosticini con del rosmarino e pomodorini. I vostri arrosticini sono ora pronti da gustare.",
         "coords": [
-            42.4555566, 
+            42.4555566,
             14.1686455
-        ], 
-        "dish_name": "Arrosticini", 
+        ],
+        "dish_name": "Arrosticini",
         "dish_id": 1
-    }, 
+    },
     {
         "related_recipes": {
             "1": "Arrosticini"
-        }, 
-        "dish_type": "Secondi", 
+        },
+        "dish_type": "Secondi",
         "photos": [
-            "agnellopecorara_1.jpg", 
-            "agnellopecorara_2.jpg", 
+            "agnellopecorara_1.jpg",
+            "agnellopecorara_2.jpg",
             "agnellopecorara_3.jpg"
-        ], 
-        "video_recipe": "https://www.youtube.com/watch?v=iaQDT0k4XZY", 
-        "city": "Pescara", 
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=iaQDT0k4XZY",
+        "city": "Pescara",
         "ingredients": {
-            "Sale q.b": 0, 
-            "Agnello": 800, 
-            "Cipolla": 150, 
-            "Burro": 20, 
+            "Sale q.b": 0,
+            "Agnello": 800,
+            "Cipolla": 150,
+            "Burro": 20,
             "Pepe q.b": 0
-        }, 
-        "region": "Abruzzo", 
-        "product_history": "\n  È una ricetta tipica abruzzese, diffusa in tutto l’Abruzzo ma in particolar modo a Pescara e nei comuni limitrofi.\n  ", 
-        "preparation": "\n  Tagliate a pezzi l'agnello, lavatelo e asciugatelo.\n  Nell'apposito tegame di rame da brasati con coperchio mettete il burro e la cipolla intera; unite i pezzi di agnello, salate, incoperchiate e portate a cottura per circa un'ora senza mai togliere il coperchio.\n  Scuotete di tanto in tanto il tegame per evitare che la carne possa attaccare al fondo. Abbrustolite le fette di pane casereccio, copritele con i pezzi di agnello e servite subito.\n  ", 
+        },
+        "region": "Abruzzo",
+        "product_history": "È una ricetta tipica abruzzese, diffusa in tutto l’Abruzzo ma in particolar modo a Pescara e nei comuni limitrofi.",
+        "preparation": "Tagliate a pezzi l'agnello, lavatelo e asciugatelo.\nNell'apposito tegame di rame da brasati con coperchio mettete il burro e la cipolla intera; unite i pezzi di agnello, salate, incoperchiate e portate a cottura per circa un'ora senza mai togliere il coperchio.\nScuotete di tanto in tanto il tegame per evitare che la carne possa attaccare al fondo. Abbrustolite le fette di pane casereccio, copritele con i pezzi di agnello e servite subito.",
         "coords": [
-            42.4555566, 
+            42.4555566,
             14.1686455
-        ], 
-        "dish_name": "Agnello alla Pecorara", 
+        ],
+        "dish_name": "Agnello alla Pecorara",
         "dish_id": 2
     }
 ]

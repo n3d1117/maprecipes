@@ -33,8 +33,7 @@
           <div class="col-lg-9 order-1 float-left">
             <div class="row">
               <div class="col col-12">
-                <PrepHistoryBlock id="1" title="Preparazione" text="Gli arrosticini sono espressione culinaria della pastorizia stanziale e non della transumanza, come si è ritenuto in passato: leggenda narra che furono inventati negli anni '30 da due pastori del Voltigno, area montuosa compresa tra Carpineto della Nora, Villa Celiera e Civitella Casanova, che tagliarono carne di pecora vecchia in piccoli pezzi per non sprecare cibo, prendendone anche dalle zone vicine alle ossa dell'animale. I piccoli pezzettini di carne sarebbero diventati spiedini venendo inseriti su bastoncini di legno di “vingh”, una pianta che cresce spontanea lungo le rive del fiume Pescara, per poi essere cucinati alla brace all’aperto. Il metodo di preparazione degli arrosticini, originariamente pensato per cercare di rendere appetibili i tagli di carne meno pregiati, ottenne risultati così apprezzabili da essere applicato ben presto ai tagli migliori. Secondo la tradizione pastorale il vero arrosticino abruzzese è composto di carne ovina, idealmente di carne di pecora giovane chiamata in dialetto “ciavarra” o di montone castrato. Ad oggi gli arrosticini sono ampiamente consumati anche al di fuori dell'Abruzzo e in alcune zone d'Italia si sono affermati nella vendita di grande distribuzione, spesso venendo meno alla qualità e alle caratteristiche care alla tradizione abruzzese.
-"></PrepHistoryBlock>
+                <PrepHistoryBlock title="Preparazione" :text="recipe.preparation"></PrepHistoryBlock>
               </div>
             </div>
           </div>
@@ -43,8 +42,7 @@
             <div class="row mt-3">
               <div class="col-lg-8" id="storia-prodotto-column" style="border-right: 1px solid var(--dark) ;">
 
-                <PrepHistoryBlock id="2" title="Storia del prodotto" text="Gli arrosticini sono espressione della pastorizia stanziale e non della transumanza, come si è ritenuto in passato: leggenda narra che furono inventati negli anni '30 da due pastori del Voltigno, area montuosa compresa tra Carpineto della Nora, Villa Celiera e Civitella Casanova, che tagliarono carne di pecora vecchia in piccoli pezzi per non sprecare cibo, prendendone anche dalle zone vicine alle ossa dell'animale. I piccoli pezzettini di carne sarebbero diventati spiedini venendo inseriti su bastoncini di legno di “vingh”, una pianta che cresce spontanea lungo le rive del fiume Pescara, per poi essere cucinati alla brace all’aperto. Il metodo di preparazione degli arrosticini, originariamente pensato per cercare di rendere appetibili i tagli di carne meno pregiati, ottenne risultati così apprezzabili da essere applicato ben presto ai tagli migliori. Secondo la tradizione pastorale il vero arrosticino abruzzese è composto di carne ovina, idealmente di carne di pecora giovane chiamata in dialetto “ciavarra” o di montone castrato. Ad oggi gli arrosticini sono ampiamente consumati anche al di fuori dell'Abruzzo e in alcune zone d'Italia si sono affermati nella vendita di grande distribuzione, spesso venendo meno alla qualità e alle caratteristiche care alla tradizione abruzzese.
-"></PrepHistoryBlock>
+                <PrepHistoryBlock title="Storia del prodotto" :text="recipe.product_history"></PrepHistoryBlock>
               </div>
 
               <div class="col-lg-4">
@@ -71,6 +69,7 @@ import RelatedRecipes from "@/components/RelatedRecipes";
 import IngredientsBlock from "@/components/IngredientsBlock";
 import RecipeInfo from "@/components/RecipeInfo";
 import CarouselBlock from "@/components/CarouselBlock";
+import recipes from '@/recipes.json'
 
 export default {
   name: 'Recipe',
@@ -81,6 +80,11 @@ export default {
     RelatedRecipes,
     PrepHistoryBlock,
     MainLayer
+  },
+  data() {
+    return {
+      recipe: recipes.filter(x => x.dish_id == this.$route.params.dish_id)[0]
+    }
   }
 }
 
