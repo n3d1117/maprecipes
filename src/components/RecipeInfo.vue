@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h1 class="mt-2 mb-0 ml-3 ml-lg-0 text-left">Crostini di fegatini</h1>
+    <h1 class="mt-2 mb-0 ml-3 ml-lg-0 text-left">{{ name }}</h1>
     <HorizontalSeparator></HorizontalSeparator>
     <ul class="mt-3 ml-lg-0 ml-3 pl-4 mb-0 text-left" id="lista_localita">
-      <li>Regione: Toscana</li>
-      <li>Città: Firenze</li>
+      <li>Regione: {{ region }}</li>
+      <li>Città: {{ city }}</li>
     </ul>
   </div>
 </template>
@@ -14,7 +14,8 @@ import HorizontalSeparator from "@/components/HorizontalSeparator";
 
 export default {
 name: 'RecipeInfo',
-  components: {HorizontalSeparator}
+  components: {HorizontalSeparator},
+  props: ['region', 'city', 'name']
 }
 </script>
 

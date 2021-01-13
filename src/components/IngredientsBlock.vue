@@ -19,22 +19,20 @@
     </div>
 
 
-    <ul id="lista_ingredienti" class="mt-3">
-      <li>Fegatini di Pollo 300 gr</li>
-      <li>Fegatini di Pollo 300 gr</li>
-      <li>Fegatini di Pollo 300 gr</li>
-      <li>Fegatini di Pollo, Fegatini di PolloFegatini di Pollo 300 gr</li>
-      <li>Fegatini di Pollo 300 gr</li>
-      <li>Fegatini di Pollo 300 gr</li>
-      <li>Fegatini di Pollo 300 gr</li>
+    <ul id="lista_ingredienti" class="mt-3" v-for="ingredient in orderedIngredients" v-bind:key="ingredient">
+      <li v-if="ingredient.quantity === 0">{{ ingredient.ingredient }}</li>
+      <li v-else>{{ ingredient.ingredient }} {{ ingredient.quantity }} gr</li>
     </ul>
 
 
-    <div class="pb-3">
-      <button class="btn btn-primary btn-hoverable" type="button">
-        <b-icon icon="youtube"></b-icon>&nbsp; VIDEORICETTA
-      </button>
-    </div>
+    <a :href="video_link" target="_blank">
+      <div class="pb-3">
+        <button class="btn btn-primary btn-hoverable" type="button">
+          <b-icon icon="youtube"></b-icon>&nbsp; VIDEORICETTA
+        </button>
+      </div>
+    </a>
+
   </div>
 </template>
 
@@ -42,20 +40,44 @@
 
 export default {
   name: 'IngredientsBlock',
+  props: ['ingredients', 'video_link'],
   data: function() {
     return {
       counter: 4
     };
   },
+  computed: {
+    orderedIngredients: function() {
+      const or = this.ingredients;
+      return or.sort((a, b) => {
+        if (a.quantity === b.quantity)
+          return (a.ingredient < b.ingredient) ? 1 : -1;
+        return (a.quantity < b.quantity) ? 1 : -1;
+      });
+    }
+  },
   methods: {
     increaseCounter: function() {
       if (this.counter < 12) {
         this.counter += 1;
+
+        let ingredient;
+        for (ingredient of this.ingredients) {
+          if (ingredient.quantity !== 0)
+            ingredient.quantity = Math.round(ingredient.quantity * (this.counter / (this.counter - 1)));
+        }
+
       }
     },
     decreaseCounter: function() {
       if (this.counter > 1) {
         this.counter -= 1;
+
+        let ingredient;
+        for (ingredient of this.ingredients) {
+          if (ingredient.quantity !== 0)
+            ingredient.quantity = Math.round(ingredient.quantity * (this.counter / (this.counter + 1)));
+        }
       }
     }
   }

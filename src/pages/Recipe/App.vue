@@ -10,7 +10,7 @@
             <div id="ingredients_block_outer">
               <div id="ingredients_block_inner">
 
-                <IngredientsBlock></IngredientsBlock>
+                <IngredientsBlock v-bind:ingredients="recipe.ingredients" v-bind:video_link="recipe.video_recipe"></IngredientsBlock>
 
               </div>
             </div>
@@ -20,11 +20,11 @@
             <div class="row">
 
               <div class="col-lg-8">
-                <RecipeInfo></RecipeInfo>
+                <RecipeInfo v-bind:region="recipe.region" v-bind:city="recipe.city" v-bind:name="recipe.dish_name"></RecipeInfo>
               </div>
 
               <div class="col-lg-4">
-                <CarouselBlock></CarouselBlock>
+                <CarouselBlock v-bind:photos="recipe.photos" v-bind:title="recipe.dish_name"></CarouselBlock>
               </div>
 
             </div>
@@ -46,7 +46,7 @@
               </div>
 
               <div class="col-lg-4">
-                <RelatedRecipes></RelatedRecipes>
+                <RelatedRecipes v-bind:related_recipes="recipe.related_recipes"></RelatedRecipes>
               </div>
 
             </div>

@@ -7,22 +7,12 @@
         controls
         indicators
     >
-      <b-carousel-slide>
+      <b-carousel-slide v-for="photo in photos" v-bind:key="photo">
         <template #img>
           <img
               class="d-block img-fluid w-100"
-              src="../assets/CrostiniToscani.jpg"
-              alt="crostino"
-          >
-        </template>
-      </b-carousel-slide>
-
-      <b-carousel-slide>
-        <template #img>
-          <img
-              class="d-block img-fluid w-100"
-              src="../assets/CrostiniToscani.jpg"
-              alt="crostino"
+              :src="'../assets/' + photo"
+              :alt="title"
           >
         </template>
       </b-carousel-slide>
@@ -34,7 +24,8 @@
 
 <script>
 export default {
-name: "CarouselBlock"
+  name: "CarouselBlock",
+  props: ['photos', 'title']
 }
 </script>
 
