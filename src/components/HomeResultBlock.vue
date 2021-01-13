@@ -31,9 +31,6 @@ export default {
 </script>
 
 <style scoped>
-#horizontal-separator {
-  background: rgb(157,168,177);
-}
 
 #result_block_tipo_piatto {
   color: var(--gray);
