@@ -83,7 +83,9 @@ export default {
   },
   data() {
     return {
-      recipe: recipes.filter(x => x.dish_id == this.$route.params.dish_id)[0]
+      recipe: recipes.filter(recipe => {
+        return recipe.dish_id == this.$route.params.dish_id;
+      })[0]
     }
   }
 }
