@@ -23,7 +23,7 @@
       </div>
 
       <div class="mt-4 offset-lg-2 col-lg-8 col-sm-12 d-flex align-items-center">
-        <iframe id="map" allowfullscreen="" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyARE_G2HCjZt2hApEsJmSuksBf4sog6BMk&amp;q=Firenze&amp;zoom=11"></iframe>
+        <MapRecipes></MapRecipes>
       </div>
 
     </MainLayer>
@@ -34,11 +34,13 @@
 
 import MainLayer from "@/components/MainLayer";
 import SearchBar from "@/components/SearchBar";
+import MapRecipes from "@/components/MapRecipes";
 export default {
   name: 'Map',
   components: {
     SearchBar,
-    MainLayer
+    MainLayer,
+    MapRecipes
   }
 }
 </script>
@@ -77,14 +79,5 @@ export default {
 .dropdown-menu {
   max-height: 200px;
   overflow-y: auto;
-}
-
-#map {
-  width: 100%;
-  height: 400px;
-  border-radius: 19px;
-  border-width: 1px;
-  border-color: #000000;
-  box-shadow: 2px 2px 7px;
 }
 </style>
