@@ -31,6 +31,17 @@ export default {
 }
 </script>
 
+
+<style>
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: rgb(255,198,122) !important;
+  box-shadow: 2px 2px 7px 0 black !important;
+}
+.leaflet-popup-close-button {
+  color: #707070 !important;
+}
+</style>
+
 <style scoped>
 div {
   font-family: 'Yanone Kaffeesatz', serif;
@@ -61,9 +72,5 @@ div {
 
 .btn-hoverable:active {
   background-color: #000cb2 !important;
-}
-
-.leaflet-popup-content-wrapper {
-  background: #000 !important;
 }
 </style>
