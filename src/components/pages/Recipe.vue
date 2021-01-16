@@ -1,63 +1,61 @@
 <template>
-  <div id="app">
-    <MainLayer>
+  <MainLayer>
 
-      <div class="container p-0 mb-3" id="recipe_block">
+    <div class="container p-0 mb-3" id="recipe_block">
 
-        <div class="row d-flex d-lg-block">
+      <div class="row d-flex d-lg-block">
 
-          <div class="col-lg-3 order-1 float-left">
-            <div id="ingredients_block_outer">
-              <div id="ingredients_block_inner">
+        <div class="col-lg-3 order-1 float-left">
+          <div id="ingredients_block_outer">
+            <div id="ingredients_block_inner">
 
-                <IngredientsBlock v-bind:ingredients="recipe.ingredients" v-bind:video_link="recipe.video_recipe"></IngredientsBlock>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-9 order-0 float-left">
-            <div class="row">
-
-              <div class="col-lg-8">
-                <RecipeInfo v-bind:region="recipe.region" v-bind:city="recipe.city" v-bind:name="recipe.dish_name"></RecipeInfo>
-              </div>
-
-              <div class="col-lg-4">
-                <CarouselBlock v-bind:photos="recipe.photos" v-bind:title="recipe.dish_name"></CarouselBlock>
-              </div>
+              <IngredientsBlock v-bind:ingredients="recipe.ingredients" v-bind:video_link="recipe.video_recipe"></IngredientsBlock>
 
             </div>
           </div>
+        </div>
 
-          <div class="col-lg-9 order-1 float-left">
-            <div class="row">
-              <div class="col col-12">
-                <PrepHistoryBlock title="Preparazione" :text="recipe.preparation"></PrepHistoryBlock>
-              </div>
+        <div class="col-lg-9 order-0 float-left">
+          <div class="row">
+
+            <div class="col-lg-8">
+              <RecipeInfo v-bind:region="recipe.region" v-bind:city="recipe.city" v-bind:name="recipe.dish_name"></RecipeInfo>
+            </div>
+
+            <div class="col-lg-4">
+              <CarouselBlock v-bind:photos="recipe.photos" v-bind:title="recipe.dish_name"></CarouselBlock>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-9 order-1 float-left">
+          <div class="row">
+            <div class="col col-12">
+              <PrepHistoryBlock title="Preparazione" :text="recipe.preparation"></PrepHistoryBlock>
             </div>
           </div>
+        </div>
 
-          <div class="col-lg-9 order-1 float-left">
-            <div class="row mt-3">
-              <div class="col-lg-8" id="storia-prodotto-column" style="border-right: 1px solid var(--dark) ;">
+        <div class="col-lg-9 order-1 float-left">
+          <div class="row mt-3">
+            <div class="col-lg-8" id="storia-prodotto-column" style="border-right: 1px solid var(--dark) ;">
 
-                <PrepHistoryBlock title="Storia del prodotto" :text="recipe.product_history"></PrepHistoryBlock>
-              </div>
-
-              <div class="col-lg-4">
-                <RelatedRecipes v-bind:related_recipes="recipe.related_recipes"></RelatedRecipes>
-              </div>
-
+              <PrepHistoryBlock title="Storia del prodotto" :text="recipe.product_history"></PrepHistoryBlock>
             </div>
-          </div>
 
+            <div class="col-lg-4">
+              <RelatedRecipes v-bind:related_recipes="recipe.related_recipes"></RelatedRecipes>
+            </div>
+
+          </div>
         </div>
 
       </div>
 
-    </MainLayer>
-  </div>
+    </div>
+
+  </MainLayer>
 </template>
 
 <script>
@@ -81,10 +79,11 @@ export default {
     PrepHistoryBlock,
     MainLayer
   },
+  props: ['id'],
   data() {
     return {
       recipe: recipes.filter(recipe => {
-        return recipe.dish_id == this.$route.params.dish_id;
+        return recipe.dish_id == this.id;
       })[0]
     }
   }
@@ -144,11 +143,6 @@ $(document).ready(function() {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
-
-#app {
-  font-family: 'Yanone Kaffeesatz', serif;
-}
 
 #recipe_block {
   border-radius: 19px;

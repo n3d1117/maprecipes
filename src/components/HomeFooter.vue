@@ -21,7 +21,7 @@
               <a href="#" class="text-white">Home</a>
             </li>
             <li>
-              <a href="map.html" class="text-white">Mappa dei Piatti</a>
+              <a :href="'/map'" class="text-white">Mappa dei Piatti</a>
             </li>
           </ul>
         </div>

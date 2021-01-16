@@ -41,7 +41,7 @@ export default {
       attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
       mapOptions: {
         zoomSnap: 0.5,
-        tap: false //https://github.com/Leaflet/Leaflet/issues/7255#issuecomment-732082150
+        tap: false // https://github.com/Leaflet/Leaflet/issues/7255#issuecomment-732082150
       },
       showMap: true,
       recipes: recipes

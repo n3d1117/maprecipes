@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
 
     <ScrollToTopArrow></ScrollToTopArrow>
 
@@ -60,11 +60,6 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
-
-#app {
-  font-family: 'Yanone Kaffeesatz',serif;
-}
 
 #bottom-bg {
   background-color: #fff9aa;
