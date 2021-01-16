@@ -32,13 +32,14 @@ Icon.Default.mergeOptions({
 const router = new VueRouter({
     mode: 'history',
     routes: [
-        { path: '/', name: 'home', component: Home },
-        { path: '/map', name: 'map', component: Map },
-        { path: '/recipe/:id', name: 'recipe', component: Recipe, props: true }
+        { path: '/', component: Home },
+        { path: '/map', component: Map },
+        { path: '/recipe/:id', component: Recipe, props: true },
+        { path: '*', component: Home },
     ]
 });
 
 new Vue({
     router,
-    render: h => h(App),
+    render: h => h(App)
 }).$mount('#app')

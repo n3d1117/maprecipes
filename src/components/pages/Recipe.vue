@@ -80,11 +80,9 @@ export default {
     MainLayer
   },
   props: ['id'],
-  data() {
-    return {
-      recipe: recipes.filter(recipe => {
-        return recipe.dish_id == this.id;
-      })[0]
+  computed: {
+    recipe() {
+      return recipes.find(recipe => recipe.dish_id == this.id)
     }
   }
 }

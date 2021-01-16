@@ -1,9 +1,11 @@
 <template>
   <b-navbar id="navbar_stanis" toggleable="lg" type="light" variant="info">
 
-    <b-navbar-brand href="/" class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-8">
-      <img id="georecipes_logo_img" src="../assets/logo.png" alt="logo">
-    </b-navbar-brand>
+    <router-link to="/">
+      <b-navbar-brand class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-8">
+        <img id="georecipes_logo_img" src="../assets/logo.png" alt="logo">
+      </b-navbar-brand>
+    </router-link>
 
     <b-navbar-toggle target="nav-collapse">
       <template #default="{ expanded }">
@@ -15,13 +17,13 @@
     <b-collapse id="nav-collapse" is-nav>
 
       <b-navbar-nav class="ml-auto">
-        <b-nav-item href="/">
-          <a class="nav-link active mr-2 text-left" id="navbar_home">HOME</a>
+        <b-nav-item>
+          <router-link to="/" class="nav-link active mr-2 text-left" id="navbar_home">HOME</router-link>
         </b-nav-item>
-        <b-nav-item href="/map">
-          <a class="nav-link btn-hoverable" id="navbar_mappa_piatti">
+        <b-nav-item>
+          <router-link to="/map" class="nav-link btn-hoverable" id="navbar_mappa_piatti">
             &nbsp;&nbsp;<b-icon id="geo-icon" icon="geo-alt" class="ml-lg-0 ml-2"></b-icon>&nbsp; MAPPA DEI PIATTI&nbsp;&nbsp;
-          </a>
+          </router-link>
         </b-nav-item>
       </b-navbar-nav>
 

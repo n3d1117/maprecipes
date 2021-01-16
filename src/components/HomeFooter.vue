@@ -18,10 +18,10 @@
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#" class="text-white">Home</a>
+              <router-link to="/" class="text-white">Home</router-link>
             </li>
             <li>
-              <a :href="'/map'" class="text-white">Mappa dei Piatti</a>
+              <router-link to="/map" class="text-white">Mappa dei Piatti</router-link>
             </li>
           </ul>
         </div>
@@ -30,7 +30,7 @@
 
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
       © 2021 Copyright:
-      <a href="https://georecipes.com/" class="text-white">georecipes.com</a>
+      <router-link to="/" class="text-white">georecipes.com</router-link>
     </div>
   </footer>
 </template>

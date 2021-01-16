@@ -7,11 +7,11 @@
       </b-row>
       <b-row class="d-flex justify-content-center">
 
-        <a :href="'/recipe/' + recipe.dish_id" target="_blank">
+        <router-link :to="'/recipe/' + recipe.dish_id" target="_blank">
           <button class="btn btn-primary btn-hoverable" type="button">
             <b-icon icon="receipt"></b-icon>&nbsp; RICETTA
           </button>
-        </a>
+        </router-link>
 
       </b-row>
 

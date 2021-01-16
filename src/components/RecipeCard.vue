@@ -1,6 +1,6 @@
 <template>
   <div class="col mb-3 col-lg-3 col-6">
-    <a class="result_block_anchor" :href="'/recipe/' + recipe.dish_id">
+    <router-link class="result_block_anchor" :to="'/recipe/' + recipe.dish_id">
       <div class="card result_block_card">
         <div class="card-body result_block_card_body">
           <img class="img-fluid card-img-top mb-2 result_block_card_body_img" src="../assets/CrostiniToscani.jpg" alt="fegatini">
@@ -11,7 +11,7 @@
           </ul>
         </div>
       </div>
-    </a>
+    </router-link>
   </div>
 </template>
 
