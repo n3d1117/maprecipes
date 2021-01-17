@@ -1,11 +1,11 @@
 <template>
   <b-navbar id="navbar_stanis" toggleable="lg" type="light" variant="info">
 
-    <router-link to="/">
-      <b-navbar-brand class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-8">
+    <b-navbar-brand class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-8">
+      <router-link to="/">
         <img id="georecipes_logo_img" src="../assets/logo.png" alt="logo">
-      </b-navbar-brand>
-    </router-link>
+      </router-link>
+    </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse">
       <template #default="{ expanded }">
