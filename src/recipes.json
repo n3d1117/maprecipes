@@ -5,9 +5,9 @@
         },
         "dish_type": "Secondi",
         "photos": [
-            "abruzzo/arrosticini_1.jpeg",
-            "abruzzo/arrosticini_2.jpeg",
-            "abruzzo/arrosticini_3.jpeg"
+            "abruzzo/pescara/arrosticini_1.jpeg",
+            "abruzzo/pescara/arrosticini_2.jpeg",
+            "abruzzo/pescara/arrosticini_3.jpeg"
         ],
         "video_recipe": "https://www.youtube.com/watch?v=5ioENe_9814",
         "city": "Pescara",
@@ -32,9 +32,38 @@
         },
         "dish_type": "Secondi",
         "photos": [
-            "abruzzo/agnellopecorara_1.jpeg",
-            "abruzzo/agnellopecorara_2.jpeg",
-            "abruzzo/agnellopecorara_3.jpeg"
+            "abruzzo/pescara/agnellopecorara_1.jpeg",
+            "abruzzo/pescara/agnellopecorara_2.jpeg",
+            "abruzzo/pescara/agnellopecorara_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=iaQDT0k4XZY",
+        "city": "Pescara",
+        "ingredients": [
+            { "ingredient": "Sale q.b", "quantity": 0 },
+            { "ingredient": "Agnello", "quantity": 800 },
+            { "ingredient": "Cipolla", "quantity": 150 },
+            { "ingredient": "Burro", "quantity": 20 },
+            { "ingredient": "Pepe q.b", "quantity": 0 }
+        ],
+        "region": "Abruzzo",
+        "product_history": "È una ricetta tipica abruzzese, diffusa in tutto l’Abruzzo ma in particolar modo a Pescara e nei comuni limitrofi.",
+        "preparation": "Tagliate a pezzi l'agnello, lavatelo e asciugatelo.\nNell'apposito tegame di rame da brasati con coperchio mettete il burro e la cipolla intera; unite i pezzi di agnello, salate, incoperchiate e portate a cottura per circa un'ora senza mai togliere il coperchio.\nScuotete di tanto in tanto il tegame per evitare che la carne possa attaccare al fondo. Abbrustolite le fette di pane casereccio, copritele con i pezzi di agnello e servite subito.",
+        "coords": [
+            42.4555566,
+            14.1686455
+        ],
+        "dish_name": "Agnello alla Pecorara",
+        "dish_id": 2
+    },
+    {
+        "related_recipes": {
+            "1": "Arrosticini"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "abruzzo/pescara/agnellopecorara_1.jpeg",
+            "abruzzo/pescara/agnellopecorara_2.jpeg",
+            "abruzzo/pescara/agnellopecorara_3.jpeg"
         ],
         "video_recipe": "https://www.youtube.com/watch?v=iaQDT0k4XZY",
         "city": "Pescara",
