@@ -84,59 +84,56 @@ export default {
     recipe() {
       return recipes.find(recipe => recipe.dish_id == this.id)
     }
-  }
-}
+  },
+  mounted() {
+    function adapt_ingredients_block_outer() {
+      const ingredients_block_outer = document.getElementById('ingredients_block_outer');
+      const ingredients_block_inner = document.getElementById('ingredients_block_inner');
+      const recipe_block = document.getElementById('recipe_block');
 
-$(document).ready(function() {
+      if (ingredients_block_outer != null) {
+        if ($(window).width() < 992) {
+          ingredients_block_outer.style.backgroundColor='transparent';
+          ingredients_block_inner.style.borderTopLeftRadius = '0px';
 
-  adapt_ingredients_block_outer();
-  fixStoriaProdottoBorder();
+          ingredients_block_outer.style.minHeight = 'initial';
+          ingredients_block_outer.style.height = 'initial';
+          recipe_block.style.minHeight = 'initial';
+          recipe_block.style.height = 'initial';
+        } else {
+          ingredients_block_outer.style.backgroundColor='#c9964c';
+          ingredients_block_inner.style.borderTopLeftRadius = '19px';
 
-  $(window).resize(function() {
+          recipe_block.style.minHeight = '650px';
+          recipe_block.style.height = 'calc(90vh - 80px)';
+          ingredients_block_outer.style.minHeight = '650px';
+          ingredients_block_outer.style.height = 'calc(90vh - 80px)';
+        }
+      }
+
+    }
+
+    function fixStoriaProdottoBorder() {
+      const storia_prodotto_column = document.getElementById('storia-prodotto-column');
+      if (storia_prodotto_column != null) {
+        if ($(window).width() < 992) {
+          storia_prodotto_column.style.borderRight = '0px';
+        } else {
+          storia_prodotto_column.style.borderRight = '1px solid var(--dark)';
+        }
+      }
+
+    }
+
     adapt_ingredients_block_outer();
     fixStoriaProdottoBorder();
-  });
 
-  function adapt_ingredients_block_outer() {
-    const ingredients_block_outer = document.getElementById('ingredients_block_outer');
-    const ingredients_block_inner = document.getElementById('ingredients_block_inner');
-    const recipe_block = document.getElementById('recipe_block');
-
-    if (ingredients_block_outer != null) {
-      if ($(window).width() < 992) {
-        ingredients_block_outer.style.backgroundColor='transparent';
-        ingredients_block_inner.style.borderTopLeftRadius = '0px';
-
-        ingredients_block_outer.style.minHeight = 'initial';
-        ingredients_block_outer.style.height = 'initial';
-        recipe_block.style.minHeight = 'initial';
-        recipe_block.style.height = 'initial';
-      } else {
-        ingredients_block_outer.style.backgroundColor='#c9964c';
-        ingredients_block_inner.style.borderTopLeftRadius = '19px';
-
-        recipe_block.style.minHeight = '650px';
-        recipe_block.style.height = 'calc(90vh - 80px)';
-        ingredients_block_outer.style.minHeight = '650px';
-        ingredients_block_outer.style.height = 'calc(90vh - 80px)';
-      }
-    }
-
+    $(window).resize(function() {
+      adapt_ingredients_block_outer();
+      fixStoriaProdottoBorder();
+    });
   }
-
-  function fixStoriaProdottoBorder() {
-    const storia_prodotto_column = document.getElementById('storia-prodotto-column');
-    if (storia_prodotto_column != null) {
-      if ($(window).width() < 992) {
-        storia_prodotto_column.style.borderRight = '0px';
-      } else {
-        storia_prodotto_column.style.borderRight = '1px solid var(--dark)';
-      }
-    }
-
-  }
-
-});
+}
 
 </script>
 

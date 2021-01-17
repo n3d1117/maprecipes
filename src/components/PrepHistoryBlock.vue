@@ -39,28 +39,27 @@ export default {
         this.fontSize -= 1;
       }
     }
-  }
-}
+  },
+  mounted() {
 
-$(document).ready(function() {
-
-  fixAltezza();
-
-  $(window).resize(function() {
-    fixAltezza();
-  });
-
-  function fixAltezza() {
-    let area;
-    for (area of document.getElementsByClassName("textarea_recipe")) {
-      if ($(window).width() < 992) {
-        area.style.height = '40vh';
-      } else {
-        area.style.height = '23vh';
+    function fixAltezza() {
+      let area;
+      for (area of document.getElementsByClassName("textarea_recipe")) {
+        if ($(window).width() < 992) {
+          area.style.height = '40vh';
+        } else {
+          area.style.height = '23vh';
+        }
       }
     }
-  }
-});
+
+    fixAltezza();
+
+    $(window).resize(function() {
+      fixAltezza();
+    });
+  },
+}
 
 </script>
 

@@ -8,28 +8,25 @@
 import $ from 'jquery'
 
 export default {
-name: "ScrollToTopArrow"
-}
+  name: "ScrollToTopArrow",
+  mounted() {
+    const chevronButton = document.getElementById("chevron");
 
-$(document).ready(function() {
-
-  const chevronButton = document.getElementById("chevron");
-
-  if (chevronButton != null) {
-    chevronButton.onclick = function () {
-      $('html, body').animate({ scrollTop: 0 }, 'slow');
-    }
-
-    window.onscroll = function () {
-      if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-        chevronButton.style.display = "block";
-      } else {
-        chevronButton.style.display = "none";
+    if (chevronButton != null) {
+      chevronButton.onclick = function () {
+        $('html, body').animate({ scrollTop: 0 }, 'slow');
       }
-    };
-  }
 
-});
+      window.onscroll = function () {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+          chevronButton.style.display = "block";
+        } else {
+          chevronButton.style.display = "none";
+        }
+      };
+    }
+  }
+}
 
 </script>
 
