@@ -9,10 +9,7 @@
         <h4 class="text-right col-6 mb-0">Porzioni:</h4>
         <div class="qty col-6 text-left">
           <span class="minus bg-dark" v-on:click="decreaseCounter">-</span>
-          <input type="number" class="count" name="qty" v-model.number="counter"
-                 v-on:increase-counter="increaseCounter"
-                 v-on:decrease-counter="decreaseCounter"
-                 disabled>
+          <input type="number" class="count" name="qty" v-model.number="counter" disabled>
           <span class="plus bg-dark" v-on:click="increaseCounter">+</span>
         </div>
       </div>
@@ -43,41 +40,36 @@ export default {
   props: ['ingredients', 'video_link'],
   data: function() {
     return {
-      counter: 4
+      counter: 4,
     };
   },
   computed: {
     orderedIngredients: function() {
-      const or = this.ingredients;
+
+      const or = this.ingredients.map(x => ({...x}))
+
+      let ingredient;
+      for (ingredient of or) {
+        if (ingredient.quantity !== 0)
+          ingredient.quantity = Math.round(ingredient.quantity * (this.counter / 4));
+      }
+
       return or.sort((a, b) => {
         if (a.quantity === b.quantity)
           return (a.ingredient < b.ingredient) ? 1 : -1;
         return (a.quantity < b.quantity) ? 1 : -1;
       });
-    }
+    },
   },
   methods: {
     increaseCounter: function() {
       if (this.counter < 12) {
         this.counter += 1;
-
-        let ingredient;
-        for (ingredient of this.ingredients) {
-          if (ingredient.quantity !== 0)
-            ingredient.quantity = Math.round(ingredient.quantity * (this.counter / (this.counter - 1)));
-        }
-
       }
     },
     decreaseCounter: function() {
       if (this.counter > 1) {
         this.counter -= 1;
-
-        let ingredient;
-        for (ingredient of this.ingredients) {
-          if (ingredient.quantity !== 0)
-            ingredient.quantity = Math.round(ingredient.quantity * (this.counter / (this.counter + 1)));
-        }
       }
     }
   }
