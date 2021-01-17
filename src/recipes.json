@@ -373,7 +373,7 @@
             { "ingredient": "Mandorle", "quantity": 60 },
             { "ingredient": "Fecola", "quantity": 55 },
             { "ingredient": "Farina", "quantity": 55 },
-            { "ingredient": "Marndorle Amare", "quantity": 12 },
+            { "ingredient": "Mandorle Amare", "quantity": 12 },
             { "ingredient": "Uova", "quantity": 300 }
         ],
         "region": "Abruzzo",
