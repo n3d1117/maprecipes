@@ -15,12 +15,12 @@
       </div>
     </div>
 
-    <ul id="lista_ingredienti" class="mt-3"
-        v-for="ingredient in orderedIngredients"
-        v-bind:key="ingredient.ingredient"
-    >
-      <li v-if="ingredient.quantity === 0">{{ ingredient.ingredient }}</li>
-      <li v-else>{{ ingredient.ingredient }} {{ ingredient.quantity }} gr</li>
+    <ul id="lista_ingredienti" class="mt-3">
+      <li v-for="ingredient in orderedIngredients"
+          v-bind:key="ingredient.ingredient">
+        <span v-if="ingredient.quantity === 0">{{ ingredient.ingredient }}</span>
+        <span v-else>{{ ingredient.ingredient }} {{ ingredient.quantity }} gr</span>
+      </li>
     </ul>
 
     <a :href="video_link" target="_blank">
