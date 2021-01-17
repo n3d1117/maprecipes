@@ -19,7 +19,11 @@
           <div class="col-md-9">
             <h1 class="mt-4 text-left">Elenco Ricette</h1>
 
-            <HomeResultBlock v-bind:recipes="recipes" title="Antipasti"></HomeResultBlock>
+            <HomeResultBlock v-bind:recipes="antipasti" title="Antipasti"></HomeResultBlock>
+            <HomeResultBlock v-bind:recipes="primi" title="Primi"></HomeResultBlock>
+            <HomeResultBlock v-bind:recipes="secondi" title="Secondi"></HomeResultBlock>
+            <HomeResultBlock v-bind:recipes="contorni" title="Contorni"></HomeResultBlock>
+            <HomeResultBlock v-bind:recipes="dolci" title="Dolci"></HomeResultBlock>
 
           </div>
         </div>
@@ -52,7 +56,11 @@ export default {
   },
   data() {
     return {
-      recipes: recipes
+      antipasti: recipes.filter(recipe => recipe.dish_type === 'Antipasti'),
+      primi: recipes.filter(recipe => recipe.dish_type === 'Primi'),
+      secondi: recipes.filter(recipe => recipe.dish_type === 'Secondi'),
+      contorni: recipes.filter(recipe => recipe.dish_type === 'Contorni'),
+      dolci: recipes.filter(recipe => recipe.dish_type === 'Dolci')
     }
   }
 }
