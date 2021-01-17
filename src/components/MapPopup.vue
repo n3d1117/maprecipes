@@ -23,7 +23,7 @@
 import { LPopup } from "vue2-leaflet";
 
 export default {
-  name: "MapPopup",
+  name: 'MapPopup',
   props: ['recipe'],
   components: {
     LPopup

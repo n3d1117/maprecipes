@@ -11,7 +11,12 @@
     </svg>
     <form novalidate="novalidate" onsubmit="return false;" class="searchbox sbx-medium">
       <div role="search" class="sbx-medium__wrapper">
-        <input type="search" name="search" placeholder="Cerca una città o un piatto..." autocomplete="off" required="required" class="sbx-medium__input form-controllino">
+        <input type="search" name="search"
+               placeholder="Cerca una città o un piatto..."
+               autocomplete="off"
+               required="required"
+               class="sbx-medium__input form-controllino"
+        >
         <button type="submit" title="Submit your search query." class="sbx-medium__submit">
           <svg role="img" aria-label="Search">
             <use xlink:href="#sbx-icon-search-13"></use>

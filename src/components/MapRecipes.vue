@@ -12,7 +12,11 @@
         :attribution="attribution"
     />
 
-    <l-marker v-bind:key="recipe.dish_id" v-for="recipe in recipes" :lat-lng="convertCoords(recipe.coords)">
+    <l-marker
+        v-bind:key="recipe.dish_id"
+        v-for="recipe in recipes"
+        :lat-lng="convertCoords(recipe.coords)"
+    >
       <MapPopup v-bind:recipe="recipe"></MapPopup>
     </l-marker>
 
@@ -26,7 +30,7 @@ import recipes from '@/recipes.json'
 import MapPopup from "@/components/MapPopup";
 
 export default {
-  name: "MapRecipes",
+  name: 'MapRecipes',
   components: {
     MapPopup,
     LMap,
@@ -38,7 +42,7 @@ export default {
       zoom: 5.3,
       center: latLng(42.4698256,12.5936345),
       url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-      attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+      attribution: '&copy; <a href="http://osm.org/copyright" target="_blank">OpenStreetMap</a> contributors',
       mapOptions: {
         zoomSnap: 0.5,
         tap: false // https://github.com/Leaflet/Leaflet/issues/7255#issuecomment-732082150

@@ -15,12 +15,13 @@
       </div>
     </div>
 
-
-    <ul id="lista_ingredienti" class="mt-3" v-for="ingredient in orderedIngredients" v-bind:key="ingredient.ingredient">
+    <ul id="lista_ingredienti" class="mt-3"
+        v-for="ingredient in orderedIngredients"
+        v-bind:key="ingredient.ingredient"
+    >
       <li v-if="ingredient.quantity === 0">{{ ingredient.ingredient }}</li>
       <li v-else>{{ ingredient.ingredient }} {{ ingredient.quantity }} gr</li>
     </ul>
-
 
     <a :href="video_link" target="_blank">
       <div class="pb-3">
@@ -46,17 +47,20 @@ export default {
   computed: {
     orderedIngredients: function() {
 
-      const or = this.ingredients.map(x => ({...x}))
+      const ingredientsCopy = this.ingredients.map(x => ({...x}))
 
-      let ingredient;
-      for (ingredient of or) {
+      // adjust quantity based on portions
+      ingredientsCopy.forEach(ingredient => {
         if (ingredient.quantity !== 0)
           ingredient.quantity = Math.round(ingredient.quantity * (this.counter / 4));
-      }
+      });
 
-      return or.sort((a, b) => {
+      // sort
+      return ingredientsCopy.sort((a, b) => {
+        // if same quantity, order alphabetically
         if (a.quantity === b.quantity)
           return (a.ingredient < b.ingredient) ? 1 : -1;
+        // otherwise order by quantity
         return (a.quantity < b.quantity) ? 1 : -1;
       });
     },

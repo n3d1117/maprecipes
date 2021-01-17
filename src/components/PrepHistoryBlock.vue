@@ -11,8 +11,6 @@
     </h1>
     <textarea class="w-100 p-2 ml-lg-0 ml-3 textarea_recipe"
               :style="{ fontSize: fontSize + 'px' }"
-              v-on:increase-text="increaseFontSize"
-              v-on:decrease-text="decreaseFontSize"
               disabled="" readonly="" v-model="text"></textarea>
   </div>
 </template>

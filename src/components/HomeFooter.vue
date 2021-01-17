@@ -7,8 +7,8 @@
           <img class="mb-2" src="../assets/logo.png" alt="logo" width="200px">
 
           <p id="footer-content">
-            GeoRecipes è una web app che cataloga ricette italiane suddividendole per antipasti, primi, secondi, contorni e dolci, geolocalizzandole su una mappa
-            con la possibilità di filtrarle per nome e località.
+            GeoRecipes è una web app che cataloga ricette italiane suddividendole per antipasti, primi, secondi,
+            contorni e dolci, geolocalizzandole su una mappa con la possibilità di filtrarle per nome e località.
           </p>
 
         </div>
@@ -37,7 +37,7 @@
 
 <script>
 export default {
-name: 'HomeFooter'
+  name: 'HomeFooter'
 }
 </script>
 

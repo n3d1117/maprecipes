@@ -14,6 +14,6 @@ name: "App"
 @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
 
 #app {
-  font-family: 'Yanone Kaffeesatz',serif;
+  font-family: 'Yanone Kaffeesatz', serif;
 }
 </style>

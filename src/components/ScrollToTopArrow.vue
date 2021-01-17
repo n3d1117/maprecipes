@@ -8,7 +8,7 @@
 import $ from 'jquery'
 
 export default {
-  name: "ScrollToTopArrow",
+  name: 'ScrollToTopArrow',
   mounted() {
     const chevronButton = document.getElementById("chevron");
 

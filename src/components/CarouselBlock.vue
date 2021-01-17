@@ -24,7 +24,7 @@
 
 <script>
 export default {
-  name: "CarouselBlock",
+  name: 'CarouselBlock',
   props: ['photos', 'title']
 }
 </script>

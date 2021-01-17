@@ -9,7 +9,10 @@
           <div id="ingredients_block_outer">
             <div id="ingredients_block_inner">
 
-              <IngredientsBlock v-bind:ingredients="recipe.ingredients" v-bind:video_link="recipe.video_recipe"></IngredientsBlock>
+              <IngredientsBlock
+                  v-bind:ingredients="recipe.ingredients"
+                  v-bind:video_link="recipe.video_recipe"
+              ></IngredientsBlock>
 
             </div>
           </div>
@@ -60,8 +63,8 @@
 
 <script>
 
-import MainLayer from "@/components/MainLayer";
 import $ from 'jquery'
+import MainLayer from "@/components/MainLayer";
 import PrepHistoryBlock from "@/components/PrepHistoryBlock";
 import RelatedRecipes from "@/components/RelatedRecipes";
 import IngredientsBlock from "@/components/IngredientsBlock";
