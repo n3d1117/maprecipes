@@ -11,7 +11,7 @@
         <template #img>
           <img
               class="d-block img-fluid w-100"
-              :src="'../assets/' + photo"
+              :src="require(`@/assets/${photo}`)"
               :alt="title"
           >
         </template>

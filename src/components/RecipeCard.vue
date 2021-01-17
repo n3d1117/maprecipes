@@ -3,7 +3,10 @@
     <router-link class="result_block_anchor" :to="'/recipe/' + recipe.dish_id">
       <div class="card result_block_card">
         <div class="card-body result_block_card_body">
-          <img class="img-fluid card-img-top mb-2 result_block_card_body_img" src="../assets/CrostiniToscani.jpg" alt="fegatini">
+          <img class="img-fluid card-img-top mb-2 result_block_card_body_img"
+               :src="require(`@/assets/${recipe.photos[0]}`)"
+               :alt="recipe.dish_name"
+          >
           <h4 class="card-title mb-0 text-center">{{ recipe.dish_name }}</h4>
           <ul class="text-left mb-0 pb-0 pl-3">
             <li>Regione: {{ recipe.region }}</li>

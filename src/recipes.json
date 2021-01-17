@@ -5,9 +5,9 @@
         },
         "dish_type": "Secondi",
         "photos": [
-            "arrosticini_1.jpg",
-            "arrosticini_2.jpg",
-            "arrosticini_3.jpg"
+            "abruzzo/arrosticini_1.jpeg",
+            "abruzzo/arrosticini_2.jpeg",
+            "abruzzo/arrosticini_3.jpeg"
         ],
         "video_recipe": "https://www.youtube.com/watch?v=5ioENe_9814",
         "city": "Pescara",
@@ -32,9 +32,9 @@
         },
         "dish_type": "Secondi",
         "photos": [
-            "agnellopecorara_1.jpg",
-            "agnellopecorara_2.jpg",
-            "agnellopecorara_3.jpg"
+            "abruzzo/agnellopecorara_1.jpeg",
+            "abruzzo/agnellopecorara_2.jpeg",
+            "abruzzo/agnellopecorara_3.jpeg"
         ],
         "video_recipe": "https://www.youtube.com/watch?v=iaQDT0k4XZY",
         "city": "Pescara",

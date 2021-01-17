@@ -20,7 +20,6 @@
             <h1 class="mt-4 text-left">Elenco Ricette</h1>
 
             <HomeResultBlock v-bind:recipes="recipes" title="Antipasti"></HomeResultBlock>
-            <HomeResultBlock title="Primi"></HomeResultBlock>
 
           </div>
         </div>
