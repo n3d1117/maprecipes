@@ -44,13 +44,13 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 #searchbar_title {
   font-size: 60px;
 }
 
-#piatto-dropdown > button {
+>>>#piatto-dropdown > button {
   height: 50px;
   font-size: 30px;
   box-shadow: 2px 2px 10px black;
@@ -61,17 +61,18 @@ export default {
   padding-top: 5px;
 }
 
-#piatto-dropdown > button:hover {
+>>>#piatto-dropdown > button:hover {
   background-color: #fff9aa;
 }
 
-#piatto-dropdown > ul {
+>>>#piatto-dropdown > ul {
   font-size: 20px;
   text-align: center;
-}
-
-.dropdown-menu {
   max-height: 200px;
   overflow-y: auto;
+  left: 50% !important;
+  right: auto !important;
+  transform: translate(-50%, 50px) !important;
 }
+
 </style>

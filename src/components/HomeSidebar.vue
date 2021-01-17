@@ -66,10 +66,11 @@ export default {
 >>>#regione-dropdown > ul {
   font-size: 20px;
   text-align: center;
-}
-
->>>.dropdown-menu {
   max-height: 200px;
   overflow-y: auto;
+  left: 50% !important;
+  right: auto !important;
+  transform: translate(-50%, 63px) !important;
 }
+
 </style>

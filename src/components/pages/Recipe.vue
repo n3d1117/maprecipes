@@ -140,7 +140,7 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
 
 #recipe_block {
   border-radius: 19px;

@@ -58,7 +58,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 #bottom-bg {
   background-color: #fff9aa;
