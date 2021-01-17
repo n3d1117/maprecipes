@@ -1,7 +1,9 @@
 [
     {
         "related_recipes": {
-            "2": "Agnello alla Pecorara"
+            "2": "Agnello alla Pecorara",
+            "3": "Costolette d’Agnello Fritte",
+            "4": "Sassi d’Abruzzo"
         },
         "dish_type": "Secondi",
         "photos": [
@@ -28,7 +30,9 @@
     },
     {
         "related_recipes": {
-            "1": "Arrosticini"
+            "1": "Arrosticini",
+            "3": "Costolette d’Agnello Fritte",
+            "4": "Sassi d’Abruzzo"
         },
         "dish_type": "Secondi",
         "photos": [
@@ -49,39 +53,336 @@
         "product_history": "È una ricetta tipica abruzzese, diffusa in tutto l’Abruzzo ma in particolar modo a Pescara e nei comuni limitrofi.",
         "preparation": "Tagliate a pezzi l'agnello, lavatelo e asciugatelo.\nNell'apposito tegame di rame da brasati con coperchio mettete il burro e la cipolla intera; unite i pezzi di agnello, salate, incoperchiate e portate a cottura per circa un'ora senza mai togliere il coperchio.\nScuotete di tanto in tanto il tegame per evitare che la carne possa attaccare al fondo. Abbrustolite le fette di pane casereccio, copritele con i pezzi di agnello e servite subito.",
         "coords": [
-            42.4555566,
-            14.1686455
+            42.479113, 14.181692
         ],
         "dish_name": "Agnello alla Pecorara",
         "dish_id": 2
     },
     {
         "related_recipes": {
-            "1": "Arrosticini"
+            "1": "Arrosticini",
+            "2": "Agnello alla Pecorara",
+            "4": "Sassi d’Abruzzo"
         },
         "dish_type": "Secondi",
         "photos": [
-            "abruzzo/pescara/agnellopecorara_1.jpeg",
-            "abruzzo/pescara/agnellopecorara_2.jpeg",
-            "abruzzo/pescara/agnellopecorara_3.jpeg"
+            "abruzzo/pescara/costolette_agnello_fritte_1.jpeg",
+            "abruzzo/pescara/costolette_agnello_fritte_2.jpeg",
+            "abruzzo/pescara/costolette_agnello_fritte_3.jpeg"
         ],
-        "video_recipe": "https://www.youtube.com/watch?v=iaQDT0k4XZY",
+        "video_recipe": "https://www.youtube.com/watch?v=GvaQCPiumGo",
         "city": "Pescara",
         "ingredients": [
+            { "ingredient": "Costolette d’Agnello", "quantity": 800 },
+            { "ingredient": "Uovo", "quantity": 120 },
+            { "ingredient": "Olio EVO", "quantity": 75 },
+            { "ingredient": "Pangrattato q.b", "quantity": 0 },
+            { "ingredient": "Sale q.b", "quantity": 0 }
+        ],
+        "region": "Abruzzo",
+        "product_history": "Le costolette d’agnello fritte sono un classico secondo piatto di carne della tradizione abruzzese, che si prepara in occasione della Pasqua. Un piatto pronto in un tempo relativamente breve e attraverso pochi e semplici passaggi, tutto da mordere e da gustare. E se vi piacciono le costolette, provatele anche nella versione alla griglia con erbe aromatiche.",
+        "preparation": "Iniziate la preparazione battendo bene le costolette e passandole prima nelle uova sbattute e leggermente salate, quindi nel pangrattato, facendo in modo che questo si attacchi bene alla superficie. Dopo aver cosparso di pangrattato tutte le costolette, mettetele a friggere nell'olio bollente girandole ogni tanto per una perfetta doratura e cuocendole in modo uniforme. Al termine dell'operazione scolate bene le costolette posizionandole prima su carta assorbente e quindi nei piatti da portata, salatele e servitele ben calde con un contorno a piacere.",
+        "coords": [
+            42.45573,14.0635809
+        ],
+        "dish_name": "Costolette d’Agnello Fritte",
+        "dish_id": 3
+    },
+    {
+        "related_recipes": {
+            "1": "Arrosticini",
+            "2": "Agnello alla Pecorara",
+            "3": "Costolette d’Agnello Fritte"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "abruzzo/pescara/sassi_abruzzo_1.jpeg",
+            "abruzzo/pescara/csassi_abruzzo_2.jpeg",
+            "abruzzo/pescara/sassi_abruzzo_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=v7QYxzM8rdc",
+        "city": "Pescara",
+        "ingredients": [
+            { "ingredient": "Acqua", "quantity": 100 },
+            { "ingredient": "Cacao", "quantity": 30 },
+            { "ingredient": "Zucchero", "quantity": 900 },
+            { "ingredient": "Mandorle", "quantity": 1000 }
+        ],
+        "region": "Abruzzo",
+        "product_history": "I sassi d’Abruzzo sono dei gustosi e irresistibili dolcetti preparati con mandorle tostate, zucchero e cacao, un mix intrigante tutto da sgranocchiare. Di solito si preparano in occasione di ricorrenze e circostanze particolari, ma possono rappresentare anche una succulenta idea per uno spuntino, una merenda o un dessert goloso. E se ci prendete gusto, segnatevi anche la ricetta delle mandorle pralinate.",
+        "preparation": "Per cominciare tostate le mandorle al forno, o anche in una padella adeguata, senza privarle delle bucce e facendo attenzione a non farle bruciare\nNel frattempo in un pentolino a parte sciogliete lo zucchero con mezzo bicchiere d'acqua a fiamma moderata, giunto a bollore aggiungete anche il cacao\nAggiungete le mandorle allo zucchero mescolando in maniera che ogni mandorla venga ricoperta uniformemente dalla miscela di zucchero e cacao\nA cottura completata, più o meno dopo una mezz'oretta, versate le mandorle su un piano da lavoro staccandole l'una dall'altra e lasciandole raffreddare completamente.",
+        "coords": [
+            42.482400, 14.156966
+        ],
+        "dish_name": "Sassi d’Abruzzo",
+        "dish_id": 4
+    },
+    {
+        "related_recipes": {
+            "6": "Scipelle ‘mbusse",
+            "7": "Maccheroni con Pancetta e Fagioli",
+            "9": "Sogliole alla Giuliese"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "abruzzo/teramo/caggionetti_1.jpeg",
+            "abruzzo/teramo/caggionetti_2.jpeg",
+            "abruzzo/teramo/caggionetti_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=D9jxCz6y9gA",
+        "city": "Teramo",
+        "ingredients": [
+            { "ingredient": "Rum", "quantity": 50 },
+            { "ingredient": "Purea di Castagne", "quantity": 300 },
+            { "ingredient": "Cioccolato", "quantity": 100 },
+            { "ingredient": "Zucchero", "quantity": 100 },
+            { "ingredient": "Mandorle Dolci", "quantity": 300 },
+            { "ingredient": "Mosto", "quantity": 1000 },
+            { "ingredient": "Farina", "quantity": 500 },
+            { "ingredient": "Vino Bianco", "quantity": 250 },
+            { "ingredient": "Olio EVO", "quantity": 230 }
+        ],
+        "region": "Abruzzo",
+        "product_history": "I caggionetti, in dialetto abruzzese caggiunitt, sono tra i più noti dolci tipici locali; soprattutto preparati in inverno durante il periodo natalizio. Sono una specialità di Teramo. Importante è scolare e mettere i caggionetti su carta assorbente per togliere l'olio in eccesso prima di spolverarli di zucchero e cannella.",
+        "preparation": "Unire al mosto ben cotto le mandorle, un pizzico di cannella e il cioccolato. Mescolate bene e poi aggiungete il puré di castagne, levare il composto dal fuoco e unirvi lo zucchero e il liquore.Lasciare solidificare in frigo per qualche ora, intanto preparare un impasto con farina olio e vino e stendete il composto in una sfoglia spessa circa 3 millimetri. Ponete il ripieno sulla sfoglia come si usa fare per i ravioli. Friggete i \"ravioli\" in olio d'oliva senza farli dorare. Infine cospargerli con zucchero e cannella in polvere.",
+        "coords": [
+            42.6619832,13.6719582
+        ],
+        "dish_name": "Caggionetti",
+        "dish_id": 5
+    },
+    {
+        "related_recipes": {
+            "5": "Caggionetti",
+            "7": "Maccheroni con Pancetta e Fagioli",
+            "9": "Sogliole alla Giuliese"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "abruzzo/teramo/scipelle_mbusse_1.jpeg",
+            "abruzzo/teramo/scipelle_mbusse_2.jpeg",
+            "abruzzo/teramo/scipelle_mbusse_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=nk8SrPvWELY",
+        "city": "Teramo",
+        "ingredients": [
+            { "ingredient": "Farina", "quantity": 160 },
+            { "ingredient": "Uova", "quantity": 240 },
+            { "ingredient": "Punta di petto di manzo", "quantity": 400 },
+            { "ingredient": "Muscolo di manzo", "quantity": 400 },
+            { "ingredient": "Osso di ginocchio di bue", "quantity": 1000 },
+            { "ingredient": "Ala di tacchino", "quantity": 150 },
+            { "ingredient": "Prezzemolo q.b", "quantity": 0 },
+            { "ingredient": "Sedano q.b", "quantity": 0 },
+            { "ingredient": "Cipolla q.b", "quantity": 30 },
+            { "ingredient": "Carota gialla q.b", "quantity": 60 },
+            { "ingredient": "Parmigiano grattugiato q.b", "quantity": 0 }
+        ],
+        "region": "Abruzzo",
+        "product_history": "Scrippelle ‘mbusse ovvero le crespelle in brodo all’abruzzese dal sapore delicato ma molto sostanziose che possiamo considerare anche come un valido e completo piatto unico. Una ricetta tipica della tradizione culinaria della provincia di Teramo che si prepara facilmente e con ingredienti semplici. Sono delle crespelle realizzate solo con acqua, farina e uova, cosparse di formaggio grattugiato, arrotolate e immerse in brodo di carne caldo. Ed è qui che avviene la magia! Il brodo penetra nelle crespelle che si ammorbidiscono, il formaggio si fonde e il tutto diventa una gioia infinita per il palato.",
+        "preparation": "Rompete le uova in una terrina e sbattetele con una frusta o una forchetta, unendo poi 2 cucchiai di latte, il prezzemolo mondato, lavato e tritato finemente, un cucchiaio di parmigiano grattugiato, un pizzico di sale. Lavorate il tutto con cura, aggiungendo man mano la farina fino a ottenere un impasto consistente che diluirete poi con una tazzina di acqua fredda.\nPelate una patata e dividetele in due, inforcate una metà con una forchetta, passatela nell'olio e utilizzatela per ungere una padella antiaderente, non graffiata, larga circa 20 cm. Mettete la padella sul fuoco e, appena sarà ben calda, versatevi un mestolino del composto.\nFate roteare lentamente la padella per ben distribuire il preparato sul fondo, quando la scrippella si staccherà dal fondo con le mani rigiratela e cuocetela dall'altro lato.\nProcedete ugualmente per le altre avendo cura di ungere ogni volta la padella con la patata immersa nell'olio. Ultimata la cottura, spolverizzate di parmigiano e arrotolate a cannolo le scripelle, adagiatele su piatti fondi, spolverizzatele nuovamente col parmigiano grattugiato e versatevi sopra il brodo bollente.",
+        "coords": [
+            42.6619832,13.6719582
+        ],
+        "dish_name": "Scipelle ‘mbusse",
+        "dish_id": 6
+    },
+    {
+        "related_recipes": {
+            "5": "Caggionetti",
+            "6": "Scipelle ‘mbusse",
+            "9": "Sogliole alla Giuliese"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "abruzzo/teramo/maccheroni_pancetta_fagioli_1.jpeg",
+            "abruzzo/teramo/maccheroni_pancetta_fagioli_2.jpeg",
+            "abruzzo/teramo/maccheroni_pancetta_fagioli_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=PUZhp2Vepbs",
+        "city": "Teramo",
+        "ingredients": [
+            { "ingredient": "Farina", "quantity": 160 },
+            { "ingredient": "Uova", "quantity": 240 },
+            { "ingredient": "Petto di manzo", "quantity": 400 },
+            { "ingredient": "Muscolo di manzo", "quantity": 400 },
+            { "ingredient": "Osso di bue", "quantity": 1000 },
+            { "ingredient": "Ala di tacchino", "quantity": 150 },
+            { "ingredient": "Prezzemolo q.b", "quantity": 0 },
+            { "ingredient": "Sedano q.b", "quantity": 0 },
+            { "ingredient": "Cipolla q.b", "quantity": 30 },
+            { "ingredient": "Carota gialla q.b", "quantity": 60 },
+            { "ingredient": "Parmigiano grattugiato q.b", "quantity": 0 }
+        ],
+        "region": "Abruzzo",
+        "product_history": "I maccheroni con pancetta e fagioli sono un primo piatto gustoso ed invitante che unisce il sapore della pasta a quello dei fagioli. Tipico della zona di Teramo.",
+        "preparation": "Sbucciare la cipolla e tritarla con le foglie di salvia lavate e asciugate. Tagliare la pancetta a listerelle.\nMaccheroni con pancetta e fagioli\nScaldare l'olio in una casseruola, unirvi la cipolla con la salvia e farle appassire a fuoco basso, mescolando spesso, per circa 4 minuti. \nAlzate quindi la fiamma, aggiungere la pancetta, lasciarla soffriggere, bagnare con il vino, farlo evaporare, unire il di pomodoro, salare e pepare.\nLasciare cuocere il sugo per 20 minuti circa, mescolando di tanto in tanto; aggiungere infine i fagioli e continuare la cottura per altri 5 minuti.\nNel frattempo, far cuocere la pasta, scolarla al dente, versarla in una zuppiera, condirla con il sugo, mescolare, cospargere con il pecorino e servire.",
+        "coords": [
+            42.670567, 13.716247
+        ],
+        "dish_name": "Maccheroni con Pancetta e Fagioli",
+        "dish_id": 7
+    },
+    {
+        "related_recipes": {
+            "5": "Caggionetti",
+            "10": "Brodetto",
+            "9": "Sogliole alla Giuliese"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "abruzzo/laquila/cannarozzetti_allo_zafferano_1.jpeg",
+            "abruzzo/laquila/cannarozzetti_allo_zafferano_2.jpeg",
+            "abruzzo/laquila/cannarozzetti_allo_zafferano_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=65c0Ys8jEWs",
+        "city": "L'Aquila",
+        "ingredients": [
+            { "ingredient": "Pasta Cannarozzetti", "quantity": 400 },
+            { "ingredient": "Ricotta", "quantity": 300 },
+            { "ingredient": "Guanciale", "quantity": 100 },
+            { "ingredient": "Zafferano", "quantity": 0.15 },
             { "ingredient": "Sale q.b", "quantity": 0 },
-            { "ingredient": "Agnello", "quantity": 800 },
-            { "ingredient": "Cipolla", "quantity": 150 },
-            { "ingredient": "Burro", "quantity": 20 },
             { "ingredient": "Pepe q.b", "quantity": 0 }
         ],
         "region": "Abruzzo",
-        "product_history": "È una ricetta tipica abruzzese, diffusa in tutto l’Abruzzo ma in particolar modo a Pescara e nei comuni limitrofi.",
-        "preparation": "Tagliate a pezzi l'agnello, lavatelo e asciugatelo.\nNell'apposito tegame di rame da brasati con coperchio mettete il burro e la cipolla intera; unite i pezzi di agnello, salate, incoperchiate e portate a cottura per circa un'ora senza mai togliere il coperchio.\nScuotete di tanto in tanto il tegame per evitare che la carne possa attaccare al fondo. Abbrustolite le fette di pane casereccio, copritele con i pezzi di agnello e servite subito.",
+        "product_history": "I cannarozzetti allo zafferano sono una ricetta tipica e semplice della cucina abruzzese, serviti con pepe, ricotta e zafferano. I cannarozzetti possono assomigliare a delle mezze maniche.",
+        "preparation": "In un tegame fate colorire con l'olio il guanciale.\nCuocete i cannarozzetti in abbondante acqua e, una volta scolati, metteteli nel tegame girandoli più volte per ben insaporire.\nAggiungete la ricotta, il pepe, lo zafferano e fate amalgamare il tutto. Servite subito.",
         "coords": [
-            42.4555566,
-            14.1686455
+            42.670567, 13.716247
         ],
-        "dish_name": "Agnello alla Pecorara",
-        "dish_id": 2
+        "dish_name": "Cannarozzetti allo Zafferano",
+        "dish_id": 8
+    },
+    {
+        "related_recipes": {
+            "11": "Pallotte Cacio e Uova",
+            "7": "Maccheroni con Pancetta e Fagioli",
+            "10": "Sogliole alla Giuliese"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "abruzzo/laquila/sogliole_giuliese_1.jpeg",
+            "abruzzo/laquila/sogliole_giuliese_2.jpeg",
+            "abruzzo/laquila/sogliole_giuliese_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=yiwSPIxzdUE",
+        "city": "L'Aquila",
+        "ingredients": [
+            { "ingredient": "Pasta Cannarozzetti", "quantity": 400 },
+            { "ingredient": "Ricotta", "quantity": 300 },
+            { "ingredient": "Guanciale", "quantity": 100 },
+            { "ingredient": "Zafferano", "quantity": 0.15 },
+            { "ingredient": "Sale q.b", "quantity": 0 },
+            { "ingredient": "Pepe q.b", "quantity": 0 }
+        ],
+        "region": "Abruzzo",
+        "product_history": "I cannarozzetti allo zafferano sono una ricetta tipica e semplice della cucina abruzzese, serviti con pepe, ricotta e zafferano. I cannarozzetti possono assomigliare a delle mezze maniche.",
+        "preparation": "In un tegame fate colorire con l'olio il guanciale.\nCuocete i cannarozzetti in abbondante acqua e, una volta scolati, metteteli nel tegame girandoli più volte per ben insaporire.\nAggiungete la ricotta, il pepe, lo zafferano e fate amalgamare il tutto. Servite subito.",
+        "coords": [
+            42.659458, 13.696677
+        ],
+        "dish_name": "Sogliole alla Giuliese",
+        "dish_id": 9
+    },
+    {
+        "related_recipes": {
+            "5": "Caggionetti",
+            "9": "Sogliole alla Giuliese",
+            "8": "Cannarozzetti allo Zafferano"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "abruzzo/laquila/brodetto_1.jpeg",
+            "abruzzo/laquila/brodetto_2.jpeg",
+            "abruzzo/laquila/brodetto_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=gsf64eekzbo",
+        "city": "L'Aquila",
+        "ingredients": [
+            { "ingredient": "Pesce", "quantity": 1500 },
+            { "ingredient": "Cozze", "quantity": 500 },
+            { "ingredient": "Seppie", "quantity": 1500 },
+            { "ingredient": "Canocchie", "quantity": 400 },
+            { "ingredient": "Polpa di Pomodoro", "quantity": 500 },
+            { "ingredient": "Aglio", "quantity": 40 },
+            { "ingredient": "Cipolla", "quantity": 100 },
+            { "ingredient": "Pane", "quantity": 200 },
+            { "ingredient": "Prezzemolo q.b", "quantity": 0 }
+        ],
+        "region": "Abruzzo",
+        "product_history": "Mettere in una teglia molto larga con l'olio il trito di cipolla e aglio; farlo imbiondire, aggiungere il prezzemolo e subito dopo il pomodoro.\nPortare ad ebollizione e mantenerla per 5 minuti; versare 1/2 litro d'acqua calda o brodo di pesce preparato con i ritagli del pesce e far riprendere l'ebollizione; gettarvi le seppie e dare circa 10 minuti di cottura. Aggiungere man mano tutto il pesce e condire con sale e peperoncino; far cuocere per altri 5 minuti e aggiungere le canocchie; continuare la cottura a calore vivo per altri 10 minuti (se il fondo di cottura riesce troppo denso allungarlo con un poco d'acqua tiepida).\nServire nella teglia di cottura, ben caldo, con le fettine di pane fritte in olio sul fondo della scodella.",
+        "preparation": "Che sia alla Giuliese o alla Vastese, il Brodetto (“lu vrudatt’”) è uno dei capisaldi della tradizione gastronomica abruzzese, un’altra delle tantissime eccellenze del nostro territorio.\nE, come la maggior parte dei piatti nobili, nasce come piatto povero: era il cibo dei pescatori dell’adriatico che utilizzavano il pesce rimasto invenduto per la scarsa qualità o per le piccole dimensioni, per cucinare una deliziosa zuppa accompagnata dal pane abbrustolito.\nOggi il Brodetto è patrimonio dei ristoranti più blasonati (o delle massaie più esperte), perché per questo piatto valgono due regole ben precise: la reperibilità del pescato (assolutamente locale) e la sua freschezza.\nIl brodetto alla vastese è un tipico piatto della cucina abruzzese che si prepara realizzando una salsa con pomodori e brodo e cuocendovi poi pesci e crostacei.",
+        "coords": [
+            42.659458, 13.696677
+        ],
+        "dish_name": "Brodetto",
+        "dish_id": 10
+    },
+    {
+        "related_recipes": {
+            "5": "Caggionetti",
+            "12": "Parrozzo Abruzzese",
+            "8": "Cannarozzetti allo Zafferano"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "abruzzo/laquila/pallotte_cacio_ova_1.jpeg",
+            "abruzzo/laquila/pallotte_cacio_ova_2.jpeg",
+            "abruzzo/laquila/pallotte_cacio_ova_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=C6k6BlZ-Oec",
+        "city": "L'Aquila",
+        "ingredients": [
+            { "ingredient": "Pecorino", "quantity": 100 },
+            { "ingredient": "Uova", "quantity": 240 },
+            { "ingredient": "Aglio", "quantity": 10 },
+            { "ingredient": "Olio EVO q.b", "quantity": 0 },
+            { "ingredient": "Pane q.b", "quantity": 0 },
+            { "ingredient": "Pomodori q.b", "quantity": 0 },
+            { "ingredient": "Prezzemolo q.b", "quantity": 0 },
+            { "ingredient": "Sale q.b", "quantity": 0 }
+        ],
+        "region": "Abruzzo",
+        "product_history": "Le “pallotte cacio e ova” sono il piatto che meglio rappresenta la cucina popolare abruzzese e alto-molisana: un piatto di polpette di pane e formaggio amalgamate con le uova, fritte nell’olio e ripassate poi in padella, in un sugo fresco di pomodoro e basilico.\nLa loro origine è povera, legata ad una cucina di sussistenza: da un lato, si inseriscono in quella consolidata tradizione che unisce il formaggio alle uova, profondamente radicata in questo territorio al punto da divenire, per alcuni storici, l’origine degli Spaghetti alla Carbonara; dall’altro, ci parlano di una vita difficile, resa ancora più dura dalle restrizioni delle guerre, con i ripetuti saccheggi delle case di campagna. Le storie che si tramandano a voce raccontano di formaggio nascosto sotto le travi del pavimento o dietro i mattoni dei muri, assieme a qualche uovo e a un po’ di pane, che le sapienti mani delle donne seppero poi trasformare in queste deliziose polpette.\nAl d là della leggenda, è sicuro che questo piatto sia il frutto di una serie di elementi, alcuni tipicamente locali, come la transumanza, altri trasversali alla cucina povera e contadina, come la scarsa disponibilità della carne o la necessità di riciclare il pane raffermo e gli avanzi di formaggio.\nIl risultato fu così gustoso che le pallotte divennero presto un piatto della festa: venivano infatti preparate a San Martino, l’11 novembre, per festeggiare il vino nuovo e il Martedì Grasso, per Carnevale. Proprio la destinazione alla tavola delle feste implicò l’utilizzo di una spezia “esotica” come il pepe nero, al posto del locale peperoncino, e della noce moscata: il sapore più caldo, più avvolgente di tutto l’insieme nobilitò al primo assaggio queste polpette, a cui poi le massaie più attente aggiunsero altri accorgimenti. Il principale fu quello di cagliare separatamente il latte di capra, per “spegnere” il gusto forte del pecorino stagionato con il formaggio “nuovo”, appena prodotto. Gli esiti erano diversi anche in cottura, poichè le polpette mantenevano perfettamente la forma, senza sfaldarsi.\nNel 2017, la guida Street Food de Il Gambero Rosso ha incoronato le “pallotte cacio e ova” come cibo di strada più rappresentativo dell’Abruzzo: va precisato, però, che oggi esse vengono servite anche nei migliori ristoranti regionali, in ossequio alla loro indiscutibile bontà.\nIl loro segreto sta nella materia prima.\nIl formaggio più indicato è un Pecorino semistagionato di 60-70 giorni, con una consistenza giusta per poter essere macinato; la caciotta di mucca è ammessa, ma solo come complemento, per attenuare il sapore deciso del Pecorino.\nLe uova devono essere freschissime.\nIl pane non deve essere troppo raffermo: è perfetto quello del giorno prima.\nLe dimensioni sono piuttosto grandi, se la loro destinazione è il condimento al sugo: ma possono essere anche preparate in formati più piccoli, specie se abbinate a creme di verdura o come finger food all’ora dell’aperitivo.",
+        "preparation": "In una terrina mescolate il pane sbriciolato, le uova, il pecorino, un ciuffo di prezzemolo e uno spicchio di aglio sminuzzato, amalgamandoli bene fino a ottenere un composto morbido ma non liquido.\nModellate il composto con le mani, formate delle polpette un po' più grandi della norma e friggetele in olio bollente.\nA parte preparate il sugo con il passato di pomodoro e, una volta bollente, immergetevi dentro le pallotte fritte.\nFate cuocere le pallotte all'interno del sugo per almeno 20 minuti: se il composto è stato ben amalgamato le stesse, assorbendo il sugo, si gonfieranno.",
+        "coords": [
+            42.672460, 13.714874
+        ],
+        "dish_name": "Pallotte Cacio e Uova",
+        "dish_id": 11
+    },
+    {
+        "related_recipes": {
+            "11": "Pallotte Cacio e Uova",
+            "9": "Sogliole alla Giuliese",
+            "8": "Cannarozzetti allo Zafferano"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "abruzzo/laquila/parrozzo_1.jpeg",
+            "abruzzo/laquila/parrozzo_2.jpeg",
+            "abruzzo/laquila/parrozzo_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=-L4I73_8YbE",
+        "city": "L'Aquila",
+        "ingredients": [
+            { "ingredient": "Cioccolato", "quantity": 150 },
+            { "ingredient": "Zucchero", "quantity": 125 },
+            { "ingredient": "Burro", "quantity": 80 },
+            { "ingredient": "Mandorle", "quantity": 60 },
+            { "ingredient": "Fecola", "quantity": 55 },
+            { "ingredient": "Farina", "quantity": 55 },
+            { "ingredient": "Marndorle Amare", "quantity": 12 },
+            { "ingredient": "Uova", "quantity": 300 }
+        ],
+        "region": "Abruzzo",
+        "product_history": "Il parrozzo è un dolce tipico della pasticceria abruzzese. Si presenta con la sua classica forma a cupola ricoperta di cioccolato, che nasconde un morbidissimo cuore di pasta dolce al profumo di mandorle. Il parrozzo abruzzese è un dolce tipico preparato in Abruzzo durante le festività natalizie. Il nome è la contrazione di PAN ROZZO che un tempo veniva realizzato in forme piccole ma con gli stessi sapori ed ingredienti. Questo è un dolce semplice, di origine contadina, già noto ai tempi del D'Annunzio che ne cantava le lodi già all'epoca.",
+        "preparation": "Frullate le mandorle con due cucchiaiate di zucchero fino alla loro polverizzazione. In un robot da cucina lavorate i tuorli con lo zucchero rimasto fino a che saranno spumosi.\nUnite, sempre lavorando, la polvere di mandorle, la farina, la fecola ed il burro sciolto a bagnomaria alla spuma di tuorli.\nMontate a neve fermissima le chiare poi, in una terrina, incorporatele delicatamente al composto di mandorle. Imburrate una tortiera e versate il composto e cuocete in forno preriscaldato a 180 °C per circa 45 minuti. Trascorso questo tempo sfornatelo e capovolgetelo su una gratella da pasticceria. Lasciate quindi raffreddare.\nSciogliete il cioccolato spezzettato a fuoco bassissimo, poi ancora caldo spalmatelo il più uniformemente possibile sulla torta. Lasciate riposare un po’ e poi servite.",
+        "coords": [
+            42.664760, 13.725173
+        ],
+        "dish_name": "Parrozzo Abruzzese",
+        "dish_id": 12
     }
 ]
