@@ -65,7 +65,9 @@ export default {
   },
   methods: {
     filterAndSort(type) {
-      return recipes.filter(recipe => recipe.dish_type === type).sort((a, b) => (a.dish_name > b.dish_name) ? 1 : -1);
+      return recipes
+          .filter(recipe => recipe.dish_type === type)
+          .sort((a, b) => (a.dish_name > b.dish_name) ? 1 : -1);
     }
   }
 }

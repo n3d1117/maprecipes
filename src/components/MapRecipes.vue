@@ -2,6 +2,7 @@
   <l-map
       id="map"
       class="mb-3"
+      ref="recipes_map"
       v-if="showMap"
       :zoom="zoom"
       :center="center"
@@ -28,6 +29,8 @@ import { latLng } from "leaflet";
 import { LMap, LTileLayer, LMarker } from "vue2-leaflet";
 import recipes from '@/recipes.json'
 import MapPopup from "@/components/MapPopup";
+import 'leaflet-fullscreen/dist/leaflet.fullscreen.css';
+import 'leaflet-fullscreen/dist/Leaflet.fullscreen';
 
 export default {
   name: 'MapRecipes',
@@ -55,6 +58,10 @@ export default {
     convertCoords(arr) {
       return latLng(arr[0], arr[1])
     }
+  },
+  mounted() {
+    const map = this.$refs.recipes_map.mapObject;
+    map.addControl(new window.L.Control.Fullscreen());
   }
 }
 </script>
