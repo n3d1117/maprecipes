@@ -159,23 +159,20 @@
         },
         "dish_type": "Primi",
         "photos": [
-            "abruzzo/teramo/scipelle_mbusse_1.jpeg",
-            "abruzzo/teramo/scipelle_mbusse_2.jpeg",
-            "abruzzo/teramo/scipelle_mbusse_3.jpeg"
+            "abruzzo/teramo/scrippelle_mbusse_1.jpeg",
+            "abruzzo/teramo/scrippelle_mbusse_2.jpeg",
+            "abruzzo/teramo/scrippelle_mbusse_3.jpeg"
         ],
         "video_recipe": "https://www.youtube.com/watch?v=nk8SrPvWELY",
         "city": "Teramo",
         "ingredients": [
-            { "ingredient": "Farina", "quantity": 160 },
-            { "ingredient": "Uova", "quantity": 240 },
-            { "ingredient": "Punta di petto di manzo", "quantity": 400 },
-            { "ingredient": "Muscolo di manzo", "quantity": 400 },
-            { "ingredient": "Osso di ginocchio di bue", "quantity": 1000 },
-            { "ingredient": "Ala di tacchino", "quantity": 150 },
-            { "ingredient": "Prezzemolo q.b", "quantity": 0 },
-            { "ingredient": "Sedano q.b", "quantity": 0 },
-            { "ingredient": "Cipolla q.b", "quantity": 30 },
-            { "ingredient": "Carota gialla q.b", "quantity": 60 },
+            { "ingredient": "Farina", "quantity": 100 },
+            { "ingredient": "Uova", "quantity": 360 },
+            { "ingredient": "Acqua q.b", "quantity": 0 },
+            { "ingredient": "Latte", "quantity": 100 },
+            { "ingredient": "Sale q.b", "quantity": 0 },
+            { "ingredient": "Noce di burro fusa", "quantity": 0 },
+            { "ingredient": "Noce moscata q.b", "quantity": 0 },
             { "ingredient": "Parmigiano grattugiato q.b", "quantity": 0 }
         ],
         "region": "Abruzzo",
@@ -184,7 +181,7 @@
         "coords": [
             42.6619832,13.6719582
         ],
-        "dish_name": "Scipelle ‘mbusse",
+        "dish_name": "Scrippelle ‘mbusse",
         "dish_id": 6
     },
     {
@@ -241,7 +238,7 @@
             { "ingredient": "Pasta Cannarozzetti", "quantity": 400 },
             { "ingredient": "Ricotta", "quantity": 300 },
             { "ingredient": "Guanciale", "quantity": 100 },
-            { "ingredient": "Zafferano", "quantity": 0.15 },
+            { "ingredient": "Zafferano", "quantity": 0 },
             { "ingredient": "Sale q.b", "quantity": 0 },
             { "ingredient": "Pepe q.b", "quantity": 0 }
         ],
