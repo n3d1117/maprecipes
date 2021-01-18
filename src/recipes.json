@@ -384,5 +384,535 @@
         ],
         "dish_name": "Parrozzo Abruzzese",
         "dish_id": 12
+    },
+    {
+        "related_recipes": {
+            "12": "Parrozzo Abruzzese",
+            "14": "Orecchiette alla Materana",
+            "15": "Cucinidd"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "basilicata/matera/pettole_natale_1.jpeg",
+            "basilicata/matera/pettole_natale_2.jpeg",
+            "basilicata/matera/pettole_natale_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=htvudkRErL8",
+        "city": "Matera",
+        "ingredients": [
+            {
+                "quantity": 1000,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 400,
+                "ingredient": "Patate"
+            },
+            {
+                "quantity": 25,
+                "ingredient": "Lievito di Birra"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Acqua Tiepida q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio per Friggere q.b"
+            }
+        ],
+        "region": "Basilicata",
+        "product_history": "Le pettole di Natale sono delle frittelle tipiche di Matera e della Basilicata, realizzate spesso nel periodo natalizio.",
+        "preparation": "Impastate la farina con le patate schiacciate e il lievito, aggiungendo dell'acqua tiepida se l'impasto è troppo duro.\nCoprite con un panno bagnato e lasciate lievitare per 2 ore. Ricavate dall'impasto dei pezzettini che friggerete in abbondante olio ben caldo. Scolate e cospargeteli di zucchero.",
+        "coords": [
+            40.686864,
+            16.576782
+        ],
+        "dish_name": "Pettole di Natale",
+        "dish_id": 13
+    },
+    {
+        "related_recipes": {
+            "8": "Cannarozzetti allo Zafferano",
+            "19": "Peperoni Cruschi",
+            "17": "Torta Lucana"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "basilicata/matera/orecchiette_materana_1.jpeg",
+            "basilicata/matera/orecchiette_materana_2.jpeg",
+            "basilicata/matera/orecchiette_materana_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=yPZNSu2S42s",
+        "city": "Matera",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Orecchiette"
+            },
+            {
+                "quantity": 500,
+                "ingredient": "Pomodori"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Tritato di Agnello"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Mozzarella"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio Evo q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pecorino Grattugiato q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Basilicata",
+        "product_history": "Le orecchiette alla Materana sono un tipico piatto di Matera e dintorni, spesso accompagnato con dell’ottimo vino lucano.",
+        "preparation": "Fate rosolare la carne in olio.\nAggiungete quindi i pomodori a pezzettoni e fate cuocere.\nFate cuocere la pasta al dente.\nMettete la pasta in una teglia insieme al sugo e alla mozzarella tagliata a fette. Spolverate con il pecorino.\nFate cuocere nel forno per circa 20 minuti.",
+        "coords": [
+            40.670725,
+            16.584593
+        ],
+        "dish_name": "Orecchiette alla Materana",
+        "dish_id": 14
+    },
+    {
+        "related_recipes": {
+            "13": "Pettole di Natale",
+            "14": "Orecchiette alla Materana",
+            "19": "Peperoni Cruschi"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "basilicata/matera/cucinidd_1.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=-mZD4xqi-ro",
+        "city": "Matera",
+        "ingredients": [
+            {
+                "quantity": 1200,
+                "ingredient": "Agnello"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Pancetta"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Salsiccia"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Cardi"
+            },
+            {
+                "quantity": 240,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 320,
+                "ingredient": "Pomodori"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Formaggio q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Prezzemolo q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio Evo q.b"
+            }
+        ],
+        "region": "Basilicata",
+        "product_history": "Il cucinidd è una preparazione della Basilicata preparata pulendo e lessando i cardi mentre a parte soffriggerete nell'olio l'agnello in cui aggiungerete anche i pomodori.",
+        "preparation": "Pulite e lessate i cardi. Con un po' d'aglio soffriggete nell'olio l'agnello, la salsiccia tagliata a fette e la pancetta a tocchetti. Aggiungete i pomodori e un po' d'acqua e lasciate cuocere.\nVerso la fine della cottura aggiungete i cardi e il prezzemolo tritato, le uova e il formaggio grattugiato rigirando il tutto e servendo caldo in tavola.",
+        "coords": [
+            40.659787,
+            16.603475
+        ],
+        "dish_name": "Cucinidd",
+        "dish_id": 15
+    },
+    {
+        "related_recipes": {
+            "14": "Orecchiette alla Materana",
+            "15": "Cucinidd",
+            "19": "Peperoni Cruschi"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "basilicata/matera/baccala_lucana_1.jpeg",
+            "basilicata/matera/baccala_lucana_2.jpeg",
+            "basilicata/matera/baccala_lucana_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=NRxx5B7uEiI",
+        "city": "Matera",
+        "ingredients": [
+            {
+                "quantity": 800,
+                "ingredient": "Baccalà"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Olio Evo"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Peperoni"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Peperoncino q.b"
+            }
+        ],
+        "region": "Basilicata",
+        "product_history": "Il baccalà alla lucana si realizza con il baccalà pulito e tagliato in pezzi regolari. A parte si insaporiranno nell'olio le falde di peperone e quindi si uniranno i pezzi di baccalà completando la cottura e servendo in tavola ben caldo.",
+        "preparation": "Scottate il baccalà, precedentemente risciacquato in acqua corrente dopo essere stato in ammollo almeno 24 ore, per pochi minuti in acqua bollente. Scolatelo, diliscatelo e tagliatelo in pezzi regolari.\nFate insaporire nell'olio le falde di peperone, poi unite i pezzi di baccalà ed il peperoncino. Lasciate dorare il pesce da entrambi i lati cuocendolo per circa 30 minuti.\nServite immediatamente appena il baccalà sarà cotto.",
+        "coords": [
+            40.676323,
+            16.605535
+        ],
+        "dish_name": "Baccalà alla Lucana",
+        "dish_id": 16
+    },
+    {
+        "related_recipes": {
+            "16": "Baccalà alla Lucana",
+            "15": "Cucinidd",
+            "19": "Peperoni Cruschi"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "basilicata/matera/torta_lucana_1.jpeg",
+            "basilicata/matera/torta_lucana_2.jpeg",
+            "basilicata/matera/torta_lucana_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=YX6Fcr5SVPs",
+        "city": "Matera",
+        "ingredients": [
+            {
+                "quantity": 200,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 125,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 350,
+                "ingredient": "Ricotta"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Mozzarella"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Formaggio fresco"
+            },
+            {
+                "quantity": 25,
+                "ingredient": "Pecorina"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Prosciutto Crudo"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            }
+        ],
+        "region": "Basilicata",
+        "product_history": "La torta lucana è una ricetta tipica della Basilicata, molto saporita, che si prepara prevalentemente durante il periodo delle festività pasquali. Si tratta di un piatto unico a base di prosciutto, uova e – soprattutto – di una cospicua varietà di formaggi e latticini.",
+        "preparation": "In un recipiente mescolate 100 grammi di zucchero con il burro già ammorbidito e ridotto a pezzetti, incorporate due tuorli e la farina e lavorate l'impasto perché diventi omogeneo.\nRiponete il panetto in frigorifero per almeno 30 minuti e nel frattempo mescolate la ricotta col formaggio fresco, setacciando poi quanto ottenuto per eliminare eventuali grumi.\nAggiungete poi tutti gli altri ingredienti, con mozzarella e prosciutto tagliati a dadini, e insaporite il tutto con una presa di sale e abbondante pepe macinato fresco.\nPrendete il panetto dal frigo, suddividetelo in due parti delle quali una sia i due terzi del totale e stendetele in due sfoglie: la più grande fodererà una teglia di 24 cm.\nL'altra invece, dopo aver versato il composto nella teglia, andrà a coprire il tutto: con le mani fate aderire bene ai bordi le due sfoglie e spennellate la superficie con del tuorlo d'uovo.\nCuocete poi la torta nel forno preriscaldato a 150 °C per circa un'ora, poi sfornatela, lasciatela raffreddare finché sia tiepida, tagliatela a fette e servitela in tavola.",
+        "coords": [
+            40.661545,
+            16.589056
+        ],
+        "dish_name": "Torta Lucana",
+        "dish_id": 17
+    },
+    {
+        "related_recipes": {
+            "16": "Baccalà alla Lucana",
+            "17": "Torta Lucana",
+            "19": "Peperoni Cruschi"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "basilicata/potenza/strozzapreti_potentina_1.jpeg",
+            "basilicata/potenza/strozzapreti_potentina_2.jpeg",
+            "basilicata/potenza/strozzapreti_potentina_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=fA0GO5e3aS0",
+        "city": "Potenza",
+        "ingredients": [
+            {
+                "quantity": 400,
+                "ingredient": "Spaghetti"
+            },
+            {
+                "quantity": 400,
+                "ingredient": "Pomodori"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Basilicata",
+        "product_history": "Tipici della città di Potenza, gli strangolapreti – o strozzapreti – sono un formato di pasta corta avvitata su se stessa, simile ai fusilli, dalla lunghezza tipica di 5-6 cm. Ciò che li caratterizza è la grande capacità di trattenere il condimento al loro interno e di rendere, quindi, ogni boccone particolarmente saporito oltre che consistente. Sull’origine del nome esistono diverse leggende: si tramanda infatti che fosse tradizione preparare questo particolare formato di pasta in casa per le festività e offrirlo al prete. Leggenda vuole che gli uomini di casa, risentiti o quantomeno scherzosamente, augurassero a costui di strangolarcisi. In passato gli strangolapreti venivano conditi con sugo di arrosto o di stufato, con salse a base di formaggio e pepe, o semplicemente in bianco. Oggi il condimento più utilizzato è il classico ragù di carne, ma non si disdegnano abbinamenti con ingredienti “forti” come la tipica ‘nduja calabrese.",
+        "preparation": "Per prima cosa preparate gli strangolapreti: mischiate la farina con un pizzico di sale e, nell’incavo centrale, versate l’acqua. Impastate fino a ottenere un impasto liscio ed elastico, aiutandovi con la semola per non fare attaccare la pasta sul piano di lavoro. Formate una sfera, avvolgetela in un panno di stoffa e fate riposare per circa 20 minuti. Trascorso il tempo indicato, riprendete l’impasto e stendetelo con un matterello; raggiunto lo spessore di circa 2-3 mm ritagliate lunghe strisce della larghezza di circa 2 cm. Prendete le strisce ottenute e ripiegatele su loro stesse nel senso della lunghezza, strofinandole tra le mani e staccando piccoli pezzi lunghi circa 5 cm. Lasciate riposare su un vassoio infarinato. Proseguite con la preparazione del condimento: iniziate sminuzzando il prezzemolo e trasferendolo in una ciotola assieme al Pecorino Romano tagliato a tocchetti, la noce moscata e il peperoncino. Farcite le fette di carne di maiale con il composto preparato, avvolgetele con la pancetta e sigillate con dello spago da cucina. Fate rosolare gli involtini in una casseruola con un filo di olio, sfumate con il vino bianco e continuate la cottura fino a che tutto l’alcol non sarà evaporato. Una volta che la carne sarà ben dorata in superficie, aggiungete i pomodori precedentemente lessati e passati nel passaverdure, regolate di sale e pepe e fate cuocere per almeno due ore. Quando il sugo sarà cotto, togliete la casseruola dal fuoco e mettete da parte la carne avendo cura di tenerla al caldo. Portate a bollore una pentola di acqua salata e cuocete gli strozzapreti. Scolate la pasta al dente, trasferitela nella casseruola contenente il sugo e amalgamate bene il tutto. Impiattate i vostri strozzapreti posizionando un involtino in ogni piatto e ultimando la preparazione con un’abbondante grattugiata di delizioso Pecorino.",
+        "coords": [
+            40.621682,
+            15.796984
+        ],
+        "dish_name": "Strozzapreti alla Potentina",
+        "dish_id": 18
+    },
+    {
+        "related_recipes": {
+            "17": "Torta Lucana",
+            "20": "Ciaudedda",
+            "15": "Cucinidd"
+        },
+        "dish_type": "Contorni",
+        "photos": [
+            "basilicata/potenza/peperoni_cruschi_1.jpeg",
+            "basilicata/potenza/peperoni_cruschi_2.jpeg",
+            "basilicata/potenza/peperoni_cruschi_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=4_mIgCW51AA",
+        "city": "Potenza",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Peperoni"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Basilicata",
+        "product_history": "Il peperone crusco è un prodotto tipico della cucina lucana, riconosciuto come prodotto agroalimentare tradizionale (PAT).\nI peperoni cruschi sono noti in Basilicata con diversi nomi a seconda delle zone: tra cui puparulë, paparulë, pëpërussë, pupaccë e pupavërë crušchë, mentre nell'area di Senise sono conosciuti come źafaranë crušchë. Sono anche piuttosto diffusi nella cucina calabrese centro-settentrionale, dove vengono chiamati zafarani, pìpi cruschi e vajanelli jarli.",
+        "preparation": "Per prima cosa mettete a riscaldare abbondante olio extravergine d'oliva all'interno di un padellino, quindi allontanatelo dal fuoco.\nSuccessivamente versate i peperoni secchi tagliati a metà o interi, ma privati dei semi, e fateli soffriggere in modo uniforme e a fuoco lento.\nUna volta che iniziano a scurirsi sollevate i peperoni con una schiumarola e sistemateli in un piatto: per farli restare \"cruschi\", congelateli ancora caldi in freezer.",
+        "coords": [
+            40.660629,
+            15.819901
+        ],
+        "dish_name": "Peperoni Cruschi",
+        "dish_id": 19
+    },
+    {
+        "related_recipes": {
+            "18": "Strozzapreti alla Potentina",
+            "19": "Peperoni Cruschi",
+            "20": "Ciaudedda"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "basilicata/potenza/baccala_potentina_1.jpeg",
+            "basilicata/potenza/baccala_potentina_2.jpeg",
+            "basilicata/potenza/baccala_potentina_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=4Gr9zzsEamU",
+        "city": "Potenza",
+        "ingredients": [
+            {
+                "quantity": 1500,
+                "ingredient": "Baccalà"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 70,
+                "ingredient": "Uva"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Olive"
+            },
+            {
+                "quantity": 250,
+                "ingredient": "Salsa di Pomodoro"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Prezzemolo q.b"
+            }
+        ],
+        "region": "Basilicata",
+        "product_history": "Il baccalà alla potentina si prepara rosolando la cipolla in padella e aggiungendo poi il baccalà ed il concentrato di pomodoro diluito in poca acqua, infine uniremo l’uva e le olive.",
+        "preparation": "In una padella versate l'olio, aggiungete la cipolla affettata e quando sarà dorata aggiungete il baccalà fatto a pezzetti e deliscato finché non sia rosolato.\nA questo punto aggiungete la salsa di pomodoro, l'uva passa precedentemente fatta rinvenire in acqua tiepida e le olive denocciolate.\nCoprire la padella e lasciare cuocere a fuoco moderato per circa 60 minuti, poi distribuire il prezzemolo tritato e servire subito a tavola.",
+        "coords": [
+            40.663884,
+            15.792006
+        ],
+        "dish_name": "Baccalà alla Potentina",
+        "dish_id": 20
+    },
+    {
+        "related_recipes": {
+            "18": "Strozzapreti alla Potentina",
+            "19": "Peperoni Cruschi",
+            "20": "Baccalà alla Potentina"
+        },
+        "dish_type": "Contorni",
+        "photos": [
+            "basilicata/potenza/ciaudedda_1.jpeg",
+            "basilicata/potenza/ciaudedda_2.jpeg",
+            "basilicata/potenza/ciaudedda_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=UQCEHpwvKMw",
+        "city": "Potenza",
+        "ingredients": [
+            {
+                "quantity": 2000,
+                "ingredient": "Fave Fresche"
+            },
+            {
+                "quantity": 1000,
+                "ingredient": "Patate"
+            },
+            {
+                "quantity": 500,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Pancetta"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Carciofi"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Olio EVO"
+            }
+        ],
+        "region": "Basilicata",
+        "product_history": "Il nome deriva da “cialdella”, la fetta di pane arrostito che, secondo la tradizione, accompagnava il piatto, ben condito con olio, oggi l’ottimo extra-vergine di oliva prodotto nel Vulture, Bassa Val d’Agri e Bassa Collina Materana. E’ proprio l’olio il vero segreto di una buona “ciaudedda” perché diviene l’ingrediente che, assieme al pane, fa da legante con gli altri. L’altro segreto perché sia “doc” è cucinarla nella tipica pentola di coccio, caratteristica della Lucania come delle altre regioni del Sud e servirla nei piccoli tegami sempre di coccio.\nUn tempo veniva usato come colazione nei mesi freddi per permettere ai contadini di andare a lavorare nei campi sazi. E nulla poteva riscaldare meglio di un piatto di verdure, magari accompagnato da un bel po’ di peperoncino, protagonista della dieta povera contadina, chiamato in questo territorio in almeno tre modi, diavulicchiu, frangisello, cerasella.",
+        "preparation": "Prepariamo la ciaudedda pelando le patate ed affettandole a tocchetti mentre procederemo a sgusciare le fave che successivamente laveremo con acqua fredda corrente, i carciofi andranno invece privati delle foglie esterne più dure e tagliati in quattro parti.\nAffetteremo le cipolle che verranno poi sistemate in padella con la pancetta tagliata a listarelle o cubetti secondo il gusto personale e aggiungeremo due cucchiai di olio facendo soffriggere il tutto.\nAd imbionditura delle cipolle uniremo quindi le fave, i carciofi e le patate. Mescoleremo con cura il composto e proseguiremo la cottura per circa 45 minuti. Una volta pronta toglieremo la ciaudedda dal fuoco e lasceremo riposare per qualche minuto prima di servire.",
+        "coords": [
+            40.642114,
+            15.843686
+        ],
+        "dish_name": "Ciaudedda",
+        "dish_id": 21
+    },
+    {
+        "related_recipes": {
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "calabria/cosenza/cuddrurieddri_1.jpeg",
+            "calabria/cosenza/cuddrurieddri_2.jpeg",
+            "calabria/cosenza/cuddrurieddri_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=4hniXqMxro0",
+        "city": "Cosenza",
+        "ingredients": [
+            {
+                "quantity": 1000,
+                "ingredient": "Farina 00"
+            },
+            {
+                "quantity": 1000,
+                "ingredient": "Patate"
+            },
+            {
+                "quantity": 25,
+                "ingredient": "Lievito di Birra"
+            },
+            {
+                "quantity": 280,
+                "ingredient": "Acqua Tiepida"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio per friggere q.b"
+            }
+        ],
+        "region": "Calabria",
+        "product_history": "Il Natale è periodo di feste e tradizioni e per la vigilia dell'Immacolata a Cosenza si preparano i cuddrurieddri! Un nome difficile da pronunciare anche per molti calabresi, che spesso preferiscono chiamarli cullurielli. Queste sfiziose ciambelline sono realizzate con un impasto a base di patate e si possono servire con salumi e formaggi, o gustare come street food nelle vie della città mentre si termina di acquistare gli ultimi regali da mettere sotto l'albero. I cuddrurieddri però non sono solo questo, sono una ricetta tramandata di generazione in generazione e si preparano in casa per riunire tutta la famiglia! Con lo stesso impasto potrete preparare anche le vecchiarelle, dei panzerotti ripieni di acciughe e caciocavallo. Quest'anno scaldate il vostro Natale preparando anche voi i cuddrurieddri, seguendo la nostra ricetta sarà davvero semplice!",
+        "preparation": "Per preparare i cuddrurieddri come prima cosa ponete le patate a bollire. Dopo 30-40 minuti, in base alla loro dimensione, saranno cotte; scolatele e ancora calde schiacciatele con lo schiaccia patate, raccogliendo la purea in una ciotola molto capiente. In questo caso non ci sarà bisogno di sbucciarle, perchè la buccia resterà all'interno dello schiacciapatate. Versate l'acqua tiepida in una ciotola, unite il sale 4 e mescolate 5. Aggiungete il lievito sbriciolato e mescolate ancora. Versate questo liquido all'interno delle patate e mescolate con un cucchiaio fino ad ottenere una crema. Aggiungete tutta la farina in un colpo e iniziate ad impastare con le mani, trasferite poi il composto su un piano e lavorate ancora fino ad ottenere un composto omogenee. Utilizzando un tarocco o un coltello ricavate dei pezzi da circa 140 g e aiutandovi con le mani formate delle palline. Man mano ponetele su un vassoio dove avrete posizionato un canovaccio, distanziandole tra loro. Coprite con un altro canovaccio e lasciate lievitare per circa 30 minuti.\nA questo punto versate l'olio di semi in un tegame e scaldatelo fino a raggiungere la temperatura di 170°. A questo punto sollevate la prima pallina e infilando le dita al centro, create il foro allargandole leggermente. Se dovessero appiccicare troppo potete inumidirvi le mani. Immergete la prima ciambella nell'olio caldo e muovetela aiutandovi con un mestolo. Inserendo la parte posteriore del mestolo all'interno del buco della ciambella, riuscirete ad allargarla ulteriormente. Cuocete per circa 2-3 minuti girando la ciambella di tanto in tanto fino a che non sarà ben dorata. Scolatela dall'olio e trasferite su un vassoio foderato con carta da cucina. Procedete in questo modo fino a cuocere tutti i cuddrurieddri e serviteli ancora caldi.",
+        "coords": [
+            39.32963,
+            16.255569
+        ],
+        "dish_name": "Cuddrurieddri",
+        "dish_id": 22
     }
+
+
+
 ]
