@@ -1,6 +1,6 @@
 <template>
   <div class="col-md-3">
-    <div class="sticky-top mt-3">
+    <div class="sticky-top sticky-offset mt-3">
       <b-list-group>
         <b-list-group-item href="#" active class="text-center bottom-list-item">Antipasti</b-list-group-item>
         <b-list-group-item href="#" class="text-center bottom-list-item">Primi</b-list-group-item>
@@ -51,6 +51,10 @@ export default {
   background-color: #c9964c !important;
   color: #495057;
   border-color: transparent;
+}
+
+.sticky-offset {
+  top: 20px;
 }
 
 >>>#regione-dropdown > button {
