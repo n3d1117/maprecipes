@@ -36,7 +36,11 @@ const router = new VueRouter({
         { path: '/map', component: Map },
         { path: '/recipe/:id', component: Recipe, props: true },
         { path: '*', component: Home },
-    ]
+    ],
+    // https://stackoverflow.com/a/57212309
+    scrollBehavior() {
+        document.getElementById('app').scrollIntoView();
+    }
 });
 
 new Vue({
