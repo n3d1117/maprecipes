@@ -56,11 +56,16 @@ export default {
   },
   data() {
     return {
-      antipasti: recipes.filter(recipe => recipe.dish_type === 'Antipasti'),
-      primi: recipes.filter(recipe => recipe.dish_type === 'Primi'),
-      secondi: recipes.filter(recipe => recipe.dish_type === 'Secondi'),
-      contorni: recipes.filter(recipe => recipe.dish_type === 'Contorni'),
-      dolci: recipes.filter(recipe => recipe.dish_type === 'Dolci')
+      antipasti: this.filterAndSort('Antipasti'),
+      primi: this.filterAndSort('Primi'),
+      secondi: this.filterAndSort('Secondi'),
+      contorni: this.filterAndSort('Contorni'),
+      dolci: this.filterAndSort('Dolci')
+    }
+  },
+  methods: {
+    filterAndSort(type) {
+      return recipes.filter(recipe => recipe.dish_type === type).sort((a, b) => (a.dish_name > b.dish_name) ? 1 : -1);
     }
   }
 }
