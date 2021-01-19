@@ -3,7 +3,7 @@
     <router-link class="result_block_anchor" :to="'/recipe/' + recipe.dish_id">
       <div class="card result_block_card">
         <div class="card-body result_block_card_body">
-          <img class="img-fluid card-img-top mb-2 result_block_card_body_img"
+          <img class="img-fluid mb-2 result_block_card_body_img"
                :src="require(`@/assets/${recipe.photos[0]}`)"
                :alt="recipe.dish_name"
           >

@@ -2,11 +2,15 @@
   <l-popup :options="{ maxWidth: 'auto' }">
 
     <div id="popupContainer">
-      <img class="img-fluid rounded"
-           :src="require(`@/assets/${recipe.photos[0]}`)"
-           :alt="recipe.dish_name"
-      >
-      <b-row id="title" class="d-flex justify-content-center pb-1 pt-1 text-center">
+
+      <b-row class="d-flex justify-content-center mt-3 pt-1 mb-2 text-center">
+        <img class="popup-img"
+             width="115px"
+             :src="require(`@/assets/${recipe.photos[0]}`)"
+             :alt="recipe.dish_name"
+        >
+      </b-row>
+      <b-row id="title" class="d-flex justify-content-center mb-2 pt-1 text-center">
         {{ recipe.dish_name }}
       </b-row>
       <b-row class="d-flex justify-content-center">
@@ -58,12 +62,13 @@ div {
 
 #title {
   font-size: 20px;
+  line-height: 1;
 }
 
 .btn-hoverable {
   background-color: var(--button-color);
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   vertical-align: bottom;
   border-radius: 53px;
   box-shadow: var(--soft-shadow);
@@ -82,6 +87,11 @@ div {
 
 #receipt-icon {
   margin-bottom: 3px;
+}
+
+.popup-img {
+  border-radius: 11px;
+  box-shadow: var(--soft-shadow);
 }
 
 </style>
