@@ -5,7 +5,8 @@
 
       <b-row class="d-flex justify-content-center mt-3 pt-1 mb-2 text-center">
         <img class="popup-img"
-             width="115px"
+             width="95%"
+             height="100%"
              :src="require(`@/assets/${recipe.photos[0]}`)"
              :alt="recipe.dish_name"
         >
