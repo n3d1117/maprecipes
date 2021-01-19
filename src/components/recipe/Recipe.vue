@@ -42,7 +42,7 @@
 
         <div class="col-lg-9 order-1 float-left">
           <div class="row mt-3">
-            <div class="col-lg-8 pr-0" id="storia-prodotto-column" style="border-right: 1px solid var(--dark) ;">
+            <div class="col-lg-8" id="storia-prodotto-column" style="border-right: 1px solid var(--dark) ;">
 
               <PrepHistoryBlock title="Storia del prodotto" :text="recipe.product_history"></PrepHistoryBlock>
             </div>
