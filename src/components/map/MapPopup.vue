@@ -1,8 +1,12 @@
 <template>
-  <l-popup>
-    <div id="popupContainer">
+  <l-popup :options="{ maxWidth: 'auto' }">
 
-      <b-row id="title" class="d-flex justify-content-center pb-2 pt-2 text-center">
+    <div id="popupContainer">
+      <img class="img-fluid rounded"
+           :src="require(`@/assets/${recipe.photos[0]}`)"
+           :alt="recipe.dish_name"
+      >
+      <b-row id="title" class="d-flex justify-content-center pb-1 pt-1 text-center">
         {{ recipe.dish_name }}
       </b-row>
       <b-row class="d-flex justify-content-center">
