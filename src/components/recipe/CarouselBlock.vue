@@ -32,7 +32,7 @@ export default {
 <style scoped>
 
 .carousel-container {
-  border: var(--main-bg);
+  border: var(--main-border);
   box-shadow: var(--soft-shadow);
 }
 
