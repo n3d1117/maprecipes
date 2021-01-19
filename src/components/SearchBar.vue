@@ -15,14 +15,14 @@
                placeholder="Cerca una città o un piatto..."
                autocomplete="off"
                required="required"
-               class="sbx-medium__input form-controllino"
+               class="sbx-medium__input sb-input"
         >
-        <button type="submit" title="Submit your search query." class="sbx-medium__submit">
+        <button type="submit" title="Ricerca parola chiave." class="sbx-medium__submit">
           <svg role="img" aria-label="Search">
             <use xlink:href="#sbx-icon-search-13"></use>
           </svg>
         </button>
-        <button type="reset" title="Clear the search query." class="sbx-medium__reset">
+        <button type="reset" title="Cancella la ricerca." class="sbx-medium__reset">
           <svg role="img" aria-label="Reset">
             <use xlink:href="#sbx-icon-clear-2"></use>
           </svg>
@@ -69,12 +69,10 @@ name: 'SearchBar'
   display: inline-block;
   -webkit-transition: box-shadow .4s ease, background .4s ease;
   transition: box-shadow .4s ease, background .4s ease;
-  border: 1px solid black;
-  border-radius: 19px;
-  background: #ffc67a;
-  padding: 0;
-  padding-right: 30px;
-  padding-left: 37px;
+  border: var(--main-border);
+  border-radius: var(--main-radius);
+  background: var(--searchbar-fill);
+  padding: 0 30px 0 37px;
   width: 100%;
   height: 100%;
   vertical-align: middle;
@@ -83,30 +81,24 @@ name: 'SearchBar'
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  box-shadow: 3px 3px 3px var(--dark);
+  box-shadow: var(--soft-shadow);
 }
 
-.sbx-medium__input::-webkit-search-decoration, .sbx-medium__input::-webkit-search-cancel-button, .sbx-medium__input::-webkit-search-results-button, .sbx-medium__input::-webkit-search-results-decoration {
+.sbx-medium__input::-webkit-search-decoration,
+.sbx-medium__input::-webkit-search-cancel-button,
+.sbx-medium__input::-webkit-search-results-button,
+.sbx-medium__input::-webkit-search-results-decoration {
   display: none;
 }
 
 .sbx-medium__input:focus, .sbx-medium__input:active {
   outline: 0;
-  background: #ffc67a;
+  background: var(--searchbar-fill);
 }
 
-.sbx-medium__input::-webkit-input-placeholder {
-  color: #AAAAAA;
-}
-
-.sbx-medium__input::-moz-placeholder {
-  color: #AAAAAA;
-}
-
-.sbx-medium__input:-ms-input-placeholder {
-  color: #AAAAAA;
-}
-
+.sbx-medium__input::-webkit-input-placeholder,
+.sbx-medium__input::-moz-placeholder,
+.sbx-medium__input:-ms-input-placeholder,
 .sbx-medium__input::placeholder {
   color: #AAAAAA;
 }
@@ -118,7 +110,7 @@ name: 'SearchBar'
   left: 0;
   margin: 0;
   border: 0;
-  border-radius: 18px 0 0 18px;
+  border-radius: var(--main-radius) 0 0 var(--main-radius);
   background-color: rgba(255, 255, 255, 0);
   padding: 0;
   width: 37px;
@@ -152,7 +144,7 @@ name: 'SearchBar'
   width: 17px;
   height: 17px;
   vertical-align: middle;
-  fill: #666666;
+  fill: var(--text-color);
 }
 
 .sbx-medium__reset {
@@ -205,13 +197,13 @@ name: 'SearchBar'
   }
 }
 
-.form-controllino {
+.sb-input {
   font-size: 25px;
   padding-top: 5px;
 }
 
-.form-controllino::placeholder {
-  color: #494949;
+.sb-input::placeholder {
+  color: var(--text-color);
   font-size: 25px;
 }
 

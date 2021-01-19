@@ -7,9 +7,9 @@ import "leaflet/dist/leaflet.css";
 import {LMap, LMarker, LTileLayer} from "vue2-leaflet";
 import {Icon} from "leaflet";
 import VueRouter from 'vue-router'
-import Home from './components/pages/Home'
-import Map from './components/pages/Map'
-import Recipe from './components/pages/Recipe'
+import Home from './components/home/Home'
+import Map from './components/map/Map'
+import Recipe from './components/recipe/Recipe'
 
 Vue.component('l-map', LMap);
 Vue.component('l-tile-layer', LTileLayer);

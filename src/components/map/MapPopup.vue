@@ -9,7 +9,7 @@
 
         <router-link :to="'/recipe/' + recipe.dish_id" target="_blank">
           <button class="btn btn-primary btn-hoverable" type="button">
-            <b-icon icon="receipt"></b-icon>&nbsp; RICETTA
+            <b-icon icon="receipt" id="receipt-icon"></b-icon>&nbsp; RICETTA
           </button>
         </router-link>
 
@@ -34,7 +34,7 @@ export default {
 
 <style>
 .leaflet-popup-content-wrapper, .leaflet-popup-tip {
-  background: rgb(255,198,122) !important;
+  background: var(--main-color) !important;
   box-shadow: 2px 2px 7px 0 black !important;
 }
 .leaflet-popup-close-button {
@@ -43,8 +43,9 @@ export default {
 </style>
 
 <style scoped>
+
 div {
-  font-family: 'Yanone Kaffeesatz', serif;
+  font-family: var(--main-font);
 }
 
 #popupContainer {
@@ -56,21 +57,27 @@ div {
 }
 
 .btn-hoverable {
-  background-color: rgb(72,58,230) !important;
-  color: #fff !important;
-  font-size: 20px !important;
-  vertical-align: bottom !important;
-  border-radius: 53px !important;
-  box-shadow: 3px 3px 3px var(--dark) !important;
-  border-color: rgba(255,255,255,0) !important;
-  padding-bottom: 2px !important;
+  background-color: var(--button-color);
+  color: #fff;
+  font-size: 20px;
+  vertical-align: bottom;
+  border-radius: 53px;
+  box-shadow: var(--soft-shadow);
+  border-color: transparent;
+  padding-bottom: 2px;
 }
 
 .btn-hoverable:hover {
-  background-color: #8667ff !important;
+  background-color: var(--button-hover-color);
 }
 
+.btn-hoverable:focus,
 .btn-hoverable:active {
-  background-color: #000cb2 !important;
+  background-color: var(--button-hover-color) !important;
 }
+
+#receipt-icon {
+  margin-bottom: 3px;
+}
+
 </style>

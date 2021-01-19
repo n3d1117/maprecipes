@@ -1,5 +1,5 @@
 <template>
-  <b-navbar id="navbar_stanis" toggleable="lg" type="light" variant="info">
+  <b-navbar id="b_navbar" toggleable="lg" type="light" variant="info">
 
     <b-navbar-brand class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-8">
       <router-link to="/">
@@ -39,7 +39,7 @@ export default {
 
 <style scoped>
 
-#navbar_stanis {
+#b_navbar {
   background-color: transparent !important;
 }
 
@@ -55,24 +55,20 @@ export default {
 }
 
 #navbar_mappa_piatti {
-  color: var(--light);
+  color: #fff;
   border-radius: 32px;
   font-size: 30px;
-  box-shadow: 3px 3px 3px var(--dark);
+  box-shadow: var(--soft-shadow);
   padding-bottom: 2px;
   width: 215px;
 }
 
 .btn-hoverable {
-  background-color: rgb(72,58,230);
+  background-color: var(--button-color);
 }
 
 .btn-hoverable:hover {
-  background-color: #8667ff;
-}
-
-.btn-hoverable:active {
-  background-color: #000cb2;
+  background-color: var(--button-hover-color);
 }
 
 #geo-icon {

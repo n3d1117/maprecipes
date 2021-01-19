@@ -11,8 +11,10 @@ name: 'BackgroundLayer'
 </script>
 
 <style scoped>
+
 #landing {
   background: url("../assets/bg.png") no-repeat;
   background-size: cover;
 }
+
 </style>

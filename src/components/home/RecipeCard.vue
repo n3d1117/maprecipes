@@ -26,9 +26,10 @@ export default {
 </script>
 
 <style scoped>
+
 .result_block_anchor {
-  color: inherit !important;
-  text-decoration: none !important;
+  color: inherit;
+  text-decoration: none;
 }
 
 .card.result_block_card {
@@ -39,14 +40,14 @@ export default {
 .card-body.result_block_card_body {
   padding: 11px;
   border-radius: 11px;
-  background-color: rgb(255, 198, 122);
-  box-shadow: 2px 2px 5px #aaaaaa;
-  border: 1px solid #aaaaaa;
+  background-color: var(--main-color);
+  box-shadow: var(--softer-shadow);
+  border: var(--soft-border);
 }
 
 .result_block_card_body_img {
   border-radius: 11px;
-  box-shadow: 2px 2px 5px;
-  border: 1px solid #c0c0c0;
+  box-shadow: var(--soft-shadow);
 }
+
 </style>

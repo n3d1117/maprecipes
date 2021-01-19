@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="pt-2">
+    <h1 class="pt-3">
       <b-icon icon="receipt" class="p-0 m-0"></b-icon>&nbsp; Ingredienti
     </h1>
 
@@ -85,16 +85,16 @@ export default {
 
 #regola_porzioni {
   height: 45px;
-  border: 1px solid black;
-  border-radius: 19px;
-  background-color: #fff9aa;
-  box-shadow: 2px 2px 7px;
+  border: var(--main-border);
+  border-radius: var(--main-radius);
+  background-color: var(--main-bg);
+  box-shadow: var(--soft-shadow);
 }
 
-/* Counter */
-
 .qty .count {
-  color: #000;
+  -webkit-text-fill-color: var(--text-color);
+  color: var(--text-color);
+  opacity: 1;
   display: inline-block;
   vertical-align: top;
   font-size: 25px;
@@ -106,39 +106,28 @@ export default {
   background-color: transparent;
 }
 
-.qty .plus {
+.qty > span {
   cursor: pointer;
   display: inline-block;
   vertical-align: top;
   color: white;
   width: 20px;
   height: 20px;
-  font: 20px/1 Arial,sans-serif;
   text-align: center;
   border-radius: 50%;
   margin-top: 3px;
+}
+
+.qty > span:hover {
+  background-color: var(--button-hover-color) !important;
+}
+
+.qty .plus {
+  font: 20px/1 Arial, sans-serif;
 }
 
 .qty .minus {
-  cursor: pointer;
-  display: inline-block;
-  vertical-align: top;
-  color: white;
-  width: 20px;
-  height: 20px;
-  font: 18px/1 Arial,sans-serif;
-  text-align: center;
-  border-radius: 50%;
-  background-clip: padding-box;
-  margin-top: 3px;
-}
-
-.minus:hover {
-  background-color: #717fe0 !important;
-}
-
-.plus:hover {
-  background-color: #717fe0 !important;
+  font: 18px/1 Arial, sans-serif;
 }
 
 #lista_ingredienti > li {
@@ -147,22 +136,18 @@ export default {
 }
 
 .btn-hoverable {
-  background-color: rgb(72,58,230) !important;
-  color: #fff !important;
-  font-size: 29px !important;
-  vertical-align: bottom !important;
-  border-radius: 53px !important;
-  box-shadow: 3px 3px 3px var(--dark) !important;
-  border-color: rgba(255,255,255,0) !important;
-  padding-bottom: 2px !important;
+  background-color: var(--button-color);
+  color: #fff;
+  font-size: 29px;
+  vertical-align: bottom;
+  border-radius: 53px;
+  box-shadow: var(--soft-shadow);
+  border-color: rgba(255,255,255,0);
+  padding-bottom: 2px;
 }
 
 .btn-hoverable:hover {
-  background-color: #8667ff !important;
-}
-
-.btn-hoverable:active {
-  background-color: #000cb2 !important;
+  background-color: var(--button-hover-color);
 }
 
 .minus, .plus {
@@ -176,7 +161,8 @@ export default {
   width: 2%;
 }
 
-.count::-webkit-outer-spin-button, .count::-webkit-inner-spin-button {
+.count::-webkit-outer-spin-button,
+.count::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }

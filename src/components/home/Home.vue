@@ -37,11 +37,11 @@
 
 <script>
 import SearchBar from "@/components/SearchBar"
-import HomeSidebar from "@/components/HomeSidebar";
-import HomeResultBlock from "@/components/HomeResultBlock";
+import HomeSidebar from "@/components/home/HomeSidebar";
+import HomeResultBlock from "@/components/home/HomeResultBlock";
 import MainLayer from "@/components/MainLayer";
-import HomeFooter from "@/components/HomeFooter";
-import ScrollToTopArrow from "@/components/ScrollToTopArrow";
+import HomeFooter from "@/components/home/HomeFooter";
+import ScrollToTopArrow from "@/components/home/ScrollToTopArrow";
 import recipes from '@/recipes.json'
 
 export default {
@@ -76,7 +76,7 @@ export default {
 <style scoped>
 
 #bottom-bg {
-  background-color: #fff9aa;
+  background-color: var(--main-bg);
 }
 
 #searchbar_title {

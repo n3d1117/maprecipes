@@ -43,13 +43,13 @@ export default {
 <style scoped>
 
 .bottom-list-item {
-  background-color: rgb(255, 198, 122) !important;
+  background-color: var(--main-color);
   font-size: 30px;
 }
 
 .bottom-list-item.active {
-  background-color: #c9964c !important;
-  color: #495057;
+  background-color: var(--ingredients-sidebar-bg);
+  color: var(--text-color);
   border-color: transparent;
 }
 
@@ -59,12 +59,12 @@ export default {
 
 >>>#regione-dropdown > button {
   font-size: 30px;
-  box-shadow: 2px 2px 10px #aaaaaa;
-  background: #483ae6;
+  box-shadow: var(--soft-shadow);
+  background: var(--button-color);
 }
 
 >>>#regione-dropdown > button:hover {
-  background-color: #8667ff;
+  background-color: var(--button-hover-color);
 }
 
 >>>#regione-dropdown > ul {
@@ -73,8 +73,10 @@ export default {
   max-height: 200px;
   overflow-y: auto;
   left: 50% !important;
-  right: auto !important;
+  right: auto;
   transform: translate(-50%, 63px) !important;
+  outline: none 0;
+  -webkit-box-shadow: none;
 }
 
 </style>

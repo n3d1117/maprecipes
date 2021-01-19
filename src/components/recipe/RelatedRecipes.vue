@@ -1,12 +1,10 @@
 <template>
   <div>
-    <h1 id="related_recipes_title" class="mb-0 ml-3 ml-lg-0 mt-xl-0 mt-2 text-left">Ricette correlate</h1>
+    <h1 id="related_recipes_title" class="mb-1 ml-3 ml-lg-0 mt-xl-0 mt-2 text-left">Ricette correlate</h1>
     <ul id="related_recipes_list"
-        class="ml-lg-0 ml-3 mb-1 pl-4 mr-2 text-left"
-        v-for="(name, id) in related_recipes"
-        v-bind:key="id"
+        class="ml-lg-0 ml-3 mb-3 pl-4 mr-2 text-left"
     >
-      <li>
+      <li v-for="(name, id) in related_recipes" v-bind:key="id">
         <router-link :to="'/recipe/' + id">{{ name }}</router-link>
       </li>
     </ul>

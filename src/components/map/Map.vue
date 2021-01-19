@@ -32,7 +32,7 @@
 
 import MainLayer from "@/components/MainLayer";
 import SearchBar from "@/components/SearchBar";
-import MapRecipes from "@/components/MapRecipes";
+import MapRecipes from "@/components/map/MapRecipes";
 
 export default {
   name: 'Map',
@@ -42,6 +42,7 @@ export default {
     MapRecipes
   }
 }
+
 </script>
 
 <style scoped>
@@ -53,16 +54,16 @@ export default {
 >>>#piatto-dropdown > button {
   height: 50px;
   font-size: 30px;
-  box-shadow: 2px 2px 10px black;
-  background: rgb(255,198,122);
-  color: #495057;
-  border: 1px solid black;
+  box-shadow: var(--soft-shadow);
+  background: var(--main-color);
+  color: var(--text-color);
+  border: var(--main-border);
   border-radius: 19px;
   padding-top: 5px;
 }
 
 >>>#piatto-dropdown > button:hover {
-  background-color: #fff9aa;
+  background-color: var(--main-bg);
 }
 
 >>>#piatto-dropdown > ul {
@@ -71,8 +72,10 @@ export default {
   max-height: 200px;
   overflow-y: auto;
   left: 50% !important;
-  right: auto !important;
+  right: auto;
   transform: translate(-50%, 50px) !important;
+  outline: none 0;
+  -webkit-box-shadow: none;
 }
 
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="mt-2 mb-0 ml-3 ml-lg-0 text-left">{{ name }}</h1>
+    <h1 class="mt-3 mb-0 ml-3 ml-lg-0 text-left">{{ name }}</h1>
     <HorizontalSeparator></HorizontalSeparator>
     <ul class="mt-3 ml-lg-0 ml-3 pl-4 mb-0 text-left" id="lista_localita">
       <li>Regione: {{ region }}</li>
@@ -24,4 +24,5 @@ name: 'RecipeInfo',
 #lista_localita {
   font-size: 27px;
 }
+
 </style>

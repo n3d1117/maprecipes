@@ -31,6 +31,7 @@ export default {
 </script>
 
 <style scoped>
+
 #chevron {
   display: none;
   position: fixed;
@@ -39,21 +40,18 @@ export default {
   z-index: 99;
   font-size: 18px;
   border: none;
-  box-shadow: 2px 2px 7px 0 black;
+  box-shadow: var(--soft-shadow);
   outline: none;
-  background-color: rgb(72,58,230);
-  color: white;
+  background-color: var(--button-color);
+  color: #fff;
   cursor: pointer;
   padding: 15px;
   border-radius: 50%;
 }
 
 #chevron:hover {
-  background-color: #8667ff;
+  background-color: var(--button-hover-color);
 }
 
-#chevron:active {
-  background-color: #000cb2;
-}
 
 </style>

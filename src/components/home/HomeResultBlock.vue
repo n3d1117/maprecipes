@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import RecipeCard from "@/components/RecipeCard";
+import RecipeCard from "@/components/home/RecipeCard";
 import HorizontalSeparator from "@/components/HorizontalSeparator";
 
 export default {
@@ -37,4 +37,5 @@ export default {
 #result_block_tipo_piatto {
   color: var(--gray);
 }
+
 </style>

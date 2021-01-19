@@ -13,8 +13,10 @@ export default {
 </script>
 
 <style scoped>
+
 #djumbo {
   min-height: calc(100vh - 77px);
   background: transparent;
 }
+
 </style>

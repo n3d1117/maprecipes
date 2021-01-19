@@ -28,7 +28,7 @@
 import { latLng } from "leaflet";
 import { LMap, LTileLayer, LMarker } from "vue2-leaflet";
 import recipes from '@/recipes.json'
-import MapPopup from "@/components/MapPopup";
+import MapPopup from "@/components/map/MapPopup";
 import 'leaflet-fullscreen/dist/leaflet.fullscreen.css';
 import 'leaflet-fullscreen/dist/Leaflet.fullscreen';
 
@@ -67,11 +67,12 @@ export default {
 </script>
 
 <style scoped>
+
 #map {
   width: 100%;
   height: 450px;
-  box-shadow: 2px 2px 7px;
-  /*border-radius: 19px;*/
-  border: 1px solid black;
+  box-shadow: var(--soft-shadow);
+  border: var(--main-border);
 }
+
 </style>

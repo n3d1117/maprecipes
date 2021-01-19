@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-2 mr-lg-2 carousel-container">
+  <div class="mt-3 mr-lg-4 carousel-container">
 
     <b-carousel
         id="carousel-1"
@@ -30,8 +30,10 @@ export default {
 </script>
 
 <style scoped>
+
 .carousel-container {
-  border: 1px solid black;
-  box-shadow: 2px 2px 7px;
+  border: var(--main-bg);
+  box-shadow: var(--soft-shadow);
 }
+
 </style>

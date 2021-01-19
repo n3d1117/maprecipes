@@ -9,7 +9,9 @@ export default {
 </script>
 
 <style scoped>
+
 #horizontal_separator {
-  background: rgb(157,168,177);
+  background: #8d8d8d;
 }
+
 </style>

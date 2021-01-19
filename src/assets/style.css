@@ -1,0 +1,15 @@
+:root {
+    --main-font: 'Yanone Kaffeesatz', serif;
+    --main-color: #ffc67a;
+    --main-bg: #fff9aa;
+    --ingredients-sidebar-bg: #c9964c;
+    --searchbar-fill: #ffc67a;
+    --main-border: 1px solid var(--dark);
+    --soft-border: 1px solid #8f8f8f;
+    --main-radius: 19px;
+    --text-color: #495057;
+    --button-color: #483ae6;
+    --button-hover-color: #8667ff;
+    --soft-shadow: 2px 2px 5px var(--dark);
+    --softer-shadow: 3px 3px 3px #aaaaaa;
+}

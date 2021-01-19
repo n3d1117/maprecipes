@@ -1,12 +1,12 @@
 <template>
-  <div class="mr-lg-2 mr-4 mt-xl-0 mt-2">
+  <div class="mr-lg-3 mr-4 pr-2 mt-xl-0 mt-2">
 
     <h1 class="mb-0 ml-3 ml-lg-0 text-left block_title">{{ title }}
-      <a class="lens-minus" href="javascript:" v-on:click="decreaseFontSize">
-        <b-icon icon="zoom-out"></b-icon>
+      <a class="lens-minus pl-2 pr-1" href="javascript:" v-on:click="decreaseFontSize">
+        <b-icon icon="zoom-out" font-scale="0.8"></b-icon>
       </a>
       <a class="lens-plus" href="javascript:" v-on:click="increaseFontSize">
-        <b-icon icon="zoom-in"></b-icon>
+        <b-icon icon="zoom-in" font-scale="0.8"></b-icon>
       </a>
     </h1>
     <textarea class="w-100 p-2 ml-lg-0 ml-3 textarea_recipe"
@@ -64,7 +64,7 @@ export default {
 <style scoped>
 
 .block_title {
-  font-size: 31px;
+  font-size: 30px;
 }
 
 .lens-minus, .lens-plus {
@@ -72,12 +72,15 @@ export default {
 }
 
 .textarea_recipe {
-  border: 1px solid black;
+  border: var(--main-border);
   resize: none;
-  background-color: transparent;
-  border-radius: 19px;
-  box-shadow: 2px 2px 7px;
+  background: transparent;
+  border-radius: var(--main-radius);
+  box-shadow: var(--soft-shadow);
   min-height: 170px;
+  -webkit-text-fill-color: var(--text-color);
+  color: var(--text-color);
+  opacity: 1;
 }
 
 </style>

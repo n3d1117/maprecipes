@@ -1,7 +1,7 @@
 <template>
   <MainLayer>
 
-    <div class="container p-0 mb-3" id="recipe_block">
+    <div class="container p-0 mb-5" id="recipe_block">
 
       <div class="row d-flex d-lg-block">
 
@@ -21,11 +21,11 @@
         <div class="col-lg-9 order-0 float-left">
           <div class="row">
 
-            <div class="col-lg-8">
+            <div class="col-lg-7">
               <RecipeInfo v-bind:region="recipe.region" v-bind:city="recipe.city" v-bind:name="recipe.dish_name"></RecipeInfo>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-5">
               <CarouselBlock v-bind:photos="recipe.photos" v-bind:title="recipe.dish_name"></CarouselBlock>
             </div>
 
@@ -42,7 +42,7 @@
 
         <div class="col-lg-9 order-1 float-left">
           <div class="row mt-3">
-            <div class="col-lg-8" id="storia-prodotto-column" style="border-right: 1px solid var(--dark) ;">
+            <div class="col-lg-8 pr-0" id="storia-prodotto-column" style="border-right: 1px solid var(--dark) ;">
 
               <PrepHistoryBlock title="Storia del prodotto" :text="recipe.product_history"></PrepHistoryBlock>
             </div>
@@ -65,11 +65,11 @@
 
 import $ from 'jquery'
 import MainLayer from "@/components/MainLayer";
-import PrepHistoryBlock from "@/components/PrepHistoryBlock";
-import RelatedRecipes from "@/components/RelatedRecipes";
-import IngredientsBlock from "@/components/IngredientsBlock";
-import RecipeInfo from "@/components/RecipeInfo";
-import CarouselBlock from "@/components/CarouselBlock";
+import PrepHistoryBlock from "@/components/recipe/PrepHistoryBlock";
+import RelatedRecipes from "@/components/recipe/RelatedRecipes";
+import IngredientsBlock from "@/components/recipe/IngredientsBlock";
+import RecipeInfo from "@/components/recipe/RecipeInfo";
+import CarouselBlock from "@/components/recipe/CarouselBlock";
 import recipes from '@/recipes.json'
 
 export default {
@@ -104,12 +104,12 @@ export default {
           recipe_block.style.minHeight = 'initial';
           recipe_block.style.height = 'initial';
         } else {
-          ingredients_block_outer.style.backgroundColor='#c9964c';
-          ingredients_block_inner.style.borderTopLeftRadius = '19px';
+          ingredients_block_outer.style.backgroundColor='var(--ingredients-sidebar-bg)';
+          ingredients_block_inner.style.borderTopLeftRadius = 'var(--main-radius)';
 
-          recipe_block.style.minHeight = '650px';
+          recipe_block.style.minHeight = '700px';
           recipe_block.style.height = 'calc(90vh - 80px)';
-          ingredients_block_outer.style.minHeight = '650px';
+          ingredients_block_outer.style.minHeight = '700px';
           ingredients_block_outer.style.height = 'calc(90vh - 80px)';
         }
       }
@@ -122,7 +122,7 @@ export default {
         if ($(window).width() < 992) {
           storia_prodotto_column.style.borderRight = '0px';
         } else {
-          storia_prodotto_column.style.borderRight = '1px solid var(--dark)';
+          storia_prodotto_column.style.borderRight = 'var(--main-border)';
         }
       }
 
@@ -143,23 +143,20 @@ export default {
 <style scoped>
 
 #recipe_block {
-  border-radius: 19px;
-  border-width: 1px;
-  border-color: #000000;
-  box-shadow: 2px 2px 7px;
-  background: rgb(255,198,122);
+  border-radius: var(--main-radius);
+  box-shadow: var(--soft-shadow);
+  background: var(--main-color);
 }
 
 #ingredients_block_inner {
-  background-color: #c9964c;
-  border-radius: 19px 0 0 0;
+  background-color: var(--ingredients-sidebar-bg);
+  border-radius: var(--main-radius) 0 0 0;
 }
 
 #ingredients_block_outer {
-  border-top-left-radius: 19px;
-  border-bottom-left-radius: 19px;
-  border-width: 1px;
-  background-color: rgb(201, 150, 76);
+  border-top-left-radius: var(--main-radius);
+  border-bottom-left-radius: var(--main-radius);
+  background-color: var(--ingredients-sidebar-bg);
 }
 
 </style>

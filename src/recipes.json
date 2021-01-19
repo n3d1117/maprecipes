@@ -497,7 +497,9 @@
         },
         "dish_type": "Secondi",
         "photos": [
-            "basilicata/matera/cucinidd_1.jpeg"
+            "basilicata/matera/cucinidd_1.jpeg",
+            "basilicata/matera/cucinidd_2.jpeg",
+            "basilicata/matera/cucinidd_3.jpeg"
         ],
         "video_recipe": "https://www.youtube.com/watch?v=-mZD4xqi-ro",
         "city": "Matera",

@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
 
-          <img class="mb-2" src="../assets/logo.png" alt="logo" width="200px">
+          <img class="mb-2" src="../../assets/logo.png" alt="logo" width="200px">
 
           <p id="footer-content">
             GeoRecipes è una web app che cataloga ricette italiane suddividendole per antipasti, primi, secondi,
@@ -30,7 +30,7 @@
 
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
       © 2021 Copyright:
-      <router-link to="/" class="text-white">georecipes.com</router-link>
+      <router-link to="/" class="text-white">georecipes.it</router-link>
     </div>
   </footer>
 </template>
@@ -42,7 +42,9 @@ export default {
 </script>
 
 <style scoped>
+
 #footer-content {
   font-size: 20px
 }
+
 </style>
