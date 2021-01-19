@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <ul id="lista_ingredienti" class="mt-3">
+    <ul id="lista_ingredienti" class="mt-3 mr-2">
       <li v-for="ingredient in orderedIngredients"
           v-bind:key="ingredient.ingredient">
         <span v-if="ingredient.quantity === 0">{{ ingredient.ingredient }}</span>

@@ -869,6 +869,9 @@
     },
     {
         "related_recipes": {
+            "23": "Zeppole Calabresi",
+            "24": "Struncatura",
+            "25": "Morzello"
         },
         "dish_type": "Antipasti",
         "photos": [
@@ -913,8 +916,555 @@
         ],
         "dish_name": "Cuddrurieddri",
         "dish_id": 22
+    },
+    {
+        "related_recipes": {
+            "22": "Cuddrurieddri",
+            "24": "Struncatura",
+            "25": "Morzello"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "calabria/reggio_calabria/zeppole_calabresi_1.jpeg",
+            "calabria/reggio_calabria/zeppole_calabresi_2.jpeg",
+            "calabria/reggio_calabria/zeppole_calabresi_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=7DyWDJypUKY",
+        "city": "Reggio Calabria",
+        "ingredients": [
+            {
+                "quantity": 1500,
+                "ingredient": "Farina 00"
+            },
+            {
+                "quantity": 25,
+                "ingredient": "Lievito di birra"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio per friggere q.b"
+            },
+            {
+                "quantity": 350,
+                "ingredient": "Patate"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Acciughe dissalate"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Sale"
+            },
+            {
+                "quantity": 1000,
+                "ingredient": "Acqua"
+            }
+        ],
+        "region": "Calabria",
+        "product_history": "Tipiche delle province di Reggio Calabria e Vibo Valentia, le zeppole calabresi conosciute in dialetto calabrese come zippuli) hanno la particolarità di essere salate a differenza delle classiche zeppole che si trovano nelle altre regioni italiane (ad esempio le zeppole di San Giuseppe). Cotte in olio bollente, hanno un sapore molto forte grazie alle acciughe.",
+        "preparation": "Lavate e lessate le patate senza sbucciarle e con un po' di sale. Cuocetele mezz'ora, poi sbucciatele e passatele nello schiacciapatate. Dopo aver sciolto il lievito di birra in mezzo litro d'acqua versatelo al centro della farina dopo averla setacciata. Impastate bene aggregando anche la crema di patate ed il sale sciolto nell'altro mezzo litro d'acqua. Lavorate bene l'impasto ed una volta omogeneo fatelo lievitare per circa 4 ore. Riprendete l'impasto e fatene palline, all'intrno delle quali inserite le acciughe sminuzzate. Friggete in abbondante olio caldo fino a che la zeppola non diventa dorata.",
+        "coords": [
+            38.138061,
+            15.71076
+        ],
+        "dish_name": "Zeppole Calabresi",
+        "dish_id": 23
+    },
+    {
+        "related_recipes": {
+            "22": "Cuddrurieddri",
+            "23": "Zeppole Calabresi",
+            "25": "Morzello"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "calabria/reggio_calabria/struncatura_1.jpeg",
+            "calabria/reggio_calabria/struncatura_2.jpeg",
+            "calabria/reggio_calabria/struncatura_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=dHKdOYbX-J4",
+        "city": "Reggio Calabria",
+        "ingredients": [
+            {
+                "quantity": 360,
+                "ingredient": "Pasta struncatura"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Pomodorini"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Mollica"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Alici"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Peperoncino q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Capperi q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Olive nere"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pecorino q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Prezzemolo q.b"
+            }
+        ],
+        "region": "Calabria",
+        "product_history": "Le origini della stroncatura sono molto antiche, essa giunse in Calabria con gli amalfitani (affermazione non chiara perché nella zona di Amalfi e in tutta la Campania non esiste questo piatto). Questi, da secoli, intrattenevano rapporti commerciali con la Calabria, avviando varie attività commerciali. È importante rilevare che intorno alla fine del 1800 nella Piana di Gioia Tauro, attivissima zona commerciale, si riscontrava una presenza cospicua di commercianti provenienti dalla Costiera Amalfitana come risulta dall'Annuario d'Italia del 1895 dove si evidenzia una numerosa presenza di commercianti di pasta. Gli amalfitani, presenti appunto in tutta la Piana, probabilmente iniziarono a diffondere questo prodotto che originariamente era destinato agli animali, che divenuto dapprima piatto della cucina povera, è oggi un patrimonio culinario di tutta la zona. In alcuni centri pianigiani la \"struncatura\" vanta un'antica e gloriosa tradizione, e questo la rende appunto \"piatto tipico della cucina della Piana\". La tradizione tramanda che i pastifici utilizzavano le scopature di magazzino cioè raccoglievano da terra e i residui misti di farina e crusca delle operazioni di molitura del grano. Successivamente venivano impastati dando luogo ad un tipo di pasta dal colore scuro chiamata, appunto, struncatura che veniva venduta a prezzi molto bassi. Essendo destinata agli animali, per motivi igienici venne proibita per l'alimentazione umana, ma continuò comunque ad esser venduta in alcune botteghe del posto, quasi come fosse merce di contrabbando. Talvolta risultava di sapore molto acido e veniva data in pasto a galline e maiali. Per il suo bassissimo costo veniva consumata dalle classi sociali meno abbienti, e per correggere o attenuare il grado di acidità veniva condita con salse molto piccanti o con acciughe salate. Attualmente, la sua ricetta è stata riscoperta e adeguata alla normativa vigente. È prodotta da pochi pastifici artigianali con ingredienti di qualità come il grano duro, segale e la farina integrale.",
+        "preparation": "In una padella fate soffriggere l'aglio e il peperoncino con olio extravergine. Cominciate a cuocere la pasta in acqua bollente non salata; Nella padella mettete gli altri ingredienti, ovvero le alici dissalate, i capperi, i pomodorini le olive denocciolate e tagliate a pezzetti. A cottura ultimata scolate la pasta, mescolatela col sugo preparato e cospargetela con mollica di pane abbrustolita, pecorino e prezzemolo tritato.",
+        "coords": [
+            38.416219,
+            15.904726
+        ],
+        "dish_name": "Struncatura",
+        "dish_id": 24
+    },
+    {
+        "related_recipes": {
+            "26": "Polpette alla Mammolese",
+            "22": "Cuddrurieddri",
+            "23": "Zeppole Calabresi"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "calabria/catanzaro/morzello_1.jpeg",
+            "calabria/catanzaro/morzello_2.jpeg",
+            "calabria/catanzaro/morzello_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=Qp5Vqaa9lD8",
+        "city": "Catanzaro",
+        "ingredients": [
+            {
+                "quantity": 1000,
+                "ingredient": "Trippa"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Cipolla tritata"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Peperoncino"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Vino rosso"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Origano q.b"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Pancetta"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Concentrato di pomodori"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Calabria",
+        "product_history": "La nascita di questo piatto è legato ad una vecchia leggenda catanzarese, secondo la quale una donna che lavorava come serva in una famiglia molto facoltosa, aveva enormi difficoltà nel far quadrare i conti legati al bilancio domestico ed un giorno, per far fronte a tali problemi, ideò un piatto a base di carne: un piatto sostanzioso, che potesse essere conservato a lungo e che permettesse di utilizzare tutte le interiora del vitello che normalmente venivano scartate dal cuoco della famiglia presso cui lavorava. Ideò quindi, dopo tante prove, il morzello e lo chiamò così perché è tagliato in piccoli pezzi (in dialetto catanzarese morzha morzha).",
+        "preparation": "Tagliate le trippe a listarelle, sciacquatele e scolatele. In una casseruola, meglio se di coccio, imbiondite nell'olio la pancetta e la cipolla, mettete le trippe, fatele asciugare e poi rosolare; versate il vino e lasciatelo evaporare. Salate e aggiungete il concentrato sciolto in un mestolo di acqua calda, i peperoncini e l'origano. Cuocete col coperchio per un'ora abbondante a fuoco moderato. Il morsello si serve nelle “pitte”, panini a crosta morbida, tipo tartine, oppure in “pitta”. Invece che con trippe miste si può preparare con frattaglie e carne di maiale, oppure con carni di capretto o agnello.",
+        "coords": [
+            38.894205,
+            16.606555
+        ],
+        "dish_name": "Morzello",
+        "dish_id": 25
+    },
+    {
+        "related_recipes": {
+            "24": "Struncatura",
+            "25": "Morzello",
+            "22": "Cuddrurieddri"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "calabria/reggio_calabria/polpette_mammolese_1.jpeg",
+            "calabria/reggio_calabria/polpette_mammolese_2.jpeg",
+            "calabria/reggio_calabria/polpette_mammolese_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=kUFpIUGC8bM",
+        "city": "Reggio Calabria",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Carne di maiale macinata"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Formaggio caprino"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Prezzemolo q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Pane"
+            },
+            {
+                "quantity": 240,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Peperoncino q.b"
+            },
+            {
+                "quantity": 500,
+                "ingredient": "Salsa di pomodoro"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            }
+        ],
+        "region": "Calabria",
+        "product_history": "Polpette alla mammolese è un'antica pietanza della cucina montanara di Mammola, territorio del Parco nazionale dell'Aspromonte e delle zone della provincia di Reggio Calabria. La ricetta prevede carne di maiale macinata, uova, pane ammollato nell'acqua, formaggio di capra grattugiato, aglio e peperoncino. Anticamente le polpette venivano utilizzate nelle ricorrenze festive, con il sugo veniva condita la pasta fatta in casa. Le polpette sono servite come secondo piatto.",
+        "preparation": "In un recipiente preparare l'impasto con la carne cruda tritata, le uova, il pane ammollato, il formaggio caprino, ed un trito di aglio, peperoncino, prezzemolo, un cucchiaio d'olio, sale, e mescolare bene per ottenere un impasto morbido e compatto. Preparare le polpette a forma di palline di media grossezza di circa 4 cm di diametro e porle in vassoio per riposare per mezz'ora. In un tegame di terracotta fate soffriggere l'aglio, la cipolla e un peperoncino, aggiungere la salsa di pomodoro, quando la salsa è in ebollizione porre le polpette e mescolare. Appena le polpette saranno cotte si sistemeranno in un vassoio, lasciando ulteriormente asciugare il sugo se non fosse sufficientemente denso. Al termine coprire le polpette con il sugo e servire ben caldo in tavola.",
+        "coords": [
+            38.141842,
+            15.740283
+        ],
+        "dish_name": "Polpette alla Mammolese",
+        "dish_id": 26
+    },
+    {
+        "related_recipes": {
+            "24": "Struncatura",
+            "25": "Morzello",
+            "26": "Polpette alla Mammolese"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "calabria/cosenza/baccala_cosentina_1.jpeg",
+            "calabria/cosenza/baccala_cosentina_2.jpeg",
+            "calabria/cosenza/baccala_cosentina_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=zSTCeF_mv-U",
+        "city": "Cosenza",
+        "ingredients": [
+            {
+                "quantity": 800,
+                "ingredient": "Baccalà"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Peperoni"
+            },
+            {
+                "quantity": 400,
+                "ingredient": "Patatine novelle"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Prezzemolo q.b"
+            }
+        ],
+        "region": "Calabria",
+        "product_history": "La ricetta del baccalà alla cosentina è una valida alternativa al più noto piatto del baccala alla vicentina. In questa ricetta della cucina calabrese gli ingredienti originali sono le patate e i peperoni e niente altro. Uno dei grandi vantaggi di cucinare questo secondo piatto è la cottura al forno, che da una parte vi farà risparmiare molto tempo e attenzione per la preparazione, e dall’altra offre una cottura più leggera, senza soffritti ne fritture. Permessa anche la cottura sul fuoco bassissimo.",
+        "preparation": "Lavate il baccalà, spellatelo, togliete le lische e tagliatelo a pezzi. Mettetelo in una tortiera a strati con patate e peperoni; salate e pepate. Irrorate d'olio, coprite a filo con acqua e infornate a 200 gradi per tre quarti d'ora circa. A fine cottura l'acqua dovrà essere tutta consumata. Questa preparazione si può cuocere anche direttamente sul fuoco, ma bassissimo.",
+        "coords": [
+            39.341165,
+            16.252304
+        ],
+        "dish_name": "Baccalà alla cosentina",
+        "dish_id": 27
+    },
+    {
+        "related_recipes": {
+            "25": "Morzello",
+            "26": "Polpette alla Mammolese",
+            "27": "Baccalà alla cosentina"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "calabria/vibo_valentia/nduja_1.jpeg",
+            "calabria/vibo_valentia/nduja_2.jpeg",
+            "calabria/vibo_valentia/nduja_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=l1GiEGvtVJM",
+        "city": "Vibo Valentia",
+        "ingredients": [
+            {
+                "quantity": 2000,
+                "ingredient": "Lardo di pancetta o altre parti grasse"
+            },
+            {
+                "quantity": 800,
+                "ingredient": "Carne magra"
+            },
+            {
+                "quantity": 1400,
+                "ingredient": "Salsa di peperoni dolci"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Peperoncino macinato"
+            },
+            {
+                "quantity": 65,
+                "ingredient": "Sale"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Budella di maiale q.b"
+            }
+        ],
+        "region": "Calabria",
+        "product_history": "Originaria di Spilinga, un piccolo comune in provincia di Vibo Valentia, la ‘nduja, o anche detta duja, è un insaccato noto in tutto il mondo. Ha un colore rosso acceso, una consistenza cremosa e un gusto piccante e pungente. Oggi è un ingrediente usato anche nei menù gourmet dei ristoranti stellati, ma la sua origine è estremamente povera: nasce, infatti, nella società contadina calabrese dalla necessità di sfruttare ogni parte del suino. \nL’origine del nome della nduja di Spilinga è da ricercare nel termine latino induco e cioè introdurre, che fa riferimento al gesto di introdurre la carne lavorata all’interno del budello.",
+        "preparation": "Iniziate a macinare la carne molto finemente: dovete ottenere una crema grossolana. Unite alla carne i peperoncini piccanti essiccati e ridotti in polvere e il sale: andateci piano e assaggiate man mano, ma tenete conto che il piccante perderà di intensità un po’ durante la stagionatura.\nUna volta mescolato bene il composto, insaccatelo nel budello e lasciate riposare 12 ore prima di procedere con l’affumicatura e l’asciugatura.\nAppendete la ‘nduja in una stanza apposita (meglio se con camino) e abbiate cura di accendere un fuoco di almeno mezz’ora per i primi 10 giorni di affumicatura.",
+        "coords": [
+            38.677936,
+            16.109607
+        ],
+        "dish_name": "'Nduja",
+        "dish_id": 28
+    },
+    {
+        "related_recipes": {
+            "25": "Morzello",
+            "27": "Baccalà alla cosentina",
+            "28": "'Nduja"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "calabria/catanzaro/cuzzupa_1.jpeg",
+            "calabria/catanzaro/cuzzupa_2.jpeg",
+            "calabria/catanzaro/cuzzupa_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=58yexjcznMY",
+        "city": "Catanzaro",
+        "ingredients": [
+            {
+                "quantity": 600,
+                "ingredient": "Farina 00"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Strutto"
+            },
+            {
+                "quantity": 840,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 25,
+                "ingredient": "Lievito di birra"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Anice"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Scorza di limone q.b"
+            }
+        ],
+        "region": "Calabria",
+        "product_history": "La cuzzùpa, o sguta, o angùta, o vuta, o pizzatola, o cullùra, è un dolce tipico pasquale calabrese, viene chiamato con nomi diversi e forme anche in maniera diversa, con la caratteristica dell'uovo simbolo della Pasqua, prodotto su tutto il territorio della Calabria, simile anche ai Cuddhuraci, prodotto nella provincia di Reggio Calabria, nella parte meridionale della provincia di Catanzaro e nella provincia di Crotone.\nQuesto dolce pasquale è di origine orientale e simboleggia la fine del digiuno di quaresima: l'uovo è il simbolo della risurrezione di Gesù.",
+        "preparation": "Mescolate la farina col lievito e un poco di acqua calda, lasciando poi il panetto ottenuto a lievitare in un posto tiepido per un paio di ore, poi unitelo al resto della farina messa a fontana. Unite 4 uova, il liquore, lo zucchero, un pizzico di sale, la scorza di limone e in ultimo lo strutto ammorbidito. Lavorate l'impasto a lungo finché non apparirà sodo ed elastico. Formate ora delle ciambelle o dei panetti delle dimensioni di circa 10 centimetri e su ciascuno sistemate fermamente un uovo crudo intero. Disponete le \"cuzzupe\" su una placca da forno infarinata, lasciatele lievitare per circa 2 ore e poi cuocetele in forno a 170 °C finché non diventeranno dorate.",
+        "coords": [
+            38.861468,
+            16.599978
+        ],
+        "dish_name": "Cuzzupa",
+        "dish_id": 29
+    },
+    {
+        "related_recipes": {
+            "27": "Baccalà alla cosentina",
+            "28": "'Nduja",
+            "29": "Cuzzupa"
+        },
+        "dish_type": "Contorni",
+        "photos": [
+            "calabria/cosenza/melanzane_ripiene_1.jpeg",
+            "calabria/cosenza/melanzane_ripiene_2.jpeg",
+            "calabria/cosenza/melanzane_ripiene_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=z2TXJC0xOvM",
+        "city": "Cosenza",
+        "ingredients": [
+            {
+                "quantity": 2000,
+                "ingredient": "Melanzane"
+            },
+            {
+                "quantity": 400,
+                "ingredient": "Carne macinata"
+            },
+            {
+                "quantity": 425,
+                "ingredient": "Salsa di pomodori"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Pecorino"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Basilico q.b"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Pinoli"
+            }
+        ],
+        "region": "Calabria",
+        "product_history": "Le Melanzane ripiene, “Mulangiani chjini” o “Mulingiani chini”, vengono chiamati con nomi diversi. È una pietanza molto usata nella zona del Vibonese e in molti comuni della Calabria, varia nella preparazione a seconda delle tradizioni di ogni Comune e delle zone montane e marine. Le tradizionali “Melanzane ripiene” sono un piatto tipico, semplice e gustoso della cucina calabrese e si preparano con la polpa delle stesse melanzane, in particolare nel periodo estivo. Il sapore viene determinato dall’impasto e dalle giuste quantità degli aromi naturali, in particolare dal Formaggio Caprino, che esalta il gusto. Le Melanzane vengono anche preparate con il ripieno dello stocco (stoccafisso), ricotta, verdure, patate ecc., variando di gusto. La pietanza fa parte della rinomata dieta mediterranea.",
+        "preparation": "Preriscaldate il forno a 200 ºC. Lavate bene e tagliate ciascuna melanzana a metà in lunghezza e mettetele  su un vassoio rivestito con carta da forno, cospargete di sale e fate riposare 30 minuti. Lavatele e asciugatele di nuovo e mettetele in forno per 1 ora. Nel frattempo, sbucciate e tritate finemente la cipolla e l'aglio. In una padella scaldate 2 cucchiai di olio e fate rosolare la cipolla e poi soffriggeteci anche\nl'aglio. Aggiungete la carne macinata, mescolate bene e condite il composto con sale e pepe nero. Togliete la carne dal fuoco e aggiungete qualche foglia di basilico tritato e i pinoli. Togliete le melanzane dal forno, svuotatele e inseriteci all'interno il composto di carne macinata. Coprite le melanzane ripiene con salsa di pomodoro e cospargete il formaggio in cima. Infornate per venti minuti, fate raffreddare qualche minuto e servite in tavola.",
+        "coords": [
+            39.365987,
+            16.260887
+        ],
+        "dish_name": "Melanzane Ripiene",
+        "dish_id": 30
+    },
+    {
+        "related_recipes": {
+            "19": "Peperoni Cruschi",
+            "18": "Strozzapreti alla Potentina",
+            "17": "Torta Lucana"
+        },
+        "dish_type": "Contorni",
+        "photos": [
+            "basilicata/potenza/ciambotta_1.jpeg",
+            "basilicata/potenza/ciambotta_2.jpeg",
+            "basilicata/potenza/ciambotta_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=iHm3-3lCwuc",
+        "city": "Potenza",
+        "ingredients": [
+            {
+                "quantity": 200,
+                "ingredient": "Patate"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Pomodori"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Peperoni"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Zucchine"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Melanzane"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olive q.b"
+            }
+        ],
+        "region": "Basilicata",
+        "product_history": "La ciambotta è un piatto tipico della cucina meridionale italiana, essenzialmente uno stufato, che può venire consumato come contorno o come primo a seconda degli ingredienti che lo compongono e di come viene cucinato. La ciambotta è a base di verdura, ma può presentare altri ingredienti come carne o pesce. Le verdure scelte sono solitamente: patate, melanzane, pomodori, peperoni, peperoncino, cipolla, erbe aromatiche.",
+        "preparation": "Lavare le melanzane, le patate, i peperoni, le zucchine ed i pomodori. Tagliare le melanzane a pezzetti, le patate a dadini, i peperoni a filetti, e le zucchine a rondelle, mentre i pomodori andranno pelati. Nella padella scaldare abbondante olio, poi friggervi successivamente le melanzane, le zucchine, le patate ed i peperoni. Eliminare i semi dai pomodori e spezzettatene la polpa. Sgocciolare bene le verdure fritte, quindi riunirle in un tegame, unire la polpa di pomodoro, salare, aggiungere lo spicchio di aglio intero e cuocere a fuoco basso per 10 minuti. Servire.",
+        "coords": [
+            40.616926,
+            15.834578
+        ],
+        "dish_name": "Ciambotta",
+        "dish_id": 31
     }
-
-
-
 ]
