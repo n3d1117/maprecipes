@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="pt-3">
-      <b-icon icon="receipt" class="p-0 m-0"></b-icon>&nbsp; Ingredienti
+      <b-icon icon="receipt" id="receipt_icon" class="p-0 m-0"></b-icon>&nbsp; Ingredienti
     </h1>
 
     <div class="ml-2 mr-2" id="regola_porzioni">
@@ -82,6 +82,10 @@ export default {
 </script>
 
 <style scoped>
+
+#receipt_icon {
+  margin-bottom: 5px !important;
+}
 
 #regola_porzioni {
   height: 45px;
