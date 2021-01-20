@@ -1224,14 +1224,14 @@
             39.341165,
             16.252304
         ],
-        "dish_name": "Baccalà alla cosentina",
+        "dish_name": "Baccalà alla Cosentina",
         "dish_id": 27
     },
     {
         "related_recipes": {
             "25": "Morzello",
             "26": "Polpette alla Mammolese",
-            "27": "Baccalà alla cosentina"
+            "27": "Baccalà alla Cosentina"
         },
         "dish_type": "Antipasti",
         "photos": [
@@ -1280,7 +1280,7 @@
     {
         "related_recipes": {
             "25": "Morzello",
-            "27": "Baccalà alla cosentina",
+            "27": "Baccalà alla Cosentina",
             "28": "'Nduja"
         },
         "dish_type": "Dolci",
@@ -1337,7 +1337,7 @@
     },
     {
         "related_recipes": {
-            "27": "Baccalà alla cosentina",
+            "27": "Baccalà alla Cosentina",
             "28": "'Nduja",
             "29": "Cuzzupa"
         },
@@ -1466,5 +1466,1428 @@
         ],
         "dish_name": "Ciambotta",
         "dish_id": 31
+    },
+    {
+        "related_recipes": {
+            "33": "Frittata di Pasta",
+            "34": "Frittata di Scammaro",
+            "35": "Gateau di Patate"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "campania/napoli/pasta_genovese_1.jpeg",
+            "campania/napoli/pasta_genovese_2.jpeg",
+            "campania/napoli/pasta_genovese_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=7fEY0EhDbN8",
+        "city": "Napoli",
+        "ingredients": [
+            {
+                "quantity": 400,
+                "ingredient": "Pasta"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Carote medie"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Vino bianco"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 800,
+                "ingredient": "Carne di vitello"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Sedano"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pecorino q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 1000,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Concentrato di pomodoro"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "Molte sono le ipotesi sull'origine di questa pietanza; chi la vuole originaria di Genova. Chi opera di anonimi cuochi genovesi che operavano nel porto della città partenopea tra il XIV ed il XV secolo. La ricetta potrebbe anche riferirsi al nome del suo inventore, poiché Genovese è un cognome alquanto diffuso in Campania. Tuttavia va sottolineato come nel Liber de Coquina, uno dei primi ricettari dell'occidente latino, redatto a Napoli tra il XIII ed il XIV secolo, compaia uno stufato di cipolle con il pollo \"o altra carne\" ed il formaggio grattugiato, usata per condire la Tria Ianuensis (ossia, pasta genovese), che è anche il titolo della ricetta. Questo ne farebbe una delle più antiche salse per condire la pasta ancora in uso nella tradizione italiana. \n  \"Per la tria genovese soffriggi delle cipolle con dell’olio e mettile in acqua bollente a cuocere e versavi delle spezie e colora e insaporisci come desideri, a questo puoi aggiungere formaggio grattato oppure tagliato a pezzi. E servile ogni volta che ti piace con capponi ed uova oppure con qualunque carne\". \n  La salsa genovese è tuttora sconosciuta oltre i confini della Campania. L'uso delle cipolle nel sugo può riflettere un'influenza francese e ricorda il boeuf à la mode. Durante la metà del XIX secolo, nel ristorante Grand Véfour del Palais-Royal a Parigi veniva servito il \"salmone in intingolo olandese e genovese\" come piatto di lusso. Il sugo alla genovese non deve essere confuso con la salsa genovese, un condimento di verdure per pesce[13] – e neanche con la sauce génevoise del lago di Ginevra, ancora una volta servita con il pesce.",
+        "preparation": "Pulite e tagliuzzate le cipolle, le carote, il sedano. Tagliate anche a pezzi di medie dimensioni la carne. A parte cominciate a soffriggere la carota ed il sedano a cui poi aggiungerete i pezzi di carne facendo rosolare. Sfumate di vino bianco e al termine aggiungete il concentrato di pomodoro e quindi le cipolle e mescolate aggiustando di sale. Lasciate cuocere per un paio d'ore. A parte intanto cuocerete la pasta e una volta cotta al dente toglietela dal tegame e conditela con il sugo alla genovese preparato aggiustando con del pecorino.",
+        "coords": [
+            40.798966,
+            14.190118
+        ],
+        "dish_name": "Pasta alla Genovese",
+        "dish_id": 32
+    },
+    {
+        "related_recipes": {
+            "32": "Pasta alla Genovese",
+            "34": "Frittata di Scammaro",
+            "35": "Gateau di Patate"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "campania/napoli/frittata_pasta_1.jpeg",
+            "campania/napoli/frittata_pasta_2.jpeg",
+            "campania/napoli/frittata_pasta_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=tr6hb3xfCpM",
+        "city": "Napoli",
+        "ingredients": [
+            {
+                "quantity": 360,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 400,
+                "ingredient": "Vermicelli"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Parmigiano"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Pecorino"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio di semi q.b"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "La frittata di maccheroni (quest'ultimo era un termine con cui si indicava qualsiasi tipo di pasta) nacque nella città partenopea per riciclare la pasta avanzata che non poteva essere buttata via durante i periodi di maggiore povertà. Con il passare del tempo, la ricetta venne rielaborata e si iniziarono ad aggiungere, oltre alle uova e al formaggio, il pomodoro e altri gusti. Oggi la frittata di pasta viene consumata come secondo piatto, antipasto e talvolta tagliata a cubetti per gli aperitivi.",
+        "preparation": "Per prima cosa lessate i vermicelli in una pentola con abbondante acqua bollente salata, avendo cura di scolarli ben al dente e lasciandoli raffreddare. All'interno di una ciotola sbattete le uova con latte, parmigiano e pecorino grattugiati, sale e pepe, facendo amalgamare bene il tutto e unendo poi i vermicelli e il burro. Sistemate poi il composto in una padella antiaderente unta di olio di semi e lasciate cuocere la frittata per 5 minuti da un lato. Una volta che si è formata la crosticina, capovolgete la frittata e lasciatela cuocere 5 minuti dall'altro lato, quindi servitela in tavola dopo averla fatto stemperare qualche minuto.",
+        "coords": [
+            40.820274,
+            14.159219
+        ],
+        "dish_name": "Frittata di Pasta",
+        "dish_id": 33
+    },
+    {
+        "related_recipes": {
+            "33": "Frittata di Pasta",
+            "32": "Pasta alla Genovese",
+            "35": "Gateau di Patate"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "campania/napoli/frittata_scammaro_1.jpeg",
+            "campania/napoli/frittata_scammaro_2.jpeg",
+            "campania/napoli/frittata_scammaro_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=hfxDFxqR02c",
+        "city": "Napoli",
+        "ingredients": [
+            {
+                "quantity": 400,
+                "ingredient": "Vermicelli"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Uva passa q.b"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Olive nere"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Capperi"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Filetti d'acciuga sott'olio"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Pinoli"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Prezzemolo q.b"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "Il nome non è legato ad un luogo bensì probabilmente alle sue origini: nei conventi nei giorni di Quaresima alcuni monaci, per motivi di salute, erano autorizzati alla deroga del mangiare di magro purché questo avvenisse in privato nella propria camera, senza che nessun confratello potesse assistere.\nMangiare nella propria camera assunse il significato di mangiare proteine animali e la camera, cammarare, divenne al contrario ‘scammarare’ ossia mangiare di magro.\nFacile poi l’assonanza con scammaro.",
+        "preparation": "Cuocete la pasta che più gradite e scolatela molto al dente. A parte soffriggete l’aglio con un filo di olio, unite del prezzemolo tritato, le olive, i capperi, i pinoli, le acciughe e l’uva passa.\nRimuovete l’aglio, condite la pasta, riponetela nella stessa padella con cui avete preparato il soffritto con ancora un filo di olio.\nFate cuocere facendo formare una crosticina dorata e croccante in superficie.",
+        "coords": [
+            40.845731,
+            14.153039
+        ],
+        "dish_name": "Frittata di Scammaro",
+        "dish_id": 34
+    },
+    {
+        "related_recipes": {
+            "33": "Frittata di pasta",
+            "32": "Pasta alla Genovese",
+            "34": "Frittata di Scammaro"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "campania/napoli/gateau_1.jpeg",
+            "campania/napoli/gateau_2.jpeg",
+            "campania/napoli/gateau_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=KkgWxHBCT-Q",
+        "city": "Napoli",
+        "ingredients": [
+            {
+                "quantity": 1000,
+                "ingredient": "Patate"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Prosciutto cotto"
+            },
+            {
+                "quantity": 180,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Latte q.b"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Mozzarella"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Parmigiano q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pangrattato q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Prezzemolo q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Burro q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "Dopo il 1768, con le nozze della regina Maria Carolina, figlia di Maria Teresa Lorena-Asburgo, moglie di Ferdinando I Borbone, Napoli divenne luogo di confronto delle grandi cucine europee. La nuova Regina rafforzò nella capitale il gusto francese e la consuetudine di affidare il servizio di cucina ai \"monsieurs\", cuochi di alto rango che, a partire da quel tempo, i napoletani cominciarono a chiamare \"monzu'\" ed i siciliani \"monsù\", dalla corruzione del termine francese. Nell'arco di pochi decenni, assunsero denominazioni francesi alcune tradizionali pietanze partenopee e sicule: il gattò, la pasta al gratin, il crocchè, il ragù, il sartù di riso, il supplì.",
+        "preparation": "Lavate le patate intere e cuocetele in acqua bollente per una mezz'ora abbondante. Nel frattempo tagliuzzate la mozzarella, la mortadella e il prezzemolo e una volta pronte le patate, scolatele e toglietele dalla buccia. Con una forchetta riducetele in purea ed unitele con parmigiano, prezzemolo, mortadella, latte e uova ed aggiustate di sale e pepe, mescolando con cura. Versate il composto in una pirofila oliata e coprite con pan grattato e parmigiano, unitevi dei fiocchi di burro ed infornate in forno caldo a 200° per 40 minuti. Servitelo quando sarà ben gratinato in superficie.",
+        "coords": [
+            40.861312,
+            14.185998
+        ],
+        "dish_name": "Gateau di Patate",
+        "dish_id": 35
+    },
+    {
+        "related_recipes": {
+            "33": "Frittata di pasta",
+            "35": "Gateau di Patate",
+            "34": "Frittata di Scammaro"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "campania/napoli/gnocchi_sorrentina_1.jpeg",
+            "campania/napoli/gnocchi_sorrentina_2.jpeg",
+            "campania/napoli/gnocchi_sorrentina_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=bbay082qGZc",
+        "city": "Napoli",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Gnocchi"
+            },
+            {
+                "quantity": 70,
+                "ingredient": "Parmigiano"
+            },
+            {
+                "quantity": 600,
+                "ingredient": "Passata di pomodoro"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 250,
+                "ingredient": "Mozzarella"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Basilico q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Peperoncino fresco q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "In Campania gli gnocchi venivano detti strangulaprievete da cui l'impropria traduzione nell'odierno strangolapreti, tuttavia l'etimo seppur suggestivo, non è da ricondurre agli ordini religiosi, bensì a più antiche radici greche.",
+        "preparation": "In una padella fate soffriggere la cipolla grattugiata e un peperoncino. Aggiungete la passata di pomodoro, sale, pepe e basilico fresco. Cuocete gli gnocchi e uniteli al sugo, quindi aggiungete la mozzarella a cubetti e fatela sciogliere. Mettete tutto in un pentolino da forno aggiungendo altra mozzarella a cubetti, una spolverata di parmigiano e quindi infornando a 200 gradi per 10 minuti.",
+        "coords": [
+            40.881043,
+            14.23063
+        ],
+        "dish_name": "Gnocchi alla Sorrentina",
+        "dish_id": 36
+    },
+    {
+        "related_recipes": {
+            "36": "Gnocchi alla Sorrentina",
+            "35": "Gateau di Patate",
+            "34": "Frittata di Scammaro"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "campania/napoli/pizza_1.jpeg",
+            "campania/napoli/pizza_2.jpeg",
+            "campania/napoli/pizza_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=58MgXpl2FDM",
+        "city": "Napoli",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 5,
+                "ingredient": "Lievito di birra"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Acqua frizzante"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Sale"
+            },
+            {
+                "quantity": 35,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 500,
+                "ingredient": "Polpa di pomodoro"
+            },
+            {
+                "quantity": 400,
+                "ingredient": "Mozzarella"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Formaggio grattugiato q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Basilico q.c"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "La leggenda narra che nel giugno 1889, per onorare la Regina d'Italia, Margherita di Savoia, il cuoco Raffaele Esposito della Pizzeria Brandi inventò una pietanza che chiamò proprio Pizza Margherita[2] (con riferimento al fatto che il termine \"pizza\", allora sconosciuto al di fuori della città partenopea, indicava quasi sempre le torte dolci), dove i condimenti salati capitatigli tra le mani, pomodoro, mozzarella e basilico, rappresentavano addirittura gli stessi colori della bandiera italiana.\nSecondo recenti studi a carattere filologico, però, la storia della pizza Margherita preparata da “Brandi” per la prima volta sarebbe un “falso storico\". Il filologo Emmanuele Rocco, nel secondo volume del libro Usi e costumi di Napoli e contorni descritti e dipinti di Francesco De Bourcard pubblicato nel 1858, scrisse di varie combinazioni di condimento con diversi ingredienti tra i quali basilico, “pomidoro” e “sottili fette di muzzarella”.\nInoltre, già nel 1830, un certo \"Riccio\", nel libro Napoli, contorni e dintorni, aveva descritto una pizza a base di pomodoro, mozzarella e basilico.",
+        "preparation": "Unite farina, un pizzico di sale e il lievito sciolto nell’acqua frizzante, aggiungete dell’olio extravergine d’oliva all’impasto e lavoratelo fino a ottenere un panetto. Lasciate riposare il panetto d'impasto per almeno due ore, quindi ungete d’olio una teglia rotonda e stendetevi sopra l’impasto lasciando i bordi più alti. Condite con della polpa di pomodoro e un pizzico di sale, quindi infornate a 250 gradi per 10 minuti, facendo ben attenzione a non far cuocere troppo la pizza. Dopo 10 minuti aggiungete la mozzarella, il formaggio grattugiato, le foglie di basilico fresco e infornate alla stessa temperatura per altri 10 minuti.",
+        "coords": [
+            40.880524,
+            14.265649
+        ],
+        "dish_name": "Pizza Margherita",
+        "dish_id": 37
+    },
+    {
+        "related_recipes": {
+            "37": "Pizza Margherita",
+            "36": "Gnocchi alla Sorrentina",
+            "35": "Gateau di Patate"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "campania/napoli/spaghetti_puttanesca_1.jpeg",
+            "campania/napoli/spaghetti_puttanesca_2.jpeg",
+            "campania/napoli/spaghetti_puttanesca_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=Z59zqJjUG4w",
+        "city": "Napoli",
+        "ingredients": [
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Acciuga sott'olio"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Olive"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Capperi"
+            },
+            {
+                "quantity": 400,
+                "ingredient": "Pomodori"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Prezzemolo q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Fiocchi di peperoncino q.b"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "Le prime testimonianze di una pasta condita con una salsa molto simile a quella della Puttanesca, risalgono agli inizi del XIX secolo, quando il Cavalcanti, nel suo manuale Cucina teorico-pratica, propose alcune ricette di cucina popolare napoletana, tra le quali una \"puttanesca\" ante litteram, definendola \"Vermicelli all'oglio con olive capperi ed alici salse\". Dopo alcune sporadiche apparizioni in altri ricettari di cucina napoletana, nel 1931 la Guida gastronomica d'Italia, edita dal T.C.I., la elenca tra le specialità gastronomiche della Campania, definendola \"Maccheroni alla marinara\", anche se la ricetta proposta è indubbiamente quella della moderna puttanesca. Si tratta dunque di uno dei molti casi nei quali il nome con cui è nota oggi la preparazione è successivo alla comparsa della stessa. Infatti a Napoli, nel linguaggio comune, questo particolare condimento per la pasta è noto semplicemente come aulive e cchiapparielle.\nIl primo riferimento esplicito agli \"spaghetti alla puttanesca\" è quello di Raffaele La Capria nel romanzo Ferito a morte (1961), in cui si menzionano gli \"spaghetti alla puttanesca come li fanno a Siracusa\".",
+        "preparation": "Scaldate l'olio in una pentola media e aggiungete la cipolla e l'aglio finemente tritati, il peperoncino a volontà e le acciughe sgocciolate. Fate cuocere a fuoco lento, mescolando, per 5-7 minuti o finché le acciughe non si sciolgono in una polpa morbida. Aggiungete le olive nere e i capperi e lasciate soffriggere per un minuto circa. Aggiungete i pomodori, l'acqua, metà prezzemolo, regolate di sale portando a sapore. Mescolate bene e portate a ebollizione, poi abbassate la fiamma e coprite la pentola. Lasciate bollire per 30 minuti, mescolando di tanto in tanto. Nel frattempo cuocete la pasta scolandola al dente. Scolate la pasta e versatela in una scodella preriscaldata. Versate la salsa sulla pasta, mescolando bene. Servite subito, aggiungendo una spolverata del prezzemolo rimasto.",
+        "coords": [
+            40.876889,
+            14.307534
+        ],
+        "dish_name": "Spaghetti alla Puttanesca",
+        "dish_id": 38
+    },
+    {
+        "related_recipes": {
+            "38": "Spaghetti alla Puttanesca",
+            "37": "Pizza Margherita",
+            "36": "Gnocchi alla Sorrentina"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "campania/napoli/spaghetti_vongole_1.jpeg",
+            "campania/napoli/spaghetti_vongole_2.jpeg",
+            "campania/napoli/spaghetti_vongole_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=60PHFiWz5LQ",
+        "city": "Napoli",
+        "ingredients": [
+            {
+                "quantity": 350,
+                "ingredient": "Spaghetti"
+            },
+            {
+                "quantity": 1000,
+                "ingredient": "Vongole"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Peperoncino fresco q.b"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Prezzemolo q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Limone q.b"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "Come molti altri piatti della tradizione partenopea, dello stesso piatto esistono più versioni: rossa e bianca. Esiste perfino la versione senza vongole, che altro non è che spaghetti aglio e olio (aglio e uoglie) detti anche alla borbonica ovvero spaghetti cu 'e vongole fujute.\nLa pasta può essere vermicelli, spaghetti o linguine e va cotta al dente e poi mantecata in padella nel sauté di vongole, sfumate con vino bianco secco possibilmente. Nella variante rossa, con aggiunta di pomodori, si può completare il piatto con un po' della dose di prezzemolo fresco tritato finemente, la cui maggior parte deve finire nella salsa assieme ai pomodori. I pomodorini, cotti e un po' appassiti, sono comunque opzionali. È possibile condire gli spaghetti con peperoncino.",
+        "preparation": "Tagliate gli spicchi d'aglio a pezzetti e metteteli a rosolare nell'olio in una padella, poi aggiungete le vongole ben lavate e scolate e lasciatele cuocere per 2 o 3 minuti fino a completa apertura. A cottura ultimata eliminate quelle che non si saranno aperte, mettete da parte una metà delle vongole con i gusci ed estraete la vongola dal guscio di quelle rimaste. Lasciate le vongole sgusciate nella padella dove aggiungerete il prezzemolo tritato fine, sale, peperoncino e anche gli spaghetti che nel frattempo avrete cotto in una pentola con abbondante acqua salata e scolato molto al dente. Fate mantecare per qualche minuto gli spaghetti con le vongole, poi servite immediatamente decorandoli con le vongole che avevate messo da parte ed eventualmente qualche fettina di limone.",
+        "coords": [
+            40.868582,
+            14.348046
+        ],
+        "dish_name": "Spaghetti alle Vongole",
+        "dish_id": 39
+    },
+    {
+        "related_recipes": {
+            "39": "Spaghetti alle Vongole",
+            "38": "Spaghetti alla Puttanesca",
+            "37": "Pizza Margherita"
+        },
+        "dish_type": "Contorni",
+        "photos": [
+            "campania/napoli/parmigiana_1.jpeg",
+            "campania/napoli/parmigiana_2.jpeg",
+            "campania/napoli/parmigiana_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=3UTNDDyzPzc",
+        "city": "Napoli",
+        "ingredients": [
+            {
+                "quantity": 1500,
+                "ingredient": "Melanzane"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 1500,
+                "ingredient": "Passata di pomodoro"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Parmigiano"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Basilico q.b"
+            },
+            {
+                "quantity": 500,
+                "ingredient": "Olio di semi"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Sale"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "La storia della ricetta non è chiara e dunque risulta impossibile risalire con certezza alla sua origine geografica. Pertanto, l'invenzione del piatto viene circoscritta tra la Campania, la Calabria e la Sicilia, territori in cui si diffuse inizialmente la melanzana, una pianta appartenente alla famiglia delle Solanacee e originaria del subcontinente indiano o della Cina meridionale, introdotta in Europa probabilmente nel corso del basso medioevo dagli Arabi, prima in Spagna e poi in Sicilia, per poi diffondersi nel Sud Italia.",
+        "preparation": "In una padella versate dell'olio e fate soffriggere aglio e cipolla fino a doratura. Aggiungete quindi la passata e lasciate addensare il composto. Una volta pronto il basilico tagliato dovrà mescolarsi ai sapori, a fuoco spento. Lavate quindi le melanzane, spuntatele e con l'aiuto di una mandolina tagliate le fette alte 1 cm seguendo il verso della lunghezza. Lasciate quindi \"riposare\" le melanzane affettate in uno scolapasta con del sale grosso, in modo che il liquido amaro venga espulso. Quindi risciacquate e asciugate. In un'ampia padella scaldate dell'olio di semi, abbondante, e friggete le melanzane in entrambi i lati. Asciugatele con della carta assorbente. Ungete una pirofila di 15x20 cm con dell'olio e cospargete con la passata. Adagiate un primo strato di melanzane, ancora della passata e infine spolverate con il parmigiano grattugiato. Proseguite in quest'ordine fino a esaurimento degli ingredienti. Preriscaldate il forno a 180°-200° e fate cuocere per circa 30-40 min. Una volta cotta, lasciate la teglia nel forno spento, in modo da far rapprendere gli ingredienti. Sfornatela e servitela a piacere, tiepida o fredda.",
+        "coords": [
+            40.849367,
+            14.387872
+        ],
+        "dish_name": "Parmigiana di Melanzane",
+        "dish_id": 40
+    },
+    {
+        "related_recipes": {
+            "39": "Spaghetti alle Vongole",
+            "38": "Spaghetti alla Puttanesca",
+            "40": "Parmigiana di Melanzane"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "campania/napoli/casatiello_1.jpeg",
+            "campania/napoli/casatiello_2.jpeg",
+            "campania/napoli/casatiello_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=gWniwkoYj6c",
+        "city": "Napoli",
+        "ingredients": [
+            {
+                "quantity": 1000,
+                "ingredient": "Farina 00"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Lievito di birra"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Strutto"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 400,
+                "ingredient": "Formaggi misti"
+            },
+            {
+                "quantity": 400,
+                "ingredient": "Salame"
+            },
+            {
+                "quantity": 180,
+                "ingredient": "Uova"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "La diffusione del casatiello, al pari della pastiera, altro prodotto pasquale partenopeo, pare essere attestata almeno a partire dal Seicento.\nUna conferma indiretta se ne ha dalle pagine della favola La gatta Cenerentola di Giambattista Basile, scrittore napoletano vissuto a cavallo tra il XVI e il XVII secolo, che descrive i festeggiamenti dati dal re per trovare la fanciulla che aveva perso lo scarpino.",
+        "preparation": "In un poco di acqua tiepida stemperate i cubetti di lievito, non usare acqua troppo calda per evitare che uccida i fermenti del lievito. Disporre la farina a fontana ponendo al centro lo strutto, il sale il pepe ed il lievito sciolto nell'acqua e iniziate ad impastare aiutandovi con poca acqua per volta fino ad ottenere un impasto morbido che verrà lavorato ancora per una decina di minuti sbattendolo sul tavolo. Ponete l'impasto in una terrina coperta da uno straccio da cucina pulito e tenetela in un luogo tiepido e non ventilato lasciando lievitare finché non avrà raddoppiato il proprio volume. Nel frattempo tagliate tutti i formaggi e il salame a dadini piccoli, tagliate a pezzetti anche le uova sode. Al termine della lievitazione stendete l'impasto su una spianatoia infarinata ad uno spessore di circa 1 centimetro, disponendo il ripieno su tutta la superficie arrotolando poi la pasta su se stessa quanto più stretto è possibile per evitare bolle d'aria. Ungere di strutto uno stampo rotondo col buco al centro e disporvi il rotolo di pasta a ciambella, lasciandolo poi coperto a lievitare ulteriormente per almeno 2 ore. Trascorso il periodo infornare a forno già caldo a 160 °C per i primi 10 minuti e poi a 170-180 °C per l'ora successiva, spegnendo poi il forno e lasciando che il tortano si intiepidisca senza tirarlo fuori. Sformatelo e servitelo tagliato a fette sia tiepido che freddo.",
+        "coords": [
+            40.815078,
+            14.377572
+        ],
+        "dish_name": "Casatiello (o Tortano)",
+        "dish_id": 41
+    },
+    {
+        "related_recipes": {
+            "39": "Spaghetti alle Vongole",
+            "40": "Parmigiana di Melanzane",
+            "41": "Casatiello (o Tortano)"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "campania/napoli/mozzarella_carrozza_1.jpeg",
+            "campania/napoli/mozzarella_carrozza_2.jpeg",
+            "campania/napoli/mozzarella_carrozza_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=HupY44XNqqs",
+        "city": "Napoli",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Pane"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Mozzarella"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Farina q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Latte q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio di semi q.b"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "La mozzarella in carrozza è una preparazione casalinga nata per utilizzare il pane raffermo e il fiordilatte vaccino avanzato. Si tratta di una ricetta della tradizione, che fa parte di quella cucina di recupero, attenta agli sprechi, secondo la quale gettare via il cibo, soprattutto il pane, era considerato quasi un atto sacrilego. C’è chi sostiene che il nome derivi dalla sua forma che ricorda la ruota di una carrozza. Prima dell’avvento del pane in cassetta, questa prelibatezza si preparava esclusivamente con le fette del tipico filone di pane casereccio, dalla forma rotonda, che ricordava proprio la ruota di una carrozza. Un’altra teoria attribuisce il suo nome al mezzo di trasporto utilizzato anticamente dai pastori, per trasportare il latte in città. Nei secoli scorsi le strade non erano di certo asfaltate e le continue sollecitazioni subite dal latte, durante il lungo trasporto, ne causavano spesso la cagliatura. Dal latte cagliato venivano prodotti formaggi a pasta filata, tra cui la mozzarella.",
+        "preparation": "Iniziate la preparazione tagliando la mozzarella a fette abbastanza spesse e adagiatele sulle fettine di pane. Dopo aver eseguito l'operazione, ricoprite ogni fetta di mozzarella con una seconda fetta di pane formando quasi dei sandwich. Premete bene sul pane per farlo aderire al meglio alla mozzarella, poi passate ogni sandwich prima nella farina e poi nelle uova sbattute con poco latte, sale e pepe. Quando le fette di pane risulteranno completamente ricoperte dall'uovo scolatele e fatele dorare da entrambi i lati in olio bollente, lasciate poi asciugare su carta da cucina e servite ben caldo.",
+        "coords": [
+            40.82547,
+            14.32676
+        ],
+        "dish_name": "Mozzarella in Carrozza",
+        "dish_id": 42
+    },
+    {
+        "related_recipes": {
+            "42": "Mozzarella in Carrozza",
+            "40": "Parmigiana di Melanzane",
+            "41": "Casatiello (o Tortano)"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "campania/napoli/baba_1.jpeg",
+            "campania/napoli/baba_2.jpeg",
+            "campania/napoli/baba_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=Sj-Zbv7L9f0",
+        "city": "Napoli",
+        "ingredients": [
+            {
+                "quantity": 300,
+                "ingredient": "Farina Manitoba"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 360,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 430,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Lievito di birra"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Limone q.b"
+            },
+            {
+                "quantity": 5,
+                "ingredient": "Sale"
+            },
+            {
+                "quantity": 500,
+                "ingredient": "Acqua"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Rum"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Marmellata di albicocche"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Arance"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "Il babà è la derivazione di un dolce a lievitazione naturale originario della Polonia (babka ponczowa) e di altri paesi slavi. Perfezionato dai cuochi francesi assunse il nome di baba. Vide poi trasformato il proprio nome in \"babbà\" dai pasticceri napoletani.\n\nL'invenzione del babà si fa risalire al ultimo duca di Lorena ed effimero re di Polonia Stanislao Leszczyński, suocero di Luigi XV di Francia. Leszczyński era uso dilettarsi nell'invenzione culinaria ma, essendo privo di denti, era impossibilitato a mangiare dolci quali la babka polacca o un dolce simile alla babka ovvero il Kougelhopf, originario dell'Alsazia, che egli trovava troppo asciutto; decise allora di ammorbidirlo nel Tokaj e nello sciroppo.\n\nLa ricetta del babà al rum nella tipica forma a fungo moderna risale al 1835. La si deve al celebre pasticciere Nicolas Stohrer, giunto a Parigi con Maria Leszczyńska, figlia del sovrano polacco, che aveva voluto portare con sé il suo pasticcere preferito in occasione delle proprie nozze con Luigi XV, re di Francia.\n\nAncora oggi, nella capitale francese, la maison propone dolci simili. Un'altra versione delle origini faceva ricordare al re la gonna a campana (tonde) delle donne anziane che si chiamano babka. Un'altra storia racconta che il re, dal pessimo carattere, scagliasse il dolce contro una credenza, fracassando una bottiglia di rum. Questa andò a inzuppare il dolce e Stanislao allora lo assaggiò, trovandolo ottimo.\n\nNel XIX secolo il maestro Anthelme Brillat-Savarin inventò un liquore che ben si accompagnava alle macedonie di frutta. La pasticceria francese dei fratelli Julien ebbe l'idea di chiudere la macedonia in un babà opportunamente spennellato di confettura di albicocche: nacque così il Babà Savarin. Le prime fonti partenopee sul dolce risalgono al 1836 quando il cuoco Angeletti scrisse un manuale culinario in cui è descritta la ricetta con uvetta e zafferano, questi ultimi ingredienti persi negli anni a causa della \"volgarizzazione\" delle pasticcerie commerciali che ne hanno sfornati nuovi tipi con crema e amarene o anche servito mignon con gelato semifreddo. Ma, secondo un’etimologia più semplice e popolare, il dolce sarebbe più antico di quanto si creda e cioè ricorderebbe, sia nella forma sia nel nome, i copricapi dei baba, cioè di quei dignitari turchi che accompagnavano a Napoli ogni nuovo ambasciatore ottomano e sfilavano in corteo con lui nelle strade della città.",
+        "preparation": "Lasciate a temperatura ambiente per un'ora le uova, sbattetele e conservatele, poi fondete il burro e fatelo raffreddare, quindi lavate una terrina con acqua calda e fatela asciugare. Sciogliete il lievito in una modesta quantità di acqua tiepida, unite la farina e lasciate riposare la mistura senza averla lavorata per almeno 30 minuti. Nel frattempo in una terrina setacciate la farina, create un pozzetto centrale dove versare il sale, lo zucchero, la scorza di limone e le uova precedentemente sbattute, aggiungete anche il lievitino e mescolate gli ingredienti per almeno 20 minuti. Aggiungete a filo, mescolando, il burro sciolto lasciando assorbire prima di aggiungerne ancora, poi dopo 20 minuti coprite la terrina con un panno e fate riposare la pasta al riparo da correnti d'aria per almeno 3 ore o finché vi rendete conto che è raddoppiata di volume. Ora impastate e ponete il composto negli stampini per babà unti e infarinati riempiendoli per un terzo, mettete la teglia con gli stampini nel forno spento e fate lievitare ancora l'impasto finché avrà raggiunto il bordo degli stampini. Cuocete in forno statico per circa 30 minuti a 180 °C con la teglia in basso, poi occupatevi della bagna versando l'acqua in una pentola dai bordi alti e unendo lo zucchero e le scorze di arancia e di limone: quando l'acqua bolle e lo zucchero è sciolto, spegnete la fiamma e aggiungete il rum mescolando. Una volta cotti fate raffreddare i babà prima di immergerli nella bagna tiepida a 40 °C rigirandoli con un mestolo e strizzandoli al termine, quindi poneteli su una gratella a testa in giù a scolare e spennellateli con la marmellata per renderli lucidi, conservandoli in frigo fino al momento di servirli",
+        "coords": [
+            40.865466,
+            14.267709
+        ],
+        "dish_name": "Babà",
+        "dish_id": 43
+    },
+    {
+        "related_recipes": {
+            "42": "Mozzarella in Carrozza",
+            "43": "Babà",
+            "41": "Casatiello (o Tortano)"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "campania/napoli/delizia_limone_1.jpeg",
+            "campania/napoli/delizia_limone_2.jpeg",
+            "campania/napoli/delizia_limone_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=TeqdsWavXMc",
+        "city": "Napoli",
+        "ingredients": [
+            {
+                "quantity": 240,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 25,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 160,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 25,
+                "ingredient": "Fecola"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Vaniglia"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Limone"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Acqua"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Limoncello"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 70,
+                "ingredient": "Panna"
+            },
+            {
+                "quantity": 15,
+                "ingredient": "Amido di mais"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "La delizia al limone è un dolce originario della pasticceria sorrentina, divenuto poi un dessert tipico della cucina napoletana.\nFu ideata dal pasticciere sorrentino Carmine Marzuillo nel 1978, ed è una torta fatta con una base di pan di Spagna, bagnato con uno sciroppo a base di limoncello, farcita e ricoperta di crema a base di limone.\nViene venduta in pasticceria sia come torta che in versioni mono-porzione. La mono-porzione ha spesso la forma di un seno (per esempio a Procida), venendo realizzata in coppe semisferiche e, una volta riversata e ricoperta con la crema di limone, decorata con una fragolina di bosco posta in cima.",
+        "preparation": "Per cominciare occorre aromatizzare la panna al limone versando la panna liquida in una ciotola e aggiungendo prima lo zucchero e poi la scorzetta di limone, mescolando con una frusta e coprendo poi con pellicola: dovrà riposare in frigo per 12 ore.\nPassate quindi a preparare il pan di spagna versando uova e tuorlo nella ciotola con lo zucchero e montando il tutto con una frusta, unite poi la scorzetta di limone grattugiata e i semini di vaniglia e continuate a montare.\nSetacciate fecola e farina su un foglio di carta forno, miscelatele per bene e unitele all'impasto mescolando dal basso verso l'alto con una spatola fino a farle incorporare del tutto, quindi trasferite negli stampi e cuocete in forno a 170 gradi per 30 minuti.\nMentre le cupolette si raffreddano preparate la bagna versando in un pentolino acqua, zucchero e scorzetta di limone, facendo scaldare leggermente fino a sciogliere lo zucchero e unendo poi il limoncello, lasciando diluire per un'oretta: a questo punto potete eliminare la scorzetta.\nOra occupatevi della crema al limone ricavando scorza e succo da un limone, trasferendo il tutto in un pentolino e scaldandolo fin quasi a bollore, nel frattempo ponete il tuorlo in una ciotola con zucchero e vaniglia, mescolate con una frusta e unitelo al composto una volta giunto a bollore.\nCuocete per una decina di minuti, sempre mescolando, poi trasferite la crema in una ciotola ed eliminate la scorza di limone; una volta che si sarà intiepidita, aggiungete il burro e frullate il tutto con un frullatore a immersione, coprendo con pellicola e lasciando riposare in frigo.\nDedicatevi ora alla crema pasticcera versando panna e latte in un pentolino, unendo il baccello di vaniglia e le scorze di limone mentre in una ciotola vanno uniti insieme amido, sale e zucchero con i tuorli d'uovo, mescolando fino a ottenere un composto omogeneo.\nAppena iniziano a bollire, versate latte e panna nella ciotola con il composto, mescolate e riportate il tutto nel pentolino per continuare la cottura per alcuni minuti, sempre mescolando; al termine, dopo aver eliminato scorza di limone e baccello, trasferite in una pirofila, coprite con pellicola e riponete in freezer.\nPreparate ora la crema di farcitura riprendendo la panna dal freezer, eliminando la scorzetta di limone e montando con le fruste, quindi trasferite 400 grammi di crema pasticcera in una ciotola e unite il limoncello, mescolando il tutto e incorporando anche 250 grammi di crema al limone.\nContinuate a mescolare con la frusta e in ultimo unite anche 300 grammi di panna al limone, mescolando nuovamente fino a ottenere una crema uniforme, da trasferire in una sac a poche con beccuccio, pronta per farcire l'interno delle delizie.\nOra tutte le preparazioni sono pronte e non rimane che assemblare le varie anime del dolce: staccate le cupolette dagli stampi, forate la base con la sac a poche e farcitele con abbondanti dose di crema, conservandone un poco per la glassa.\nSformate le cupolette, trasferitele su un vassoio e inzuppatele con la bagna, quindi trasferitele in freezer per almeno un'ora e nel frattempo preparate la glassa riprendendo quel che è rimasto della farcitura, aggiungendo 300 grammi di panna montata, mescolando il tutto e unendo un po' per volta anche il latte freddo.\nMescolate fino a ottenere una crema consistente e priva di grumi, tuffatevi dentro le cupolette e, dopo aver eliminato l'eccesso di glassa, decorate ulteriormente con la panna rimasta e qualche fragola a pezzetti, lasciando riposare almeno 6 ore prima di servire in tavola.",
+        "coords": [
+            40.84677,
+            14.216211
+        ],
+        "dish_name": "Delizia al Limone",
+        "dish_id": 44
+    },
+    {
+        "related_recipes": {
+            "44": "Delizia al Limone",
+            "42": "Mozzarella in Carrozza",
+            "43": "Babà"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "campania/napoli/graffe_1.jpeg",
+            "campania/napoli/graffe_2.jpeg",
+            "campania/napoli/graffe_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=Td89AwXeXGo",
+        "city": "Napoli",
+        "ingredients": [
+            {
+                "quantity": 200,
+                "ingredient": "Patate"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Arancia"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Limone"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Lievito q.b"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Latte"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "L’arrivo di questi dolci in Campania si fa risalire al periodo della dominazione austriaca, in seguito al trattato di Utrecht, nel corso del XVIII secolo. Le graffe, infatti, sono una rielaborazione dei Krapfen tedeschi, piccoli impasti fritti ripieni di confettura. Le graffe non vanno confuse con il krapfen austro-tedesco, ma i due dolci hanno comunque una parentela etimologica. ",
+        "preparation": "Cuociamo, senza rimuovere la buccia, le patate per una mezzora in acqua bollente. Una volta pronte procediamo a rimuovere la buccia, le passeremo nello schiacciapatate e le faremo raffreddare. Nel frattempo prepariamo la farina a fontana ed uniamo vanillina con le patate schiacciate a cui aggiungeremo del sale, la scorza di mezza arancia e limone, lo zucchero, il lievito, il burro e le uova lavorando il tutto per poi procedere ad unire anche il latte. Lavoriamo l’impasto per creare una massa con una consistenza omogenea che andremo a riporre in una boule con dell’olio e la conserveremo dandole modo di lievitare per 1 ora. In seguito prendiamo dei piccoli pezzi di impasto e creiamo dei cilindri che chiuderemo a cerchio formando delle ciambelline. Lasciamo lievitare a temperatura ambiente una buona mezzora le nostre graffe e poco prima scaldiamo l’olio a 180° in cui andremo ad immergere poche alla volta le ciambelline lasciandole dorare in tutti i lati. Al termine asciugatele con carta assorbente e servite.",
+        "coords": [
+            40.815078,
+            14.341867
+        ],
+        "dish_name": "Graffe",
+        "dish_id": 45
+    },
+    {
+        "related_recipes": {
+            "44": "Delizia al Limone",
+            "45": "Graffe",
+            "43": "Babà"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "campania/napoli/pastiera_1.jpeg",
+            "campania/napoli/pastiera_2.jpeg",
+            "campania/napoli/pastiera_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=0ss3Br34fIQ",
+        "city": "Napoli",
+        "ingredients": [
+            {
+                "quantity": 300,
+                "ingredient": "Farina 00"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 420,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 500,
+                "ingredient": "Ricotta"
+            },
+            {
+                "quantity": 220,
+                "ingredient": "Grane"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Cedro candito"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Arancia"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Cannella in polvere q.b"
+            },
+            {
+                "quantity": 500,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 500,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Limone"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "La leggenda, che vuole la sirena Partenope creatrice di questa delizia, deriva probabilmente dalle feste pagane e dalle offerte votive del periodo primaverile.\nIn particolare la leggenda è probabilmente legata al culto di Cerere le cui sacerdotesse portavano in processione l'uovo, simbolo di rinascita che passò nella tradizione cristiana. Esiste anche un'altra leggenda che narra di alcuni pescatori che, a causa dell'improvviso maltempo, erano rimasti in balia delle onde per un giorno e una notte, una volta riusciti a rientrare a terra, a chi domandasse loro come avevano potuto resistere in mare così tanto tempo, risposero che avevano potuto mangiare la Pasta di Ieri, fatta con ricotta, uova, grano ed aromi. Per questo motivo la Pastiera iniziò ad essere simbolo di rinascita, oltre che per gli ingredienti, perché aveva dato una seconda vita a questi quattro pescatori.\nL'invenzione della Pastiera risale al XVI secolo. La prima ricetta scritta è datata 1693 e compare nel trattato di cucina Lo scalco alla moderna da Antonio Latini, scritto e pubblicato nel 1693 a Napoli, dove l’autore lavorò al servizio del primo ministro del viceré Francisco de Benavides. Si trattava di una torta a metà tra il rustico e il dolce in cui, oltre a grano e ricotta, erano previsti il formaggio Parmigiano grattato, pepe, sale, pistacchi in acqua rosa muschiata, latte di pistacchi, tutto raccolto in pasta di marzapane stemperata con altri aromi antichi.\nLa ricetta, modificata e perfezionata nei monasteri del centro di Napoli, rende celebri le pastiere delle suore del convento di San Gregorio Armeno.\nNel 1837, un secolo e mezzo dopo la ricetta di Antonio Latini, Ippolito Cavalcanti scrive la ricetta ormai aderente alla Pastiera dolce di oggi nell’appendice dialettale Cusina casarinola all’uso nuosto napolitano, un compendio della gastronomia popolare di Napoli inserito nella prima edizione del suo trattato didattico Cucina teorico-pratica, facendo però anche riferimento all'antica versione \"rustica\" da preparare con provola grattata. ",
+        "preparation": "Scolate il grano e pesatene 250 grammi. Cuocete in grano facendolo bollire per 15 minuti coperto d'acqua, poi scolatelo, rimettetelo nel recipiente e coprite con il latte bollente. Unite la scorza di limone in un pezzo solo, la cannella, un pizzico di sale e un cucchiaio di zucchero. Cuocete per un paio d'ore a fuoco bassissimo, finché tutto il latte sara assorbito. Eliminate la scorza e fate raffreddare il grano su un piatto. Nel frattempo preparate la pasta frolla: lavorate la farina con il burro a pezzetti, unite lo zucchero e i tuorli. Fate una palla con la pasta e tenetela al fresco coperta per un'ora. Mettete in una terrina la ricotta fresca, lo zucchero e la cannella, l'acqua di fiori d'arancio, i canditi e la scorza di limone grattugiata. Mescolate bene, poi incorporatevi i 6 tuorli uno alla volta, amalgamandoli bene. Unite il grano a 4 albumi montati a neve fermissima, facendo attenzione a non smontarli. Imburrate una tortiera che abbia diametro di 32 cm e foderate il fondo e i bordi con 4/5 della pasta frolla. Versate il ripieno. Con la pasta avanzata formate delle strisce e disponetele a reticolo sul ripieno; ripiegate i bordi di pasta e pizzicateli con le dita lungo tutta la circonferenza. Cuocete in forno preriscaldato a 180° per un'ora e mezzo. Lasciate raffreddare la pastiera, poi cospargetela di zucchero a velo.",
+        "coords": [
+            40.836893,
+            14.240436
+        ],
+        "dish_name": "Pastiera",
+        "dish_id": 46
+    },
+    {
+        "related_recipes": {
+            "46": "Pastiera",
+            "44": "Delizia al Limone",
+            "45": "Graffe"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "campania/napoli/roccoco_1.jpeg",
+            "campania/napoli/roccoco_2.jpeg",
+            "campania/napoli/roccoco_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=GKwDbeLuCco",
+        "city": "Napoli",
+        "ingredients": [
+            {
+                "quantity": 250,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Lievito"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Bicarbonato di sodio"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Cannella in polvere"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Chiodi di garofano"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Sale"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 350,
+                "ingredient": "Mandorle"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Scorza d'arancia"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Limone"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Uova"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "La sua preparazione più antica risale al 1320 per opera delle monache del Real Convento della Maddalena. Il nome roccocò deriva dal termine francese rocaille per via della forma barocca e tondeggiante simile a una conchiglia arrotondata.\n  Anche se la maggior parte delle persone crede che i roccocò siano solo duri, ci sono anche morbidi e di varie dimensioni. Viste le numerose richieste dei turisti, è possibile trovare questi dolci in pasticceria in tutti i periodi dell'anno.",
+        "preparation": "Preriscaldate il forno a 170 °C e rivestite con carta forno una teglia. In una ciotola mescolare tutti gli ingredienti secchi insieme: la farina, il lievito, il bicarbonato, la cannella, i chiodi di garofano, il sale e il pepe bianco. Aggiungete lo zucchero, le mandorle e le scorze. Aggiungete l'uovo leggermente sbattuto e amalgamate a poco a poco con l'acqua, mescolando fino a quando si otterrà un composto elastico. Trasferite la pasta su una superficie infarinata e impastatela un paio di volte. Dividetela in porzioni da 40 grammi, l'equivalente di circa 2 cucchiai. Allungate ogni pezzetto realizzando un bastoncino spesso circa 2 cm, poi unite le due estremità a formare un anello. Posizionate gli anelli sulla teglia, spennellateli con il tuorlo sbattuto e cuoceteli in forno per una quindicina di minuti. Lasciate raffreddare sulla teglia da forno per almeno 5 minuti prima di trasferire i roccocò su una gratella a completare il raffreddamento.",
+        "coords": [
+            40.845435,
+            14.257884
+        ],
+        "dish_name": "Roccocò",
+        "dish_id": 47
+    },
+    {
+        "related_recipes": {
+            "46": "Pastiera",
+            "47": "Roccocò",
+            "45": "Graffe"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "campania/napoli/struffoli_1.jpeg",
+            "campania/napoli/struffoli_2.jpeg",
+            "campania/napoli/struffoli_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=vvPlo8Id8k0",
+        "city": "Napoli",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 240,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Olio d'oliva"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Miele"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Scorza di limone"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Scorza d'arancia"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Canditi"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio di semi q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Diavolini q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Ciliegie candite"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "Nonostante la loro tipicità, sembra che gli struffoli non siano stati inventati a Napoli ma che siano stati portati dai greci già ai tempi della Magna Grecia. Peraltro, nella cucina greca esiste ancora una preparazione simile, i loukoumades (ghiottonerie).\nUn'ipotesi più probabile sull'origine degli struffoli è di derivazione spagnola. Esiste infatti, nella cucina andalusa, un dolce estremamente simile agli struffoli, il piñonate, che differisce dal dolce napoletano solo per la forma delle palline di pasta, che sono più allungate. La parentela tra struffoli e piñonate potrebbe risalire al lunghissimo periodo di vicereame spagnolo a Napoli.\nAnche l'uso come dolce tipico natalizio sembra essere relativamente recente, in quanto il ricettario del Crisci (1634) ne fa cenno ma non specificamente in relazione al pranzo di Natale.\nDa essi venne poi preso spunto per la creazione di altre ricette tipiche delle regioni italiane, come quella dei Sannacchiudere, variante degli struffoli napoletani tipica pugliese (per la precisione tarantina).",
+        "preparation": "Setacciate 400 grammi di farina sulla spianatoia, disponetela a fontana e nel centro mettete il sale, le uova, la scorza di limone grattugiata e l'olio di oliva. Lavorate fino a ottenere una pasta liscia, morbida ma solida: se dovesse essere necessario, aggiungete altra farina. Formate con la pasta tanti bastoncini lunghi e tagliateli. Friggeteli nell'olio molto caldo, scolateli e lasciate asciugare su carta assorbente. Nel frattempo scaldate il miele con lo zucchero in una larga casseruola. Quando saranno ben sciolti, unite la scorza d'arancia grattugiata, i canditi tagliati e infine gli struffoli. Mescolate con un cucchiaio di legno e cuocete per qualche minuto, fino a quando tutti i pezzetti di pasta saranno ben amalgamati con il miele. Sistemate gli struffoli su un piatto da portata, formando una ciambella. Completate cospargendoli di diavolini e guarnendoli con ciliegine candite.",
+        "coords": [
+            40.863549,
+            14.299283
+        ],
+        "dish_name": "Struffoli",
+        "dish_id": 48
+    },
+    {
+        "related_recipes": {
+            "46": "Pastiera",
+            "47": "Roccocò",
+            "48": "Struffoli"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "campania/napoli/zeppole_1.jpeg",
+            "campania/napoli/zeppole_2.jpeg",
+            "campania/napoli/zeppole_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=FqDllrUT8Gs",
+        "city": "Napoli",
+        "ingredients": [
+            {
+                "quantity": 460,
+                "ingredient": "Farina Manitoba"
+            },
+            {
+                "quantity": 250,
+                "ingredient": "Purea di patate"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 8,
+                "ingredient": "Lievito di birra"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Acqua"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Essenza di vaniglia"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Scorza di limone q.b"
+            },
+            {
+                "quantity": 8,
+                "ingredient": "Sale"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio per friggere q.b"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "Le zeppole di San Giuseppe sono molto popolari nella zona vesuviana e un tempo erano preparate direttamente nelle strade. Malgrado il nome, non traggono le proprie origini nel comune di San Giuseppe Vesuviano: ci sono varie ipotesi sull'invenzione di questo dolce, riferita sia alle suore di San Gregorio Armeno sia a quelle della Croce di Lucca, sia a quelle dello Splendore, sempre comunque a Napoli. La prima ricetta scritta risale al 1837, nel trattato di cucina napoletana di Ippolito Cavalcanti.\nVengono preparate generalmente nel periodo di San Giuseppe (19 marzo) tanto da essere un dolce tipico della festa del papà.",
+        "preparation": "Lavate e bollite le patate per ottenere 250 grammi di purea, al quale aggiungerete farina, zucchero e gli altri aromi. Amalgamate bene il composto e aggiungete le uova, impastate bene e aggiungete il burro a pezzettini regolando anche il sale. Trasferite l’impasto su un piano di lavoro, formate una palla e mettetela in una ciotola coperta da una pellicola e lasciatela riposare per circa 3 ore. Riprendete l'impasto e stendetelo bene, tagliando poi delle strisce di circa 1 cm di spessore e lunghe circa 10- 12 cm. Formate delle ciambelle e lasciate lievitare per un'altra ora e mezza. Friggete in abbondante olio per circa 2 minuti. Servite calde spolverando con zucchero semolato.",
+        "coords": [
+            40.843364,
+            14.298256
+        ],
+        "dish_name": "Zeppole di San Giuseppe",
+        "dish_id": 49
+    },
+    {
+        "related_recipes": {
+            "47": "Roccocò",
+            "48": "Struffoli",
+            "49": "Zeppole di San Giuseppe"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "campania/benevento/torrone_1.jpeg",
+            "campania/benevento/torrone_2.jpeg",
+            "campania/benevento/torrone_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=4FTcsz8yFTs",
+        "city": "Benevento",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Mandorle"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Miele"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Limone"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Vanillina q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Ostie da pasticceria q.b"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "A Benevento, la tradizione del torrone risale all'epoca sannita: apprezzato e consumato dalle classi agiate, come da quelle più povere, il torrone era conosciuto già al tempo dei Romani come dimostrano alcuni scritti di Tito Livio. A Siena il torrone locale è venduto in dischi, denominati \"copate\" tutt'oggi. Tale specialità restò sempre in uso nel corso dei secoli sia a livelli domestici che artigianali finché subì radicali modifiche ed evoluzioni alla metà dell'Ottocento poiché nel 1871 si avviò la produzione dei torroni in carta e in astucci e grande impulso al settore diedero le numerose ditte molte delle quali, nel 1908, consorziate nelle Fabbriche Riunite del Torrone di Benevento.",
+        "preparation": "Fate cuocere, per circa un'ora e mezzo il miele a bagnomaria e a fuoco lento mescolandolo senza interruzione con un cucchiaio di legno, fino a che non diventi caramellato. Nel frattempo, a parte, fate cuocere a fuoco basso lo zucchero aggiungendo acqua - ogni 3 cucchiai di zucchero, 2 cucchiai di acqua - mescolando continuamente. Montate le chiare d'uovo aggiungendole al miele caramellato, continuate a cuocere a fuoco basso, sempre mescolando. Una volta che il miele ha assunto l'aspetto spumoso, aggiungete lo zucchero. Versate, poi, le mandorle, precedentemente tostate in forno, la vanillina e la scorza di limone amalgamando il tutto. Versare l'impasto in uno stampo foderato con le ostie e ricoprite sempre con le ostie. Una volta raffreddato, capovolgete il recipiente e tagliate come volete.",
+        "coords": [
+            41.129922,
+            14.776462
+        ],
+        "dish_name": "Torrone",
+        "dish_id": 50
+    },
+    {
+        "related_recipes": {
+            "50": "Torrone",
+            "48": "Struffoli",
+            "49": "Zeppole di San Giuseppe"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "campania/avellino/grano_cotto_1.jpeg",
+            "campania/avellino/grano_cotto_2.jpeg",
+            "campania/avellino/grano_cotto_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=fiXt_tjqFZo",
+        "city": "Avellino",
+        "ingredients": [
+            {
+                "quantity": 100,
+                "ingredient": "Mandorle"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Grano q.b"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Melagrana"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Vino cotto q.b"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Mele cotogne"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Cioccolato fondente"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Confettini colorati"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "Il grano cotto è un piatto antichissimo originario di Bisaccia, nell’Avellinese, a base di grano, chicchi di melagrana, mandorle e cioccolato. La preparazione inizia dalla sera prima, quando il grano va messo in ammollo, e completata la mattina dopo con la cottura dello stesso. Inutile ricordare che in Campania con il grano si preparano tanti altri dolci, tra cui la mitica pastiera.",
+        "preparation": "La preparazione di questo dolce comincia dal giorno prima, quando bisogna mettere a bagno il grano affinché sia più morbido e malleabile al momento opportuno. La mattina del giorno dopo mettete a bollire il grano, possibilmente in una pentola a pressione per ottenere la cottura in soli 45 minuti, girandolo di tanto in tanto. Colate il liquido di cottura e mettere il grano con un egual volume di chicchi di melagrana in una capace zuppiera, cospargendolo con abbondante vin cotto. Aspettate che il vino si incorpori del tutto, dopodiché aggiungete gli eventuali altri ingredienti, che sono facoltativi, e servite immediatamente in tavola.",
+        "coords": [
+            40.91775,
+            14.800636
+        ],
+        "dish_name": "Grano Cotto",
+        "dish_id": 51
+    },
+    {
+        "related_recipes": {
+            "51": "Grano Cotto",
+            "50": "Torrone",
+            "49": "Zeppole di San Giuseppe"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "campania/benevento/biscotti_moiano_1.jpeg",
+            "campania/benevento/biscotti_moiano_2.jpeg",
+            "campania/benevento/biscotti_moiano_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=HV1T3iOKDwk",
+        "city": "Benevento",
+        "ingredients": [
+            {
+                "quantity": 350,
+                "ingredient": "Farina 00"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Limone"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Lievito q.b"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "I biscotti di Moiano sono, come dice il nome stesso, dei dolcetti tipici di un paesino in provincia di Benevento. L'impasto semplice dei biscotti di Moiano li rende di una friabilità unica e l'aroma intenso del limone è irresistibile! Potrebbero sembrare secchi o asciutti, ma i biscotti di Moiano sono invece adatti a qualunque momento della giornata, soprattutto colazione e tè delle cinque!",
+        "preparation": "Impastare la farina, le uova, il burro, lo zucchero, il lievito e la scorzetta di limone grattugiata. Se occorre aggiungere un poco di acqua tiepida, per ottenere una pasta morbida e compatta. Ricavare i pezzi di pasta nella forma tradizionale, adagiarli su una teglia bene imburrata e tenere in forno caldo (200 °C) per mezz'ora.",
+        "coords": [
+            41.111818,
+            14.803585
+        ],
+        "dish_name": "Biscotti di Moiano",
+        "dish_id": 52
+    },
+    {
+        "related_recipes": {
+            "51": "Grano Cotto",
+            "50": "Torrone",
+            "52": "Biscotti di Moiano"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "campania/caserta/torta_polacca_1.jpeg",
+            "campania/caserta/torta_polacca_2.jpeg",
+            "campania/caserta/torta_polacca_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=WTRvcNQdsss",
+        "city": "Caserta",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 125,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 25,
+                "ingredient": "Lievito di Birra"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Sale"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "Dolce tipico della cittadina in provincia di Caserta, la Polacca, nelle varianti torta e brioche, pare abbia origini molto antiche. La storia di questa famosa pietanza, e della sua ricetta a base di crema pasticcera e amarene sciroppate, va a braccetto con le leggende locali che la vogliono, in un modo o nell’altro, proveniente, appunto, dalla Polonia.\nC’è, infatti, chi dice che intorno agli anni ’20 una suora polacca abbia regalato la ricetta ad un pasticcere della zona: quest’ultimo ne ha fatto una rivisitazione fino a creare il dolce così come lo conosciamo oggi. C’è, poi, chi la stessa storia la fa risalire non agli anni ’20, bensì al periodo medievale, e chi sostiene che il dolce sia nato grazie ad una regina polacca ospite in un convento.\nLa versione più recente, a metà strada tra storia e leggenda, invece, fa derivare la Polacca aversana dal Pasticciotto pugliese. Si sarebbe semplicemente sostituito la pasta frolla con pasta brioche et voilà. Il nuovo dolce sarebbe stato, infine, battezzato “polacchina” da un calzolaio della zona.",
+        "preparation": "Frullare con le fruste i tuorli con un poco di zucchero, poi unire un poco di latte e infine la farina, avendo cura di amalgamare bene il tutto e passare poi il composto al setaccio. Aggiungere il restante latte e cuocere a fiamma bassa girando continuamente per evitare che la crema si attacchi.Quando si sarà addensata, aggiungere eventualmente le amarene se gradite e lasciarla a rafreddare. Impastare la farina con il lievito e le uova e tutti gli altri ingredienti, e quando il composto sarà elastico avvolgerlo in un foglio di plastica e lasciarlo mezz'ora a riposare. Al termine spianarlo e realizzare due sfoglie rotonde di dimensioni differenti. Imburrare lo stampo e porre il disco grande in modo che copra le pareti dello stampo, poi versare la crema e ricoprire con il secondo disco, sigillando bene i bordi tra i due dischi. Lasciar lievitare il tutto per 3 ore in luogo non ventilato e al termine infornare per 45 minuti a 180 °C. Far raffreddare prima di servire in tavola.",
+        "coords": [
+            41.077788,
+            14.337309
+        ],
+        "dish_name": "Torta Polacca",
+        "dish_id": 53
+    },
+    {
+        "related_recipes": {
+            "51": "Grano Cotto",
+            "53": "Torta Polacca",
+            "52": "Biscotti di Moiano"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "campania/salerno/fragolata_1.jpeg",
+            "campania/salerno/fragolata_2.jpeg",
+            "campania/salerno/fragolata_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=AdtN_1RfiMc",
+        "city": "Salerno",
+        "ingredients": [
+            {
+                "quantity": 400,
+                "ingredient": "Fragoline"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Limoncello"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Liquore Strega"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Succo di limone q.b"
+            }
+        ],
+        "region": "Campania",
+        "product_history": "Il nome deriva da Acerno, in provincia di Salerno. Il territorio di produzione coincide con quello di Acerno e dei comuni dell’area dei Monti Picentini salernitani. La Fragolata è un prodotto artigianale della tradizione Acernese che si produce dal 1981 attraverso l’utilizzo esclusivo di fragola selvatica o fragola di bosco (Fragaria vesca L.), ovvero fragole cresciute spontaneamente nei boschi e raccolte nel territorio di Acerno, (ecotipi locali aventi aroma e profumo marcati, un elevato ed equilibrato contenuto in zuccheri ed acidi, una buona consistenza), succo di limone sfusato di amalfi, zucchero (saccarosio) e liquore Strega di Benevento. Ha l’aspetto di una soluzione liquida di colore mogano-rosso scuro, nella quale si disperdono le fragoline conferendo al prodotto una certa consistenza. E’ un dessert dal gusto inconfondibile di fragoline di bosco ed esaltato dall’aroma del succo di limone sfusato di Amalfi. Viene servito in apposite coppe di ceramica vietrese per richiamare uno degli ingredienti del prodotto ovvero il limone sfusato di Amalfi ed è tradizione degustare il prodotto con della panna montata. Oltre al servizio presso i locali di produzione in porzioni di circa 120 gr, la fragolata può essere confezionata e venduta in recipienti di capienza diversa purché non superiore ad 1kg. Descrizione delle metodiche di lavorazione, condizionamento, stagionatura: la procedura di realizzazione prevede che gli ingredienti vengano mescolati bene in un grosso contenitore e lasciati macerare per una notte ad una temperatura non superiore ai 10°C. Trascorse 24h si procede al riempimento di appositi contenitori con una quantità non superiore ad 1 Kg . Tale procedura di congelamento è fondamentale per la riuscita del prodotto finale poiché dalla lisi delle fragole dopo scongelamento, vengono rilasciati nel prodotto gli aromi ed il gusto che ne caratterizzano il prodotto. E’ una varietà intensamente utilizzata, a tutt’oggi, nell’orticoltura familiare dell’area, generalmente per autoconsumo. Viene prodotta da pochi piccoli agricoltori, senza particolari accorgimenti, secondo indicazioni tramandate dal passato, adottando, comunque, sesti di trapianto più ampi rispetto alle altre cipolle normalmente coltivate. Le maggiori distanze adottate sono dettate dalla tendenza dei bulbi a raggiungere grosse dimensioni. La fragolina selvatica (Fragaria vesca), o fragolina di bosco è una specie diploide spontanea, presente nell’area considerata da tempo immemorabile, dove ha sviluppato popolazioni caratterizzate dalla elevata qualità organolettica dei frutti, che inoltre, pur essendo selvatici, hanno dimensioni relativamente elevate grazie alla forma allungata. Nei boschi del comune di Acerno da sempre è in uso la raccolta del prodotto spontaneo del sottobosco, a seguito della quale il prodotto viene venduto in caratteristici cestini oppure impiegato dai ristoratori locali per la produzione della fragolata.",
+        "preparation": "Dopo aver raccolto le fragoline, deponetele in un recipiente capiente condendole con succo di limone, zucchero, limoncello e Strega secondo le dosi indicate. Mescolare con cura, lasciando insaporire i vari ingredienti per un paio d'ore. Quindi conservare in frigo per un'oretta. Una volta che la fragolata è diventata abbastanza fredda, servirla in tavola e gustarla immediatamente.",
+        "coords": [
+            40.674462,
+            14.782696
+        ],
+        "dish_name": "Fragolata",
+        "dish_id": 54
     }
+
 ]
