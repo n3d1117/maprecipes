@@ -21,11 +21,11 @@
           <div class="col-md-9">
             <h1 id="title-label" class="mt-4 text-left">{{ titleLabel }}</h1>
 
-            <HomeResultBlock v-if="antipasti.length > 0" v-bind:recipes="antipasti" title="Antipasti"></HomeResultBlock>
-            <HomeResultBlock v-if="primi.length > 0" v-bind:recipes="primi" title="Primi"></HomeResultBlock>
-            <HomeResultBlock v-if="secondi.length > 0" v-bind:recipes="secondi" title="Secondi"></HomeResultBlock>
-            <HomeResultBlock v-if="contorni.length > 0" v-bind:recipes="contorni" title="Contorni"></HomeResultBlock>
-            <HomeResultBlock v-if="dolci.length > 0" v-bind:recipes="dolci" title="Dolci"></HomeResultBlock>
+            <HomeResultBlock v-if="filteredAntipasti.length > 0" v-bind:recipes="filteredAntipasti" title="Antipasti"></HomeResultBlock>
+            <HomeResultBlock v-if="filteredPrimi.length > 0" v-bind:recipes="filteredPrimi" title="Primi"></HomeResultBlock>
+            <HomeResultBlock v-if="filteredSecondi.length > 0" v-bind:recipes="filteredSecondi" title="Secondi"></HomeResultBlock>
+            <HomeResultBlock v-if="filteredContorni.length > 0" v-bind:recipes="filteredContorni" title="Contorni"></HomeResultBlock>
+            <HomeResultBlock v-if="filteredDolci.length > 0" v-bind:recipes="filteredDolci" title="Dolci"></HomeResultBlock>
 
           </div>
         </div>
@@ -59,6 +59,7 @@ export default {
   },
   data() {
     return {
+      query: '',
       titleLabel: 'Elenco Ricette',
       antipasti: this.filterByRecipeTypeAndSort('Antipasti'),
       primi: this.filterByRecipeTypeAndSort('Primi'),
@@ -73,33 +74,55 @@ export default {
           .filter(recipe => recipe.dish_type === type)
           .sort((a, b) => (a.dish_name > b.dish_name) ? 1 : -1);
     },
-    filterByQueryAndSort(array, query) {
-      const filteredByRecipeName = array.filter(recipe => {
-        return (recipe.dish_name.toLowerCase().indexOf(query.toLowerCase()) > -1)
-      }).sort();
-
-      // todo others
-
-      return filteredByRecipeName;
-    },
     didSearchForQuery(data) {
       const query = data.selected
       const isExactMatch = data.exactMatch
       this.titleLabel = "Risultati per '" + query + "'"
+      this.query = query
       if (isExactMatch) {
         const result = recipes.find(recipe => recipe.dish_name == query)
         this.$router.push({ name: 'recipe', params: { id: result.dish_id } })
       } else {
-        this.antipasti = this.filterByQueryAndSort(this.antipasti, query)
-        this.primi = this.filterByQueryAndSort(this.primi, query)
-        this.secondi = this.filterByQueryAndSort(this.secondi, query)
-        this.contorni = this.filterByQueryAndSort(this.contorni, query)
-        this.dolci = this.filterByQueryAndSort(this.dolci, query)
-        // todo scroll
         $('html, body').animate({
           scrollTop: $("#title-label").offset().top - 20
         }, 'slow');
       }
+    },
+    removeDuplicates(array) {
+      return [...new Set(array)];
+    },
+    filterByQuery(array) {
+      const query = this.query
+      const filteredByRegion = array.filter(recipe => {
+        return (recipe.region.toLowerCase().indexOf(query.toLowerCase()) > -1)
+      })
+      const filteredByCity = array.filter(recipe => {
+        return (recipe.city.toLowerCase().indexOf(query.toLowerCase()) > -1)
+      })
+      const filteredByIngredient = array.filter(recipe => {
+        const allIngredients = recipe.ingredients.flatMap(ing => ing.ingredient.replace(' q.b',''))
+        return allIngredients.some(function(ingredient) {
+          return (ingredient.toLowerCase().indexOf(query.toLowerCase()) > -1)
+        });
+      })
+      return this.removeDuplicates(filteredByRegion.concat(filteredByCity).concat(filteredByIngredient))
+    }
+  },
+  computed: {
+    filteredAntipasti: function() {
+      return this.filterByQuery(this.antipasti)
+    },
+    filteredPrimi: function() {
+      return this.filterByQuery(this.primi)
+    },
+    filteredSecondi: function() {
+      return this.filterByQuery(this.secondi)
+    },
+    filteredContorni: function() {
+      return this.filterByQuery(this.contorni)
+    },
+    filteredDolci: function() {
+      return this.filterByQuery(this.dolci)
     }
   }
 }
