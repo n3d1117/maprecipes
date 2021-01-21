@@ -21,11 +21,11 @@
           <div class="col-md-9">
             <h1 id="title-label" class="mt-4 text-left">{{ titleLabel }}</h1>
 
-            <HomeResultBlock id="list-item-1" v-if="filteredAntipasti.length > 0" v-bind:recipes="filteredAntipasti" title="Antipasti"></HomeResultBlock>
-            <HomeResultBlock id="list-item-2" v-if="filteredPrimi.length > 0" v-bind:recipes="filteredPrimi" title="Primi"></HomeResultBlock>
-            <HomeResultBlock id="list-item-3" v-if="filteredSecondi.length > 0" v-bind:recipes="filteredSecondi" title="Secondi"></HomeResultBlock>
-            <HomeResultBlock id="list-item-4" v-if="filteredContorni.length > 0" v-bind:recipes="filteredContorni" title="Contorni"></HomeResultBlock>
-            <HomeResultBlock id="list-item-5" v-if="filteredDolci.length > 0" v-bind:recipes="filteredDolci" title="Dolci"></HomeResultBlock>
+            <HomeResultBlock class="scrollspy" id="list-item-1" v-if="filteredAntipasti.length > 0" v-bind:recipes="filteredAntipasti" title="Antipasti"></HomeResultBlock>
+            <HomeResultBlock class="scrollspy" id="list-item-2" v-if="filteredPrimi.length > 0" v-bind:recipes="filteredPrimi" title="Primi"></HomeResultBlock>
+            <HomeResultBlock class="scrollspy" id="list-item-3" v-if="filteredSecondi.length > 0" v-bind:recipes="filteredSecondi" title="Secondi"></HomeResultBlock>
+            <HomeResultBlock class="scrollspy" id="list-item-4" v-if="filteredContorni.length > 0" v-bind:recipes="filteredContorni" title="Contorni"></HomeResultBlock>
+            <HomeResultBlock class="scrollspy" id="list-item-5" v-if="filteredDolci.length > 0" v-bind:recipes="filteredDolci" title="Dolci"></HomeResultBlock>
 
           </div>
         </div>
@@ -139,13 +139,31 @@ export default {
     }
   },
   mounted() {
-    const $root = $('html, body');
 
+    // Smooth scroll when clicking on # href
+    const $root = $('html, body');
     $('a[href^="#"]').click(function () {
       $root.animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-      }, 500);
+        scrollTop: $( $.attr(this, 'href') ).offset().top - 30
+      }, 'slow');
       return false;
+    });
+
+    // Scrollspy logic to activate correct list group item on scroll
+    $(window).bind('scroll', function() {
+      const currentTop = $(window).scrollTop();
+      const elems = $('.scrollspy');
+      const height = $(window).height();
+      console.log(height)
+      elems.each(function() {
+        const elemTop 	= $(this).offset().top - (height/3);
+        const elemBottom 	= elemTop + $(this).height();
+        if (currentTop >= elemTop && currentTop <= elemBottom) {
+          const id = $(this).attr('id');
+          const navElem = $('a[href="#' + id + '"]');
+          navElem.addClass('active').siblings().removeClass('active');
+        }
+      })
     });
   }
 }
