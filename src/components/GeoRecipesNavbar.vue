@@ -1,5 +1,5 @@
 <template>
-  <b-navbar id="b_navbar" toggleable="lg" type="light" variant="info">
+  <b-navbar id="b_navbar" toggleable="md" type="light" variant="info">
 
     <b-navbar-brand class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-8">
       <router-link to="/">

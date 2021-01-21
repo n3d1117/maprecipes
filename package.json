@@ -17,6 +17,7 @@
     "leaflet-fullscreen": "^1.0.2",
     "popper.js": "^1.16.1",
     "vue": "^2.6.11",
+    "vue-autosuggest": "^2.2.0",
     "vue-router": "^3.4.9",
     "vue2-leaflet": "^2.6.0"
   },

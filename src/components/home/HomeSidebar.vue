@@ -8,7 +8,7 @@
         <b-list-group-item href="#" class="text-center bottom-list-item">Contorni</b-list-group-item>
         <b-list-group-item href="#" class="text-center bottom-list-item">Dolci</b-list-group-item>
       </b-list-group>
-      <b-dropdown id="regione-dropdown" size="lg" text="Regione" class="col-12 p-0 mt-3">
+      <b-dropdown id="regione-dropdown" size="lg" text="Regione" class="col-12 p-0 mt-3 mb-md-3">
         <b-dropdown-item>Abruzzo</b-dropdown-item>
         <b-dropdown-item>Basilicata</b-dropdown-item>
         <b-dropdown-item>Calabria</b-dropdown-item>

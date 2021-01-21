@@ -34,7 +34,7 @@ const router = new VueRouter({
     routes: [
         { path: '/', component: Home },
         { path: '/map', component: Map },
-        { path: '/recipe/:id', component: Recipe, props: true },
+        { path: '/recipe/:id', name: 'recipe', component: Recipe, props: true },
         { path: '*', component: Home },
     ],
     // https://stackoverflow.com/a/57212309

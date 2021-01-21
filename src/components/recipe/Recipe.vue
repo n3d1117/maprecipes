@@ -42,7 +42,7 @@
 
         <div class="col-lg-9 order-1 float-left">
           <div class="row mt-3">
-            <div class="col-lg-8" id="storia-prodotto-column" style="border-right: 1px solid var(--dark) ;">
+            <div class="col-lg-8" id="storia-prodotto-column">
 
               <PrepHistoryBlock title="Storia del prodotto" :text="recipe.product_history"></PrepHistoryBlock>
             </div>
@@ -157,6 +157,10 @@ export default {
   border-top-left-radius: var(--main-radius);
   border-bottom-left-radius: var(--main-radius);
   background-color: var(--ingredients-sidebar-bg);
+}
+
+#storia-prodotto-column {
+  border-right: 1px solid var(--dark)
 }
 
 </style>

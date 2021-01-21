@@ -1826,7 +1826,7 @@
             },
             {
                 "quantity": 500,
-                "ingredient": "Polpa di pomodoro"
+                "ingredient": "Polpa di Pomodoro"
             },
             {
                 "quantity": 400,
@@ -1838,7 +1838,7 @@
             },
             {
                 "quantity": 0,
-                "ingredient": "Basilico q.c"
+                "ingredient": "Basilico q.b"
             }
         ],
         "region": "Campania",

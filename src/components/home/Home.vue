@@ -17,13 +17,13 @@
           <HomeSidebar></HomeSidebar>
 
           <div class="col-md-9">
-            <h1 class="mt-4 text-left">Elenco Ricette</h1>
+            <h1 class="mt-4 text-left">{{ titleLabel }}</h1>
 
-            <HomeResultBlock v-bind:recipes="antipasti" title="Antipasti"></HomeResultBlock>
-            <HomeResultBlock v-bind:recipes="primi" title="Primi"></HomeResultBlock>
-            <HomeResultBlock v-bind:recipes="secondi" title="Secondi"></HomeResultBlock>
-            <HomeResultBlock v-bind:recipes="contorni" title="Contorni"></HomeResultBlock>
-            <HomeResultBlock v-bind:recipes="dolci" title="Dolci"></HomeResultBlock>
+            <HomeResultBlock v-if="antipasti.length > 0" v-bind:recipes="antipasti" title="Antipasti"></HomeResultBlock>
+            <HomeResultBlock v-if="primi.length > 0" v-bind:recipes="primi" title="Primi"></HomeResultBlock>
+            <HomeResultBlock v-if="secondi.length > 0" v-bind:recipes="secondi" title="Secondi"></HomeResultBlock>
+            <HomeResultBlock v-if="contorni.length > 0" v-bind:recipes="contorni" title="Contorni"></HomeResultBlock>
+            <HomeResultBlock v-if="dolci.length > 0" v-bind:recipes="dolci" title="Dolci"></HomeResultBlock>
 
           </div>
         </div>
@@ -56,18 +56,44 @@ export default {
   },
   data() {
     return {
-      antipasti: this.filterAndSort('Antipasti'),
-      primi: this.filterAndSort('Primi'),
-      secondi: this.filterAndSort('Secondi'),
-      contorni: this.filterAndSort('Contorni'),
-      dolci: this.filterAndSort('Dolci')
+      titleLabel: 'Elenco Ricette',
+      antipasti: this.filterByRecipeTypeAndSort('Antipasti'),
+      primi: this.filterByRecipeTypeAndSort('Primi'),
+      secondi: this.filterByRecipeTypeAndSort('Secondi'),
+      contorni: this.filterByRecipeTypeAndSort('Contorni'),
+      dolci: this.filterByRecipeTypeAndSort('Dolci')
     }
   },
   methods: {
-    filterAndSort(type) {
+    filterByRecipeTypeAndSort(type) {
       return recipes
           .filter(recipe => recipe.dish_type === type)
           .sort((a, b) => (a.dish_name > b.dish_name) ? 1 : -1);
+    },
+    filterByQueryAndSort(array, query) {
+      const filteredByRecipeName = array.filter(recipe => {
+        return (recipe.dish_name.toLowerCase().indexOf(query.toLowerCase()) > -1)
+      }).sort();
+
+      // todo others
+
+      return filteredByRecipeName;
+    },
+    didSearchForQuery(data) {
+      const query = data.selected
+      const isExactMatch = data.exactMatch
+      this.titleLabel = "Risultati per '" + query + "'"
+      if (isExactMatch) {
+        const result = recipes.find(recipe => recipe.dish_name == query)
+        this.$router.push({ name: 'recipe', params: { id: result.dish_id } })
+      } else {
+        this.antipasti = this.filterByQueryAndSort(this.antipasti, query)
+        this.primi = this.filterByQueryAndSort(this.primi, query)
+        this.secondi = this.filterByQueryAndSort(this.secondi, query)
+        this.contorni = this.filterByQueryAndSort(this.contorni, query)
+        this.dolci = this.filterByQueryAndSort(this.dolci, query)
+        // todo scroll
+      }
     }
   }
 }
