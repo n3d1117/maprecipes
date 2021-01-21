@@ -18,7 +18,7 @@
         :get-suggestion-value="getSuggestionValue"
         :renderSuggestion="getSuggestionValue"
         :sectionConfigs="sectionConfigs"
-        :input-props="{id:'autosuggest__input', placeholder:'Cerca una città o un piatto...', spellcheck: false, type:'search', name:'search'}">
+        :input-props="{id:'autosuggest__input', placeholder:'Cerca una città o un piatto...', spellcheck: false, type:'search', name:'search', class:'pt-sm-1 pt-2'}">
     </vue-autosuggest>
 
     <button type="submit" title="Ricerca parola chiave." class="sbx-medium__submit">
@@ -125,11 +125,11 @@ export default {
       return this.filterAndSort(allRecipeNames, query)
     },
     filterRegions(query) {
-      const allRegions = this.recipes.flatMap(recipe => recipe.region)
+      const allRegions = this.recipes.map(recipe => recipe.region)
       return this.filterAndSort(allRegions, query)
     },
     filterCities(query) {
-      const allCities = this.recipes.flatMap(recipe => recipe.city)
+      const allCities = this.recipes.map(recipe => recipe.city)
       return this.filterAndSort(allCities, query)
     },
     filterIngredients(query) {
@@ -197,7 +197,6 @@ export default {
   display: block;
   border: var(--main-border);
   padding-left: 40px;
-  padding-top: 5px;
   width: 100%;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
