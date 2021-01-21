@@ -2,11 +2,11 @@
   <div class="col-md-3">
     <div class="sticky-top sticky-offset mt-3">
       <b-list-group>
-        <b-list-group-item href="#" active class="text-center bottom-list-item">Antipasti</b-list-group-item>
-        <b-list-group-item href="#" class="text-center bottom-list-item">Primi</b-list-group-item>
-        <b-list-group-item href="#" class="text-center bottom-list-item">Secondi</b-list-group-item>
-        <b-list-group-item href="#" class="text-center bottom-list-item">Contorni</b-list-group-item>
-        <b-list-group-item href="#" class="text-center bottom-list-item">Dolci</b-list-group-item>
+        <b-list-group-item href="#list-item-1" active class="text-center bottom-list-item">Antipasti</b-list-group-item>
+        <b-list-group-item href="#list-item-2" class="text-center bottom-list-item">Primi</b-list-group-item>
+        <b-list-group-item href="#list-item-3" class="text-center bottom-list-item">Secondi</b-list-group-item>
+        <b-list-group-item href="#list-item-4" class="text-center bottom-list-item">Contorni</b-list-group-item>
+        <b-list-group-item href="#list-item-5" class="text-center bottom-list-item">Dolci</b-list-group-item>
       </b-list-group>
       <b-dropdown id="regione-dropdown" size="lg" text="Regione" class="col-12 p-0 mt-3 mb-md-3">
         <b-dropdown-item>Abruzzo</b-dropdown-item>

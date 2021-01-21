@@ -21,11 +21,11 @@
           <div class="col-md-9">
             <h1 id="title-label" class="mt-4 text-left">{{ titleLabel }}</h1>
 
-            <HomeResultBlock v-if="filteredAntipasti.length > 0" v-bind:recipes="filteredAntipasti" title="Antipasti"></HomeResultBlock>
-            <HomeResultBlock v-if="filteredPrimi.length > 0" v-bind:recipes="filteredPrimi" title="Primi"></HomeResultBlock>
-            <HomeResultBlock v-if="filteredSecondi.length > 0" v-bind:recipes="filteredSecondi" title="Secondi"></HomeResultBlock>
-            <HomeResultBlock v-if="filteredContorni.length > 0" v-bind:recipes="filteredContorni" title="Contorni"></HomeResultBlock>
-            <HomeResultBlock v-if="filteredDolci.length > 0" v-bind:recipes="filteredDolci" title="Dolci"></HomeResultBlock>
+            <HomeResultBlock id="list-item-1" v-if="filteredAntipasti.length > 0" v-bind:recipes="filteredAntipasti" title="Antipasti"></HomeResultBlock>
+            <HomeResultBlock id="list-item-2" v-if="filteredPrimi.length > 0" v-bind:recipes="filteredPrimi" title="Primi"></HomeResultBlock>
+            <HomeResultBlock id="list-item-3" v-if="filteredSecondi.length > 0" v-bind:recipes="filteredSecondi" title="Secondi"></HomeResultBlock>
+            <HomeResultBlock id="list-item-4" v-if="filteredContorni.length > 0" v-bind:recipes="filteredContorni" title="Contorni"></HomeResultBlock>
+            <HomeResultBlock id="list-item-5" v-if="filteredDolci.length > 0" v-bind:recipes="filteredDolci" title="Dolci"></HomeResultBlock>
 
           </div>
         </div>
@@ -128,6 +128,16 @@ export default {
     filteredDolci: function() {
       return this.filterByQuery(this.dolci)
     }
+  },
+  mounted() {
+    const $root = $('html, body');
+
+    $('a[href^="#"]').click(function () {
+      $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+      }, 500);
+      return false;
+    });
   }
 }
 </script>
