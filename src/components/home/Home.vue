@@ -60,7 +60,6 @@ export default {
   data() {
     return {
       query: '',
-      titleLabel: 'Elenco Ricette',
       antipasti: this.filterByRecipeTypeAndSort('Antipasti'),
       primi: this.filterByRecipeTypeAndSort('Primi'),
       secondi: this.filterByRecipeTypeAndSort('Secondi'),
@@ -77,15 +76,17 @@ export default {
     didSearchForQuery(data) {
       const query = data.selected
       const isExactMatch = data.exactMatch
-      this.titleLabel = "Risultati per '" + query + "'"
       this.query = query
-      if (isExactMatch) {
-        const result = recipes.find(recipe => recipe.dish_name == query)
-        this.$router.push({ name: 'recipe', params: { id: result.dish_id } })
-      } else {
-        $('html, body').animate({
-          scrollTop: $("#title-label").offset().top - 20
-        }, 'slow');
+
+      if (this.query !== '') {
+        if (isExactMatch) {
+          const result = recipes.find(recipe => recipe.dish_name === query)
+          this.$router.push({name: 'recipe', params: {id: result.dish_id}})
+        } else {
+          $('html, body').animate({
+            scrollTop: $("#title-label").offset().top - 20
+          }, 'slow');
+        }
       }
     },
     removeDuplicates(array) {
@@ -109,6 +110,9 @@ export default {
     }
   },
   computed: {
+    titleLabel: function() {
+      return this.query === '' ? 'Elenco Ricette' : "Risultati per '" + this.query + "'"
+    },
     filteredAntipasti: function() {
       return this.filterByQuery(this.antipasti)
     },

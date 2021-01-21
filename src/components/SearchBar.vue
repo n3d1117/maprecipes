@@ -116,6 +116,8 @@ export default {
         this.suggestions.push({ name: "regions", data: this.filterRegions(query) });
         this.suggestions.push({ name: "cities", data: this.filterCities(query) });
         this.suggestions.push({ name: "ingredients", data: this.filterIngredients(query) });
+      } else {
+        this.callbackReset()
       }
     },
     filterRecipes(query) {
@@ -146,6 +148,10 @@ export default {
     },
     resetInput() {
       this.query = ''
+      this.callbackReset()
+    },
+    callbackReset() {
+      this.$emit('callback', { "selected": '', "exactMatch": false })
     }
   },
   mounted() {
