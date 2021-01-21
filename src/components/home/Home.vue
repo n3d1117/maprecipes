@@ -17,7 +17,7 @@
           <HomeSidebar></HomeSidebar>
 
           <div class="col-md-9">
-            <h1 class="mt-4 text-left">{{ titleLabel }}</h1>
+            <h1 id="title-label" class="mt-4 text-left">{{ titleLabel }}</h1>
 
             <HomeResultBlock v-if="antipasti.length > 0" v-bind:recipes="antipasti" title="Antipasti"></HomeResultBlock>
             <HomeResultBlock v-if="primi.length > 0" v-bind:recipes="primi" title="Primi"></HomeResultBlock>
@@ -36,6 +36,7 @@
 </template>
 
 <script>
+import $ from 'jquery'
 import SearchBar from "@/components/SearchBar"
 import HomeSidebar from "@/components/home/HomeSidebar";
 import HomeResultBlock from "@/components/home/HomeResultBlock";
@@ -93,6 +94,9 @@ export default {
         this.contorni = this.filterByQueryAndSort(this.contorni, query)
         this.dolci = this.filterByQueryAndSort(this.dolci, query)
         // todo scroll
+        $('html, body').animate({
+          scrollTop: $("#title-label").offset().top - 20
+        }, 'slow');
       }
     }
   }
