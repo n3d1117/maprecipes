@@ -4,9 +4,11 @@
     <ScrollToTopArrow></ScrollToTopArrow>
 
     <MainLayer>
-      <h1 id="searchbar_title">TROVA LE RICETTE DELLA TUA CITTÀ</h1>
-      <div class="offset-lg-2 col-lg-8">
-        <SearchBar></SearchBar>
+      <div style="margin-bottom: 200px">
+        <h1 id="searchbar_title">TROVA LE RICETTE DELLA TUA CITTÀ</h1>
+        <div class="offset-lg-2 col-lg-8">
+          <SearchBar @callback="didSearchForQuery"></SearchBar>
+        </div>
       </div>
     </MainLayer>
 
