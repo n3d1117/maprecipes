@@ -15,6 +15,7 @@
         :suggestions="suggestions"
         @input="fetchSuggestions"
         @selected="onSelected"
+        @keyup.enter="onEnter"
         :get-suggestion-value="getSuggestionValue"
         :renderSuggestion="getSuggestionValue"
         :sectionConfigs="sectionConfigs"
@@ -65,8 +66,8 @@ export default {
           label: "Ricette",
           onSelected: selected => {
             if (selected != null) {
-              this.selected = selected.item
               this.exactMatch = true
+              this.selected = selected.item
             }
           }
         },
@@ -74,24 +75,24 @@ export default {
           limit: 3,
           label: "Regioni",
           onSelected: selected => {
-            this.selected = selected.item;
             this.exactMatch = false
+            this.selected = selected.item;
           }
         },
         cities: {
           limit: 3,
           label: "Città",
           onSelected: selected => {
-            this.selected = selected.item
             this.exactMatch = false
+            this.selected = selected.item
           }
         },
         ingredients: {
           limit: 3,
           label: "Ingredienti",
           onSelected: selected => {
-            this.selected = selected.item
             this.exactMatch = false
+            this.selected = selected.item
           }
         }
       }
@@ -105,8 +106,14 @@ export default {
     }
   },
   methods: {
+    onEnter() {
+      if (this.query !== '') {
+        this.exactMatch = false
+        this.selected = this.query
+      }
+    },
     onSelected(item) {
-      this.selected = item.item;
+      this.selected = item.item
     },
     fetchSuggestions(query) {
       this.suggestions = [];
@@ -139,7 +146,7 @@ export default {
     },
     filterAndSort(array, query) {
       return [...new Set(array.filter(name => {
-            return (name.toLowerCase().indexOf(query.toLowerCase()) > -1)
+            return (this.normalized(name.toLowerCase()).indexOf(this.normalized(query.toLowerCase())) > -1)
           }).sort()
       )];
     },
@@ -152,7 +159,11 @@ export default {
     },
     callbackReset() {
       this.$emit('callback', { "selected": '', "exactMatch": false })
-    }
+    },
+    // https://stackoverflow.com/a/37511463
+    normalized(string) {
+      return string.normalize('NFD').replace(/[\u0300-\u036f]/g, "")
+    },
   },
   mounted() {
     const input = $('input[name=search]');

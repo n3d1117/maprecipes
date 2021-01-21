@@ -94,20 +94,29 @@ export default {
     },
     filterByQuery(array) {
       const query = this.query
+
+      // https://stackoverflow.com/a/37511463
+      function normalized(string) {
+        return string.normalize('NFD').replace(/[\u0300-\u036f]/g, "")
+      }
+
+      const filteredByRecipeName = array.filter(recipe => {
+        return (normalized(recipe.dish_name.toLowerCase()).indexOf(normalized(query.toLowerCase())) > -1)
+      })
       const filteredByRegion = array.filter(recipe => {
-        return (recipe.region.toLowerCase().indexOf(query.toLowerCase()) > -1)
+        return (normalized(recipe.region.toLowerCase()).indexOf(normalized(query.toLowerCase())) > -1)
       })
       const filteredByCity = array.filter(recipe => {
-        return (recipe.city.toLowerCase().indexOf(query.toLowerCase()) > -1)
+        return (normalized(recipe.city.toLowerCase()).indexOf(normalized(query.toLowerCase())) > -1)
       })
       const filteredByIngredient = array.filter(recipe => {
         const allIngredients = recipe.ingredients.flatMap(ing => ing.ingredient.replace(' q.b',''))
         return allIngredients.some(function(ingredient) {
-          return (ingredient.toLowerCase().indexOf(query.toLowerCase()) > -1)
+          return (normalized(ingredient.toLowerCase()).indexOf(normalized(query.toLowerCase())) > -1)
         });
       })
-      return this.removeDuplicates(filteredByRegion.concat(filteredByCity).concat(filteredByIngredient))
-    }
+      return this.removeDuplicates(filteredByRecipeName.concat(filteredByRegion.concat(filteredByCity).concat(filteredByIngredient)))
+    },
   },
   computed: {
     titleLabel: function() {
