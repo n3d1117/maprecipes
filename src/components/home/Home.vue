@@ -10,6 +10,7 @@
           <SearchBar @callback="didSearchForQuery" ref="searchbar"></SearchBar>
         </div>
       </div>
+      <ScrollDownIcon @callback="scrollToResults"></ScrollDownIcon>
     </MainLayer>
 
     <div id="bottom-bg">
@@ -46,10 +47,12 @@ import MainLayer from "@/components/MainLayer";
 import HomeFooter from "@/components/home/HomeFooter";
 import ScrollToTopArrow from "@/components/home/ScrollToTopArrow";
 import recipes from '@/recipes.json'
+import ScrollDownIcon from "@/components/home/ScrollDownIcon";
 
 export default {
   name: 'Home',
   components: {
+    ScrollDownIcon,
     ScrollToTopArrow,
     HomeFooter,
     MainLayer,
