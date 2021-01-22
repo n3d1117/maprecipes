@@ -208,7 +208,7 @@
             { "ingredient": "Prezzemolo q.b", "quantity": 0 },
             { "ingredient": "Sedano q.b", "quantity": 0 },
             { "ingredient": "Cipolla q.b", "quantity": 30 },
-            { "ingredient": "Carota gialla q.b", "quantity": 60 },
+            { "ingredient": "Carote gialle", "quantity": 60 },
             { "ingredient": "Parmigiano grattugiato q.b", "quantity": 0 }
         ],
         "region": "Abruzzo",
@@ -909,7 +909,7 @@
         ],
         "region": "Calabria",
         "product_history": "Il Natale è periodo di feste e tradizioni e per la vigilia dell'Immacolata a Cosenza si preparano i cuddrurieddri! Un nome difficile da pronunciare anche per molti calabresi, che spesso preferiscono chiamarli cullurielli. Queste sfiziose ciambelline sono realizzate con un impasto a base di patate e si possono servire con salumi e formaggi, o gustare come street food nelle vie della città mentre si termina di acquistare gli ultimi regali da mettere sotto l'albero. I cuddrurieddri però non sono solo questo, sono una ricetta tramandata di generazione in generazione e si preparano in casa per riunire tutta la famiglia! Con lo stesso impasto potrete preparare anche le vecchiarelle, dei panzerotti ripieni di acciughe e caciocavallo. Quest'anno scaldate il vostro Natale preparando anche voi i cuddrurieddri, seguendo la nostra ricetta sarà davvero semplice!",
-        "preparation": "Per preparare i cuddrurieddri come prima cosa ponete le patate a bollire. Dopo 30-40 minuti, in base alla loro dimensione, saranno cotte; scolatele e ancora calde schiacciatele con lo schiaccia patate, raccogliendo la purea in una ciotola molto capiente. In questo caso non ci sarà bisogno di sbucciarle, perchè la buccia resterà all'interno dello schiacciapatate. Versate l'acqua tiepida in una ciotola, unite il sale 4 e mescolate 5. Aggiungete il lievito sbriciolato e mescolate ancora. Versate questo liquido all'interno delle patate e mescolate con un cucchiaio fino ad ottenere una crema. Aggiungete tutta la farina in un colpo e iniziate ad impastare con le mani, trasferite poi il composto su un piano e lavorate ancora fino ad ottenere un composto omogenee. Utilizzando un tarocco o un coltello ricavate dei pezzi da circa 140 g e aiutandovi con le mani formate delle palline. Man mano ponetele su un vassoio dove avrete posizionato un canovaccio, distanziandole tra loro. Coprite con un altro canovaccio e lasciate lievitare per circa 30 minuti.\nA questo punto versate l'olio di semi in un tegame e scaldatelo fino a raggiungere la temperatura di 170°. A questo punto sollevate la prima pallina e infilando le dita al centro, create il foro allargandole leggermente. Se dovessero appiccicare troppo potete inumidirvi le mani. Immergete la prima ciambella nell'olio caldo e muovetela aiutandovi con un mestolo. Inserendo la parte posteriore del mestolo all'interno del buco della ciambella, riuscirete ad allargarla ulteriormente. Cuocete per circa 2-3 minuti girando la ciambella di tanto in tanto fino a che non sarà ben dorata. Scolatela dall'olio e trasferite su un vassoio foderato con carta da cucina. Procedete in questo modo fino a cuocere tutti i cuddrurieddri e serviteli ancora caldi.",
+        "preparation": "Per preparare i cuddrurieddri come prima cosa ponete le patate a bollire. Dopo 30-40 minuti, in base alla loro dimensione, saranno cotte; scolatele e ancora calde schiacciatele con lo schiaccia patate, raccogliendo la purea in una ciotola molto capiente. In questo caso non ci sarà bisogno di sbucciarle, perchè la buccia resterà all'interno dello schiacciapatate. Versate l'acqua tiepida in una ciotola, unite il sale e mescolate. Aggiungete il lievito sbriciolato e mescolate ancora. Versate questo liquido all'interno delle patate e mescolate con un cucchiaio fino ad ottenere una crema. Aggiungete tutta la farina in un colpo e iniziate ad impastare con le mani, trasferite poi il composto su un piano e lavorate ancora fino ad ottenere un composto omogenee. Utilizzando un tarocco o un coltello ricavate dei pezzi da circa 140 g e aiutandovi con le mani formate delle palline. Man mano ponetele su un vassoio dove avrete posizionato un canovaccio, distanziandole tra loro. Coprite con un altro canovaccio e lasciate lievitare per circa 30 minuti.\nA questo punto versate l'olio di semi in un tegame e scaldatelo fino a raggiungere la temperatura di 170°. A questo punto sollevate la prima pallina e infilando le dita al centro, create il foro allargandole leggermente. Se dovessero appiccicare troppo potete inumidirvi le mani. Immergete la prima ciambella nell'olio caldo e muovetela aiutandovi con un mestolo. Inserendo la parte posteriore del mestolo all'interno del buco della ciambella, riuscirete ad allargarla ulteriormente. Cuocete per circa 2-3 minuti girando la ciambella di tanto in tanto fino a che non sarà ben dorata. Scolatela dall'olio e trasferite su un vassoio foderato con carta da cucina. Procedete in questo modo fino a cuocere tutti i cuddrurieddri e serviteli ancora caldi.",
         "coords": [
             39.32963,
             16.255569
@@ -1488,7 +1488,7 @@
             },
             {
                 "quantity": 100,
-                "ingredient": "Carote medie"
+                "ingredient": "Carote"
             },
             {
                 "quantity": 20,
@@ -1842,7 +1842,7 @@
             }
         ],
         "region": "Campania",
-        "product_history": "La leggenda narra che nel giugno 1889, per onorare la Regina d'Italia, Margherita di Savoia, il cuoco Raffaele Esposito della Pizzeria Brandi inventò una pietanza che chiamò proprio Pizza Margherita[2] (con riferimento al fatto che il termine \"pizza\", allora sconosciuto al di fuori della città partenopea, indicava quasi sempre le torte dolci), dove i condimenti salati capitatigli tra le mani, pomodoro, mozzarella e basilico, rappresentavano addirittura gli stessi colori della bandiera italiana.\nSecondo recenti studi a carattere filologico, però, la storia della pizza Margherita preparata da “Brandi” per la prima volta sarebbe un “falso storico\". Il filologo Emmanuele Rocco, nel secondo volume del libro Usi e costumi di Napoli e contorni descritti e dipinti di Francesco De Bourcard pubblicato nel 1858, scrisse di varie combinazioni di condimento con diversi ingredienti tra i quali basilico, “pomidoro” e “sottili fette di muzzarella”.\nInoltre, già nel 1830, un certo \"Riccio\", nel libro Napoli, contorni e dintorni, aveva descritto una pizza a base di pomodoro, mozzarella e basilico.",
+        "product_history": "La leggenda narra che nel giugno 1889, per onorare la Regina d'Italia, Margherita di Savoia, il cuoco Raffaele Esposito della Pizzeria Brandi inventò una pietanza che chiamò proprio Pizza Margherita (con riferimento al fatto che il termine \"pizza\", allora sconosciuto al di fuori della città partenopea, indicava quasi sempre le torte dolci), dove i condimenti salati capitatigli tra le mani, pomodoro, mozzarella e basilico, rappresentavano addirittura gli stessi colori della bandiera italiana.\nSecondo recenti studi a carattere filologico, però, la storia della pizza Margherita preparata da “Brandi” per la prima volta sarebbe un “falso storico\". Il filologo Emmanuele Rocco, nel secondo volume del libro Usi e costumi di Napoli e contorni descritti e dipinti di Francesco De Bourcard pubblicato nel 1858, scrisse di varie combinazioni di condimento con diversi ingredienti tra i quali basilico, “pomidoro” e “sottili fette di muzzarella”.\nInoltre, già nel 1830, un certo \"Riccio\", nel libro Napoli, contorni e dintorni, aveva descritto una pizza a base di pomodoro, mozzarella e basilico.",
         "preparation": "Unite farina, un pizzico di sale e il lievito sciolto nell’acqua frizzante, aggiungete dell’olio extravergine d’oliva all’impasto e lavoratelo fino a ottenere un panetto. Lasciate riposare il panetto d'impasto per almeno due ore, quindi ungete d’olio una teglia rotonda e stendetevi sopra l’impasto lasciando i bordi più alti. Condite con della polpa di pomodoro e un pizzico di sale, quindi infornate a 250 gradi per 10 minuti, facendo ben attenzione a non far cuocere troppo la pizza. Dopo 10 minuti aggiungete la mozzarella, il formaggio grattugiato, le foglie di basilico fresco e infornate alla stessa temperatura per altri 10 minuti.",
         "coords": [
             40.880524,
@@ -2888,6 +2888,1444 @@
         ],
         "dish_name": "Fragolata",
         "dish_id": 54
+    },
+    {
+        "related_recipes": {
+            "56": "Lasagne alla bolognese",
+            "58": "Torta degli Addobbi",
+            "59": "Carote alla Parmigiana"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "emilia_romagna/bologna/passatelli_brodo_1.jpeg",
+            "emilia_romagna/bologna/passatelli_brodo_2.jpeg",
+            "emilia_romagna/bologna/passatelli_brodo_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=M2WV4Yqy7Cg",
+        "city": "Bologna",
+        "ingredients": [
+            {
+                "quantity": 120,
+                "ingredient": "Formaggio grana"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Noce moscata q.b"
+            },
+            {
+                "quantity": 1000,
+                "ingredient": "Brodo di manzo"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Pangrattato"
+            },
+            {
+                "quantity": 180,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Midollo di bue"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Limone"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "Il piatto, che è descritto nel ricettario dell'Artusi, discende probabilmente dalla \"tardura\" (conosciuta anche come \"stracciatella\"), minestra di uova, formaggio e pangrattato ricordata dal forlivese Michele Placucci.\nI passatelli originano nei paesi dell'alta Valle del Cesano (Frontone, Pergola, San Lorenzo in Campo, Fratte Rosa, Serra Sant'Abbondio, Corinaldo, Sant'Andrea di Suasa e Castelleone di Suasa).",
+        "preparation": "Rompete in una terrina le uova, aggiungere un pizzico di noce moscata, la scorza di un limone e il sale. Amalgamate bene con una forchetta poi aggiungete il grana grattugiato, il pane e il midollo ammorbidito e lasciate riposare. Passate l'impasto poco alla volta con lo stampo apposito o con lo schiacciapatate. Portate il brodo ad ebollizione e cuocete i passatelli poco per volta. Lasciateli cucinare per massimo 6/8 minuti. Servite con una spolverata di parmigiano.",
+        "coords": [
+            44.461128,
+            11.365329
+        ],
+        "dish_name": "Passatelli in Brodo",
+        "dish_id": 55
+    },
+    {
+        "related_recipes": {
+            "54": "Passatelli in Brodo",
+            "58": "Torta degli Addobbi",
+            "59": "Carote alla Parmigiana"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "emilia_romagna/bologna/lasagne_bolognese_1.jpeg",
+            "emilia_romagna/bologna/lasagne_bolognese_2.jpeg",
+            "emilia_romagna/bologna/lasagne_bolognese_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=wxrH-WS59Us",
+        "city": "Bologna",
+        "ingredients": [
+            {
+                "quantity": 180,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 700,
+                "ingredient": "Carne macinata mista"
+            },
+            {
+                "quantity": 70,
+                "ingredient": "Sedano"
+            },
+            {
+                "quantity": 400,
+                "ingredient": "Polpa di passata di pomodoro"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Rosmarino q.b"
+            },
+            {
+                "quantity": 180,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Vino bianco"
+            },
+            {
+                "quantity": 25,
+                "ingredient": "Olio d'oliva"
+            },
+            {
+                "quantity": 600,
+                "ingredient": "Besciamella"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Parmigiano"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Burro"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "Due distinti ricettari, entrambi provenienti dalla Corte Angioina di Napoli, propongono le più antiche ricette per la preparazione di una lasagna di cui si abbia notizia. Si tratta dell'Anonimo Meridionale che alcuni autori fanno risalire, in prima stesura, al 1238-1239, nel quale compaiono diverse ricette per le lasagne, tra le quali una per Affare lesagne, e del Liber de Coquina (ca. 1304-1314), che presenta una ricetta De lasanis. Nei successivi secoli la ricetta venne riproposta anche in altri ricettari, non solo italiani, tra i quali si segnalano, L'Anonimo Toscano più noto con il nome di Libro de la Cocina, traduzione in volgare del Liber de Coquina. Nell'opera del Napoletano G.B. Crisci, Lucerna de Corteggiani, troviamo le \"Lasagne di monache stufate, mozzarella e cacio\", la prima in cui le lasagne vengano farcite con un latticino a pasta filata ed anche la prima nelle quali vengano successivamente passate nel forno. Infine ne Il Principe dei Cuochi, pubblicato a Napoli nel 1881, troviamo la prima ricetta in cui sia implicitamente suggerito l'uso del pomodoro. La ricetta delle lasagne al forno non è presente in alcuna edizione del più noto ricettario della gastronomia italiana La scienza in cucina di Pellegrino Artusi, che pure era nativo della romagnola Forlimpopoli, la cui prima edizione risale al 1891.",
+        "preparation": "Con farina, uova e sale realizzate la sfoglia, facendola riposare per mezz'ora dopo averla impastata. Rosolate le verdure tritate in olio con rosmarino, poi aggiungete la carne sfumando col vino. Aggiungete la passata di pomodoro, salate e pepate, quindi cuocete a fiamma bassa per 80 minuti. Tagliate dei rettangoli con la pasta e disponeteli in uno stampo da forno imburrato, poi ricoprite con uno strato di ragù e uno di besciamella​. Ripetete l'operazione fino ad esaurire tutti gli ingredienti e mettete in forno a 190° per 40 minuti.",
+        "coords": [
+            44.482688,
+            11.354343
+        ],
+        "dish_name": "Lasagne alla Bolognese",
+        "dish_id": 56
+    },
+    {
+        "related_recipes": {
+            "55": "Lasagne alla Bolognese",
+            "54": "Passatelli in Brodo",
+            "59": "Carote alla Parmigiana"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "emilia_romagna/bologna/torta_addobbi_1.jpeg",
+            "emilia_romagna/bologna/torta_addobbi_2.jpeg",
+            "emilia_romagna/bologna/torta_addobbi_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=V7awOa1ge5s",
+        "city": "Bologna",
+        "ingredients": [
+            {
+                "quantity": 200,
+                "ingredient": "Riso"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Cedro candito"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Mandorle"
+            },
+            {
+                "quantity": 180,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 2000,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Limone"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Amaretto di Saronno"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 70,
+                "ingredient": "Burro"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "Veniva tradizionalmente preparato durante la \"Festa degli addobbi\", festa istituita nel 1470 per il decennale di una parrocchia in cui era uso esporre alle finestre, in segno di festa, dei drappi colorati. In tale occasione le case dei parrocchiani erano aperte alle visite di vicini e conoscenti e agli ospiti si offriva questa torta. Si preparava allora la \"torta di riso\" che veniva offerta tagliata in piccoli rombi, ciascuno sormontato da uno stuzzicadenti. Negli Addobbi o Corpus Domini \"si portava in processione l'immagine del Corpus Domini: questa festa veniva celebrata ogni 10 anni nelle parrocchie in città, mentre in campagna ogni paese veniva diviso in 4 quartieri e ogni quartiere festeggiava una volta ogni 4 anni, a rotazione\" (Babette, in \"La cucina della Prateria bolognese\").",
+        "preparation": "Mettete al fuoco una casseruola con il latte, mezzo litro d'acqua, lo zucchero, la scorza di limone grattugiata e un pizzico di sale: al bollore, unite il riso e fatelo cuocere adagio sinché avrà del tutto assorbito il liquido. Lasciatelo freddare e incorporatevi le uova, 50 g di burro ammorbidito, i canditi e le mandorle tritati. Travasate il composto, livellato, in una pirofila imburrata che porrete in forno riscaldato a 200 °C per una mezz'oretta. Una volta terminata la cottura, prelevate la torta dal forno e fatela intiepidire: bucherellatene la superficie con uno stuzzicadenti e irroratela con un paio di bicchierini di Amaretto o Maraschino.",
+        "coords": [
+            44.494199,
+            11.389362
+        ],
+        "dish_name": "Torta degli Addobbi",
+        "dish_id": 58
+    },
+    {
+        "related_recipes": {
+            "55": "Lasagne alla Bolognese",
+            "54": "Passatelli in Brodo",
+            "58": "Torta degli Addobbi"
+        },
+        "dish_type": "Contorni",
+        "photos": [
+            "emilia_romagna/bologna/carote_parmigiana_1.jpeg",
+            "emilia_romagna/bologna/carote_parmigiana_2.jpeg",
+            "emilia_romagna/bologna/carote_parmigiana_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=mCeCxHsMz8w",
+        "city": "Bologna",
+        "ingredients": [
+            {
+                "quantity": 700,
+                "ingredient": "Carote"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Parmigiano"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "Le carote alla parmigiana sono un succulento contorno tipico dell’Emilia Romagna, un piatto facile da preparare e ricco di vitamine e di sapore. Il nome della ricetta, oltre che alla città di Parma, rimanda al parmigiano da cui sono ricoperte le carote prima di essere servite in tavola. Da provare anche fritte.",
+        "preparation": "Iniziate la preparazione spuntando le carote, pelandole e lavandole, quindi asciugatele per bene servendovi di un canovaccio pulito. Mettete l'olio in una casseruola antiaderente e portate a temperatura, non appena sarà ben caldo aggiungete le carote e fatele rosolare brevemente mescolando con un cucchiaio di legno. Versate mezzo bicchiere di acqua nella casseruola, insaporite con una presa di sale e un pizzico di pepe appena macinato e continuate la cottura a fuoco moderato per 20 minuti circa, mescolando di tanto in tanto. A cottura ultimata cospargete le carote con il parmigiano grattugiato, coprite il tegame e lasciatelo riposare per qualche minuto, quindi trasferite le carote su un piatto di portata riscaldato e servite ben calde.",
+        "coords": [
+            44.503496,
+            11.359603
+        ],
+        "dish_name": "Carote alla Parmigiana",
+        "dish_id": 59
+    },
+    {
+        "related_recipes": {
+            "55": "Lasagne alla Bolognese",
+            "59": "Carote alla Parmigiana",
+            "58": "Torta degli Addobbi"
+        },
+        "dish_type": "Contorni",
+        "photos": [
+            "emilia_romagna/bologna/tortino_zucchine_1.jpeg",
+            "emilia_romagna/bologna/tortino_zucchine_2.jpeg",
+            "emilia_romagna/bologna/tortino_zucchine_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=fbEFwLDy2w4",
+        "city": "Bologna",
+        "ingredients": [
+            {
+                "quantity": 800,
+                "ingredient": "Zucchine"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Caciocavallo"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Fontina"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Caciotta"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Parmigiano"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Besciamella q.b"
+            },
+            {
+                "quantity": 180,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pangrattato q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Basilico q.b"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "Il tortino di zucchine è una specialità dell’Emilia Romagna preparata con zucchine, formaggi e altri ingredienti, ideale per ogni mese dell’anno. Ha un gusto unico e particolare, che lo rende un contorno davvero perfetto,  proprio come la deliziosa torta di zucchine che ha una modalità di realizzazione abbastanza affine.",
+        "preparation": "Pulite e lavate le zucchine, asciugatele con cura e tagliatele a tocchetti, fatele quindi saltare in una casseruola con dell'olio e lasciatele poi stufare a fuoco lento per una ventina di minuti, con coperchio, mescolando piuttosto frequentemente con un cucchiaio di legno. Aggiustate di sale solo poco prima di togliere dal fuoco e, una volta cotte, trasferite le zucchine in una terrina, unitevi i formaggi tagliati a dadini, il parmigiano grattugiato, la besciamella leggera preparata precedentemente e le foglie di basilico sminuzzate. Mescolate con cura, amalgamando bene gli ingredienti e quindi unite anche i tuorli leggermente sbattuti e gli albumi montati a neve con l'ausilio di una frusta. Oliate una teglia, spolverizzatela di pangrattato e versatevi il composto di zucchine formando uno strato alto circa 2-3 cm, quindi cuocete in forno preriscaldato a temperatura moderata per circa 25 minuti e servite in tavola.",
+        "coords": [
+            44.520455,
+            11.334287
+        ],
+        "dish_name": "Tortino di Zucchine",
+        "dish_id": 60
+    },
+    {
+        "related_recipes": {
+            "60": "Tortino di Zucchine",
+            "59": "Carote alla Parmigiana",
+            "58": "Torta degli Addobbi"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "emilia_romagna/bologna/tagliatelle_bolognese_1.jpeg",
+            "emilia_romagna/bologna/tagliatelle_bolognese_2.jpeg",
+            "emilia_romagna/bologna/tagliatelle_bolognese_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=dbrGZ3YkFSE",
+        "city": "Bologna",
+        "ingredients": [
+            {
+                "quantity": 320,
+                "ingredient": "Tagliatelle"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Pancetta"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Carota"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Sedano"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Polpa di maiale"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Polpa di manzo"
+            },
+            {
+                "quantity": 4000,
+                "ingredient": "Brodo di carne"
+            },
+            {
+                "quantity": 1000,
+                "ingredient": "Vino rosso"
+            },
+            {
+                "quantity": 400,
+                "ingredient": "Passata di pomodoro"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Parmigiano"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "L'origine del \"ragù\" è francese, dal termine ragoût, con cui un tempo si intendevano tutte quelle preparazioni in cui la carne (ma all'occasione anche il pesce o le verdure) veniva ridotta in pezzettini poi cotti in umido a fuoco basso per lungo tempo. Non è chiaro quando il termine iniziò ad essere impiegato in Italia, ma il “ragù” era già presente nelle tavole degli aristocratici del Rinascimento, inizialmente come piatto a sè (così come è tuttora nella cucina francese) e solo successivamente utilizzato per condire la pasta.\nLa ricetta, inizialmente consistente di un soffritto di carni bovine con \"odori\" (sedano, carota e cipolla), lardo e burro, ha subito variazioni nel corso del tempo, la principale delle quali fu l'introduzione nell'Ottocento del pomodoro (o più spesso del concentrato).\nNell'ottobre del 1982 la delegazione di Bologna dell'Accademia italiana della cucina ha depositato presso la Camera di Commercio Industria Artigianato e Agricoltura di Bologna la ricetta del ragù bolognese, allo scopo di garantire la continuità ed il rispetto della tradizione gastronomica bolognese in Italia e nel mondo.",
+        "preparation": "Tritate insieme la pancetta, la carota, la cipolla e il sedano; mettete in una casseruola il burro e fatevi appassire il trito per 15 minuti, senza farlo dorare. Aggiungete la carne e rosolatela, mescolando; quindi unite 0,5 dl di vino, lasciatelo ridurre della metà e bagnate con 1 dl di brodo. Quando il liquido è assorbito, unite il resto del vino e 1 dl di brodo caldo in cui sia stato sciolto il concentrato di pomodoro. Fate ancora ridurre il ragù, poi unite 1 dl di brodo caldo, la passata di pomodoro e proseguite la cottura finché la salsa si sarà addensata. Salate, pepate, versate il brodo rimasto, coprite e fate sobbollire finché il ragù si sarà di nuovo addensato. Cuocete le tagliatelle, scolatele al dente e conditele con il parmigiano grattugiato. Versatevi quasi tutto il ragù, mescolate e distribuite il ragù rimasto sulla superficie. Servitele ben calde.",
+        "coords": [
+            44.510427,
+            11.304367
+        ],
+        "dish_name": "Tagliatelle alla Bolognese",
+        "dish_id": 61
+    },
+    {
+        "related_recipes": {
+            "60": "Tortino di Zucchine",
+            "61": "Tagliatelle alla Bolognese",
+            "59": "Carote alla Parmigiana"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "emilia_romagna/piacenza/picula_dcaval_1.jpeg",
+            "emilia_romagna/piacenza/picula_dcaval_2.jpeg",
+            "emilia_romagna/piacenza/picula_dcaval_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=_RIb0fgdMII",
+        "city": "Piacenza",
+        "ingredients": [
+            {
+                "quantity": 800,
+                "ingredient": "Carne di cavallo macinata"
+            },
+            {
+                "quantity": 400,
+                "ingredient": "Pomodori"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Peperoni"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Cipolla bianca"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Sedano"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Carote"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Lardo"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Ginepro"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Vino rosso"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Rosmarino"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Chiodi di garofano"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "Il nome pìcula d' cavall viene spesso impropriamente italianizzato in \"piccola di cavallo\". In realtà in dialetto piacentino l'aggettivo pìcul copre il significato italiano di \"ridotto\" più che di \"piccolo\" (reso invece con picin), mentre il sostantivo pìcula significa \"razione\". Il nome del piatto indica quindi una razione, una porzione, ridotta di cavallo con particolare riferimento a quella consumata come seconda colazione mattutina dai carrettieri e dai facchini piacentini nel XIX e XX secolo.",
+        "preparation": "Prepariamo la picula d'caval: dopo aver fatto soffriggere la cipolla nell'olio in una padella, aggiungere la carne macinata lasciandola rosolare a fuoco basso, allungando poi il sugo con il vino e cuocendo il tutto per circa un'ora. Trascorso il tempo unire i pomodori, i peperoni e il sedano, tutti in precedenza tritati, infine le erbe aromatiche e l'aglio schiacciato, lasciando poi cuocere il tutto per altri 30 minuti circa. Servire la picula con polenta.",
+        "coords": [
+            45.054691, 9.666559
+        ],
+        "dish_name": "Pìcula 'd cavall",
+        "dish_id": 62
+    },
+    {
+        "related_recipes": {
+            "60": "Tortino di Zucchine",
+            "61": "Tagliatelle alla Bolognese",
+            "62": "Pìcula 'd cavall"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "emilia_romagna/piacenza/cannelloni_piacentina_1.jpeg",
+            "emilia_romagna/piacenza/cannelloni_piacentina_2.jpeg",
+            "emilia_romagna/piacenza/cannelloni_piacentina_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=NBTvFGGK65c",
+        "city": "Piacenza",
+        "ingredients": [
+            {
+                "quantity": 180,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 500,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 800,
+                "ingredient": "Spinaci"
+            },
+            {
+                "quantity": 600,
+                "ingredient": "Ricotta"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Grana"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Noce moscata q.b"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Mascarpone"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Prezzemolo q.b"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "In Romagna, Marche e Umbria i cannelloni sono un formato di pasta fresca all'uovo.\nSono formati da rettangoli di pasta all'uovo simili a quelli con cui si preparano le lasagne ma di formato più piccolo e vengono arrotolati su se stessi per contenere il ripieno. La preparazione è la stessa e gli ingredienti sono farina, uova e acqua. All'estero, i cannelloni sono spesso chiamati manicotti o maniche.",
+        "preparation": "Disponete la farina a fontana e al centro sgusciate due uova, aggiungete i tuorli, versate un po’ di burro fuso a bagnomaria e, un po' per volta, il latte.Mescolate per una decina di minuti fino a ottenere una pastella poco densa. Sciogliete una noce di burro in una padella, versatevi un piccolo quantitativo di pastella e cuocete da entrambi i lati. Ripetete poi l'operazione fino ad esaurimento del composto. Pulite gli spinaci, lessateli, scolateli e quindi passateli in un frullatore con la ricotta e un pizzico di prezzemolo. Versate poi questi ingredienti in una ciotola e amalgamateli conmascarpone, un altro uovo, un pizzico di noce moscata e di sale. Riempite a questo punto le pastelline fritte con il contenuto del composto e arrotolatele. Allineatele in una pirofila, aggiungete sulla superficie alcuni cucchiai di Grana Padano grattugiato e del burro fuso, quindi lasciate gratinare in forno a 180 gradi per non più di mezz’ora.",
+        "coords": [
+            45.053720, 9.707072
+        ],
+        "dish_name": "Cannelloni alla Piacentina",
+        "dish_id": 63
+    },
+    {
+        "related_recipes": {
+            "61": "Tagliatelle alla Bolognese",
+            "62": "Pìcula 'd cavall",
+            "63": "Cannelloni alla Piacentina"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "emilia_romagna/piacenza/buslanei_1.jpeg",
+            "emilia_romagna/piacenza/buslanei_2.jpeg",
+            "emilia_romagna/piacenza/buslanei_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=NY04vGhx5Q8",
+        "city": "Piacenza",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "Un tempo erano molto diffusi nella Val Tidone della quale sono originari.I buslanêi o brassadéi venivano regalati dai padrini (gudàss) ai cresimandi che portavano le lunghe collane a bandoliera. Pare che queste ciambelle fossero già note ai primi del 1300 e che i monaci di San Savino ne facessero omaggio ai canonici della cattedrale. I buslanêi sono molto gustosi a colazione rammolliti nel latte o in ottimo e frizzante vino bianco. Ne esiste anche un tipo per il brodo.",
+        "preparation": "Impastate farina, burro, zucchero, sale e latte e formate dei regolari cordoni che, tagliati a pezzetti, chiuderete ad anello sull'indice della mano sinistra. Le ciambelle vanno scottate in acqua non bollente e messe nel forno molto caldo dal quale le toglierete dopo mezz'ora circa. Infilatele con un grosso filo bianco a formare lunghe collane e rimettete nel forno tiepido per un'ora; ne usciranno biscottate e si manterranno fresche a lungo.",
+        "coords": [
+            45.038681, 9.726298
+        ],
+        "dish_name": "Buslanei",
+        "dish_id": 64
+    },
+    {
+        "related_recipes": {
+            "62": "Pìcula 'd cavall",
+            "63": "Cannelloni alla Piacentina",
+            "64": "Buslanei"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "emilia_romagna/piacenza/tortelli_piacentina_1.jpeg",
+            "emilia_romagna/piacenza/tortelli_piacentina_2.jpeg",
+            "emilia_romagna/piacenza/tortelli_piacentina_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=Y3eLubFax0k",
+        "city": "Piacenza",
+        "ingredients": [
+            {
+                "quantity": 400,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 240,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Spinaci"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Ricotta"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Grana"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Noce moscata q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Salvia q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Burro q.b"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "La tradizione delle paste ripiene dell'Italia settentrionale viene fatta risalire al Medioevo. La ricetta del territorio di Piacenza era nota a Giovanni Boccaccio, che definiva semplicemente piasentino la varietà locale del tortello. Secondo alcune ricerche, la caratteristica chiusura della pasta con due \"code\" alle estremità è menzionata a partire dal 1351, l'anno in cui il nobile piacentino Bernardo Anguissola ospitò Francesco Petrarca al castello di Vigolzone (PC). Fu il feudatario a chiedere al personale di cucina di modificare dei comuni ravioli in un qualcosa di più originale e visivamente gradevole per i canoni estetici del poeta laureato a Roma in Campidoglio. Con la stessa conformazione furono apprezzati e descritti anche da un altro poeta, Giosuè Carducci, ospitato al castello nel 1888 dal conte Cesare Anguissola.",
+        "preparation": "Per prima cosa pulite accuratamente gli spinaci o le biete, lessateli in pentola con la sola acqua rimasta dal lavaggio, quindi strizzateli, tritateli finemente e disponeteli in una ciotola. Unite la ricotta, aggiungete le uova, i due etti di formaggio grana, un pizzico di noce moscata grattugiata e il sale, poi fate in modo di amalgamare bene l'impasto che dovrà risultare piuttosto denso e fine. Disponete la farina a fontana sulla spianatoia, rompere al centro le uova e incominciare a impastare lavorando con forza fino a ottenere un impasto liscio ed elastico. Preparate una sfoglia sottile e dividete la pasta in rombi di circa 8 cm, ponete un rombo di pasta sul palmo della mano sinistra e, partendo dall'angolo esterno e con indice e pollice della mano destra, intrecciate i due lembi racchiudendo il ripieno. Ripetete l'operazione con tutti i tortellini e, una volta pronti, lessateli per una manciata di minuti in abbondante acqua salata per poi scolarli e condirli con burro fuso, salvia e grana grattugiato.",
+        "coords": [
+            45.036740, 9.691965
+        ],
+        "dish_name": "Tortelli alla Piacentina",
+        "dish_id": 65
+    },
+    {
+        "related_recipes": {
+            "63": "Cannelloni alla Piacentina",
+            "64": "Buslanei",
+            "65": "Tortelli alla piacentina"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "emilia_romagna/ferrara/pasticcio_maccheroni_1.jpeg",
+            "emilia_romagna/ferrara/pasticcio_maccheroni_2.jpeg",
+            "emilia_romagna/ferrara/pasticcio_maccheroni_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=aMv9WHeKgSM",
+        "city": "Ferrara",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Polpa di vitello"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Polpa di pollo"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Fegatini di pollo"
+            },
+            {
+                "quantity": 500,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Vino bianco"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Vino rosso"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Noce moscata"
+            },
+            {
+                "quantity": 250,
+                "ingredient": "Maccheroncini"
+            },
+            {
+                "quantity": 250,
+                "ingredient": "Funghi secchi"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "La storia del pasticcio ferrarese risale al Rinascimento dove, nelle corti ducali, vi era la consuetudine di preparare pietanze fatte con ingredienti diversi al fine di poterli conservare nel tempo, da qui la forma a cupola che serve appunto a \"racchiudere\" gli ingredienti. Una prima testimonianza del pasticcio arriva dall'antica ricetta del pastelle, appartenente al cuoco della corte estense Cristoforo di Messisbugo. Sebbene il termine \"pasticcio\" fosse assai diffuso in tutta Italia per indicare proprio questo tipo di pietanze, quello ferrarese subì invece delle modifiche derivanti dalle vicende politiche e culturali fra la corte degli Este e quella di Napoli: infatti, Eleonora d'Aragona, figlia di Ferdinando I di Napoli, sposa Ercole I d'Este nel 1473, dando quindi vita a scambi culturali fra le due signorie. Questo spiegherebbe l'inserimento nella ricetta del pasticcio dei maccheroni, che erano un tipo di pasta diffusa al sud e che ebbero i natali o nella cucina napoletana o in quella siciliana. La ricetta del pasticcio subì quindi varie modifiche sino ad arrivare al 1700, quando iniziarono a circolare le prime ricette documentate. Il pasticcio di maccheroni si presenta come un piatto dalla preparazione molto laboriosa e che coniuga l'accostamento fra dolce e salato.",
+        "preparation": "Per prima cosa preparate la pasta frolla impastando farina, burro, zucchero e tuorli d'uovo e dando vita a un composto omogeneo. Modellate la pasta per un po', quindi lasciatela riposare in un luogo fresco. Passate poi alla preparazione dei ragù. Utilizzate un tegamino di piccola capacità, e deponetevi una noce di burro con due cucchiai d’olio. Lasciate soffriggere, quindi suddividetevi il trito di cipolla, carota e sedano facendo insaporire per bene. Unitelo poi alle diverse carni tritate, mescolate a dovere e fatele colorire, spruzzando di volta in volta un po' di vino bianco e rosso. Lasciate evaporare e ripetete l'operazione, fino a cottura ultimata di tutti i ragù. Tocca ora alla preparazione dei funghi. In un altro tegamino lasciate fondere del burro aggiungendovi alcuni cucchiai di acqua leggermente salata. Aggiungete i funghi secchi, che avrete messo in ammollo, dopo averli strizzati per bene. Cuocete a fuoco medio per un quarto d'ora, quindi preparate la besciamella insaporendola con un pizzico di noce moscata. Cuocete i maccheroncini rigati, scolate l'acqua e conditeli con la besciamella ancora tiepida, i funghi, i vari ragù di carne e il Grana Padano grattugiato. Passate infine alla preparazione del pasticcio. Dividete la pasta in due parti tirandole a disco. Con uno foderate una teglia precedentemente imburrata e riempitela con i maccheroncini disponendoli a forma di cupola. Con l'altro disco di pasta ricoprite il tutto, sigillate i bordi e decorate la superficie con i ritagli di pasta rimasti. Spennellate con del tuorlo diluito in una spruzzata d'acqua e cuocete in forno a 180° fino a doratura. Lasciate raffreddare giusto qualche minuto e servite in tavola.",
+        "coords": [
+            44.860802,
+            11.586529
+        ],
+        "dish_name": "Pasticcio di Maccheroni",
+        "dish_id": 66
+    },
+    {
+        "related_recipes": {
+            "64": "Buslanei",
+            "65": "Tortelli alla piacentina",
+            "66": "Pasticcio di Maccheroni"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "emilia_romagna/ferrara/torta_tenerina_1.jpeg",
+            "emilia_romagna/ferrara/torta_tenerina_2.jpeg",
+            "emilia_romagna/ferrara/torta_tenerina_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=vTW8diBjP54",
+        "city": "Ferrara",
+        "ingredients": [
+            {
+                "quantity": 200,
+                "ingredient": "Cioccolato fondente"
+            },
+            {
+                "quantity": 240,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Zucchero a velo q.b"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "Per gustare un’ottima torta tenerina dobbiamo sicuramente metterci in marcia verso l’Emilia Romagna. Infatti, la troveremo nei menù di trattorie e osterie da Modena a Bologna, da Ravenna a Forlì, ma la terra che ha dato i natali a questa deliziosa torta al cioccolato è Ferrara.\nProprio nella città estense è stata preparata per la prima volta ed è soprattutto qui che vengono preservate le caratteristiche tipiche della torta: la crosticina leggermente croccante e il cuore morbido. Qualità che le sono valse il soprannome di “torta Taclenta” che, in dialetto ferrarese, vuol dire “torta appiccicosa” proprio in riferimento alla consistenza dell’interno. Da Ferrara a tutta la regione il passo è stato breve, forse proprio per tutta questa dolcezza strabordante capace di conquistare molti, moltissimi palati, alcuni addirittura regali.",
+        "preparation": "Per cominciare tritate finemente il cioccolato e fatelo sciogliere a bagnomaria mescolando continuamente, quindi unite il burro a pezzetti e fatelo sciogliere a sua volta, sempre mescolando, spegnendo poi la fiamma e lasciando intiepidire. Separate i tuorli dagli albumi e unite a questi ultimi metà dello zucchero, montando fino a ottenere un composto spumoso; ai tuorli unite l'altra metà dello zucchero, montate e successivamente versatevi sopra a filo il composto di burro e cioccolato. Continuate a sbattere, unite un po' per volta gli albumi montati a neve e mescolate con delicatezza dal basso verso l'altro, quindi aggiungete la farina a pioggia sempre mescolando dal basso e ottenendo un composto liscio e privo di grumi. Trasferite l'impasto in uno stampo infarinato e imburrato, stendetelo e fatelo cuocere in forno a 180 gradi per 30 minuti, poi a cottura ultimata sfornate, lasciate intiepidire e servite in tavola ricoprendo con zucchero a velo.",
+        "coords": [
+            44.827696,
+            11.627728
+        ],
+        "dish_name": "Torta Tenerina",
+        "dish_id": 67
+    },
+    {
+        "related_recipes": {
+            "65": "Tortelli alla piacentina",
+            "66": "Pasticcio di Maccheroni",
+            "67": "Torta Tenerina"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "emilia_romagna/ravenna/zuppa_imperiale_1.jpeg",
+            "emilia_romagna/ravenna/zuppa_imperiale_2.jpeg",
+            "emilia_romagna/ravenna/zuppa_imperiale_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=Xw_Y6xxkQNE",
+        "city": "Ravenna",
+        "ingredients": [
+            {
+                "quantity": 1500,
+                "ingredient": "Brodo di carne"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Semolino"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Parmigiano"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 240,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Scorza di limone"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Noce moscata q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Prezzemolo q.b"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "La zuppa imperiale è un primo piatto tipico della tradizione dell’Emilia Romagna costituito da cubetti di semolino immersi in brodo e bollente. È definita imperiale perché si tratta di una zuppa ricca e sostanziosa, con i sentori del burro fuso, della noce moscata, un pizzico di sale, pepe e abbondante parmigiano reggiano. Insomma, un trionfo di gusto, una varietà di zuppa davvero gustosa.",
+        "preparation": "Sciogliete il burro a bagnomaria, amalgamate il semolino, le uova sbattute, il parmigiano grattugiato, la scorza grattugiata del limone, un pizzico di noce moscata, sale e pepe. Versate il composto in una teglia (unta o rivestita di carta forno) in modo che abbia uno spessore di circa un centimetro; fate cuocere in forno preriscaldato a 180° per circa 30 minuti. Una volta raffreddata, tagliate la zuppa a cubetti da un centimetro per lato. Immergete i cubetti ottenuti in una pentola con il brodo di carne bollente e fateli cuocere per circa due minuti. Condite con del prezzemolo prima di servire in tavola.",
+        "coords": [
+            44.413792,
+            12.196729
+        ],
+        "dish_name": "Zuppa Imperiale",
+        "dish_id": 68
+    },
+    {
+        "related_recipes": {
+            "68": "Zuppa Imperiale",
+            "66": "Pasticcio di Maccheroni",
+            "67": "Torta Tenerina"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "emilia_romagna/modena/tortino_ricotta_aceto_balsamico_1.jpeg",
+            "emilia_romagna/modena/tortino_ricotta_aceto_balsamico_2.jpeg",
+            "emilia_romagna/modena/tortino_ricotta_aceto_balsamico_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=alHbckCq1uk",
+        "city": "Modena",
+        "ingredients": [
+            {
+                "quantity": 350,
+                "ingredient": "Ricotta"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Aceto balsamico"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Zucchero a velo"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Cacao amaro in polvere"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Sciroppo di zucchero di canna"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "La tortina di ricotta con aceto balsamico è una vera delizia, un dolce che può rappresentare anche un piatto unico e che è preparato con un prodotto d’eccellenza dell’Emilia Romagna: aceto balsamico di Modena igp. Bastano cinque passaggi per realizzare questo piatto ricercato e sopraffino, anche se bisogna aspettare una decina d’ore prima di gustarlo: deve raffreddare bene.",
+        "preparation": "In una terrina montate le uova intere con lo zucchero a velo, unite quindi la ricotta fresca e mescolate accuratamente aiutandovi con un cucchiaio di legno. A due terzi del composto ottenuto aggiungete il cacao amaro poco alla volta e mescolate continuamente, fino a ottenere una crema liscia e omogenea. Ricoprite una teglia con un foglio di carta oleata, adagiatevi sopra uno strato di ricotta al cacao e proseguite con lo strato di crema bianca. Finite la preparazione spalmando l'ultimo strato di crema al cacao. Coprite la torta con la carta stagnola e lasciatela riposare il freezer per 8\b ore. Prima di toglierla dal freezer, mescolate in un bicchiere l'Aceto Balsamico di Modena con lo sciroppo di zucchero di canna. Togliete il dolce dal freezer e lasciatelo tornare a temperatura ambiente. Tagliate il dolce a fette e ornate con lo sciroppo di Aceto balsamico di Modena e zucchero di canna.",
+        "coords": [
+            44.672134,
+            10.937521
+        ],
+        "dish_name": "Tortina di ricotta con aceto balsamico",
+        "dish_id": 69
+    },
+    {
+        "related_recipes": {
+            "68": "Zuppa Imperiale",
+            "69": "Tortina di ricotta con aceto balsamico",
+            "66": "Pasticcio di Maccheroni"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "emilia_romagna/modena/zampone_modena_1.jpeg",
+            "emilia_romagna/modena/zampone_modena_2.jpeg",
+            "emilia_romagna/modena/zampone_modena_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=QAGut-t4xhA",
+        "city": "Modena",
+        "ingredients": [
+            {
+                "quantity": 1500,
+                "ingredient": "Zampone"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "La tradizione colloca il primo zampone agli inizi del XVI secolo a Mirandola, durante l'assedio di Papa Giulio II dell'inverno 1510-1511. I cittadini macellarono tutti i suini per non lasciarli nelle mani dei nemici e ne conservarono le carni nel tipico budello di cotenna.\nLa zona di produzione dello zampone di Modena comprende, oltre a Mantova, Cremona ed alcune altre zone del Nord Italia. Stesso impasto ma differente forma e peso ha il cotechino, che condivide anche gli stessi usi gastronomici.",
+        "preparation": "La sera precedente la preparazione lavare lo zampone in acqua corrente, immergerlo quindi in un recipiente con abbondante acqua fredda e lasciarlo ammollo tutta la notte. Il mattino successivo, sgocciolarlo, praticare fra gli unghioli un taglio a croce con un coltellino e punzecchiare più volte la cotenna con uno stecchino; dopodichè avvolgerlo ben stretto in un telo, che verrà cucito come un sacchetto, e metterlo in una pentola. Coprire con abbondante acqua fredda non salata, incoperchiare e portare ad ebollizione, infine abbassare la fiamma e far cuocere per 3 ore. Trascorso questo tempo sgocciolare lo zampone, eliminare il telo, quindi tagliarlo a fette, disporlo su un piatto di portata riscaldato e servirlo a tavola ben caldo con un tradizionale contorno a base di lenticchie.",
+        "coords": [
+            44.66432,
+            10.911429
+        ],
+        "dish_name": "Zampone di Modena",
+        "dish_id": 70
+    },
+    {
+        "related_recipes": {
+            "68": "Zuppa Imperiale",
+            "69": "Tortina di ricotta con aceto balsamico",
+            "70": "Zampone di Modena"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "emilia_romagna/modena/risotto_fragole_aceto_balsamico_1.jpeg",
+            "emilia_romagna/modena/risotto_fragole_aceto_balsamico_2.jpeg",
+            "emilia_romagna/modena/risotto_fragole_aceto_balsamico_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=dZJSAzyLNVY",
+        "city": "Modena",
+        "ingredients": [
+            {
+                "quantity": 220,
+                "ingredient": "Riso"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Aceto balsamico"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Fragole"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Vino bianco"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Scalogno"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Miele"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Menta"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Parmigiano q.b"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "Si tratta di una pietanza tipica della zona dell’Emilia Romagna, dove viene condito con lo squisito aceto balsamico tradizionale di Modena. Perfetto per mettere in tavola un po’ di tradizione emiliana.",
+        "preparation": "Lavate le fragole in abbondante acqua fredda. Privatele del ciuffetto verde e tagliatele a pezzettini piccoli. Conservate una fragola intera per il decoro. Tagliate lo scalogno a julienne e fatelo rosolare in 2 cucchiai d'olio extravergine d'oliva. Aggiungete il riso e lasciatelo tostare per qualche minuto, mescolando di tanto in tanto con un cucchiaio di legno. Unite al riso il vino bianco e proseguite la cottura fino a farlo evaporare completamente, quindi portate a termine la cottura aggiungendo brodo vegetale poco alla volta. Mescolate la preparazione di tanto in tanto, a metà cottura aggiungete le fragole macerate e mantecate. Una volta cotto, inserite le foglioline di menta precedentemente sminuzzate al risotto. Servite con Parmigiano Reggiano grattugiato e decorate con la fragola conservata e tagliata in quattro parti uguali.",
+        "coords": [
+            44.650888,
+            10.889456
+        ],
+        "dish_name": "Risotto alle fragole con aceto balsamico",
+        "dish_id": 71
+    },
+    {
+        "related_recipes": {
+            "69": "Tortina di ricotta con aceto balsamico",
+            "71": "Risotto alle fragole con aceto balsamico",
+            "70": "Zampone di Modena"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "emilia_romagna/modena/tigella_1.jpeg",
+            "emilia_romagna/modena/tigella_2.jpeg",
+            "emilia_romagna/modena/tigella_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=0Gl3nexdT2A",
+        "city": "Modena",
+        "ingredients": [
+            {
+                "quantity": 1000,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Lievito di birra"
+            },
+            {
+                "quantity": 750,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Sale"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "I dischi di terracotta o di pietra refrattaria in cui originariamente erano cotte le crescenti sono chiamati tigelle. Tigella deriva da tegella, diminutivo di tegula che in latino volgare significava coperchio, dal verbo tegere (coprire). Oggi, nelle zone di pianura e nel resto d'Italia, ci si riferisce alle crescentine con il sempre più diffuso appellativo metonimico di tigelle (analogamente a quanto avviene per la paella valenciana) nonostante, secondo i puristi, l'unico nome corretto rimane crescentina, perché quello originario ed etimologicamente esatto.\nA rafforzare il concetto, lo scrittore locale Andrea Pini scrisse: \"In pizzeria chiedereste mai il forno al posto della pizza? O al fast food una friggitrice al posto delle patatine? O a vostra nonna la teglia al posto della crostata?\". Nella stessa tradizione locale si è sempre detto \"Chersènt in t'al tigèli\", ovvero \"Crescenti nelle tigelle\", a ribadire il concetto della differenza.",
+        "preparation": "Per cominciare sciogliete il lievito di birra in un po' d'acqua tiepida, quindi impastate la farina con il latte, l'olio d'oliva, il sale e lavorate accuratamente il tutto. Una volta ottenuto con l'impasto una sorta di panetto dai contorni il più possibile omogenei, copritelo e lasciatelo riposare per almeno un'ora e mezza in frigorifero. Trascorso questo tempo tirate una sfoglia dello spessore di circa un centimetro e con un tagliapasta o con un bicchiere ricavate le tigelle che avranno un diametro di circa 10 centimetri. Cuocetele nella tigelliera che può essere sia del tipo elettrico che quello da preriscaldare sulla fiamma del gas; in mancanza potete cuocere le tigelle sulla placca del forno a 200 °C, scaldandole da ambo le parti, poi sfornandole e servendole ben calde.",
+        "coords": [
+            44.631346,
+            10.904219
+        ],
+        "dish_name": "Tigella",
+        "dish_id": 72
+    },
+    {
+        "related_recipes": {
+            "72": "Tigella",
+            "71": "Risotto alle fragole con aceto balsamico",
+            "70": "Zampone di Modena"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "emilia_romagna/modena/bensone_1.jpeg",
+            "emilia_romagna/modena/bensone_2.jpeg",
+            "emilia_romagna/modena/bensone_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=Ty7OasdEo38",
+        "city": "Modena",
+        "ingredients": [
+            {
+                "quantity": 400,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Lievito per dolci"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Limone"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Zucchero q.b"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "Nel XIII secolo la comunità modenese lo offriva alla corporazione dei fabbri e degli orafi in occasione della festa patronale di questi artigiani. L'etimologia del nome potrebbe derivare dal francese pain de son, ovvero pane di crusca, poiché un tempo, si utilizzava per la preparazione del dolce la farina non setacciata. L'antica ricetta del bensone, rimasta nel tempo quasi immutata, prevedeva un impasto di farina, latte, uova, burro e miele. Quest'ultimo ingrediente è stato successivamente sostituito con lo zucchero.\nIl bensone può essere farcito con 100-150 gr di marmellata o di savòr.\nLo stesso impasto del bensone era anche utilizzato per un altro tipico dolce della zona, la ciambella, di forma rotonda con un buco al centro.",
+        "preparation": "Impastate la farina con le uova, il burro, lo zucchero, la buccia grattugiata del limone, il lievito, aggiungete il latte quanto basta per aver un impasto di giusta consistenza (deve essere come la pasta per il pane). Foderate la placca del forno con la carta, disponetevi la pasta dando una forma allungata, fate qualche incisione sulla pasta, pennelatela con il tuorlo d'uovo e cospargete con zucchero in granella. Cuocete in forno caldo a 180° per circa 40 m. Sfornate il bensone e appena è tiepido servite.",
+        "coords": [
+            44.627681,
+            10.937178
+        ],
+        "dish_name": "Bensone",
+        "dish_id": 73
+    },
+    {
+        "related_recipes": {
+            "73": "Bensone",
+            "72": "Tigella",
+            "71": "Risotto alle fragole con aceto balsamico"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "emilia_romagna/modena/crostata_amarene_brusche_1.jpeg",
+            "emilia_romagna/modena/crostata_amarene_brusche_2.jpeg",
+            "emilia_romagna/modena/crostata_amarene_brusche_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=ht0pW9zAlmI",
+        "city": "Modena",
+        "ingredients": [
+            {
+                "quantity": 250,
+                "ingredient": "Amarene"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 360,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Scorza di limone"
+            },
+            {
+                "quantity": 250,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Limone"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Vanillina"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "La crostata di amarene brusche è un dolce casalingo che si prepara con un prodotto tipico della tradizione modenese, le amarene brusche di Modena Igp, caratterizzate da un peculiare sapore asprigno. Si tratta di una varietà di frutto caratteristica – appunto – della provincia di Modena, dove è concentrata la sua zona di produzione. La crostata fatta con questo tipo di amarena dalla connotazione unica e inconfondibile può essere gustata a fine pasto oppure come gustosissimo spuntino o merenda.",
+        "preparation": "Iniziate preparando la pasta frolla. Versate in una terrina la farina setacciata, aggiungete il burro a cubetti a temperatura ambiente, lo zucchero, le uova, la scorza del limone precedentemente grattugiata e un pizzico di sale. Amalgamate gli ingredienti per qualche minuto fino a ottenere un composto omogeneo. Avvolgete l'impasto nella pellicola trasparente e lasciare riposare in frigorifero per 30 minuti. Passate ora alla crema. Dopo aver sbattuto le uova, aggiungete lo zucchero, la farina setacciata e la buccia del limone grattugiata. Quindi scaldate il latte in un tegamino assieme alla vanillina e mescolate il tutto fino a ottenere una crema morbida. Imburrate uno stampo da forno con la pasta frolla e rovesciate la crema tiepida. Cospargete il tutto con le amarene brusche di Modena. Fate cuocere per 40 minuti nel forno preriscaldato a 180°C fino a quando la crostata sarà dorata.",
+        "coords": [
+            44.634033,
+            10.964301
+        ],
+        "dish_name": "Crostata di amarene brusche",
+        "dish_id": 74
+    },
+    {
+        "related_recipes": {
+            "74": "Crostata di amarene brusche",
+            "73": "Bensone",
+            "72": "Tigella"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "emilia_romagna/modena/tortellini_brodo_1.jpeg",
+            "emilia_romagna/modena/tortellini_brodo_2.jpeg",
+            "emilia_romagna/modena/tortellini_brodo_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=5EcVhT3stX8",
+        "city": "Modena",
+        "ingredients": [
+            {
+                "quantity": 800,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 480,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Polpa di maiale"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Polpa di vitello"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Salsiccia"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Prosciutto crudo"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Mortadella"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Parmigiano"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Noce moscata q.b"
+            },
+            {
+                "quantity": 2000,
+                "ingredient": "Brodo di manzo"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "Il nome tortellino deriva dal diminutivo di tortello, dall'italiano torta chiamato anche col falso nome cappelletto.\nL'odierno tortellino è verosimilmente l'erede di una lunga progenie nata in un ambiente povero per \"riciclare\" la carne avanzata dalla tavola dei nobili ricchi. Le prime tracce del tortellino risalgono ad una pergamena del 1112, oltre che ad una bolla di Papa Alessandro III del 1169. Sull'origine di questo piatto esistono diverse leggende. Una tra queste fa nascere questo piatto a Castelfranco Emilia, paese storicamente conteso fra Bologna e Modena, ad opera del proprietario della locanda Corona, il quale, sbirciando dal buco della serratura della stanza di una nobildonna sua ospite e rimasto tanto colpito dalla bellezza del suo ombelico, volle riprodurlo in una preparazione culinaria.\nUn'altra variante della storia trae spunto dalla \"Secchia rapita\" del Tassoni e racconta di come ai quei tempi, una sera dopo una giornata di battaglia tra bolognesi e modenesi, Venere, Bacco e Marte trovarono ristoro presso la locanda Corona a Castelfranco Emilia. La mattina seguente Marte e Bacco si allontanarono dalla locanda lasciando Venere dormiente; questa, al risveglio, chiamò qualcuno e il locandiere che accorse la sorprese discinta e rimase tanto impressionato dalle sue splendide forme che tornato in cucina con ancora in testa ciò che aveva visto, strappò un pezzo di sfoglia, lo riempì e ripiegò dandogli la forma dell'ombelico della dea.",
+        "preparation": "Macinate finemente la carne di vitello, quella di maiale e la salsiccia. A parte macinare il prosciutto e la mortadella. Fate sciogliere il burro, unite la carne macinata, fatela cuocere per qualche minuto, a fine cottura salatela, poi scolatela dall'acqua prodotta dal macinato e lasciate raffreddare. Preparate il ripieno: in una ciotola versate la carne macinata cotta, il prosciutto e la mortadella crudi, il parmigiano, il pane grattugiato, l'uovo, aggiustate di sale e spolverizzate con pochissima noce moscata grattugiata, mescolate bene l'impasto e mettetelo in frigorifero. Preparate la pasta: impastate la farina con le uova fino ad avere un impasto liscio ed omogeneo e morbido. Tirate la sfoglia, piuttosto sottile, ritagliate con uno stampino dei dischi di circa 5 cm di diametro. Ponete al centro di ogni disco di pasta un po' del ripieno, poi piegate la pasta a metà facendo aderire bene gli orli. Con i rebbi di una forchetta ripassate bene i bordi per farli aderire bene. Piegate il mezzo disco su se stesso. Fate aderire pressandole leggermente le due estremità del mezzo disco e mettete il tortellino da parte, procedete così fino ad esaurimento degli ingredienti. Portate il brodo ad ebollizione e buttatevi i tortellini, fateli cuocere alcuni minuti in base allo spessore della pasta. Serviteli con lo stesso brodo e spolverizzateli di parmigiano grattugiato.",
+        "coords": [
+            44.664843,
+            10.954286
+        ],
+        "dish_name": "Tortellini in Brodo",
+        "dish_id": 75
+    },
+    {
+        "related_recipes": {
+            "75": "Tortellini in Brodo",
+            "74": "Crostata di amarene brusche",
+            "73": "Bensone"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "emilia_romagna/ferrara/cappelletti_brodo_1.jpeg",
+            "emilia_romagna/ferrara/cappelletti_brodo_2.jpeg",
+            "emilia_romagna/ferrara/cappelletti_brodo_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=FQa9t1eWs58",
+        "city": "Ferrara",
+        "ingredients": [
+            {
+                "quantity": 300,
+                "ingredient": "Pasta all'uovo"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Prosciutto crudo"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Petto di galllina bollito"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Grana"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Noce moscata q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "Le origini della ricetta, molto diffusa su base territoriale, sono antiche, tradizionalmente e storicamente legate all'Emilia-Romagna e alle Marche. Da queste aree si è poi diffusa, nel corso dei secoli, diventando un piatto tipico in varie città. Alcune fonti recenti indicano specificamente l’area nel triangolo Cesena-Ferrara-Reggio Emilia come luogo d’origine, altre riportano le Marche come una terra in cui i cappelletti sono di antica tradizione. Rispetto ai tortellini, hanno una diversa forma, maggiori dimensioni, pasta più spessa e ripieno differente.",
+        "preparation": "Per il ripieno: passate nel tritacarne (o nel mixer) il prosciutto e il petto di gallina con l'aggiunta di un poco di brodo per agevolare l'operazione. Ripetete il passaggio altre due volte e quindi unite il grana, le uova, la noce moscata, salate e aggiustate di pepe in modo da ottenere un composto liscio e omogeneo. Per la pasta: disponete la farina a fontana riempendo il centro con le uova, l'olio ed il sale. Amalgamate il tutto per ottenere un impasto omogeneo e ricoprite con un panno. Con il matterello stendete la pasta sfoglia sottilissima e tagliatela a quadrati. Adagiate al centro di ciascun quadrato del ripieno e ripiegate la pasta a triangolo. Incrociate gli angoli della base, quindi ripiegateli verso l'alto. Cuocete i cappelletti nel brodo bollente e serviteli ben caldi.",
+        "coords": [
+            44.818686,
+            11.647298
+        ],
+        "dish_name": "Cappelletti in Brodo",
+        "dish_id": 76
+    },
+    {
+        "related_recipes": {
+            "76": "Cappelletti in Brodo",
+            "75": "Tortellini in Brodo",
+            "74": "Crostata di amarene brusche"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "emilia_romagna/parma/anolini_brodo_1.jpeg",
+            "emilia_romagna/parma/anolini_brodo_2.jpeg",
+            "emilia_romagna/parma/anolini_brodo_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=-Yn7_qOtxvs",
+        "city": "Parma",
+        "ingredients": [
+            {
+                "quantity": 400,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 240,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 350,
+                "ingredient": "Carne di manzo"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Vino rosso"
+            },
+            {
+                "quantity": 500,
+                "ingredient": "Salsa di pomodoro"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Chiodi di garofano"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Noce moscata"
+            },
+            {
+                "quantity": 500,
+                "ingredient": "Brodo di manzo"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Pangrattato"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Grana"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "L'anolino nasce sotto forma di pasta ripiena nel XII secolo e viene citato da Salimbene de Adam nel 1284 nella Cronica, ma occorre aspettare sino al XVI secolo perché il piatto venga riproposto nei pranzi di nobili, cardinali e papi da Bartolomeo Scappi. Lo stesso Scappi fornisce la prima ricetta scritta conosciuta degli anolini.\nGli anolini vengono nuovamente riproposti nel 1659 alla mensa del duca di Parma Ranuccio II Farnese come piatto da servire con parmigiano e cappone preparato da Carlo Nascia. Ricompaiono poi sulla tavola del duca Ferdinando di Borbone nel 1793 definiti da Cosimo Meli Lupi di Soragna \"...i raviuoli detti nel dialetto nostro anolini.\" e su quella della duchessa Maria Luigia.\nLa ricetta, un tempo ad uso esclusivo delle classi più abbienti, diviene con il tempo di uso comune anche per le mense delle classi più povere trasformandosi in piatto tipico della cucina popolare, alla sua diffusione contribuisce in modo importante Pellegrino Artusi.",
+        "preparation": "Preparare un soffritto con il burro e la cipolla tritata a cui si aggiungono un po' di carota e di sedano pure tritati. Aggiungere la carne, i chiodi di garofano e il pepe. Far rosolare a fuoco vivo e versare il vino ed il brodo. Coprire e far cuocere a fuoco basso per circa 10 ore. Quando necessario, aggiungere un po' di brodo e 1 cucchiaio di salsa di pomodoro sciolta in acqua calda. Tritate lo stracotto con la mezzaluna; con il sugo rimasto nel tegame scottate il pane grattugiato ed unire amalgamando lo stracotto tritato fine, le uova, il grana grattugiato fino ad ottenere un impasto omogeneo. Disporre la farina a fontana sul tagliere e rompere al centro le uova ed incominciare a impastare lavorando con forza fino ad ottenere un impasto liscio ed elastico. Preparare una sfoglia sottile e disporre su di essa da un lato tante palline di ripieno distanti fra loro 5 o 6 cm e ripiegare la pasta in modo da coprire il ripieno tagliando con la classica forma di metallo a mezzaluna gli anolini. Cuocere gli anolini nel tradizionale brodo “in terza” (fatto con carne di manzo, cappone o gallina grassa e carne magra di maiale) e servirli sempre in brodo, spolverando con abbondante formaggio grana.",
+        "coords": [
+            44.797188, 10.319557
+        ],
+        "dish_name": "Anolini in Brodo",
+        "dish_id": 77
+    },
+    {
+        "related_recipes": {
+            "77": "Anolini in Brodo",
+            "76": "Cappelletti in Brodo",
+            "75": "Tortellini in Brodo"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "emilia_romagna/reggio_emilia/gnocco_fritto_1.jpeg",
+            "emilia_romagna/reggio_emilia/gnocco_fritto_2.jpeg",
+            "emilia_romagna/reggio_emilia/gnocco_fritto_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=doj0B1UTSmM",
+        "city": "Reggio Emilia",
+        "ingredients": [
+            {
+                "quantity": 250,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 15,
+                "ingredient": "Lievito di birra"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Strutto"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Acqua Tiepida"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio per friggere q.b"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "La pietanza è peraltro diffusa in tutta la bassa pianura emiliana e conosciuta anche con altri nomi, tra cui crescentina (Bologna; da non confondersi con la crescentina modenese), torta fritta (Parma), chisulén o chisolino (Bassa piacentina), pinzino (Ferrara) o pinsìn (Mantova).\nSecondo alcune fonti, la presenza dello strutto fra i principali ingredienti potrebbe far supporre un'origine longobarda della ricetta.",
+        "preparation": "Setacciate a fontana la farina sulla spianatoia e aggiungete il sale, lo strutto (o l'olio) e il lievito sciolto nell'acqua. Lavorate bene il tutto. Lasciate lievitare questo impasto in luogo tiepido per un'oretta. Stendete la pasta, col matterello o con la macchinetta, in una sfoglia alta 3 mm circa. Tagliatela a rombi e friggeteli nell'olio bollente, pochi per volta. Sgocciolate gli \"gnocchi\" gonfi e dorati e serviteli caldissimi in accompagnamento a salumi e formaggi.",
+        "coords": [
+            44.698127,
+            10.656793
+        ],
+        "dish_name": "Gnocco fritto",
+        "dish_id": 78
+    },
+    {
+        "related_recipes": {
+            "77": "Anolini in Brodo",
+            "76": "Cappelletti in Brodo",
+            "78": "Gnocco fritto"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "emilia_romagna/reggio_emilia/chizze_reggiane_1.jpeg",
+            "emilia_romagna/reggio_emilia/chizze_reggiane_2.jpeg",
+            "emilia_romagna/reggio_emilia/chizze_reggiane_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=HEOZweVw3gE",
+        "city": "Reggio Emilia",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Grana"
+            },
+            {
+                "quantity": 15,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Strutto"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Lievito in polvere"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "La storia della chizza reggiana è molto legata a quella dell’erbazzone e comparve a partire dal 1800, quando i panettieri cominciarono a proporre una variante ripiena dello gnocco, in cui l’impasto veniva ripiegato a tortello e farcito con salumi, verdure o formaggio.\nOggi ne esiste anche una versione più leggera, in cui si utilizza la sfoglia in alternativa alla tradizionale frittura nello strutto.\nSi narra che nei primi decenni del ‘900, nel ghetto ebraico di Reggio Emilia, in via dell’Aquila, il fornaio Federico Sacerdoti detto Salamein, facesse delle chizze così buone da meritarsi apprezzamenti e recensioni sulla stampa internazionale.",
+        "preparation": "Disponete la farina su di un piano, versateci sopra il lievito, lo strutto ed il sale. Lavorate gli ingredienti con un po' di acqua, fino ad ottenere un composto omogeneo. Modellate e fate riposare in luogo fresco per un'ora. Trascorsa un'ora, stendete una sfoglia sottile ritagliando dei quadrati di lato variabile tra i 5 e i 6 centimetri circa. Al centro collocatevi una scaglia di grana e ripetete l'operazione per tutti i quadratini in cui avrete diviso la sfoglia, fino a farcirli tutti con una scaglietta di formaggio. Chiudete poi le diverse sfogliette a fagottino e friggete le chizze nello strutto bollente fino a quando non avranno assunto un colore dorato. Scolatele su carta assorbente e servitele immediatamente.",
+        "coords": [
+            44.705936,
+            10.605982
+        ],
+        "dish_name": "Chizze Reggiane",
+        "dish_id": 79
     }
-
 ]

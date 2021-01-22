@@ -154,7 +154,6 @@ export default {
       const currentTop = $(window).scrollTop();
       const elems = $('.scrollspy');
       const height = $(window).height();
-      console.log(height)
       elems.each(function() {
         const elemTop 	= $(this).offset().top - (height/3);
         const elemBottom 	= elemTop + $(this).height();
