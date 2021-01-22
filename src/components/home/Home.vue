@@ -141,12 +141,14 @@ export default {
   mounted() {
 
     // Smooth scroll when clicking on # href
-    const $root = $('html, body');
-    $('a[href^="#"]').click(function () {
-      $root.animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top - 30
-      }, 'slow');
-      return false;
+    // https://stackoverflow.com/a/18365991
+    $('a[href*=\\#]').on('click', function(event){
+      event.preventDefault();
+      if ($(this.hash).offset())
+        $('html,body').animate(
+            { scrollTop:$(this.hash).offset().top },
+            'slow'
+        );
     });
 
     // Scrollspy logic to activate correct list group item on scroll
