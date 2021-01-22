@@ -8,27 +8,8 @@
         <b-list-group-item href="#list-item-4" class="text-center bottom-list-item">Contorni</b-list-group-item>
         <b-list-group-item href="#list-item-5" class="text-center bottom-list-item">Dolci</b-list-group-item>
       </b-list-group>
-      <b-dropdown id="regione-dropdown" size="lg" text="Regione" class="col-12 p-0 mt-3 mb-md-3">
-        <b-dropdown-item>Abruzzo</b-dropdown-item>
-        <b-dropdown-item>Basilicata</b-dropdown-item>
-        <b-dropdown-item>Calabria</b-dropdown-item>
-        <b-dropdown-item>Campania</b-dropdown-item>
-        <b-dropdown-item>Emilia Romagna</b-dropdown-item>
-        <b-dropdown-item>Friuli Venezia Giulia</b-dropdown-item>
-        <b-dropdown-item>Lazio</b-dropdown-item>
-        <b-dropdown-item>Liguria</b-dropdown-item>
-        <b-dropdown-item>Lombardia</b-dropdown-item>
-        <b-dropdown-item>Marche</b-dropdown-item>
-        <b-dropdown-item>Molise</b-dropdown-item>
-        <b-dropdown-item>Piemonte</b-dropdown-item>
-        <b-dropdown-item>Puglia</b-dropdown-item>
-        <b-dropdown-item>Sardegna</b-dropdown-item>
-        <b-dropdown-item>Sicilia</b-dropdown-item>
-        <b-dropdown-item>Toscana</b-dropdown-item>
-        <b-dropdown-item>Trentino Alto Adige</b-dropdown-item>
-        <b-dropdown-item>Umbria</b-dropdown-item>
-        <b-dropdown-item>Valle d'Aosta</b-dropdown-item>
-        <b-dropdown-item>Veneto</b-dropdown-item>
+      <b-dropdown id="regione-dropdown" size="lg" :text="dropdownTitle" class="col-12 p-0 mt-3 mb-md-3">
+        <b-dropdown-item v-bind:key="region" v-for="region in regions" @click="onRegionChange(region)">{{ region }}</b-dropdown-item>
       </b-dropdown>
     </div>
   </div>
@@ -36,7 +17,36 @@
 
 <script>
 export default {
-  name: 'HomeSidebar'
+  name: 'HomeSidebar',
+  data() {
+    return {
+      dropdownTitle: 'Regione',
+      regions: ['Tutte le regioni', 'Abruzzo', 'Basilicata', 'Calabria', 'Campania', 'Emilia Romagna', 'Friuli-Venezia Giulia', 'Lazio',
+        'Liguria', 'Lombardia', 'Marche', 'Molise', 'Piemonte', 'Puglia', 'Sardegna', 'Sicilia', 'Toscana',
+        'Trentino Alto Adige', 'Umbria', 'Valle d\'Aosta', 'Veneto']
+    }
+  },
+  methods: {
+    onRegionChange(region) {
+      this.setDropdownTitle(region)
+      this.$emit('callback', { "region": region })
+    },
+    setDropdownTitle(region) {
+      if (region === 'Tutte le regioni') {
+        this.dropdownTitle = 'Regione'
+      } else if (region === 'Emilia Romagna') {
+        this.dropdownTitle = 'Emilia R.'
+      } else if (region === 'Friuli-Venezia Giulia') {
+          this.dropdownTitle = 'Friuli'
+      } else if (region === 'Trentino Alto Adige') {
+        this.dropdownTitle = 'Trentino'
+      } else if (region === 'Valle d\'Aosta') {
+        this.dropdownTitle = 'V. d\'Aosta'
+      } else {
+        this.dropdownTitle = region
+      }
+    }
+  }
 }
 </script>
 

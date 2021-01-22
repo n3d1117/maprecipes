@@ -103,6 +103,13 @@ export default {
       if (this.selected != null) {
         this.$emit('callback', { "selected": this.selected, "exactMatch": this.exactMatch })
       }
+    },
+    query() {
+      if (this.query === '') {
+        $('.sbx-medium__reset').hide();
+      } else {
+        $('.sbx-medium__reset').show();
+      }
     }
   },
   methods: {
@@ -166,17 +173,8 @@ export default {
     },
   },
   mounted() {
-    const input = $('input[name=search]');
     const reset = $('.sbx-medium__reset');
     const search = $(".sbx-medium__submit");
-
-    input.on('input', function() {
-      if (input.val().length === 0) {
-        reset.hide();
-      } else {
-        reset.show();
-      }
-    });
 
     reset.click(function() {
       search.focus();

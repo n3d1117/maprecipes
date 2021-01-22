@@ -7,7 +7,7 @@
       <div style="margin-bottom: 200px">
         <h1 id="searchbar_title">TROVA LE RICETTE DELLA TUA CITTÀ</h1>
         <div class="offset-lg-2 col-lg-8">
-          <SearchBar @callback="didSearchForQuery"></SearchBar>
+          <SearchBar @callback="didSearchForQuery" ref="searchbar"></SearchBar>
         </div>
       </div>
     </MainLayer>
@@ -16,7 +16,7 @@
       <div class="container">
         <div class="row">
 
-          <HomeSidebar></HomeSidebar>
+          <HomeSidebar ref="sidebar" @callback="onRegionChange"></HomeSidebar>
 
           <div class="col-md-9">
             <h1 id="title-label" class="mt-4 text-left">{{ titleLabel }}</h1>
@@ -83,9 +83,8 @@ export default {
           const result = recipes.find(recipe => recipe.dish_name === query)
           this.$router.push({name: 'recipe', params: {id: result.dish_id}})
         } else {
-          $('html, body').animate({
-            scrollTop: $("#title-label").offset().top - 20
-          }, 'slow');
+          this.$refs.sidebar.dropdownTitle = 'Regione'
+          this.scrollToResults()
         }
       }
     },
@@ -117,6 +116,21 @@ export default {
       })
       return this.removeDuplicates(filteredByRecipeName.concat(filteredByRegion.concat(filteredByCity).concat(filteredByIngredient)))
     },
+    onRegionChange(data) {
+      const region = data.region
+      if (region === 'Tutte le regioni') {
+        this.query = ''
+      } else {
+        this.query = region
+      }
+      this.$refs.searchbar.query = ''
+      this.scrollToResults()
+    },
+    scrollToResults() {
+      $('html, body').animate({
+        scrollTop: $("#title-label").offset().top - 20
+      }, 'slow');
+    }
   },
   computed: {
     titleLabel: function() {
