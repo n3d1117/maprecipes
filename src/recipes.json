@@ -422,7 +422,7 @@
             },
             {
                 "quantity": 0,
-                "ingredient": "Olio per Friggere q.b"
+                "ingredient": "Olio per friggere q.b"
             }
         ],
         "region": "Basilicata",
@@ -4327,5 +4327,427 @@
         ],
         "dish_name": "Chizze Reggiane",
         "dish_id": 79
+    },
+    {
+        "related_recipes": {
+            "77": "Anolini in Brodo",
+            "79": "Chizze Reggiane",
+            "78": "Gnocco fritto"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "emilia_romagna/rimini/piadina_1.jpeg",
+            "emilia_romagna/rimini/piadina_2.jpeg",
+            "emilia_romagna/rimini/piadina_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=N_4tqjUd8iA",
+        "city": "Rimini",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Farina 00"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Lievito"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Emmenthal"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Prosciutto cotto"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "Fin dagli antichi Romani ci sono tracce di questa forma di pane. La prima testimonianza scritta della piadina risale all'anno 1371, quando nella Descriptio Romandiolae, il cardinal legato Anglico de Grimoard, ne descrive la ricetta: \"Si fa con farina di grano intrisa d'acqua e condita con sale. Si può impastare anche con il latte e condire con un po' di strutto\". Una forma antica di piada è anche una focaccia a base di farina di ghianda e altre farine povere in uso anticamente nel Montefeltro.",
+        "preparation": "Lavorate la farina con il lievito, un pizzico di sale, del burro e tanta acqua tiepida fino all'ottenimento di un'impasto consistente. Fate una palla con la pasta, copritela e lasciatela lievitare per 30 minuti circa in un luogo tiepido. Trascorso questo tempo, lavorate ancora la pasta e quindi stendetela allo spessore di 2 mm e tagliatela a dischi di 15 cm di diametro. Per cuocere le piadine sarebbe necessaria la teglia, ovvero un disco di materiale refrattario che viene scaldato su fuoco di legna. Cuocete una piadina per volta da entrambi i lati e appena cotta farcitela con una foglia di insalata, una fettina di formaggio e una di prosciutto cotto.",
+        "coords": [
+            44.060104,
+            12.574683
+        ],
+        "dish_name": "Piadina",
+        "dish_id": 80
+    },
+    {
+        "related_recipes": {
+            "80": "Piadina",
+            "79": "Chizze Reggiane",
+            "78": "Gnocco fritto"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "emilia_romagna/mantova/tortelli_mantovani_1.jpeg",
+            "emilia_romagna/mantova/tortelli_mantovani_2.jpeg",
+            "emilia_romagna/mantova/tortelli_mantovani_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=rH-A-raQRe0",
+        "city": "Mantova",
+        "ingredients": [
+            {
+                "quantity": 350,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 180,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 1500,
+                "ingredient": "Zucca"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Mostarda di Cremona"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Parmigiano q.b"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Amaretti"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Limone"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Burro"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "L'origine dei tortelli di zucca, la cui variante più nota sono i tortelli mantovani, si inserisce nell'antica e popolare tradizione culinaria di paste ripiene dell'Italia settentrionale. Tale tradizione risale almeno al Basso Medioevo mentre la prima testimonianza della zucca come ingrediente risale alla fine del 1500. Lo scopo di tali preparazioni era di ottenere un piatto gustoso e nutriente, con quel poco che l'economia contadina forniva.",
+        "preparation": "Preparate il ripieno il giorno prima. Tagliate a pezzi la zucca con la buccia, togliete i semi e filamenti e mettete in forno a 180 gradi. Passate la polpa al setaccio e mettete il ricavato in una terrina con gli amaretti ridotti in polvere, la mostarda tritata fine, un paio di cucchiai del suo sugo, quattro cucchiaiate di formaggio grattugiato, la buccia e il succo di un limone. Amalgamate tutti gli ingredienti e teneteli coperti al fresco. Se prima di usarlo il ripieno non risultasse asciutto, mettete ancora qualche amaretto sbriciolato. Preparate la pasta sfoglia, tagliatela a strisce, distribuite il ripieno a mucchietti distanziati in fila sulla sfoglia, ricopriteli con l'altra striscia, premete con le dita intorno al ripieno per saldare la pasta e fare in modo che non vi sia dell'aria, e tagliateli con una rotellina dentellata in forma quadrata. Lessateli in acqua bollente salata e appena la pasta sarà cotta ma al dente, scolateli col mestolo bucato, mettendoli in una zuppiera calda, a strati con burro fuso e formaggio grattugiato.",
+        "coords": [
+            45.152572,
+            10.782173
+        ],
+        "dish_name": "Tortelli Mantovani",
+        "dish_id": 81
+    },
+    {
+        "related_recipes": {
+            "80": "Piadina",
+            "81": "Tortelli Mantovani",
+            "79": "Chizze Reggiane"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "emilia_romagna/mantova/sbrisolona_1.jpeg",
+            "emilia_romagna/mantova/sbrisolona_2.jpeg",
+            "emilia_romagna/mantova/sbrisolona_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=yPLMpYMvGxE",
+        "city": "Mantova",
+        "ingredients": [
+            {
+                "quantity": 250,
+                "ingredient": "Farina 00"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Strutto"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Mandorle"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Vaniglia"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Scorza di limone"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Farina gialla"
+            }
+        ],
+        "region": "Emilia Romagna",
+        "product_history": "Il nome deriva dal sostantivo brìsa, che in mantovano vuol dire briciola e pare che la ricetta risalga a prima del '600 quando arrivò anche alla corte dei Gonzaga.\nSi tratta di una torta di povere origini, all'inizio infatti gli ingredienti erano quelli tipici della tradizione contadina (farina di mais, strutto e nocciole) e negli anni si sono raffinati.",
+        "preparation": "Scottate le mandorle in una pentola con acqua bollente per alcuni minuti, scolatele e privatele della pellicina, infine tritatele finemente. Setacciate sulla spianatoia le due qualità di farina e mescolatele fra loro. Aggiungete le mandorle tritate, lo zucchero, i semi di vaniglia estratti dal baccello, la scorza grattugiata di un limone, due tuorli, il burro e lo strutto. Impastate velocemente gli ingredienti con le mani, lavorandoli il tempo sufficiente a legarli fra loro. Disponete l'impasto in una teglia per torte di una ventina di cm di diametro, imburrata e infarinata, e infornate. Fate cuocere a 180 gradi per un'ora. Trascorso questo tempo, togliete il dolce dal forno, lasciatelo raffreddare, poi levatelo dalla teglia, cercando di sbriciolarlo il meno possibile, sistematelo su un piatto di portata e servite guarnendo con ulteriori mandorle.",
+        "coords": [
+            45.153355,
+            10.752448
+        ],
+        "dish_name": "Sbrisolona",
+        "dish_id": 82
+    },
+    {
+        "related_recipes": {
+            "86": "Sbreghe",
+            "84": "Gubana",
+            "85": "Pinza"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "friuli/trieste/frico_1.jpeg",
+            "friuli/trieste/frico_2.jpeg",
+            "friuli/trieste/frico_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=5pseAiz-NEE",
+        "city": "Trieste",
+        "ingredients": [
+            {
+                "quantity": 1000,
+                "ingredient": "Patate"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 500,
+                "ingredient": "Montasio"
+            }
+        ],
+        "region": "Friuli-Venezia Giulia",
+        "product_history": "Questo piatto è stato descritto per la prima volta con il nome di \"caso in patellecte\" dal maestro Martino da Como, cuoco del patriarca di Aquileia Ludovico Trevisan, nella sua opera De Arte Coquinaria verso la metà del XV secolo. Si tratta di formaggio cotto in padella con burro o lardo. Si presenta in due versioni: friabile o morbido.",
+        "preparation": "Sbucciate le patate e tagliatele a fettine spesse meno di mezzo centimetro, fate intanto soffriggere la cipolla in una casseruola ben unta d'olio, facendo attenzione a non alzare troppo la fiamma. Quando la cipolla è imbiondita buttate le patate e aumentate il calore della fiamma per pochi minuti, aggiustate di sale e pepe e fate andare a fuoco moderato, girando spesso le patate. Intanto tagliate il Montasio a fettine e quando le patate sono praticamente cucinate aggiungete il formaggio e coprite per 20 minuti, cuocendo a fuoco lento. Girate il tortino con l'aiuto di un coperchio e aumentate il calore della fiamma, poi quando sarà dorato da entrambe le parti capovolgete il frico su un piatto da portata e servite ben caldo.",
+        "coords": [
+            45.651275,
+            13.782958
+        ],
+        "dish_name": "Frico",
+        "dish_id": 83
+    },
+    {
+        "related_recipes": {
+            "83": "Frico",
+            "86": "Sbreghe",
+            "85": "Pinza"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "friuli/udine/gubana_1.jpeg",
+            "friuli/udine/gubana_2.jpeg",
+            "friuli/udine/gubana_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=FP2ItfYo_RA",
+        "city": "Udine",
+        "ingredients": [
+            {
+                "quantity": 125,
+                "ingredient": "Gherigli di noci"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Mandorle"
+            },
+            {
+                "quantity": 70,
+                "ingredient": "Uvetta"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Vino Marsala q.b"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Pinoli"
+            },
+            {
+                "quantity": 35,
+                "ingredient": "Cedro candito"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Arancia"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Pangrattato"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Limone"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 700,
+                "ingredient": "Pasta sfoglia"
+            }
+        ],
+        "region": "Friuli-Venezia Giulia",
+        "product_history": "Il dolce è noto fin dal 1409 quando fu servita in un banchetto preparato in occasione della visita di papa Gregorio XII a Cividale del Friuli, come testimoniato dallo stesso papa veneziano.\nFacendo riferimento alla forma della gubana, la derivazione del nome è probabile che sia dallo sloveno guba, che significa \"piega\"; un altro riferimento sull'origine della gubana ci viene dato dalla presenza del cognome \"Gubana\" nelle Valli del Natisone.",
+        "preparation": "Ammorbidite l'uvetta nel marsala. Nel mixer tritare finemente noci e mandorle, unire la frutta candita, i pinoli, la scorza grattugiata degli agrumi, l'uvetta ben strizzata e i pinoli, e tritare ancora. Mettere l'impasto in una ciotola e unire il pangrattato (precedentemente soffritto nel burro fino a farlo schiumare), noce moscata, cannella in polvere e un cucchiaio di zucchero. Mescolare a lungo, quindi unire un tuorlo e il suo albume montato a neve. Stendere la sfoglia con il mattarello e ottenere un rettangolo alto circa 4 mm. Disporre il ripieno al centro, sul lato più lungo, e avvolgere la pasta su se stessa, dandole una forma a spirale. Porre la gubana sulla placca imburrata e infarinata, spennellarla con il tuorlo sbattuto e spolverizzarla di zucchero. Mettere in forno a 190 gradi per 45 minuti. Si può mangiare calda o fredda.",
+        "coords": [
+            46.03453,
+            13.253758
+        ],
+        "dish_name": "Gubana",
+        "dish_id": 84
+    },
+    {
+        "related_recipes": {
+            "83": "Frico",
+            "86": "Sbreghe",
+            "84": "Gubana"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "friuli/udine/pinza_1.jpeg",
+            "friuli/udine/pinza_2.jpeg",
+            "friuli/udine/pinza_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=PiIEoA4UgIA",
+        "city": "Udine",
+        "ingredients": [
+            {
+                "quantity": 1000,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 250,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 360,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 500,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Lievito di birra"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Scorza d'arancia"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Scorza di limone"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Aroma di vaniglia"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Zucchero a velo q.b"
+            }
+        ],
+        "region": "Friuli-Venezia Giulia",
+        "product_history": "La pinza (in lingua veneta pinsa) è un tipico dolce del Veneto, del Friuli e di alcune vallate del Trentino. Con questo nome s’indicano però anche dolci del tutto differenti, come la pinza bolognese e quella triestina. Il dolce (che può raggiungere il metro di diametro) è solitamente consumato durante le feste natalizie, specialmente in occasione dei falò di inizio anno (le pìroe-paroe o panaìni, panevìni, pignarûl, vècie, casere) e magari cotto tramite gli stessi.\nL'etimologia della parola è probabilmente la stessa di \"pizza\".",
+        "preparation": "Per prima cosa sciogliete il lievito in un bicchiere di latte tiepido, aggiungete due pugni di farina e un cucchiaio di zucchero, mescolate bene e lasciate lievitare per un'ora in un posto caldo. Preparate sul tavolo la farina setacciata, cinque uova intere e un albume, il latte rimasto, lo zucchero, la raschiatura di limone e arancia, la vaniglia e il burro ammorbidito, impastate il tutto e aggiungete la pasta che avete fatto lievitare in precedenza. Infarinate leggermente il tavolo e lasciate riposare l'impasto coperto con un canovaccio per almeno un'ora, quindi lavoratelo di nuovo per almeno 10 minuti, fate lievitare per un'altra ora, poi riprendete la pasta e datele una forma rotonda. Ponete la pinza in una teglia imburrata e infarinata e con un coltellino affilato praticate sulla superficie dei tagli, lasciando lievitare per l'ultima volta per un'ora e mezza. Infornate a forno già caldo per circa un'ora a 180 °C, quindi 10 minuti prima di sfornarla spennellatela con un tuorlo d'uovo, sbattuto con due cucchiai di zucchero a velo. Se vi risulta poco dolce, spolverizzatela con dello zucchero a velo dopo averla fatta raffreddare bene.",
+        "coords": [
+            46.094084,
+            13.242772
+        ],
+        "dish_name": "Pinza",
+        "dish_id": 85
+    },
+    {
+        "related_recipes": {
+            "83": "Frico",
+            "84": "Gubana",
+            "85": "Pinza"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "friuli/trieste/sbreghe_1.jpeg",
+            "friuli/trieste/sbreghe_2.jpeg",
+            "friuli/trieste/sbreghe_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=9ATeRP-pF7k",
+        "city": "Trieste",
+        "ingredients": [
+            {
+                "quantity": 180,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 250,
+                "ingredient": "Farina 00"
+            },
+            {
+                "quantity": 250,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 250,
+                "ingredient": "Mandorle"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Vanillina"
+            }
+        ],
+        "region": "Friuli-Venezia Giulia",
+        "product_history": "Biscotti di pasta dura arricchita con mandorle, le 'sbreghe' sono parentì strette dei ‘cantucci’ toscani, poiché i loro padri molto probabilmente sono i monaci benedettini che erano presenti, oltre che in Toscana, fin dal 730 d.C. anche nel Ducato longobardo del Friuli, con l’Abbazia di Sesto al Reghena. Le 'sbreghe' sono in effetti da tempo immemorabile il dolce tradizionale di questa località. Somiglianti a fette di pane  dure al tatto, sono sottili, semicircolari o rettangolari. Nella Friuli si trova anche una versione (con nomi diversi) più rustica con fette spesse e basse, ideata per essere più facilmente imbevuta in vini bianchi dolci da meditazione. Prerogativa della pasta di questo dolce (grano, zucchero, uova intere, mandorle, burro, crema marsala...) è di sciogliersi in pochi secondi non appena messo in bocca.",
+        "preparation": "In un recipiente adeguato mescolare con una forchetta le uova con lo zucchero e la farina, evitando che si formino dei grumi. Quando il composto apparirà amalgamato aggiungere le mandorle intere e la busta di vanillina proseguendo a mescolare per qualche altro minuto. Il composto ottenuto apparirà abbastanza liquido e andrà versato in due stampi per plumcake per essere infornato in forno già caldo a 170° C per circa mezz'ora. Quando il composto si sarà raffreddato si sformerà e verrà tagliato a fette sottili spesse circa mezzo centimetro. E' consigliabile utilizzare un coltello seghettato da pane per tagliare le forme. Sistemare le fette così ottenute sulla placca del forno passandole poi sotto il grill del forno per non più di un minuto alla volta, per evitare che brucino, ripetendo più volte questa operazione. Al termine lasciar raffreddare e servire fredde.",
+        "coords": [
+            45.619587,
+            13.814544
+        ],
+        "dish_name": "Sbreghe",
+        "dish_id": 86
     }
 ]

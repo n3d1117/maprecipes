@@ -30,10 +30,10 @@ name: 'ScrollDownIcon',
   display: block;
   width: 30px;
   height: 30px;
-  border-bottom: 5px solid var(--text-color);
-  border-right: 5px solid var(--text-color);
+  border-bottom: 3px solid var(--text-color);
+  border-right: 3px solid var(--text-color);
   transform: rotate(45deg);
-  margin: -10px;
+  margin: -15px;
   animation: animate 2s infinite;
 }
 .arrow span:nth-child(2){
