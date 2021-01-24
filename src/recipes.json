@@ -4749,5 +4749,768 @@
         ],
         "dish_name": "Sbreghe",
         "dish_id": 86
+    },
+    {
+        "related_recipes": {
+            "88": "Coda alla Vaccinara",
+            "89": "Penne all'arrabbiata",
+            "90": "Vignarola Romana"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "lazio/roma/abbacchio_scottadito_1.jpeg",
+            "lazio/roma/abbacchio_scottadito_2.jpeg",
+            "lazio/roma/abbacchio_scottadito_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=j44elAkOf2E",
+        "city": "Roma",
+        "ingredients": [
+            {
+                "quantity": 800,
+                "ingredient": "Braciole di agnello"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Rosmarino q.b"
+            }
+        ],
+        "region": "Lazio",
+        "product_history": "Sull'origine del termine ci sono discordanze: quella puramente etimologica lo fa risalire ad abecula o avecula, a sua volta derivante da ovacula o ovecula, diminutivo del latino ovis (pecora);\naltra interpretazione fa derivare il termine da ad baculum, \"vicino al bastone\", ad indicare l'agnello da latte, non ancora svezzato e che, in quanto tale, si usa tutt'oggi legare ad un bastone conficcato nel terreno (ad baculum), al fine di costringere la madre a rimanere nei pressi senza allontanarsi;\nl'altra popolana dal termine abbacchiare, nel senso di abbattere, uccidere con il bastone (dal latino baculum, quindi un agnello che è prossimo all'abbattimento \"ad baculum\", \"vicino al bastone\"). Questo verbo è tuttora in uso nel dialetto romanesco e da lì nell'uso colloquiale della lingua italiana, soprattutto con il participio passato e aggettivo abbacchiato, nel senso di persona abbattuta, affranta, distrutta, fortemente dispiaciuta. L'abbattimento dell'agnello era solitamente effettuato mediante bastonata in testa e poi taglio della gola con coltello.",
+        "preparation": "Come prima cosa ammorbidite la carne dell'abbacchio battendola energicamente, ma non troppo, con il batticarne; procedete quindi aggiustando di sale e pepe. Spalmate quindi le braciole salate e pepate con del burro che avrete già ammorbidito a temperatura ambiente e qualche fogliolina di rosmarino, quindi ponetele su una griglia già calda. Fatele stare in cottura per pochi minuti, girando le braciole finchè non saranno ben grigliate, servendole poi in tavola ben calde, come il nome stesso della ricetta suggerisce.",
+        "coords": [
+            41.830897,
+            12.469622
+        ],
+        "dish_name": "Abbacchio a Scottadito",
+        "dish_id": 87
+    },
+    {
+        "related_recipes": {
+            "87": "Abbacchio a Scottadito",
+            "89": "Penne all'arrabbiata",
+            "90": "Vignarola Romana"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "lazio/roma/coda_vaccinara_1.jpeg",
+            "lazio/roma/coda_vaccinara_2.jpeg",
+            "lazio/roma/coda_vaccinara_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=ea5LQc6nvNw",
+        "city": "Roma",
+        "ingredients": [
+            {
+                "quantity": 1200,
+                "ingredient": "Coda di manzo"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Sedano"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Cipolla tritata"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio a spicchi"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Guanciale"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 1000,
+                "ingredient": "Polpa di pomodoro"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Vino bianco"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Uvetta"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Chiodi di garofano"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Pinoli"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Lazio",
+        "product_history": "Nata nel cuore di Roma, nel rione Regola dove abitavano i vaccinari, la coda alla vaccinara è considerata la \"regina\" del quinto quarto, ovvero quel che rimane della bestia vaccina dopo che sono state vendute ai benestanti le parti pregiate. Del quinto quarto fanno parte la coda, la trippa, la pajata, il cuore, la milza, e tutte le frattaglie. Esistono due versioni principali, che si differenziano soprattutto nella parte finale della preparazione, dove in una viene preparata una salsa a base di cacao amaro, pinoli e uva passa, mentre nell'altra no. Tuttavia per nessuna delle due varianti si può parlare di ricetta originale, in quanto entrambe convivono da molti decenni nelle varie trattorie di Roma.\n\nLa prima versione è quella indicata anche da Ada Boni nel suo libro La cucina romana (1929). L'autrice, avendo come obiettivo principale una cucina casalinga, indica una preparazione dal doppio uso: prepara con la stessa carne un primo piatto con il brodo ottenuto lessando la coda, e poi un secondo di carne costituito dalla coda alla vaccinara vera e propria. La coda, quindi, veniva inizialmente fatta lessare, in modo tale che il brodo si potesse utilizzare per altri piatti. La carne continuava la cottura in un tegame dove era stato fatto soffriggere un trito di aglio, cipolla, prezzemolo, carota, lardo e una fettina di prosciutto. Quindi veniva aggiunta un po' di salsa di pomodoro, parte del brodo e il sedano sbollentato. La cottura proseguiva fino a che la salsa non si era ristretta.\n\nL'altra versione è un piatto più ricco, che si poteva trovare nelle trattorie e nei ristoranti, e alla quale era stata dedicata anche una poesia da Cesare Simmi, proprietario de \"La Cisterna\" a partire dal 1928. Si prende una coda di bue e la si lava sotto l'acqua corrente per toglierle le tracce di sangue. Si taglia a tocchi, o \"rocchi\", e la si mette a rosolare con un trito di lardo (o guanciale) e olio. Appena rosolata si aggiunge una cipolla tritata con due spicchi d'aglio, dei chiodi di garofano, sale e pepe. Si fa evaporare l'acqua buttata fuori dalla coda, si sfuma con del vino bianco secco e si fa cuocere per un quarto d'ora coperta. Quindi si aggiunge un chilo di pomodori pelati a pezzi. Si lascia cuocere per circa un'ora, poi si allunga la salsa con dell'acqua calda fino a coprire la coda, si incoperchia nuovamente e si prosegue la cottura per altre 3 ore. Nel frattempo si lessa del sedano. Appena pronto, si scola e si mette in un tegame con un po' di sugo della coda, i pinoli, l'uva passa e il cacao amaro. Questa salsa va fatta bollire per qualche minuto e poi va versata sulla coda al momento di servire.\n\nAltre varianti prevedono l'uso anche dei \"gaffi\", ovvero le guance del bovino, l'aggiunta a fine cottura di un pizzico di cannella (Adolfo Giaquinto) o di noce moscata (Carnacina-Buonassisi).",
+        "preparation": "Lavate ed asciugate la coda e tagliatela a pezzi grossi. Rosolate i pezzi di coda nel guanciale tritato e 3 cucchiai di olio, quindi aggiungete la cipolla, l'aglio, i chiodi di garofano, sale e pepe. Aggiungete il vino bianco secco e fate cuocere per circa 15 minuti. Quindi aggiungete i pomodori e cuocete la carne per almeno 3 ore a fuoco lento facendo sempre in modo che i pezzi siano ricoperti dalla salsa finchè la carne quasi si stacca dall'osso. Se asciuga troppo aggiungere poca acqua. Quando la carne sarà quasi cotta, pulire, tagliare e sbollentare il sedano per un minuto o due. Cuocere il sedano con un poco di salsa della carne, i pinoli, l'uva passa ed il cacao. Fate bollire la salsa per qualche minuto. Una volta cotta, aggiungere la salsa di sedano alla carne e servite caldo in tavola.",
+        "coords": [
+            41.86784,
+            12.418688
+        ],
+        "dish_name": "Coda alla Vaccinara",
+        "dish_id": 88
+    },
+    {
+        "related_recipes": {
+            "88": "Coda alla Vaccinara",
+            "87": "Abbacchio a Scottadito",
+            "90": "Vignarola Romana"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "lazio/roma/penne_arrabbiata_1.jpeg",
+            "lazio/roma/penne_arrabbiata_2.jpeg",
+            "lazio/roma/penne_arrabbiata_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=1atJ3TzhIOw",
+        "city": "Roma",
+        "ingredients": [
+            {
+                "quantity": 400,
+                "ingredient": "Penne"
+            },
+            {
+                "quantity": 500,
+                "ingredient": "Pomodori"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Peperoncini"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Prezzemolo"
+            }
+        ],
+        "region": "Lazio",
+        "product_history": "Le penne all'arrabbiata, piatto celeberrimo della cucina povera italiana, sono state immortalate da film come La grande abbuffata di Marco Ferreri, Roma di Federico Fellini e Sette chili in sette giorni con Carlo Verdone.\nIl nome deriverebbe dal fatto che, mangiando questo tipo di pasta si rischia, per via del peperoncino, di diventare rossi, proprio come quando ci si arrabbia. Gli ingredienti principali sono penne rigate, pelati, aglio, peperoncino abbondante, prezzemolo a crudo, sale, olio extravergine d'oliva.",
+        "preparation": "Rosolate gli spicchi d'aglio in alcune cucchiaiate di olio, poi aggiungete i pomodori che avete precedentemente pelato (per aiutarvi tuffateli per un attimo in acqua bollente), privati dei semi e quindi tritati. Lasciate asciugare lentamente il sugo, quindi condite con sale e il peperoncino spezzettato e fate cuocere su fiamma moderata per circa 20 minuti, mescolando di tanto in tanto. Lessate nel frattempo la pasta in abbondante acqua bollente salata e scolatela al dente. Spadellatela su fiamma vivace con il sugo piccante, spolveratela col prezzemolo tritato ed eventualmente altro peperoncino. Servite immediatamente in tavola.",
+        "coords": [
+            41.924709,
+            12.398583
+        ],
+        "dish_name": "Penne all'arrabbiata",
+        "dish_id": 89
+    },
+    {
+        "related_recipes": {
+            "88": "Coda alla Vaccinara",
+            "89": "Penne all'arrabbiata",
+            "87": "Abbacchio a Scottadito"
+        },
+        "dish_type": "Contorni",
+        "photos": [
+            "lazio/roma/vignarola_romana_1.jpeg",
+            "lazio/roma/vignarola_romana_2.jpeg",
+            "lazio/roma/vignarola_romana_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=rC-8STWnGFo",
+        "city": "Roma",
+        "ingredients": [
+            {
+                "quantity": 200,
+                "ingredient": "Carciofi"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Piselli"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Fave"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Lattuga romana"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Cipollotti"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Olio EVO"
+            }
+        ],
+        "region": "Lazio",
+        "product_history": "L’origine del nome rimanda al termine romano \"vignarolo\" che identificava la figura dell'ortolano.\nPare che questo piatto venisse preparato dai viticoltori della zona di Velletri che preparavano, al ritorno dalle vigne, la ricetta utilizzando le verdure appena raccolte nell’orto. \nTutto era piuttosto comodo visto che le verdure di stagione venivano piantate lungo i filari di vite.\nPare che piacesse l'idea di unire primizie a verdure che stavano finendo il loro periodo: ecco quindi il mix degli ultimi carciofi di stagione con fave e piselli appena raccolti, vere primizie.",
+        "preparation": "Tagliate a pezzetti i cipollotti, poneteli in pentola e fateli appassire nell'olio extravergine a fuoco basso per alcuni minuti, fino a trasparenza. Tagliate la lattuga romana a listarelle sottili, quindi mondate i carciofi e tagliateli a spicchi, aggiungeteli ai cipollotti, mescolate bene, poi salate e pepate a vostro piacere. Coprite e fate cuocere a fuoco bassissimo per circa 10 minuti, aggiungendo ogni tanto qualche cucchiaiata di acqua, ma solo se necessario. Aggiungete progressivamente i piselli e le fave e lasciate cuocere orientativamente intorno ai 20 minuti, servendo poi in tavola caldo o tiepido.",
+        "coords": [
+            41.957923,
+            12.461068
+        ],
+        "dish_name": "Vignarola Romana",
+        "dish_id": 90
+    },
+    {
+        "related_recipes": {
+            "90": "Vignarola Romana",
+            "88": "Coda alla Vaccinara",
+            "89": "Penne all'arrabbiata"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "lazio/roma/spaghetti_carbonara_1.jpeg",
+            "lazio/roma/spaghetti_carbonara_2.jpeg",
+            "lazio/roma/spaghetti_carbonara_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=3AAdKl1UYZs",
+        "city": "Roma",
+        "ingredients": [
+            {
+                "quantity": 400,
+                "ingredient": "Spaghetti"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Guanciale"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Pecorino"
+            }
+        ],
+        "region": "Lazio",
+        "product_history": "Le origini del piatto sono incerte e al riguardo esistono diverse ipotesi, la più accreditata delle quali riconduce la sua comparsa ad un'origine laziale. È un dato di fatto che la carbonara non venga citata nel classico manuale di cucina romana di Ada Boni, edito nel 1930. Difatti, il piatto viene ricordato per la prima volta nel periodo immediatamente successivo alla liberazione di Roma nel 1944, quando nei mercati romani apparve il bacon portato dalle truppe alleate. Questo spiegherebbe perché nella carbonara, a differenza di altre salse come l'amatriciana, pancetta e guanciale vengono riportati spesso come ingredienti equivalenti.\nSecondo questa tesi, sembrerebbe che durante la seconda guerra mondiale i soldati americani giunti in Italia combinando gli ingredienti a loro più familiari che riuscivano a reperire, e cioè uova, pancetta e spaghetti, preparandosi da mangiare, abbiano dato l'idea ai cuochi italiani per la ricetta vera e propria che si svilupperà compiutamente solo più tardi. Secondo Marco Guarnaschelli Gotti \"quando Roma venne liberata, la penuria alimentare era estrema, e una delle poche risorse erano le razioni militari, distribuite dalle truppe alleate; di queste facevano parte uova (in polvere) e bacon (pancetta affumicata), che qualche genio ignoto avrebbe avuto l'idea di mescolare condendo la pasta\". A supporto di queste ipotesi vi è il racconto di Renato Gualandi, giovane cuoco bolognese che nel 1944 in occasione dell'incontro tra la Quinta Armata americana e l'Ottava Armata inglese tenutasi a Riccione, si afferma che avesse creato inconsapevolmente un piatto precursore della carbonara. In seguito Gualandi divenne cuoco delle truppe alleate a Roma dal settembre 1944 ad aprile 1945, periodo sufficiente per diffondere la fama della carbonara nella capitale. Ulteriore elemento che deporrebbe a favore di questa ipotesi, viene proposto da Igles Corelli, che ha condotto diverse ricerche per ricostruire una storia il più possibile attinente alla realtà dei fatti intercettando uno dei sodali più vicini al Gualandi, che sostiene la tesi della nascita della ricetta a Roma, invece che a Riccione.",
+        "preparation": "Mettete il guanciale tagliato a dadini in una padella senza olio. Fare rosolare finchè il grasso non si scioglie. Versa in un recipiente il tuorlo, un poco di albume e aggiungi il pecorino e il pepe. Sbattete l'uovo, come per fare una comune frittata. Scolate gli spaghetti al dente e saltateli in padella con il guanciale. Sposta la pasta e il guanciale in un ampio recipiente, unisci la crema realizzata con le uova e il pecorino e mescola.",
+        "coords": [
+            41.887239,
+            12.504177
+        ],
+        "dish_name": "Spaghetti alla Carbonara",
+        "dish_id": 91
+    },
+    {
+        "related_recipes": {
+            "91": "Spaghetti alla Carbonara",
+            "90": "Vignarola Romana",
+            "89": "Penne all'arrabbiata"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "lazio/roma/bucatini_gricia_1.jpeg",
+            "lazio/roma/bucatini_gricia_2.jpeg",
+            "lazio/roma/bucatini_gricia_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=FYjB9rcrfuc",
+        "city": "Roma",
+        "ingredients": [
+            {
+                "quantity": 400,
+                "ingredient": "Bucatini"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Guanciale"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Pecorino"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Vino bianco"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            }
+        ],
+        "region": "Lazio",
+        "product_history": "Il nome gricia probabilmente proviene dalla località di Gresciano, vicino Amatrice, oppure potrebbe derivare da gricio, il rivenditore di pane e di altri genere alimentari.\nCon il termine griscium a Roma si faceva riferimento anche allo spolverino grigio che indossavano i maestri dell’arte bianca per non sporcarsi di farina, infatti lo stesso termine venne poi utilizzato in senso dispregiativo per indicare la trascuratezza dell’abbigliamento dei panettieri sotto lo spolverino.\nLa gricia è considerata l’antenata dell’amatriciana, che non è altro che una gricia con il pomodoro, probabilmente introdotto nell’800.",
+        "preparation": "Tagliate il guanciale a fette di circa 2 centimetri e poi a listarelle. Mettete il guanciale in padella e fate rosolare a ﬁamma media per 10 minuti. Sfumate col vino bianco. In una ciotola mettete il pecorino, il pepe e poca acqua di cottura e amalgamate. Cuocete la pasta in poca acqua salata e scolate la dente. Versate la pasta nella padella con il guanciale e saltate per un paio di minuti.",
+        "coords": [
+            41.960951,
+            12.526693
+        ],
+        "dish_name": "Bucatini alla Gricia",
+        "dish_id": 92
+    },
+    {
+        "related_recipes": {
+            "91": "Spaghetti alla Carbonara",
+            "90": "Vignarola Romana",
+            "92": "Bucatini alla Gricia"
+        },
+        "dish_type": "Contorni",
+        "photos": [
+            "lazio/roma/carciofi_giudia_1.jpeg",
+            "lazio/roma/carciofi_giudia_2.jpeg",
+            "lazio/roma/carciofi_giudia_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=ReELOwdqpic",
+        "city": "Roma",
+        "ingredients": [
+            {
+                "quantity": 300,
+                "ingredient": "Carciofi"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Lazio",
+        "product_history": "I carciofi alla giudía hanno origine molto antica, visto che vengono citati anche in ricettari e memorie del II secolo. Si tratta infatti di un piatto di derivazione romana, nato più precisamente nel ghetto ebraico della capitale.\nPer realizzare questa ricetta è necessario utilizzare rigorosamente i carciofi cimaroli (detti anche mammole) che sono i migliori della varietà \"romanesco\" coltivata fra Ladispoli e Civitavecchia. Questo tipo di carciofo risulta essere tondo, particolarmente tenero e, soprattutto, privo di spine. Grazie a quest'ultima caratteristica i carciofi alla giudía, una volta cotti, possono essere consumati integralmente senza scartare nulla.",
+        "preparation": "Eliminate le foglie esterne più dure dei carciofi, tagliate il gambo, lavateli, scolateli e lasciateli a bagno in una miscela di acqua e limone a testa in giù per 15 minuti circa. Al termine scolate i carciofi, asciugateli, conditeli con sale e pepe e sistemateli in una piccola casseruola, già piena a metà di olio caldo (non bollente) lasciandoveli per circa 20 minuti finché non si saranno ammorbiditi. Trascorso il tempo, togliete i carciofi dalla pentola, lasciateli scolare a testa in giù su un piano inclinato, poi premeteli delicatamente verso il basso in maniera che le foglie si aprano senza staccarsi e lasciateli raffreddare. Dopo circa mezz'ora versate abbondante olio in una padella, fatelo riscaldare e friggete i carciofi uno alla volta posizionandoli col fondo verso il basso in una prima fase e successivamente capovolgendoli, cuocendo ogni lato per 2-3 minuti. A cottura quasi ultimata aggiungete poca acqua nella padella in modo da regolare la croccantezza dei carciofi, asciugandoli su carta assorbente prima di servirli in tavola.",
+        "coords": [
+            41.898971,
+            12.554839
+        ],
+        "dish_name": "Carciofi alla Giudia",
+        "dish_id": 93
+    },
+    {
+        "related_recipes": {
+            "91": "Spaghetti alla Carbonara",
+            "93": "Carciofi alla Giudia",
+            "92": "Bucatini alla Gricia"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "lazio/roma/saltimbocca_1.jpeg",
+            "lazio/roma/saltimbocca_2.jpeg",
+            "lazio/roma/saltimbocca_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=KNpNEWpxJjM",
+        "city": "Roma",
+        "ingredients": [
+            {
+                "quantity": 400,
+                "ingredient": "Scaloppine di vitello"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Prosciutto crudo"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Salvia"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Marsala q.b"
+            }
+        ],
+        "region": "Lazio",
+        "product_history": "I saltimbocca sono forse un piatto di origine bresciana, ma oggi è maggiormente famosa la specialità dei \"saltimbocca alla romana\", tipica della capitale italiana e fin dal tardo XIX secolo diffusasi anche in altre aree dell'Italia, (raggiungendo anche zone estere) fino a diventare uno dei piatti tipici più noti della cucina italiana.",
+        "preparation": "Infarinate leggermente le fette di carne. Sovrapponete le fettine di prosciutto sulle fettine di carne, poi disponete le foglie di salvia fermando il tutto con qualche stuzzicadenti. In una padella scaldate l’olio e il burro adagiate le fettine di carne, con il prosciutto rivolto verso l'alto. Girate la carne e sfumate con marsala.",
+        "coords": [
+            41.841964,
+            12.550335
+        ],
+        "dish_name": "Saltimbocca alla Romana",
+        "dish_id": 94
+    },
+    {
+        "related_recipes": {
+            "93": "Carciofi alla Giudia",
+            "92": "Bucatini alla Gricia",
+            "94": "Saltimbocca alla Romana"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "lazio/amatrice/bucatini_amatriciana_1.jpeg",
+            "lazio/amatrice/bucatini_amatriciana_2.jpeg",
+            "lazio/amatrice/bucatini_amatriciana_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=32ooz8m90z8",
+        "city": "Amatrice",
+        "ingredients": [
+            {
+                "quantity": 200,
+                "ingredient": "Guanciale"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Pecorino"
+            },
+            {
+                "quantity": 400,
+                "ingredient": "Bucatini"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 350,
+                "ingredient": "Salsa di pomodoro"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Vino bianco"
+            }
+        ],
+        "region": "Lazio",
+        "product_history": "L'Amatriciana, inserita nell’elenco dei Prodotti agroalimentari tradizionali laziali, è una specialità della cucina laziale, ma ciò è dovuto al fatto che il suo luogo di origine, la cittadina di Amatrice, passò al Lazio dall'Abruzzo nel 1927. Secondo alcuni il nome deriverebbe da gricio. Così era chiamato nella Roma dell'Ottocento il venditore di pane ed altri commestibili. Un gruppo di questi, immigrato dal Cantone svizzero dei Grigioni, avrebbe dato origine al termine. Secondo un'altra ipotesi questo nome deriverebbe da un paesino a pochi chilometri da Amatrice, frazione del comune di Accumoli, di nome Grisciano. La gricia era ed è ancora conosciuta come l'amatriciana senza il pomodoro, anche se differisce per alcuni ingredienti.",
+        "preparation": "Tagliate a dadini il guanciale e fatelo rosolare nell'olio, sfumando con mezzo bicchiere di vino bianco secco, aggiungendo peperoncino. Aggiungete il pomodoro, aggiustate di sale e lasciate cuocere per circa 20 minuti. Scolate la pasta molto al dente e finite la cottura direttamente nel sugo aggiungendo un pò di acqua di cottura.",
+        "coords": [
+            42.615824,
+            13.295236
+        ],
+        "dish_name": "Bucatini all'amatriciana",
+        "dish_id": 95
+    },
+    {
+        "related_recipes": {
+            "93": "Carciofi alla Giudia",
+            "95": "Bucatini all'amatriciana",
+            "94": "Saltimbocca alla Romana"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "lazio/frosinone/crostini_ciociara_1.jpeg",
+            "lazio/frosinone/crostini_ciociara_2.jpeg",
+            "lazio/frosinone/crostini_ciociara_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=ZQAK616d7WQ",
+        "city": "Frosinone",
+        "ingredients": [
+            {
+                "quantity": 0,
+                "ingredient": "Caprino fresco q.b"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Pomodori"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Olive"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Aceto"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Basilico q.b"
+            }
+        ],
+        "region": "Lazio",
+        "product_history": "I crostini alla ciociara si preparano con pane casareccio abbrustolito sul quale verrà distribuita una salsa al pecorino. Così come la bruschetta, i crostini sembrano risalire al Medioevo, quando i contadini italiani consumavano i loro pasti adagiandoli su fette di pane piuttosto che su piatti.",
+        "preparation": "Mettete sul fuoco un padellino con il formaggio caprino sminuzzato, l'olio e l'aceto; tenete la fiamma bassa e mescolate per dar modo al formaggio di sciogliersi. Poco prima di togliere dal fuoco, unite il pomodoro tagliato a dadini, il basilico, le olive snocciolate e tagliate a pezzetti, un pizzico di peperoncino. Lasciate insaporire un attimo mentre abbrustolite le fette di pane e quindi, dopo aver adagiato queste ultime su un piatto, distribuite sopra la salsa.",
+        "coords": [
+            41.631388,
+            13.325512
+        ],
+        "dish_name": "Crostini alla Ciociara",
+        "dish_id": 96
+    },
+    {
+        "related_recipes": {
+            "95": "Bucatini all'amatriciana",
+            "94": "Saltimbocca alla Romana",
+            "96": "Crostini alla Ciociara"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "lazio/latina/pangiallo_natale_1.jpeg",
+            "lazio/latina/pangiallo_natale_2.jpeg",
+            "lazio/latina/pangiallo_natale_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=2157eMxNAos",
+        "city": "Latina",
+        "ingredients": [
+            {
+                "quantity": 1000,
+                "ingredient": "Fichi"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Nocciole"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Mandorle"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Marmellata di albicocche"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Lievito in polvere q.b"
+            }
+        ],
+        "region": "Lazio",
+        "product_history": "Il pangiallo, meglio noto come pangiallo romano è un dolce che ha la sua origine nell'antica Roma e più precisamente durante l'era imperiale. Era, infatti, un'usanza di quei tempi distribuire questi dolci dorati, durante la festa del solstizio d'inverno, in modo da favorire il ritorno del sole.\nIl tipico pangiallo romano ha subito numerose trasformazioni durante i secoli a causa dell'espansione dei confini territoriali e dell'incremento nella comunicazione tra le varie regioni italiane.\nTradizionalmente il pangiallo veniva ottenuto tramite l'impasto di frutta secca, miele e cedro candito, il quale veniva in seguito sottoposto a cottura e ricoperto da uno strato di pastella d'uovo.\nFino a tempi molto recenti nella preparazione del pangiallo le massaie romane mettevano i noccioli della frutta estiva (prugne e albicocche) opportunamente essiccati e conservati, in luogo delle costose mandorle e nocciole.",
+        "preparation": "Preparate un impasto di fichi secchi, tritati finemente, le mandorle intere, le nocciole e la marmellata di albicocche, che non deve essere troppo densa (eventualmente scaldatela con zucchero ed acqua). Lasciate riposare l'impasto per qualche ora. A parte preparate un impasto con acqua farina e lievito in polvere; con l'impasto di frutta secca preparate delle pagnottelle leggermente schiacciate, rivestitele con la sfoglia ricavata dalla pasta e mettetele in forno. Togliete dal forno non appena l'impasto avrà un colore bronzeo.",
+        "coords": [
+            41.461896,
+            12.892747
+        ],
+        "dish_name": "Pangiallo di Natale",
+        "dish_id": 97
+    },
+    {
+        "related_recipes": {
+            "95": "Bucatini all'amatriciana",
+            "97": "Pangiallo di Natale",
+            "96": "Crostini alla Ciociara"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "lazio/rieti/gnocchi_romana_1.jpeg",
+            "lazio/rieti/gnocchi_romana_2.jpeg",
+            "lazio/rieti/gnocchi_romana_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=W3-MM6LWbDo",
+        "city": "Rieti",
+        "ingredients": [
+            {
+                "quantity": 200,
+                "ingredient": "Semolino"
+            },
+            {
+                "quantity": 750,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 180,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Pecorino"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Lazio",
+        "product_history": "L’utilizzo del burro e del parmigiano ha spesso creato confusione circa l’origine del piatto: si tratta, infatti, di due elementi poco diffusi alla cucina laziale, che predilige l’olio extravergine di oliva e il pecorino. Alcuni gastronomi ritengono che si possa trattare di una ricetta di origine piemontese, ma è un’ipotesi poco plausibile, considerando che gli gnocchi vengono citati anche da Pellegrino Artusi nel suo “La scienza in cucina e. Anche Ada Boni nel volume “La Cucina Romana” fa riferimento a questa specialità come a una tradizione antica, da custodire e salvaguardare, “la tradizione di una Roma sparita”, il piatto che i romani “solevano accompagnare a ogni riunione che avesse lo scopo di festeggiare qualche cosa”.",
+        "preparation": "Portate il latte a ebollizione in un pentolino, e poi unite 20 grammi di burro, il sale e quindi, mescolando in continuazione, versate poco alla volta il semolino in modo da non far formare grumi. Fate cuocere ancora per qualche minuto a fiamma bassa, poi una volta ottenuto un composto omogeneo aggiungete i tuorli e mescolate senza sosta (meglio se con un mestolo di legno). Versate la crema ottenuta sopra un piano di marmo, livellando il composto con l'aiuto di una spatola in modo da ricavarne uno strato di circa 3 centimetri di spessore. Quando si sarà raffreddato, tagliate tanti dischetti con l'aiuto di un piccolo bicchiere. Imburrate una pirofila e distribuiteci i dischetti e i ritagli. Spolverizzate tutto con il rimanente pecorino che avrete grattugiato e distribuite il burro a fiocchetti. Ponete nel forno scoperto per 8 minuti a potenza massima. A cottura ultimata lasciate riposare qualche minuto prima di servire.",
+        "coords": [
+            42.423575,
+            12.847673
+        ],
+        "dish_name": "Gnocchi alla Romana",
+        "dish_id": 98
+    },
+    {
+        "related_recipes": {
+            "98": "Gnocchi alla Romana",
+            "97": "Pangiallo di Natale",
+            "96": "Crostini alla Ciociara"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "lazio/viterbo/carne_viterbese_1.jpeg",
+            "lazio/viterbo/carne_viterbese_2.jpeg",
+            "lazio/viterbo/carne_viterbese_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=XYPM54HYPCw",
+        "city": "Viterbo",
+        "ingredients": [
+            {
+                "quantity": 400,
+                "ingredient": "Polpa di manzo"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Polpa di maiale"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Passata di pomodoro"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Carota"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Sedano"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Garofano"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Peperoncini"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Vino bianco"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Fagioli rossi"
+            }
+        ],
+        "region": "Lazio",
+        "product_history": "La carne alla viterbese è secondo piatto  nel quale i fagioli dopo l’ammollo verranno cotti ed infine uniti alla carne. Per molti secoli, il fagiolo carne è stato protagonista della tavola e della tradizione enogastronomica della Tuscia, piano piano però con il cambio di abitudini alimentari è stato inserito tra le semenze in via d’estinzione.",
+        "preparation": "Mettete i fagioli in una terrina, copriteli di acqua e lasciateli a bagno per 12 ore. Sgocciolateli, metteteli in una casseruola coperti d’acqua, salate e fateli cuocere per circa 1 ora e 45 minuti. Nel frattempo sbucciate la cipolla e lavatela, mondate e lavate la carota e il sedano. Tritateli e metteteli sul fuoco in un tegame di coccio, con l’olio e le carni macinate. Non appena il liquido sarà evaporato, salate, pepate, unite il chiodo di garofano e il peperoncino e versate la passata di pomodoro. Cuocete per circa 20 minuti, a fuoco basso e a tegame coperto, bagnando con poca acqua se la salsa si addensasse troppo. Sgocciolate i fagioli, versateli nel tegame con il sugo e lasciateli insaporire per 15 minuti. Servite in tavola ben caldo.",
+        "coords": [
+            42.426538,
+            12.102489
+        ],
+        "dish_name": "Carne alla Viterbese",
+        "dish_id": 99
+    },
+    {
+        "related_recipes": {
+            "99": "Carne alla Viterbese",
+            "98": "Gnocchi alla Romana",
+            "97": "Pangiallo di Natale"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "lazio/viterbo/lombrichelli_1.jpeg",
+            "lazio/viterbo/lombrichelli_2.jpeg",
+            "lazio/viterbo/lombrichelli_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=FG_g8ntEUYA",
+        "city": "Viterbo",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Acqua q.b"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Pomodori"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Basilico q.b"
+            }
+        ],
+        "region": "Lazio",
+        "product_history": "I lombrichelli sono una ricetta tipica del viterbese preparati impastando farina con sale ed acqua fredda per realizzare un impasto sodo che preleveremo poco alla volta lavorandolo formando degli spaghetti di lunga dimensione e grossolani. Le fonti concordano sulle origini povere di questo piatto, realizzato con acqua e farina di grano tenero. Ciò che fa la differenza è però la forma che assume: ecco dunque che dallo stesso impasto nascono molti tipi di pasta, i cui nomi sono spessi confusi a causa di una somiglianza etimologica.",
+        "preparation": "Impastate a lungo la farina con sale ed acqua fredda, tanto da formare un impasto abbastanza sodo e consistente. Prelevando pochi pezzetti per volta, lavorate con le mani come per gli gnocchi e formate dei lunghi spaghetti di dimensioni più grossolane. Lasciate asciugare la pasta per almeno 3 ore. Mettete a lessare e successivamente condite con sugo di pomodoro insaporito con aglio e basilico fresco.",
+        "coords": [
+            42.411584,
+            12.123088
+        ],
+        "dish_name": "Lombrichelli",
+        "dish_id": 400
     }
+
+
+
+
+
+
+
+
+
+
+
 ]
