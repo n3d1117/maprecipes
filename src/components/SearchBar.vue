@@ -59,14 +59,14 @@ export default {
       query: "",
       selected: "",
       suggestions: [],
-      exactMatch: false,
+      resultType: 'recipe',
       sectionConfigs: {
         default: {
           limit: 5,
           label: "Ricette",
           onSelected: selected => {
             if (selected != null) {
-              this.exactMatch = true
+              this.resultType = 'recipe'
               this.selected = selected.item
             }
           }
@@ -75,7 +75,7 @@ export default {
           limit: 3,
           label: "Regioni",
           onSelected: selected => {
-            this.exactMatch = false
+            this.resultType = 'region'
             this.selected = selected.item;
           }
         },
@@ -83,7 +83,7 @@ export default {
           limit: 3,
           label: "Città",
           onSelected: selected => {
-            this.exactMatch = false
+            this.resultType = 'city'
             this.selected = selected.item
           }
         },
@@ -91,7 +91,7 @@ export default {
           limit: 3,
           label: "Ingredienti",
           onSelected: selected => {
-            this.exactMatch = false
+            this.resultType = 'ingredient'
             this.selected = selected.item
           }
         }
@@ -101,7 +101,7 @@ export default {
   watch: {
     selected() {
       if (this.selected != null) {
-        this.$emit('callback', { "selected": this.selected, "exactMatch": this.exactMatch })
+        this.$emit('callback', { "selected": this.selected, "resultType": this.resultType })
       }
     },
     query() {
@@ -115,7 +115,7 @@ export default {
   methods: {
     onEnter() {
       if (this.query !== '') {
-        this.exactMatch = false
+        this.resultType = 'none'
         this.selected = this.query
       }
     },
@@ -165,7 +165,7 @@ export default {
       this.callbackReset()
     },
     callbackReset() {
-      this.$emit('callback', { "selected": '', "exactMatch": false })
+      this.$emit('callback', { "selected": '', "resultType": 'none' })
     },
     // https://stackoverflow.com/a/37511463
     normalized(string) {

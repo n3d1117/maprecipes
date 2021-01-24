@@ -63,6 +63,7 @@ export default {
   data() {
     return {
       query: '',
+      resultType: '',
       antipasti: this.filterByRecipeTypeAndSort('Antipasti'),
       primi: this.filterByRecipeTypeAndSort('Primi'),
       secondi: this.filterByRecipeTypeAndSort('Secondi'),
@@ -77,13 +78,12 @@ export default {
           .sort((a, b) => (a.dish_name > b.dish_name) ? 1 : -1);
     },
     didSearchForQuery(data) {
-      const query = data.selected
-      const isExactMatch = data.exactMatch
-      this.query = query
+      this.resultType = data.resultType
+      this.query = data.selected
 
       if (this.query !== '') {
-        if (isExactMatch) {
-          const result = recipes.find(recipe => recipe.dish_name === query)
+        if (this.resultType === 'recipe') {
+          const result = recipes.find(recipe => recipe.dish_name === this.query)
           this.$router.push({name: 'recipe', params: {id: result.dish_id}})
         } else {
           this.$refs.sidebar.dropdownTitle = 'Regione'
@@ -117,7 +117,21 @@ export default {
           return (normalized(ingredient.toLowerCase()).indexOf(normalized(query.toLowerCase())) > -1)
         });
       })
-      return this.removeDuplicates(filteredByRecipeName.concat(filteredByRegion.concat(filteredByCity).concat(filteredByIngredient)))
+
+      switch (this.resultType) {
+        case 'recipe':
+          return filteredByRecipeName
+        case 'region':
+          return filteredByRegion
+        case 'city':
+          return filteredByCity
+        case 'ingredient':
+          return filteredByIngredient
+        default:
+          return this.removeDuplicates(
+              filteredByRecipeName.concat(filteredByRegion.concat(filteredByCity).concat(filteredByIngredient))
+          )
+      }
     },
     onRegionChange(data) {
       const region = data.region
