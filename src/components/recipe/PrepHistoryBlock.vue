@@ -46,7 +46,7 @@ export default {
         if ($(window).width() < 992) {
           area.style.height = '40vh';
         } else {
-          area.style.height = '23vh';
+          area.style.height = '22vh';
         }
       }
     }

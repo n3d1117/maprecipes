@@ -5501,16 +5501,689 @@
         ],
         "dish_name": "Lombrichelli",
         "dish_id": 400
+    },
+    {
+        "related_recipes": {
+            "402": "Biscotti del Lagaccio",
+            "403": "Trofie al Pesto",
+            "404": "Focaccia alla Genovese"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "liguria/genova/scaloppine_genova_1.jpeg",
+            "liguria/genova/scaloppine_genova_2.jpeg",
+            "liguria/genova/scaloppine_genova_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=-MYmDhOwHQw",
+        "city": "Genova",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Filetto di vitella"
+            },
+            {
+                "quantity": 350,
+                "ingredient": "Riso"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Parmigiano"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Salsa di pomodoro"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Farina 00 q.b"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Cipolla bianca"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Prezzemolo q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Maggiorana q.b"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Vino bianco"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            }
+        ],
+        "region": "Liguria",
+        "product_history": "Il termine scaloppina deriverebbe dal francese escalope. Il termine non tradotto veniva utilizzato fino all'inizio del Novecento nelle pubblicazioni di vari gastronomi italiani come Giovanni Vialardi o Ada Boni. A seconda delle tradizioni gastronomiche la salsa di accompagnamento delle scaloppine può variare di molto. Nelle zone mediterranee vengono spesso cucinate alla pizzaiola, ovvero con olio, pomodoro, origano, mentre nelle regioni settentrionali per la cottura viene tradizionalmente utilizzato il burro e la salsa comprende spesso anche la panna.",
+        "preparation": "In una padella mettete la cipolla tritata finemente con un fondo d'olio e 45 grammi di burro ad imbiondire. Quando sarà rosolata aggiungete le fettine di filetto e fatele scottare da ambo i lati. Salatele, pepatele ed aggiungete il vino, dopo circa 5 minuti aggiungete anche un cucchiaio di farina che farete addensare. Preparate poi un trito di: prezzemolo, maggiorana e 2 spicchi d'aglio. Quando la farina sarà densa, aggiungetelo alle fettine ed unitevi anche un cucchiaio di salsa diluita in un bicchiere di acqua calda. Lasciate cuocere per mezz'ora a fuoco basso girando di tanto in tanto la carne. Preparare il riso lessando e lasciandolo al dente, scolatelo ed aggiungete il burro ed il parmigiano per condirlo. Scaldate il forno a 180 gradi circa e scaldatevi una teglia unta con la parte di burro restante. Mettetevi il riso cercando di pressarlo più che potete. Servite le scaloppe nel piatto di portata preparando prima un letto di riso e fate bene attenzione a cospargere anche il riso con il sughino delle scaloppe.",
+        "coords": [
+            44.394159,
+            9.004754
+        ],
+        "dish_name": "Scaloppine di Genova",
+        "dish_id": 401
+    },
+    {
+        "related_recipes": {
+            "401": "Scaloppine di Genova",
+            "403": "Trofie al Pesto",
+            "404": "Focaccia alla Genovese"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "liguria/genova/biscotti_lagaccio_1.jpeg",
+            "liguria/genova/biscotti_lagaccio_2.jpeg",
+            "liguria/genova/biscotti_lagaccio_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=qm9OI2AgWDE",
+        "city": "Genova",
+        "ingredients": [
+            {
+                "quantity": 600,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 45,
+                "ingredient": "Lievito di birra"
+            }
+        ],
+        "region": "Liguria",
+        "product_history": "I Biscotti del Lagaccio o semplicemente \"Lagacci\" nacquero nel 1593 nel quartiere del Lagaccio, a Genova, nei pressi del bacino artificiale omonimo voluto da Andrea Doria, colmato negli anni sessanta, dove all'epoca un forno incominciò a produrre questo tipo di biscotti.\nAll'origine erano semplici fette di pane biscottate che servivano per la conservazione in barca. È molto adatto per le prime colazioni o per spuntini. Tuttora è prodotto da alcune industrie dolciarie intorno a Genova e, in generale, in Liguria e a Ovada e Voltaggio, nel basso Piemonte.",
+        "preparation": "Impastate tutti gli ingredienti realizzando un composto che lascerete riposare un paio d'ore coperto con uno strofinaccio. Da questo impasto ricavatene dei pani bislunghi, date quindi dei tagli diagonali sopra distanti uno dall'altro 3 cm. circa. Infornate a forno caldo a 150 °C per 30 minuti. Al termine estraeteli dal forno e lasciateli raffreddare per qualche ora. Trascorso il tempo tagliate i filoni lungo le incisioni praticate e stendeteli di nuovo in forno per 10 minuti a 200 °C per biscottarli.",
+        "coords": [
+            44.40299,
+            8.958062
+        ],
+        "dish_name": "Biscotti del Lagaccio",
+        "dish_id": 402
+    },
+    {
+        "related_recipes": {
+            "402": "Biscotti del Lagaccio",
+            "401": "Scaloppine di Genova",
+            "404": "Focaccia alla Genovese"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "liguria/genova/trofie_pesto_1.jpeg",
+            "liguria/genova/trofie_pesto_2.jpeg",
+            "liguria/genova/trofie_pesto_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=hnJO03EBxOU",
+        "city": "Genova",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Trofie"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Basilico"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Parmigiano"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Pinoli"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Pecorino"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Liguria",
+        "product_history": "Le trofie sono una specialità tipica di numerosi comuni del golfo paradiso ma vengono celebrate anche nell'entroterra genovese e ligure compreso l'Oltregiogo oggi in Piemonte.\nStoricamente le trofie erano preparate nelle case e utilizzate per il consumo familiare oppure venivano raccolte di casa in casa per poi essere vendute. Questo formato di pasta è quindi frutto di uno sviluppo casalingo legato principalmente alla figura femminile. Le donne di casa si riunivano intorno ad un tavolo a fare trofie, partendo dalla materia prima fornita loro dai pastifici locali, così facendo le casalinghe riuscivano a ricavare un reddito da poter integrare alle entrate familiari. Quando con il passare degli anni la quantità richiesta iniziò ad aumentare, grazie al successo ottenuto, fu necessario attuare delle migliorie nel sistema di produzione e non solo. Fu così che a Sori nacque la prima macchina per produrre le trofie meccanicamente, ideata da Bacci Cavassa dopo lunghi anni di lavoro, venne poi messa in funzione dal Pastificio Novella nel 1977.\nA Sori si tiene dal 1985 una apposita sagra, organizzata dall'associazione Pro Loco Sori, dal Gruppo Festeggiamenti 15 agosto e dal Pastificio Novella, noto pastificio locale.",
+        "preparation": "Lavate il basilico ed asciugatelo. Mettetelo nel mortaio o al limite su una spianatoia, lavorandolo con il pestello nel primo caso e con una mezzaluna nel secondo. Aggiungete i pinoli, l'aglio ed un pizzico di sale ed amalgamate il composto. Unite quindi olio e formaggio poco per volta proseguendo la lavorazione con il pestello o con la mezzaluna. Il sistema tradizionale e quello riconosciuto per realizzare un pesto degno di questo nome resta quello del mortaio utilizzandolo con un pestello spezzare le fibre del basilico e liberare così tutto il gusto e l'aroma. Intanto mettete in una pentola dell' abbondante acqua già salata e quando arriva a bollore aggiungetevi le trofie. Una volta cotta la pasta scolatela e conditela con il vostro pesto mescolando con cura il tutto. Servite il piatto caldo guarnendolo con qualche fogliolina di basilico.",
+        "coords": [
+            44.418925,
+            8.924608
+        ],
+        "dish_name": "Trofie al Pesto",
+        "dish_id": 403
+    },
+    {
+        "related_recipes": {
+            "403": "Trofie al Pesto",
+            "402": "Biscotti del Lagaccio",
+            "401": "Scaloppine di Genova"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "liguria/genova/focaccia_genovese_1.jpeg",
+            "liguria/genova/focaccia_genovese_2.jpeg",
+            "liguria/genova/focaccia_genovese_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=dq_MVy1FutU",
+        "city": "Genova",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Farina Manitoba"
+            },
+            {
+                "quantity": 25,
+                "ingredient": "Lievito di birra"
+            },
+            {
+                "quantity": 350,
+                "ingredient": "Acqua"
+            },
+            {
+                "quantity": 15,
+                "ingredient": "Sale"
+            },
+            {
+                "quantity": 125,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Zucchero"
+            }
+        ],
+        "region": "Liguria",
+        "product_history": "Nell’antichità, fenici e greci utilizzavano farine di cereali come orzo e segale che mescolate con acqua, venivano cotte sul fuoco. Ciò consentiva la loro conservazione per lunghi periodi di tempo. La focaccia era considerata dai Romani un alimento così pregiato da essere offerto agli dei in occasione della loro celebrazioni.\nNel Medioevo, veniva consumata anche durante i matrimoni e addirittura in occasione dei funerali fino a quando il vescovo di Genova, allora Matteo Gambaro, finì col proibire la sua consumazione in Chiesa durante le funzioni.\nTuttavia nel Rinascimento, la focaccia continuò ad essere consumata durante i banchetti di nozze.\nProprio la sua durevolezza nel tempo e la sua caratteristica proteica hanno fatto sì che la focaccia venisse utilizzata anche dai viaggiatori e dai pescatori. Anticamente, non veniva utilizzato il lievito, che è stato introdotto solo in epoca successiva.\nNella zona portuale di Genova oltre ai forni nacquero le “sciamadde” (dal dialetto genovese, “fiammata”), antiche friggitorie di strada dove vi era anche il forno a legna con la fiammata, dove veniva cotta anche la focaccia. La focaccia diventa così un cibo molto popolare perché poco costoso. Diventa con il passare degli anni la colazione dei portuali, in particolare dei camalli.\nSfortunatamente, con il passare del tempo, la ricetta tradizionale è cambiata per venire incontro alle esigenze della vita moderna. Per la lievitazione viene utilizzato lievito chimico, spesso di birra, e non madre. Inoltre vengono utilizzati prodotti di minor costo invece dell’olio extra vergine di oliva. Un altro elemento che è cambiato con il tempo è la percentuale dello stesso olio, ridotto spesso al minimo necessario. Nella ricetta moderna vi è anche l’aggiunta di burro che modifica l’armonia tra gli ingredienti dell’impasto. Tutti questi cambiamenti rendono la focaccia odierna meno saporita, meno digeribile e con tempi di conservazione molto più brevi; non mancano comunque diversi panifici che ancora oggi a Genova utilizzano la ricetta tradizionale classica con ingredienti di alta qualità.\nLa ricetta della focaccia originale prevedeva un impasto composto principalmente da farina bianca, circa cinquecento grammi, un pizzico di sale e qualche filo di olio d’oliva e l’acqua necessaria. L’impasto veniva poi disteso, con l’aiuto di un mattarello, su una teglia bassa e oleata. Dopo di che bisognava picchiettare la superficie dell’impasto con le dita, aggiungere un pizzico di sale qualche filo di olio. La teglia veniva poi disposta all'interno di un forno caldo a cuocere fino a quando la superficie della focaccia non appariva dorata.\nOggi, tuttavia, la focaccia si prepara in un modo quasi completamente diverso. L’impasto è composto da farina 00, lievito di birra invece di lievito madre, un terzo di olio e alcune volte con l’aggiunta di purè di patate. Il tempo di lievitazione è più breve rispetto a quello di un tempo. Nella maggior parte dei casi, la lievitazione di oggi avviene in un luogo buio e tiepido e dura circa un’ora.\nNon vi sono dei precisi tempi di cottura a causa della innumerevoli variabili: la tipologia del forno, la temperatura, il clima, l’impasto e i gusti del cuoco e dei clienti di un determinato panificio.",
+        "preparation": "Fate sciogliere il sale in poca acqua tiepida, unitelo allo zucchero in una scodella o nel bicchiere del mixer, quindi aggiungete 30 ml di olio e metà della farina, lavorando l'impasto fino a ottenere una pastella omogenea e piuttosto liquida. Aggiungete il lievito sbriciolato e impastate per altri 3 o 4 minuti, poi unite la farina tenuta da parte e mescolate nuovamente fino a ottenere un composto omogeneo. Preparate una teglia da forno ungendola con 3 cucchiai di olio, lavorate l'impasto per pochi secondi e poi disponetelo nella teglia, dandogli una forma rettangolare e spennellandolo d'olio; lasciatelo lievitare per un'ora e mezza. Trascorso il tempo riprendete la teglia e allargate l'impasto fino a coprire tutta la superficie della teglia, spennellatelo nuovamente d'olio e cospargetelo con sale grosso, lasciandolo lievitare ancora per 30 minuti. Trascorsi i 30 minuti pressate l'impasto con la punta delle dita, per conferire alla focaccia la sua forma tradizionale. Spennellate la focaccia con l'olio rimasto, lasciatela lievitare per ulteriori 30 minuti, poi spruzzatela di acqua a temperatura ambiente e cuocetela in forno già caldo a 200 °C per circa 15 minuti.",
+        "coords": [
+            44.417192,
+            8.895481
+        ],
+        "dish_name": "Focaccia alla Genovese",
+        "dish_id": 404
+    },
+    {
+        "related_recipes": {
+            "404": "Focaccia alla Genovese",
+            "403": "Trofie al Pesto",
+            "402": "Biscotti del Lagaccio"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "liguria/genova/torta_pasqualina_1.jpeg",
+            "liguria/genova/torta_pasqualina_2.jpeg",
+            "liguria/genova/torta_pasqualina_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=fjhYb_gphzU",
+        "city": "Genova",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Spinaci"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Pasta sfoglia"
+            },
+            {
+                "quantity": 350,
+                "ingredient": "Ricotta"
+            },
+            {
+                "quantity": 240,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Grana"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio"
+            }
+        ],
+        "region": "Liguria",
+        "product_history": "Nei secoli scorsi uova e formaggio, ingredienti essenziali della pasqualina, erano alimenti che si consumavano solo nelle grandi ricorrenze. La tradizionale torta pasqualina è tipica del periodo pasquale, cioè della primavera e dei suoi prodotti: uova, erbette, cipolline nuove, maggiorana, un tempo presenti in ogni orto ligure. Rappresenta il clou del pranzo pasquale e in passato era l'apoteosi dell'abilità delle casalinghe, che leggendariamente si narra riuscissero a sovrapporre sino a trentatré sfoglie in omaggio agli anni di Cristo.\nL'esistenza della torta pasqualina genovese è documentata dal XVI secolo, quando il letterato Ortensio Lando la cita nel Catalogo delli inventori delle cose che si mangiano et si bevano. Allora era nota come gattafura, perché le gatte volentieri le furano et vaghe ne sono, ma anche lo stesso scrittore ne era ghiotto tanto da scrivere: \"A me piacquero più che all'orso il miele\".",
+        "preparation": "Cuocete a vapore gli spinaci e poi spadellateli con uno spicchio d'aglio e un filo d'olio. Una volta cotti disponeteli in un tagliere e sminuzzateli. Versateli in una ciotola capiente e unite la ricotta, un uovo, il sale, il pepe e il grana e mescolate bene. Foderate quindi una tortiera (meglio se con la cerniera) con la pasta sfoglia. Bucherellate il fondo con l'aiuto di una forchetta e versate il composto di spinaci e ricotta. Livellate e create 5 solchi con l'aiuto di un cucchiaio. Spaccate quindi 5 uova in corrispondenza dei 5 avvallamenti, facendo attenzione a non rompere il tuorlo. Prendete quindi l'altra sfoglia e coprite. Bucherellate ancora una volta e sigillate i bordi unendo le due sfoglie. Infornate a 200° per i primi 15 minuti e poi a 180° per altri 20-25 minuti.",
+        "coords": [
+            44.432576,
+            8.857556
+        ],
+        "dish_name": "Torta Pasqualina",
+        "dish_id": 405
+    },
+    {
+        "related_recipes": {
+            "405": "Torta Pasqualina",
+            "404": "Focaccia alla Genovese",
+            "403": "Trofie al Pesto"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "liguria/imperia/farinata_ligure_verdure_1.jpeg",
+            "liguria/imperia/farinata_ligure_verdure_2.jpeg",
+            "liguria/imperia/farinata_ligure_verdure_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=oDVYsataU3A",
+        "city": "Imperia",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Farina di ceci"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Pomodori"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Zucchine"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Capperi"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Peperoni"
+            }
+        ],
+        "region": "Liguria",
+        "product_history": "Ha radici assai antiche: diverse ricette latine e greche riportano sformati di purea di legumi, cotti in forno. I ceci erano ben noti anche nel mondo arabo: è opinione diffusa che siano stati i commerci della Repubblica Marinara di Genova a importare in Italia, nel Medioevo, l'abitudine all'impiego di questo legume nello stile alimentare, tramutandolo poi in quella che oggi è la farinata.\nSecondo la leggenda popolare il piatto nacque nel 1284, quando Genova sconfisse Pisa nella battaglia della Meloria. Le galee genovesi, cariche di vogatori prigionieri, si trovarono coinvolte in una tempesta. Nel trambusto alcuni barilotti d'olio e dei sacchi di ceci si rovesciarono, inzuppandosi di acqua salata. Poiché le provviste erano quelle che erano e non c'era molto da scegliere, si recuperò il possibile e ai marinai vennero date scodelle di una purea di ceci e olio. Alcuni marinai rifiutarono la poltiglia lasciandola al sole, che asciugò il composto in una specie di frittella. Il giorno dopo, spinti dai morsi della fame, i marinai mangiarono il preparato scoprendone la prelibatezza. Rientrati a terra i genovesi pensarono di migliorare la scoperta improvvisata, cuocendo la purea in forno. Il risultato piacque e, per scherno agli sconfitti, venne chiamato \"l'oro di Pisa\".\nAttualmente viene preparata in friggitorie di strada dedicate, in Liguria chiamate sciamadda (fiammata), mentre nel Sassarese viene preparata in pizzerie da asporto o in locali dedicati alla produzione e al consumo di essa.",
+        "preparation": "Setacciate la farina di ceci in una ciotola e versatevi acqua sufficiente a ottenere una pastella fluida. Mescolate bene, in modo da sciogliere i grumi, e insaporite con un pizzico di sale, quindi lasciate riposare per 2 ore, mescolando di tanto in tanto. Nel frattempo spennellate con 2 cucchiai d'olio una placca da forno o una teglia rettangolare. Trascorso il tempo di lievitazione, eliminate con il mestolo forato la schiuma che si sarà formata sulla superficie della pastella, quindi versatela nella placca in uno strato dello spessore di 0,5 cm. Pulite il peperone e tagliatelo a strisce per il lungo, affettate i pomodorini e disponete tutte le verdure, compresi i capperi lavati in acqua corrente, sulla superficie della farinata. Distribuite l'olio sulla superficie in maniera uniforme. Mettete la placca nel forno già caldo a 220 °C e cuocete la farinata di ceci per 20 minuti, finché sarà ben dorata. Distribuite l'olio sulla superficie in maniera uniforme. Mettete la placca nel forno già caldo a 220 °C e cuocete la farinata di ceci per 20 minuti, finché sarà ben dorata.",
+        "coords": [
+            43.889995,
+            8.028641
+        ],
+        "dish_name": "Farinata ligure alle verdure",
+        "dish_id": 406
+    },
+    {
+        "related_recipes": {
+            "406": "Farinata ligure alle verdure",
+            "405": "Torta Pasqualina",
+            "404": "Focaccia alla Genovese"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "liguria/imperia/cuculli_1.jpeg",
+            "liguria/imperia/cuculli_2.jpeg",
+            "liguria/imperia/cuculli_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=g3Wv_tmS3dM",
+        "city": "Imperia",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Farina di ceci"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Lievito di birra"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Acqua q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Maggiorana q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Liguria",
+        "product_history": "I cuculli liguri sono una tipica specialità della Liguria, che si prepara con farina di ceci e pochi altri ingredienti. Di origine araba,  i cuculli (coccoli) prendono il nome, forse, dalla forma che ricorda  i bozzoli del baco da seta: serviti con l’aperitivo o gustati avvolti nella peppià, (nome genovese della carta per alimenti) si presentano come veri, irresistibili, peccati di gola.",
+        "preparation": "Per prima cosa versate la farina di ceci in una scodella e aggiungete pian piano dell'acqua, stemperandola e mescolando continuamente fino a ottenere un impasto fluido. A questo punto fate sciogliere il lievito di birra in un piccolo recipiente contenente un po' di acqua tiepida e aggiungetelo al composto, mescolando accuratamente. Lasciare l'impasto a lievitare per almeno 8-12 ore in un luogo tiepido e privo di correnti d'aria e, una volta trascorso il tempo di riposo, regolate di sale e pepe. Mescolare nuovamente il composto, aggiungere le foglioline di maggiorana e friggete a cucchiaiate nell'olio extra vergine bollente per pochi minuti. Man mano che sono pronti, mettete i cuculli a sgocciolare su carta assorbente per eliminare l'eccesso di olio e poi serviteli in tavola ben caldi.",
+        "coords": [
+            43.876138,
+            8.003578
+        ],
+        "dish_name": "Cuculli",
+        "dish_id": 407
+    },
+    {
+        "related_recipes": {
+            "407": "Cuculli",
+            "406": "Farinata ligure alle verdure",
+            "405": "Torta Pasqualina"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "liguria/taggia/ciappe_1.jpeg",
+            "liguria/taggia/ciappe_2.jpeg",
+            "liguria/taggia/ciappe_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=dUpR9vY-2b8",
+        "city": "Taggia",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Farina di grano"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 1,
+                "ingredient": "Acqua q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pesto q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Liguria",
+        "product_history": "La Ciappa è un prodotto tipico della Liguria, di Taggia precisamente. Nel dialetto ligure, “Ciappa” nel dialetto ligure significa pietra piatta e sottile, usata nella tradizione per creare questo particolare tipo di pane: l’impasto, una volta tagliato in piccoli cubetti veniva schiacciato con la “Ciappa”, in modo da creare la particolare forma allungata ed irregolare. Ancora oggi, viene utilizzato lo stesso procedimento anche a livello industriale.",
+        "preparation": "Mettete la farina a fontana sulla spianatoia e impastatela con l'olio, un poco di sale e acqua quanto basta per ottenere un impasto abbastanza consistente. Tirate con il matterello una sfoglia sottile e tagliate con un bicchiere delle forme rotonde. Preriscaldato il forno a 180 °C e cuocetene poche per volta su una teglia ricoperta di carta forno per pochi minuti, fino a quando non saranno croccanti. Servitele ancora calde con un poco di pesto.",
+        "coords": [
+            43.854051,
+            7.85322
+        ],
+        "dish_name": "Ciappe",
+        "dish_id": 408
+    },
+    {
+        "related_recipes": {
+            "407": "Cuculli",
+            "406": "Farinata ligure alle verdure",
+            "408": "Ciappe"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "liguria/la_spezia/pandolce_1.jpeg",
+            "liguria/la_spezia/pandolce_2.jpeg",
+            "liguria/la_spezia/pandolce_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=yTiKmdbyEuU",
+        "city": "La Spezia",
+        "ingredients": [
+            {
+                "quantity": 1000,
+                "ingredient": "Farina 00"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Lievito di birra"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Gherigli di noce"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Marsala"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Pinoli"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Nocciole"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Semi di finocchio q.b"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Uvetta"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Limone"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Acqua q.b"
+            }
+        ],
+        "region": "Liguria",
+        "product_history": "Nel Regno Unito è chiamato Genoa Cake (\"torta di Genova\"). Un dolce simile viene prodotto nei paesi dell'Est Europeo e dalla Persia, si chiama paska. Secondo una leggenda fu un doge, o Andrea Doria ammiraglio della Repubblica di Genova, nel '500, a bandire un concorso tra i maestri pasticceri di Genova per un dolce rappresentativo della ricchezza di Genova, nutriente, a lunga conservazione e adatto ai lunghi viaggi per mare. A Selkirk nel 1859, il panettiere scozzese Robbie Douglas, ha fatto un pandolce genovese e l'ha chiamato Selkirk Bannock. Si tratta di una varietà spugnosa e burrosa di torta di frutta, a base di farina di grano e contenente una grande quantità di uva passa. Quando la regina Vittoria visitò Sir Walter Scott, nipote di Abbotsford, si dice che abbia preso il suo tè con una fetta di Selkirk Bannock. Oggi i Bannocks Selkirk sono popolari in tutta la Gran Bretagna e possono essere trovati nella maggior parte dei grandi supermercati.",
+        "preparation": "Mettete a bagno l'uvetta in acqua tiepida per 15 minuti, poi scolatela. Sbollentate in acqua in ebollizione per 1 minuto i gherigli di noce, sgocciolateli e tritateli. Versate in un'ampia terrina la farina, il sale, lo zucchero, la scorza di limone, i semi di finocchio, le nocciole, i pinoli, le noci e metà dell'uvetta. Unitevi il lievito diluito in poca acqua tiepida, 8 cucchiai di olio e il Marsala. Lavorate l'impasto con energia, aggiungendo eventualmente qualche cucchiaio di acqua se risultasse troppo asciutto. Lasciate lievitare coperto per 2 ore in luogo tiepido. Disponete l'impasto in una teglia unta. Decorate con la rimanente uvetta, spennellate con l'olio rimasto, lasciate riposare ancora per 1 ora, quidi fate cuocere in forno caldo a 200 °C per 30 minuti. Lasciate raffreddare completamente prima di servire.",
+        "coords": [
+            44.116324,
+            9.855031
+        ],
+        "dish_name": "Pandolce",
+        "dish_id": 409
+    },
+    {
+        "related_recipes": {
+            "407": "Cuculli",
+            "409": "Pandolce",
+            "408": "Ciappe"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "liguria/la_spezia/mesciua_1.jpeg",
+            "liguria/la_spezia/mesciua_2.jpeg",
+            "liguria/la_spezia/mesciua_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=vB9-xf4DP_Y",
+        "city": "La Spezia",
+        "ingredients": [
+            {
+                "quantity": 300,
+                "ingredient": "Ceci secchi"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Farro"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Fagioli cannellini"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Prezzemolo"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            }
+        ],
+        "region": "Liguria",
+        "product_history": "Nel dialetto spezzino il termine \"mesc-ciüa\" significa \"mescolanza\" e deriva dalla circostanza che la zuppa era tradizionalmente preparata nella zona del porto dai pescatori con ingredienti scelti in maniera del tutto casuale e mescolati tra loro.\nLa sua origine sembra risalire al XIV secolo nei borghi della costa occidentale del Golfo dei Poeti. \nAltri invece fanno risalire la ricetta a quando, gli scaricatori occasionali del porto della Spezia, venivano pagati in natura a fine giornata, spesso con ciò che \"avanzava\" dalle operazioni di sbarco e imbarco delle navi. Accadeva spesso, infatti, che si aprissero o si rompessero i sacchi di granaglie o di legumi e così, a fine giornata, i lavoranti si portavano a casa un po' di tutto quello che si era recuperato per farne una zuppa.",
+        "preparation": "Mettete a bagno per 12 ore i ceci, i fagioli e il farro in ciotole differenti. Fate cuocere i legumi, dopo averli sgocciolati, in pentole separate con abbondante acqua leggermente salata finché saranno teneri. A cottura ultimata, sgocciolate i ceci e il farro, uniteli nella pentola dei fagioli e mescolate bene con un cucchiaio di legno. Trasferite la minestra in una zuppiera riscaldata, condite con l'olio d'oliva extravergine, regolate di sale, insaporite con una generosa macinata di pepe e cospargete con il prezzemolo tritato servendo caldo.",
+        "coords": [
+            44.112873,
+            9.812459
+        ],
+        "dish_name": "Mesciua",
+        "dish_id": 410
+    },
+    {
+        "related_recipes": {
+            "410": "Mesciua",
+            "409": "Pandolce",
+            "408": "Ciappe"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "liguria/savona/canestrelli_1.jpeg",
+            "liguria/savona/canestrelli_2.jpeg",
+            "liguria/savona/canestrelli_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=hND7kULk0Ag",
+        "city": "Savona",
+        "ingredients": [
+            {
+                "quantity": 270,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 90,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Vanillina q.b"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Limone"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Lievito per dolci q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Zucchero a velo q.b"
+            }
+        ],
+        "region": "Liguria",
+        "product_history": "L'etimologia del nome è incerta. Alcuni fanno derivare il nome dal termine canestro, cioè un cesto di paglia o vimini dove si ponevano a freddare dopo la cottura e dove si tenevano per offrirli. Altri ritengono che sia da mettere in relazione con il disegno dello stampo a pinza in cui venivano cotti: in lingua piemontese canesterlè, significa ingraticolare con canne.\nI canestrelli sono dolci popolari, le cui origini sono antichissime. Nel Canavese e nella Valle di Susa venivano preparati sin dal Medioevo con il nome di nebule, probabilmente dalle gilde dei produttori di ostie. Si offrivano in occasione di matrimoni, battesimi, feste religiose, carnevale.\nI canestrelli di pasta frolla, probabilmente più recenti, appartengono alla tradizione Ligure e nella ricetta attuale hanno una precisa collocazione sia témporale sia geografica: gli inizi dell’ottocento in Torriglia, antica capitale appenninica dei feudi imperiali dei Doria Pamphilj (che si estendevano in Val Trebbia fino all'area oggi piacentina) che è tuttora il centro principale di produzione di questo dolce nella classica ricetta.",
+        "preparation": "In una terrina unite la farina con lo zucchero, una presa di sale, la vanillina, il lievito, i tuorli, il burro ammorbidito a tocchetti e la buccia dei limoni. Lavorate l'impasto con le mani fino a renderlo elastico e omogeneo, quindi formate una palla e lasciatela riposare coperta per 30 minuti. Riprendete l'impasto e stendetelo su un piano infarinato in una sfoglia spessa 1 cm, quindi con uno stampino rotondo dentellato ritagliate dei dischetti e con uno stampino più piccolo eliminate la pasta al centro, per dare ai biscotti la classica forma. Disponete i biscotti su una teglia imburrata e infarinata e infornate a 170 °C lasciando cuocere per 10 minuti. Al termine lasciate raffreddare i biscotti prima di spolverizzarli con lo zucchero al velo.",
+        "coords": [
+            44.354874,
+            8.374498
+        ],
+        "dish_name": "Canestrelli",
+        "dish_id": 411
+    },
+    {
+        "related_recipes": {
+            "410": "Mesciua",
+            "411": "Canestrelli",
+            "409": "Pandolce"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "liguria/savona/sciumette_1.jpeg",
+            "liguria/savona/sciumette_2.jpeg",
+            "liguria/savona/sciumette_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=QPvNpfNd7d8",
+        "city": "Savona",
+        "ingredients": [
+            {
+                "quantity": 50,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 240,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 1000,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Pistacchi"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Farina 00"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Cannella in polvere q.b"
+            }
+        ],
+        "region": "Liguria",
+        "product_history": "Liguria terra di mare e monti, bagnata da un mare spesso agitato che si infrange fragorosamente sulle sponde, formando una schiuma, sciumma, bianca e leggera come questo dolce noto appunto con il nome di sciumette, piccole schiume, che ricordano le meringhe da cui si differenziano per la tecnica di cottura e per parte degli ingredienti.\nTipiche del periodo del carnevale, furono talmente apprezzate da essere diffuse tutto l'anno sino a quando l'uso si perse a vantaggio (svantaggio) di altri dolci più elaborati.\nI genovesi sono rimasti legati a questo dolce e ne rimpiangono il gusto delicato e l'inconfondibile leggerezza.",
+        "preparation": "Versare 8,5 dl di latte in una piccola casseruola e farli scaldare. Sgusciare le uova separando i tuorli dagli albumi e montare a neve questi ultimi con 30 grammi di zucchero. Versare nel latte in ebollizione gli albumi a cucchiaiate e lasciare che le sciumette si rapprendano; estrarle con una schiumarola e porle su carta assorbente da cucina. Togliere il latte dal fuoco, unirvi lo zucchero rimasto e la farina, mescolando con un cucchiaio di legno e facendo attenzione che non si formino grumi. Sbattere i tuorli e unirli al composto di latte, zucchero e farina, dopo averlo fatto raffreddare. Pestare in un mortaio i pistacchi. Scaldare il latte rimasto e, appena sarà bollente, versarvi i pistacchi, scolandoli dopo 5-6 minuti con una schiumarola. Unire i pistacchi ormai cotti al composto di tuorli e latte e mescolare. Versare la crema fredda in un piatto di portata, disporre sopra le sciumette e cospargerle con la cannella.",
+        "coords": [
+            44.321755,
+            8.451113
+        ],
+        "dish_name": "Sciumette",
+        "dish_id": 412
     }
-
-
-
-
-
-
-
-
-
-
-
 ]
