@@ -5179,7 +5179,7 @@
             "lazio/amatrice/bucatini_amatriciana_3.jpeg"
         ],
         "video_recipe": "https://www.youtube.com/watch?v=32ooz8m90z8",
-        "city": "Amatrice",
+        "city": "Amatrice Rieti",
         "ingredients": [
             {
                 "quantity": 200,
@@ -6185,5 +6185,237 @@
         ],
         "dish_name": "Sciumette",
         "dish_id": 412
+    },
+    {
+        "related_recipes": {
+            "90": "Vignarola Romana",
+            "88": "Coda alla Vaccinara",
+            "89": "Penne all'arrabbiata"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "lazio/roma/trippa_romana_1.jpeg",
+            "lazio/roma/trippa_romana_2.jpeg",
+            "lazio/roma/trippa_romana_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=EHgkE2wFwTs",
+        "city": "Roma",
+        "ingredients": [
+            {
+                "quantity": 1200,
+                "ingredient": "Trippa"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Sedano"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Sale"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Vino bianco"
+            },
+            {
+                "quantity": 400,
+                "ingredient": "Polpa di Pomodoro"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Menta q.b"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Carota"
+            }
+        ],
+        "region": "Lazio",
+        "product_history": "Si tratta di una ricetta antica, tradizionalmente preparata durante il pranzo del sabato, tanto che ancora oggi nelle storiche trattorie si può leggere il cartello con su scritto \"Sabato Trippa\". Essendo altamente proteica e avendo un costo contenuto, la trippa è stata un piatto prezioso soprattutto per la parte meno abbiente della popolazione.\nLa ricetta della trippa alla romana si è diffusa anche grazie a Elena Fabrizi, estimatrice del piatto popolare della tradizione romana.",
+        "preparation": "Sbucciate la cipolla e tagliatela a fettine. Spuntate la carota e raschiatela accuratamente. Eliminate i filamenti dalla costa di sedano. Lavate tutte le verdure, asciugatele e tritatele. Affettate la trippa a listarelle. In tegame scaldate l'olio e rosolatevi le verdure tritate. Lasciate cuocere a fuoco basso per una decina di minuti, dopo aver versato nel recipiente un mestolo d'acqua. Aggiungete al soffritto la trippa e rosolatela a fuoco vivo per 5 minuti. Bagnate il tutto col vino, lasciate evaporare, salate e pepate. Aggiungete la passata di pomodoro. Allungate con dell'acqua calda, mettete il coperchio e abbassate il fuoco al minimo. Cuocete per oltre un’ora e..buon appetito!",
+        "coords": [
+            41.919801,
+            12.438965
+        ],
+        "dish_name": "Trippa alla romana",
+        "dish_id": 413
+    },
+    {
+        "related_recipes": {
+            "88": "Coda alla Vaccinara",
+            "89": "Penne all'arrabbiata",
+            "413": "Trippa alla romana"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "lazio/roma/suppli_1.jpeg",
+            "lazio/roma/suppli_2.jpeg",
+            "lazio/roma/suppli_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=O-pR1LhqWBw",
+        "city": "Roma",
+        "ingredients": [
+            {
+                "quantity": 400,
+                "ingredient": "Riso"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Formaggio grattugiato"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pangrattato q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Carne tritata"
+            },
+            {
+                "quantity": 15,
+                "ingredient": "Funghi secchi"
+            },
+            {
+                "quantity": 400,
+                "ingredient": "Pomodori pelati"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Mozzarella"
+            }
+        ],
+        "region": "Lazio",
+        "product_history": "È molto simile alla ricetta dell'arancino siciliano, dal quale però differisce per la caratteristica forma a fuso (o a siluro); per alcuni la differenza sarebbe nella preparazione, ma come l'arancino siciliano, anche il supplì può essere presentato con numerose ricette. Uno dei nomi comuni di questa tipica pietanza della tradizione romana e laziale è \"supplì al telefono\", derivante dal fatto che per mangiarlo caldo, come è tradizione, andava aperto in due e la mozzarella filante creava un \"filo\" tra le due parti di riso facendolo sembrare, appunto, un telefono.\nNella ricetta originale del supplì si inserivano anche le rigaglie di pollo che al giorno d'oggi vengono sostituite dalla più semplice e comune carne macinata usata per preparare il normale ragù, semplicemente per una pura questione di gradimento del gusto e del sapore da parte dei consumatori.",
+        "preparation": "Preparate il ragù: mettete a bagno i funghi in acqua tiepida. In una piccola casseruola scaldate due cucchiai d’olio, insaporitevi la cipollina tritata finemente e quando è trasparente unite la carne, i pelati sminuzzati, i funghi strizzati e tritati, salate e cuocete per un’ora. Lessate il riso, scolatelo al dente, conditelo con il burro, il formaggio, alcuni cucchiai di ragù, le uova sbattute e un pizzico di pepe. Mescolate, fate raffreddare. Tagliate la mozzarella a dadini e lasciatela sgocciolare. Prendete delle piccole porzioni di riso, date loro una forma ovale dopo aver nascosto nel centro un dadino di mozzarella. Rotolatele nel pangrattato e poi friggetele in abbondante olio bollente. Sgocciolate i supplì su carta assorbente da cucina e serviteli ben caldi.",
+        "coords": [
+            41.803049,
+            12.516522
+        ],
+        "dish_name": "Supplì",
+        "dish_id": 414
+    },
+    {
+        "related_recipes": {
+            "414": "Supplì",
+            "89": "Penne all'arrabbiata",
+            "413": "Trippa alla romana"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "lazio/roma/maritozzo_1.jpeg",
+            "lazio/roma/maritozzo_2.jpeg",
+            "lazio/roma/maritozzo_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=bYwMOLCPe8Q",
+        "city": "Roma",
+        "ingredients": [
+            {
+                "quantity": 240,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 600,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Pasta di pane"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Uvetta"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Scorza d'arancia"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Pinoli"
+            }
+        ],
+        "region": "Lazio",
+        "product_history": "La ricetta avrebbe origini che risalgono sino all'antica Roma: il nome deriverebbe dall'usanza di offrire questo dolce alla propria fidanzata: le future spose che lo ricevevano in dono solevano appunto definire il donante «maritozzo», vezzeggiativo popolare e burlesco di «marito»; il dolce poteva, in tali occasioni, celare al suo interno anche doni per l'amata come un anello o un piccolo gioiello.",
+        "preparation": "Impastate la pasta di pane con 200 gr. di farina, 2 uova, mezzo dl. di olio ed una pizzico di sale. asciate riposare per circa otto ore in un luogo abbastanza caldo. Unite alla pasta la farina rimanente, le uova, l'olio, lo zucchero, del sale e dell'acqua calda. Ungete una piastra da forno con del burro, ponetevi dei panetti di pasta a forma ovale distanziati tra loro, aggiungete i pinoli, l'uva sultanina e la scorza d'arancia grattugiata. Lasciate lievitare per altre sette ore e poi fate cuocere a temperatura elevata. A fine cottura spolverate leggermente con lo zucchero.",
+        "coords": [
+            41.89524,
+            12.461517
+        ],
+        "dish_name": "Maritozzo",
+        "dish_id": 415
+    },
+    {
+        "related_recipes": {
+            "414": "Supplì",
+            "415": "Maritozzo",
+            "413": "Trippa alla romana"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "lazio/roma/grattachecca_1.jpeg",
+            "lazio/roma/grattachecca_2.jpeg",
+            "lazio/roma/grattachecca_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=INqQ8yH7JUs",
+        "city": "Roma",
+        "ingredients": [
+            {
+                "quantity": 400,
+                "ingredient": "Ghiaccio"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Sciroppo"
+            }
+        ],
+        "region": "Lazio",
+        "product_history": "Deriva il suo nome dal verbo grattare e da checca, termine con il quale un tempo si identificava il grosso blocco di ghiaccio utilizzato per refrigerare gli alimenti quando ancora non esistevano i frigoriferi.\nQuest'alimento un tempo era molto diffuso in tutta la penisola, il nome corretto in italiano è \"ghiacciata\", a volte è chiamato impropriamente granatina, a Napoli è chiamato con il nome di \"rattata\", a Palermo come \"grattatella\" e a Bari come \"grattamarianna\", mentre in Calabria è presente la \"scirubetta\", molto simile, che però usa neve fresca e succo di fichi.",
+        "preparation": "Estrai il ghiaccio dal freezer qualche minuto prima dell’uso.\nVersa in un mixer e trita grossolanamente.\nTrasferisci in un bicchiere e versa lo sciroppo, quindi mescola con un cucchiaio e gusta lentamente, con cannuccia e cucchiaino.",
+        "coords": [
+            41.935352,
+            12.519822
+        ],
+        "dish_name": "Grattachecca",
+        "dish_id": 416
     }
 ]
