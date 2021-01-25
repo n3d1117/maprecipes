@@ -17,6 +17,7 @@
         v-bind:key="recipe.dish_id"
         v-for="recipe in recipes"
         :lat-lng="convertCoords(recipe.coords)"
+        :icon="getIcon(recipe)"
     >
       <MapPopup v-bind:recipe="recipe"></MapPopup>
     </l-marker>
@@ -29,6 +30,7 @@ import { latLng } from "leaflet";
 import { LMap, LTileLayer, LMarker } from "vue2-leaflet";
 import recipes from '@/recipes.json'
 import MapPopup from "@/components/map/MapPopup";
+import L from 'leaflet';
 import 'leaflet-fullscreen/dist/leaflet.fullscreen.css';
 import 'leaflet-fullscreen/dist/Leaflet.fullscreen';
 
@@ -51,12 +53,61 @@ export default {
         tap: false // https://github.com/Leaflet/Leaflet/issues/7255#issuecomment-732082150
       },
       showMap: true,
-      recipes: recipes
+      recipes: recipes,
+      blueIcon: L.icon({
+        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
+        shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+      }),
+      redIcon: L.icon({
+        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+        shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+      }),
+      goldIcon: L.icon({
+        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-gold.png',
+        shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+      }),
+      greenIcon: L.icon({
+        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+        shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+      }),
+      violetIcon: L.icon({
+        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png',
+        shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+      }),
     };
   },
   methods: {
     convertCoords(arr) {
       return latLng(arr[0], arr[1])
+    },
+    getIcon(recipe) {
+      switch (recipe.dish_type) {
+        case 'Antipasti': return this.violetIcon
+        case 'Primi': return this.blueIcon
+        case 'Contorni': return this.greenIcon
+        case 'Secondi': return this.redIcon
+        case 'Dolci': return this.goldIcon
+      }
     }
   },
   mounted() {
