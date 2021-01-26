@@ -224,6 +224,7 @@ export default {
 
 #autosuggest__input::placeholder {
   color: var(--text-color);
+  opacity: 1;
 }
 
 .autosuggest__results-container {

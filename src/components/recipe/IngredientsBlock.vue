@@ -164,6 +164,7 @@ export default {
 .count {
   border: 0;
   width: 2%;
+  -moz-appearance:textfield;
 }
 
 .count::-webkit-outer-spin-button,
