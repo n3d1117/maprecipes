@@ -6,7 +6,7 @@
         <b-col cols="3">
           <i class="icon" :style="{ backgroundImage: `url(https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-${type.color}.png)` }"></i>
         </b-col>
-        <b-col class="pl-1 text-left">
+        <b-col class="pl-2 text-left">
           {{ type.name }}
         </b-col>
       </b-row>
@@ -55,7 +55,7 @@ export default {
 .legend p {
   text-align: center;
   font-size: 18px;
-  margin: 2px 12px 2px;
+  margin: 2px 2px 2px;
   color: #777;
   outline: none;
 }
@@ -64,7 +64,7 @@ export default {
   width: 15px;
   height: 22px;
   float: left;
-  margin: 0 0 0 0;
+  margin: 0 0 0 3px;
   opacity: 0.7;
 }
 
