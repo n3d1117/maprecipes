@@ -18,7 +18,7 @@
 
           <ul class="list-unstyled mb-0">
             <li>
-              <router-link to="/" class="text-white">Home</router-link>
+              <router-link id="martin-router-link" to="/" class="text-white">Home</router-link>
             </li>
             <li>
               <router-link to="/map" class="text-white">Mappa dei Piatti</router-link>
@@ -36,8 +36,19 @@
 </template>
 
 <script>
+import $ from "jquery";
+
 export default {
-  name: 'HomeFooter'
+  name: 'HomeFooter',
+  mounted() {
+    const martinRouterLink = document.getElementById("martin-router-link");
+
+    if (martinRouterLink != null) {
+      martinRouterLink.onclick = function () {
+        $('html, body').animate({scrollTop: 0}, 'slow');
+      }
+    }
+  }
 }
 </script>
 

@@ -53,5 +53,4 @@ export default {
   background-color: var(--button-hover-color);
 }
 
-
 </style>
