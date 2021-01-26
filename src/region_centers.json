@@ -1,0 +1,82 @@
+[
+  {
+    "region": "Abruzzo",
+    "center": [42.277850, 13.846575]
+  },
+  {
+    "region": "Basilicata",
+    "center": [40.490941, 16.116053]
+  },
+  {
+    "region": "Calabria",
+    "center": [39.154642, 16.507630]
+  },
+  {
+    "region": "Campania",
+    "center": [40.897253, 14.821226]
+  },
+  {
+    "region": "Emilia Romagna",
+    "center": [44.555386, 10.946102]
+  },
+  {
+    "region": "Friuli-Venezia Giulia",
+    "center": [46.214185, 12.999311]
+  },
+  {
+    "region": "Lazio",
+    "center": [41.994328, 12.652865]
+  },
+  {
+    "region": "Liguria",
+    "center": [44.434618, 8.669687]
+  },
+  {
+    "region": "Lombardia",
+    "center": [45.746061, 9.819872]
+  },
+  {
+    "region": "Marche",
+    "center": [43.391053, 13.175755]
+  },
+  {
+    "region": "Molise",
+    "center": [41.664732, 14.555414]
+  },
+  {
+    "region": "Piemonte",
+    "center": [45.163901, 7.936536]
+  },
+  {
+    "region": "Puglia",
+    "center": [41.118643, 16.693848]
+  },
+  {
+    "region": "Sardegna",
+    "center": [40.142886, 9.097283]
+  },
+  {
+    "region": "Sicilia",
+    "center": [37.682038, 13.993839]
+  },
+  {
+    "region": "Toscana",
+    "center": [43.571671, 11.203591]
+  },
+  {
+    "region": "Trentino Alto Adige",
+    "center": [46.433570, 11.216877]
+  },
+  {
+    "region": "Umbria",
+    "center": [43.011628, 12.503766]
+  },
+  {
+    "region": "Valle d'Aosta",
+    "center": [45.769721, 7.402081]
+  },
+  {
+    "region": "Veneto",
+    "center": [45.675008, 11.756107]
+  }
+]
