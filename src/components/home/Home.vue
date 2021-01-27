@@ -22,6 +22,8 @@
           <div class="col-md-9">
             <h1 id="title-label" class="mt-4 text-left">{{ titleLabel }}</h1>
 
+            <NoResult v-if="isEmpty"></NoResult>
+
             <HomeResultBlock class="scrollspy" id="list-item-1" v-if="filteredAntipasti.length > 0" v-bind:recipes="filteredAntipasti" title="Antipasti"></HomeResultBlock>
             <HomeResultBlock class="scrollspy" id="list-item-2" v-if="filteredPrimi.length > 0" v-bind:recipes="filteredPrimi" title="Primi"></HomeResultBlock>
             <HomeResultBlock class="scrollspy" id="list-item-3" v-if="filteredSecondi.length > 0" v-bind:recipes="filteredSecondi" title="Secondi"></HomeResultBlock>
@@ -48,10 +50,12 @@ import HomeFooter from "@/components/home/HomeFooter";
 import ScrollToTopArrow from "@/components/home/ScrollToTopArrow";
 import recipes from '@/recipes.json'
 import ScrollDownIcon from "@/components/home/ScrollDownIcon";
+import NoResult from "@/components/home/NoResult";
 
 export default {
   name: 'Home',
   components: {
+    NoResult,
     ScrollDownIcon,
     ScrollToTopArrow,
     HomeFooter,
@@ -151,7 +155,11 @@ export default {
   },
   computed: {
     titleLabel: function() {
-      return this.query === '' ? 'Elenco Ricette' : "Risultati per '" + this.query + "'"
+      if (this.query === '')
+        return 'Elenco Ricette'
+      if (this.isEmpty)
+        return "Nessun risultato per '" + this.query + "'"
+      return "Risultati per '" + this.query + "'"
     },
     filteredAntipasti: function() {
       return this.filterByQuery(this.antipasti)
@@ -167,6 +175,13 @@ export default {
     },
     filteredDolci: function() {
       return this.filterByQuery(this.dolci)
+    },
+    isEmpty: function() {
+      return this.filteredAntipasti.length === 0 &&
+          this.filteredPrimi.length === 0 &&
+          this.filteredSecondi.length === 0 &&
+          this.filteredContorni.length === 0 &&
+          this.filteredDolci.length === 0
     }
   },
   mounted() {
