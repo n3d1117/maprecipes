@@ -136,17 +136,17 @@
             { "ingredient": "Purea di Castagne", "quantity": 300 },
             { "ingredient": "Cioccolato", "quantity": 100 },
             { "ingredient": "Zucchero", "quantity": 100 },
-            { "ingredient": "Mandorle Dolci", "quantity": 300 },
+            { "ingredient": "Mandorle dolci", "quantity": 300 },
             { "ingredient": "Mosto", "quantity": 1000 },
             { "ingredient": "Farina", "quantity": 500 },
-            { "ingredient": "Vino Bianco", "quantity": 250 },
+            { "ingredient": "Vino bianco", "quantity": 250 },
             { "ingredient": "Olio EVO", "quantity": 230 }
         ],
         "region": "Abruzzo",
         "product_history": "I caggionetti, in dialetto abruzzese caggiunitt, sono tra i più noti dolci tipici locali; soprattutto preparati in inverno durante il periodo natalizio. Sono una specialità di Teramo. Importante è scolare e mettere i caggionetti su carta assorbente per togliere l'olio in eccesso prima di spolverarli di zucchero e cannella.",
         "preparation": "Unire al mosto ben cotto le mandorle, un pizzico di cannella e il cioccolato. Mescolate bene e poi aggiungete il puré di castagne, levare il composto dal fuoco e unirvi lo zucchero e il liquore.Lasciare solidificare in frigo per qualche ora, intanto preparare un impasto con farina olio e vino e stendete il composto in una sfoglia spessa circa 3 millimetri. Ponete il ripieno sulla sfoglia come si usa fare per i ravioli. Friggete i \"ravioli\" in olio d'oliva senza farli dorare. Infine cospargerli con zucchero e cannella in polvere.",
         "coords": [
-            42.6619832,13.6719582
+            42.675581, 13.678948
         ],
         "dish_name": "Caggionetti",
         "dish_id": 5
@@ -171,7 +171,7 @@
             { "ingredient": "Acqua q.b", "quantity": 0 },
             { "ingredient": "Latte", "quantity": 100 },
             { "ingredient": "Sale q.b", "quantity": 0 },
-            { "ingredient": "Noce di burro fusa", "quantity": 0 },
+            { "ingredient": "Burro fuso q.b", "quantity": 0 },
             { "ingredient": "Noce moscata q.b", "quantity": 0 },
             { "ingredient": "Parmigiano grattugiato q.b", "quantity": 0 }
         ],
@@ -207,7 +207,7 @@
             { "ingredient": "Ala di tacchino", "quantity": 150 },
             { "ingredient": "Prezzemolo q.b", "quantity": 0 },
             { "ingredient": "Sedano q.b", "quantity": 0 },
-            { "ingredient": "Cipolla q.b", "quantity": 30 },
+            { "ingredient": "Cipolla q.b", "quantity": 0 },
             { "ingredient": "Carote gialle", "quantity": 60 },
             { "ingredient": "Parmigiano grattugiato q.b", "quantity": 0 }
         ],
@@ -238,7 +238,7 @@
             { "ingredient": "Pasta Cannarozzetti", "quantity": 400 },
             { "ingredient": "Ricotta", "quantity": 300 },
             { "ingredient": "Guanciale", "quantity": 100 },
-            { "ingredient": "Zafferano", "quantity": 0 },
+            { "ingredient": "Zafferano q.b", "quantity": 0 },
             { "ingredient": "Sale q.b", "quantity": 0 },
             { "ingredient": "Pepe q.b", "quantity": 0 }
         ],
@@ -304,7 +304,7 @@
             { "ingredient": "Cozze", "quantity": 500 },
             { "ingredient": "Seppie", "quantity": 1500 },
             { "ingredient": "Canocchie", "quantity": 400 },
-            { "ingredient": "Polpa di Pomodoro", "quantity": 500 },
+            { "ingredient": "Polpa di pomodoro", "quantity": 500 },
             { "ingredient": "Aglio", "quantity": 40 },
             { "ingredient": "Cipolla", "quantity": 100 },
             { "ingredient": "Pane", "quantity": 200 },
@@ -410,11 +410,11 @@
             },
             {
                 "quantity": 25,
-                "ingredient": "Lievito di Birra"
+                "ingredient": "Lievito di birra"
             },
             {
                 "quantity": 0,
-                "ingredient": "Acqua Tiepida q.b"
+                "ingredient": "Acqua tiepida q.b"
             },
             {
                 "quantity": 0,
@@ -472,7 +472,7 @@
             },
             {
                 "quantity": 0,
-                "ingredient": "Pecorino Grattugiato q.b"
+                "ingredient": "Pecorino grattugiato q.b"
             },
             {
                 "quantity": 0,
@@ -546,7 +546,7 @@
             },
             {
                 "quantity": 0,
-                "ingredient": "Pepe"
+                "ingredient": "Pepe q.b"
             },
             {
                 "quantity": 0,
@@ -654,7 +654,7 @@
             },
             {
                 "quantity": 100,
-                "ingredient": "Prosciutto Crudo"
+                "ingredient": "Prosciutto crudo"
             },
             {
                 "quantity": 0,
@@ -796,7 +796,7 @@
             },
             {
                 "quantity": 250,
-                "ingredient": "Salsa di Pomodoro"
+                "ingredient": "Salsa di pomodoro"
             },
             {
                 "quantity": 0,
@@ -892,11 +892,11 @@
             },
             {
                 "quantity": 25,
-                "ingredient": "Lievito di Birra"
+                "ingredient": "Lievito di birra"
             },
             {
                 "quantity": 280,
-                "ingredient": "Acqua Tiepida"
+                "ingredient": "Acqua tiepida"
             },
             {
                 "quantity": 0,
@@ -1360,7 +1360,7 @@
             },
             {
                 "quantity": 425,
-                "ingredient": "Salsa di pomodori"
+                "ingredient": "Salsa di pomodoro"
             },
             {
                 "quantity": 0,
@@ -1640,7 +1640,7 @@
             },
             {
                 "quantity": 100,
-                "ingredient": "Filetti d'acciuga sott'olio"
+                "ingredient": "Acciughe sott'olio"
             },
             {
                 "quantity": 50,
@@ -1826,7 +1826,7 @@
             },
             {
                 "quantity": 500,
-                "ingredient": "Polpa di Pomodoro"
+                "ingredient": "Polpa di pomodoro"
             },
             {
                 "quantity": 400,
@@ -1880,7 +1880,7 @@
             },
             {
                 "quantity": 40,
-                "ingredient": "Acciuga sott'olio"
+                "ingredient": "Acciughe sott'olio"
             },
             {
                 "quantity": 50,
@@ -2162,7 +2162,7 @@
         "ingredients": [
             {
                 "quantity": 300,
-                "ingredient": "Farina Manitoba"
+                "ingredient": "Farina manitoba"
             },
             {
                 "quantity": 100,
@@ -2210,7 +2210,7 @@
             }
         ],
         "region": "Campania",
-        "product_history": "Il babà è la derivazione di un dolce a lievitazione naturale originario della Polonia (babka ponczowa) e di altri paesi slavi. Perfezionato dai cuochi francesi assunse il nome di baba. Vide poi trasformato il proprio nome in \"babbà\" dai pasticceri napoletani.\n\nL'invenzione del babà si fa risalire al ultimo duca di Lorena ed effimero re di Polonia Stanislao Leszczyński, suocero di Luigi XV di Francia. Leszczyński era uso dilettarsi nell'invenzione culinaria ma, essendo privo di denti, era impossibilitato a mangiare dolci quali la babka polacca o un dolce simile alla babka ovvero il Kougelhopf, originario dell'Alsazia, che egli trovava troppo asciutto; decise allora di ammorbidirlo nel Tokaj e nello sciroppo.\n\nLa ricetta del babà al rum nella tipica forma a fungo moderna risale al 1835. La si deve al celebre pasticciere Nicolas Stohrer, giunto a Parigi con Maria Leszczyńska, figlia del sovrano polacco, che aveva voluto portare con sé il suo pasticcere preferito in occasione delle proprie nozze con Luigi XV, re di Francia.\n\nAncora oggi, nella capitale francese, la maison propone dolci simili. Un'altra versione delle origini faceva ricordare al re la gonna a campana (tonde) delle donne anziane che si chiamano babka. Un'altra storia racconta che il re, dal pessimo carattere, scagliasse il dolce contro una credenza, fracassando una bottiglia di rum. Questa andò a inzuppare il dolce e Stanislao allora lo assaggiò, trovandolo ottimo.\n\nNel XIX secolo il maestro Anthelme Brillat-Savarin inventò un liquore che ben si accompagnava alle macedonie di frutta. La pasticceria francese dei fratelli Julien ebbe l'idea di chiudere la macedonia in un babà opportunamente spennellato di confettura di albicocche: nacque così il Babà Savarin. Le prime fonti partenopee sul dolce risalgono al 1836 quando il cuoco Angeletti scrisse un manuale culinario in cui è descritta la ricetta con uvetta e zafferano, questi ultimi ingredienti persi negli anni a causa della \"volgarizzazione\" delle pasticcerie commerciali che ne hanno sfornati nuovi tipi con crema e amarene o anche servito mignon con gelato semifreddo. Ma, secondo un’etimologia più semplice e popolare, il dolce sarebbe più antico di quanto si creda e cioè ricorderebbe, sia nella forma sia nel nome, i copricapi dei baba, cioè di quei dignitari turchi che accompagnavano a Napoli ogni nuovo ambasciatore ottomano e sfilavano in corteo con lui nelle strade della città.",
+        "product_history": "Il babà è la derivazione di un dolce a lievitazione naturale originario della Polonia (babka ponczowa) e di altri paesi slavi. Perfezionato dai cuochi francesi assunse il nome di baba. Vide poi trasformato il proprio nome in \"babbà\" dai pasticceri napoletani.\nL'invenzione del babà si fa risalire al ultimo duca di Lorena ed effimero re di Polonia Stanislao Leszczyński, suocero di Luigi XV di Francia. Leszczyński era uso dilettarsi nell'invenzione culinaria ma, essendo privo di denti, era impossibilitato a mangiare dolci quali la babka polacca o un dolce simile alla babka ovvero il Kougelhopf, originario dell'Alsazia, che egli trovava troppo asciutto; decise allora di ammorbidirlo nel Tokaj e nello sciroppo.\nLa ricetta del babà al rum nella tipica forma a fungo moderna risale al 1835. La si deve al celebre pasticciere Nicolas Stohrer, giunto a Parigi con Maria Leszczyńska, figlia del sovrano polacco, che aveva voluto portare con sé il suo pasticcere preferito in occasione delle proprie nozze con Luigi XV, re di Francia.\nAncora oggi, nella capitale francese, la maison propone dolci simili. Un'altra versione delle origini faceva ricordare al re la gonna a campana (tonde) delle donne anziane che si chiamano babka. Un'altra storia racconta che il re, dal pessimo carattere, scagliasse il dolce contro una credenza, fracassando una bottiglia di rum. Questa andò a inzuppare il dolce e Stanislao allora lo assaggiò, trovandolo ottimo.\nNel XIX secolo il maestro Anthelme Brillat-Savarin inventò un liquore che ben si accompagnava alle macedonie di frutta. La pasticceria francese dei fratelli Julien ebbe l'idea di chiudere la macedonia in un babà opportunamente spennellato di confettura di albicocche: nacque così il Babà Savarin. Le prime fonti partenopee sul dolce risalgono al 1836 quando il cuoco Angeletti scrisse un manuale culinario in cui è descritta la ricetta con uvetta e zafferano, questi ultimi ingredienti persi negli anni a causa della \"volgarizzazione\" delle pasticcerie commerciali che ne hanno sfornati nuovi tipi con crema e amarene o anche servito mignon con gelato semifreddo. Ma, secondo un’etimologia più semplice e popolare, il dolce sarebbe più antico di quanto si creda e cioè ricorderebbe, sia nella forma sia nel nome, i copricapi dei baba, cioè di quei dignitari turchi che accompagnavano a Napoli ogni nuovo ambasciatore ottomano e sfilavano in corteo con lui nelle strade della città.",
         "preparation": "Lasciate a temperatura ambiente per un'ora le uova, sbattetele e conservatele, poi fondete il burro e fatelo raffreddare, quindi lavate una terrina con acqua calda e fatela asciugare. Sciogliete il lievito in una modesta quantità di acqua tiepida, unite la farina e lasciate riposare la mistura senza averla lavorata per almeno 30 minuti. Nel frattempo in una terrina setacciate la farina, create un pozzetto centrale dove versare il sale, lo zucchero, la scorza di limone e le uova precedentemente sbattute, aggiungete anche il lievitino e mescolate gli ingredienti per almeno 20 minuti. Aggiungete a filo, mescolando, il burro sciolto lasciando assorbire prima di aggiungerne ancora, poi dopo 20 minuti coprite la terrina con un panno e fate riposare la pasta al riparo da correnti d'aria per almeno 3 ore o finché vi rendete conto che è raddoppiata di volume. Ora impastate e ponete il composto negli stampini per babà unti e infarinati riempiendoli per un terzo, mettete la teglia con gli stampini nel forno spento e fate lievitare ancora l'impasto finché avrà raggiunto il bordo degli stampini. Cuocete in forno statico per circa 30 minuti a 180 °C con la teglia in basso, poi occupatevi della bagna versando l'acqua in una pentola dai bordi alti e unendo lo zucchero e le scorze di arancia e di limone: quando l'acqua bolle e lo zucchero è sciolto, spegnete la fiamma e aggiungete il rum mescolando. Una volta cotti fate raffreddare i babà prima di immergerli nella bagna tiepida a 40 °C rigirandoli con un mestolo e strizzandoli al termine, quindi poneteli su una gratella a testa in giù a scolare e spennellateli con la marmellata per renderli lucidi, conservandoli in frigo fino al momento di servirli",
         "coords": [
             40.865466,
@@ -2560,7 +2560,7 @@
             },
             {
                 "quantity": 0,
-                "ingredient": "Ciliegie candite"
+                "ingredient": "Ciliegie candite q.b"
             }
         ],
         "region": "Campania",
@@ -2590,7 +2590,7 @@
         "ingredients": [
             {
                 "quantity": 460,
-                "ingredient": "Farina Manitoba"
+                "ingredient": "Farina manitoba"
             },
             {
                 "quantity": 250,
@@ -2826,7 +2826,7 @@
             },
             {
                 "quantity": 25,
-                "ingredient": "Lievito di Birra"
+                "ingredient": "Lievito di birra"
             },
             {
                 "quantity": 10,
@@ -3338,7 +3338,7 @@
             },
             {
                 "quantity": 0,
-                "ingredient": "Rosmarino"
+                "ingredient": "Rosmarino q.b"
             },
             {
                 "quantity": 20,
@@ -3488,7 +3488,7 @@
                 "ingredient": "Uova"
             },
             {
-                "quantity": 120,
+                "quantity": 0,
                 "ingredient": "Sale q.b"
             },
             {
@@ -4171,7 +4171,7 @@
                 "ingredient": "Uova"
             },
             {
-                "quantity": 100,
+                "quantity": 0,
                 "ingredient": "Sale q.b"
             },
             {
@@ -4257,7 +4257,7 @@
             },
             {
                 "quantity": 200,
-                "ingredient": "Acqua Tiepida"
+                "ingredient": "Acqua tiepida"
             },
             {
                 "quantity": 0,
@@ -4573,7 +4573,7 @@
         "ingredients": [
             {
                 "quantity": 125,
-                "ingredient": "Gherigli di noci"
+                "ingredient": "Gherigli di noce"
             },
             {
                 "quantity": 30,
@@ -4686,7 +4686,7 @@
                 "ingredient": "Aroma di vaniglia"
             },
             {
-                "quantity": 20,
+                "quantity": 0,
                 "ingredient": "Sale q.b"
             },
             {
@@ -4861,7 +4861,7 @@
             }
         ],
         "region": "Lazio",
-        "product_history": "Nata nel cuore di Roma, nel rione Regola dove abitavano i vaccinari, la coda alla vaccinara è considerata la \"regina\" del quinto quarto, ovvero quel che rimane della bestia vaccina dopo che sono state vendute ai benestanti le parti pregiate. Del quinto quarto fanno parte la coda, la trippa, la pajata, il cuore, la milza, e tutte le frattaglie. Esistono due versioni principali, che si differenziano soprattutto nella parte finale della preparazione, dove in una viene preparata una salsa a base di cacao amaro, pinoli e uva passa, mentre nell'altra no. Tuttavia per nessuna delle due varianti si può parlare di ricetta originale, in quanto entrambe convivono da molti decenni nelle varie trattorie di Roma.\n\nLa prima versione è quella indicata anche da Ada Boni nel suo libro La cucina romana (1929). L'autrice, avendo come obiettivo principale una cucina casalinga, indica una preparazione dal doppio uso: prepara con la stessa carne un primo piatto con il brodo ottenuto lessando la coda, e poi un secondo di carne costituito dalla coda alla vaccinara vera e propria. La coda, quindi, veniva inizialmente fatta lessare, in modo tale che il brodo si potesse utilizzare per altri piatti. La carne continuava la cottura in un tegame dove era stato fatto soffriggere un trito di aglio, cipolla, prezzemolo, carota, lardo e una fettina di prosciutto. Quindi veniva aggiunta un po' di salsa di pomodoro, parte del brodo e il sedano sbollentato. La cottura proseguiva fino a che la salsa non si era ristretta.\n\nL'altra versione è un piatto più ricco, che si poteva trovare nelle trattorie e nei ristoranti, e alla quale era stata dedicata anche una poesia da Cesare Simmi, proprietario de \"La Cisterna\" a partire dal 1928. Si prende una coda di bue e la si lava sotto l'acqua corrente per toglierle le tracce di sangue. Si taglia a tocchi, o \"rocchi\", e la si mette a rosolare con un trito di lardo (o guanciale) e olio. Appena rosolata si aggiunge una cipolla tritata con due spicchi d'aglio, dei chiodi di garofano, sale e pepe. Si fa evaporare l'acqua buttata fuori dalla coda, si sfuma con del vino bianco secco e si fa cuocere per un quarto d'ora coperta. Quindi si aggiunge un chilo di pomodori pelati a pezzi. Si lascia cuocere per circa un'ora, poi si allunga la salsa con dell'acqua calda fino a coprire la coda, si incoperchia nuovamente e si prosegue la cottura per altre 3 ore. Nel frattempo si lessa del sedano. Appena pronto, si scola e si mette in un tegame con un po' di sugo della coda, i pinoli, l'uva passa e il cacao amaro. Questa salsa va fatta bollire per qualche minuto e poi va versata sulla coda al momento di servire.\n\nAltre varianti prevedono l'uso anche dei \"gaffi\", ovvero le guance del bovino, l'aggiunta a fine cottura di un pizzico di cannella (Adolfo Giaquinto) o di noce moscata (Carnacina-Buonassisi).",
+        "product_history": "Nata nel cuore di Roma, nel rione Regola dove abitavano i vaccinari, la coda alla vaccinara è considerata la \"regina\" del quinto quarto, ovvero quel che rimane della bestia vaccina dopo che sono state vendute ai benestanti le parti pregiate. Del quinto quarto fanno parte la coda, la trippa, la pajata, il cuore, la milza, e tutte le frattaglie. Esistono due versioni principali, che si differenziano soprattutto nella parte finale della preparazione, dove in una viene preparata una salsa a base di cacao amaro, pinoli e uva passa, mentre nell'altra no. Tuttavia per nessuna delle due varianti si può parlare di ricetta originale, in quanto entrambe convivono da molti decenni nelle varie trattorie di Roma.\nLa prima versione è quella indicata anche da Ada Boni nel suo libro La cucina romana (1929). L'autrice, avendo come obiettivo principale una cucina casalinga, indica una preparazione dal doppio uso: prepara con la stessa carne un primo piatto con il brodo ottenuto lessando la coda, e poi un secondo di carne costituito dalla coda alla vaccinara vera e propria. La coda, quindi, veniva inizialmente fatta lessare, in modo tale che il brodo si potesse utilizzare per altri piatti. La carne continuava la cottura in un tegame dove era stato fatto soffriggere un trito di aglio, cipolla, prezzemolo, carota, lardo e una fettina di prosciutto. Quindi veniva aggiunta un po' di salsa di pomodoro, parte del brodo e il sedano sbollentato. La cottura proseguiva fino a che la salsa non si era ristretta.\nL'altra versione è un piatto più ricco, che si poteva trovare nelle trattorie e nei ristoranti, e alla quale era stata dedicata anche una poesia da Cesare Simmi, proprietario de \"La Cisterna\" a partire dal 1928. Si prende una coda di bue e la si lava sotto l'acqua corrente per toglierle le tracce di sangue. Si taglia a tocchi, o \"rocchi\", e la si mette a rosolare con un trito di lardo (o guanciale) e olio. Appena rosolata si aggiunge una cipolla tritata con due spicchi d'aglio, dei chiodi di garofano, sale e pepe. Si fa evaporare l'acqua buttata fuori dalla coda, si sfuma con del vino bianco secco e si fa cuocere per un quarto d'ora coperta. Quindi si aggiunge un chilo di pomodori pelati a pezzi. Si lascia cuocere per circa un'ora, poi si allunga la salsa con dell'acqua calda fino a coprire la coda, si incoperchia nuovamente e si prosegue la cottura per altre 3 ore. Nel frattempo si lessa del sedano. Appena pronto, si scola e si mette in un tegame con un po' di sugo della coda, i pinoli, l'uva passa e il cacao amaro. Questa salsa va fatta bollire per qualche minuto e poi va versata sulla coda al momento di servire.\nAltre varianti prevedono l'uso anche dei \"gaffi\", ovvero le guance del bovino, l'aggiunta a fine cottura di un pizzico di cannella (Adolfo Giaquinto) o di noce moscata (Carnacina-Buonassisi).",
         "preparation": "Lavate ed asciugate la coda e tagliatela a pezzi grossi. Rosolate i pezzi di coda nel guanciale tritato e 3 cucchiai di olio, quindi aggiungete la cipolla, l'aglio, i chiodi di garofano, sale e pepe. Aggiungete il vino bianco secco e fate cuocere per circa 15 minuti. Quindi aggiungete i pomodori e cuocete la carne per almeno 3 ore a fuoco lento facendo sempre in modo che i pezzi siano ricoperti dalla salsa finchè la carne quasi si stacca dall'osso. Se asciuga troppo aggiungere poca acqua. Quando la carne sarà quasi cotta, pulire, tagliare e sbollentare il sedano per un minuto o due. Cuocere il sedano con un poco di salsa della carne, i pinoli, l'uva passa ed il cacao. Fate bollire la salsa per qualche minuto. Una volta cotta, aggiungere la salsa di sedano alla carne e servite caldo in tavola.",
         "coords": [
             41.86784,
@@ -4907,7 +4907,7 @@
             },
             {
                 "quantity": 20,
-                "ingredient": "Peperoncini"
+                "ingredient": "Peperoncino"
             },
             {
                 "quantity": 30,
@@ -5419,7 +5419,7 @@
             },
             {
                 "quantity": 20,
-                "ingredient": "Peperoncini"
+                "ingredient": "Peperoncino"
             },
             {
                 "quantity": 100,
@@ -5666,7 +5666,7 @@
                 "ingredient": "Aglio"
             },
             {
-                "quantity": 10,
+                "quantity": 0,
                 "ingredient": "Sale q.b"
             }
         ],
@@ -5697,7 +5697,7 @@
         "ingredients": [
             {
                 "quantity": 500,
-                "ingredient": "Farina Manitoba"
+                "ingredient": "Farina manitoba"
             },
             {
                 "quantity": 25,
@@ -5924,7 +5924,7 @@
                 "ingredient": "Olio EVO"
             },
             {
-                "quantity": 1,
+                "quantity": 0,
                 "ingredient": "Acqua q.b"
             },
             {
@@ -6227,7 +6227,7 @@
             },
             {
                 "quantity": 400,
-                "ingredient": "Polpa di Pomodoro"
+                "ingredient": "Polpa di pomodoro"
             },
             {
                 "quantity": 0,
@@ -7642,7 +7642,7 @@
         "city" : "Torino",
         "ingredients" : [
             {
-                "ingredient" : "Acciughe salate",
+                "ingredient" : "Acciughe dissalate",
                 "quantity" : 100
             },
             {
@@ -7813,8 +7813,8 @@
         "dish_type" : "Antipasti",
         "photos" : [
             "piemonte/torino/grissini_1.jpg",
-            "piemonte/torino/grissini_1.jpg",
-            "piemonte/torino/grissini_1.jpg"
+            "piemonte/torino/grissini_2.jpg",
+            "piemonte/torino/grissini_3.jpg"
         ],
         "video_recipe" : "https://www.youtube.com/watch?v=Y5vt9hInrBo",
         "city" : "Torino",
@@ -7960,7 +7960,7 @@
         "photos" : [
             "piemonte/cuneo/finanziera_1.jpg",
             "piemonte/cuneo/finanziera_2.jpg",
-            "piemonte/torino/finanziera_3.jpg"
+            "piemonte/cuneo/finanziera_3.jpg"
         ],
         "video_recipe" : "https://www.youtube.com/watch?v=lIaRbBtJsbA",
         "city" : "Cuneo",
@@ -8022,7 +8022,7 @@
         "photos" : [
             "piemonte/cuneo/bollito_misto_1.jpg",
             "piemonte/cuneo/bollito_misto_2.jpg",
-            "piemonte/torino/bollito_misto_3.jpg"
+            "piemonte/cuneo/bollito_misto_3.jpg"
         ],
         "video_recipe" : "https://www.youtube.com/watch?v=0WL8eLTQL6g",
         "city" : "Cuneo",
@@ -8865,7 +8865,7 @@
             "puglia/bari/zeppole_pugliesi_2.jpg",
             "puglia/bari/zeppole_pugliesi_3.jpg"
         ],
-        "video_recipe" : "https://www.youtube.com/watch?v=FqDllrUT8Gs",
+        "video_recipe" : "https://www.youtube.com/watch?v=MOBv7zK_K2M",
         "city" : "Bari",
         "ingredients" : [
             {
@@ -9155,7 +9155,7 @@
                 "quantity" : 80
             },
             {
-                "ingredient" : "Peperonicino q.b",
+                "ingredient" : "Peperoncino q.b",
                 "quantity" : 0
             },
             {
@@ -9413,7 +9413,7 @@
                 "quantity" : 30
             },
             {
-                "ingredient" : "VIno bianco",
+                "ingredient" : "Vino bianco",
                 "quantity" : 150
             },
             {
@@ -9643,7 +9643,7 @@
         "city" : "Cagliari",
         "ingredients" : [
             {
-                "ingredient" : "Tuolo",
+                "ingredient" : "Tuorlo",
                 "quantity" : 20
             },
             {
@@ -9676,7 +9676,7 @@
             },
             {
                 "ingredient" : "Ricotta q.b",
-                "quantity" : 200
+                "quantity" : 0
             }
         ],
         "region" : "Sardegna",
@@ -9729,7 +9729,7 @@
                 "quantity" : 0
             },
             {
-                "ingredient" : "Burro ",
+                "ingredient" : "Burro",
                 "quantity" : 50
             },
             {
@@ -9876,8 +9876,8 @@
         "dish_type" : "Antipasti",
         "photos" : [
             "sardegna/nuoro/pane_fratau_1.jpg",
-            "sardegna/nuoro/pane_fratau_1.jpg",
-            "sardegna/nuoro/pane_fratau_1.jpg"
+            "sardegna/nuoro/pane_fratau_2.jpg",
+            "sardegna/nuoro/pane_fratau_3.jpg"
         ],
         "video_recipe" : "https://www.youtube.com/watch?v=tdn66klNeDQ",
         "city" : "Nuoro",
@@ -10709,7 +10709,7 @@
                 "quantity" : 1000
             },
             {
-                "ingredient" : "Scorza arancia",
+                "ingredient" : "Scorza d'arancia",
                 "quantity" : 10
             },
             {
@@ -10841,7 +10841,7 @@
                 "quantity" : 175
             },
             {
-                "ingredient" : "Acciughe salate",
+                "ingredient" : "Acciughe dissalate",
                 "quantity" : 20
             },
             {
@@ -11145,7 +11145,7 @@
             "sicilia/palermo/arancine_2.jpg",
             "sicilia/palermo/arancine_3.jpg"
         ],
-        "video_recipe" : "https://www.youtube.com/watch?v=G2zga5JPmXs",
+        "video_recipe" : "https://www.youtube.com/watch?v=7VMNXTWozSs",
         "city" : "Palermo",
         "ingredients" : [
             {
@@ -11297,7 +11297,7 @@
                 "quantity" : 750
             },
             {
-                "ingredient" : "Passata di pomodori",
+                "ingredient" : "Passata di pomodoro",
                 "quantity" : 400
             }
         ],
@@ -11529,7 +11529,7 @@
                 "quantity" : 0
             },
             {
-                "ingredient" : "Finocchi",
+                "ingredient" : "Finocchio",
                 "quantity" : 400
             }
         ],
@@ -11563,7 +11563,7 @@
                 "quantity" : 400
             },
             {
-                "ingredient" : "Macinato vitello",
+                "ingredient" : "Macinato di vitello",
                 "quantity" : 250
             },
             {
@@ -11575,7 +11575,7 @@
                 "quantity" : 250
             },
             {
-                "ingredient" : "Passato di pomodoro",
+                "ingredient" : "Passata di pomodoro",
                 "quantity" : 300
             },
             {
@@ -11699,7 +11699,7 @@
                 "quantity" : 0
             },
             {
-                "ingredient" : "Scorza arancia",
+                "ingredient" : "Scorza d'arancia",
                 "quantity" : 100
             },
             {
@@ -13113,7 +13113,7 @@
                 "quantity" : 80
             },
             {
-                "ingredient" : "Scorza arancia",
+                "ingredient" : "Scorza d'arancia",
                 "quantity" : 40
             },
             {
@@ -13357,7 +13357,7 @@
                 "quantity" : 180
             },
             {
-                "ingredient" : "Nosce moscata q.b",
+                "ingredient" : "Noce moscata q.b",
                 "quantity" : 0
             },
             {
@@ -14003,7 +14003,7 @@
                 "quantity" : 50
             },
             {
-                "ingredient" : "Liquore strega",
+                "ingredient" : "Liquore Strega",
                 "quantity" : 50
             }
         ],
@@ -14173,7 +14173,7 @@
                 "quantity" : 180
             },
             {
-                "ingredient" : "Scorza arancia q.b",
+                "ingredient" : "Scorza d'arancia q.b",
                 "quantity" : 0
             },
             {
@@ -14379,7 +14379,7 @@
                 "quantity" : 10
             },
             {
-                "ingredient" : "Scorza arancia q.b",
+                "ingredient" : "Scorza d'arancia q.b",
                 "quantity" : 0
             },
             {
@@ -14545,11 +14545,11 @@
                 "quantity" : 300
             },
             {
-                "ingredient" : "Gherigli di noci",
+                "ingredient" : "Gherigli di noce",
                 "quantity" : 100
             },
             {
-                "ingredient" : "Scorza arancia",
+                "ingredient" : "Scorza d'arancia",
                 "quantity" : 50
             },
             {
