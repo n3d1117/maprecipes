@@ -35,6 +35,8 @@
       </div>
     </div>
 
+    <ContactForm></ContactForm>
+
     <HomeFooter></HomeFooter>
 
   </div>
@@ -50,12 +52,14 @@ import HomeFooter from "@/components/home/HomeFooter";
 import ScrollToTopArrow from "@/components/home/ScrollToTopArrow";
 import recipes from '@/recipes.json'
 import ScrollDownIcon from "@/components/home/ScrollDownIcon";
+import ContactForm from "@/components/home/ContactForm";
 import NoResult from "@/components/home/NoResult";
 
 export default {
   name: 'Home',
   components: {
     NoResult,
+    ContactForm,
     ScrollDownIcon,
     ScrollToTopArrow,
     HomeFooter,

@@ -16,12 +16,15 @@
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
           <h5 class="text-uppercase">Link</h5>
 
-          <ul class="list-unstyled mb-0">
+          <ul class="list-unstyled mb-0 links">
             <li>
               <router-link id="martin-router-link" to="/" class="text-white">Home</router-link>
             </li>
             <li>
               <router-link to="/map" class="text-white">Mappa dei Piatti</router-link>
+            </li>
+            <li>
+              <a data-toggle="modal" data-target="#richiedi-ricetta-modal" class="text-white">Richiedi Ricetta</a>
             </li>
           </ul>
         </div>
@@ -56,6 +59,10 @@ export default {
 
 #footer-content {
   font-size: 20px
+}
+
+.links a {
+  cursor: pointer;
 }
 
 </style>
