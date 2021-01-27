@@ -650,7 +650,7 @@
             },
             {
                 "quantity": 25,
-                "ingredient": "Pecorina"
+                "ingredient": "Pecorino"
             },
             {
                 "quantity": 100,
@@ -2976,7 +2976,7 @@
             },
             {
                 "quantity": 400,
-                "ingredient": "Polpa di passata di pomodoro"
+                "ingredient": "Passata di pomodoro"
             },
             {
                 "quantity": 0,
@@ -3228,7 +3228,7 @@
             },
             {
                 "quantity": 50,
-                "ingredient": "Carota"
+                "ingredient": "Carote"
             },
             {
                 "quantity": 50,
@@ -3752,7 +3752,7 @@
             },
             {
                 "quantity": 30,
-                "ingredient": "Cacao amaro in polvere"
+                "ingredient": "Cacao in polvere"
             },
             {
                 "quantity": 50,
@@ -5403,7 +5403,7 @@
             },
             {
                 "quantity": 50,
-                "ingredient": "Carota"
+                "ingredient": "Carote"
             },
             {
                 "quantity": 50,
@@ -6239,7 +6239,7 @@
             },
             {
                 "quantity": 50,
-                "ingredient": "Carota"
+                "ingredient": "Carote"
             }
         ],
         "region": "Lazio",
@@ -7430,7 +7430,7 @@
                 "quantity" : 50
             },
             {
-                "ingredient" : "Vaniglina",
+                "ingredient" : "Vanillina",
                 "quantity" : 10
             },
             {
@@ -8052,7 +8052,7 @@
                 "quantity" : 80
             },
             {
-                "ingredient" : "Carota",
+                "ingredient" : "Carote",
                 "quantity" : 80
             },
             {
@@ -8271,7 +8271,7 @@
                 "quantity" : 60
             },
             {
-                "ingredient" : "Vaniglina",
+                "ingredient" : "Vanillina",
                 "quantity" : 8
             },
             {
@@ -8939,7 +8939,7 @@
                 "quantity" : 25
             },
             {
-                "ingredient" : "Lievito di birra fresco",
+                "ingredient" : "Lievito di birra",
                 "quantity" : 6
             },
             {
@@ -9417,7 +9417,7 @@
                 "quantity" : 150
             },
             {
-                "ingredient" : "Vincotto",
+                "ingredient" : "Vino cotto",
                 "quantity" : 300
             },
             {
@@ -11753,7 +11753,7 @@
                 "quantity" : 150
             },
             {
-                "ingredient" : "Lievito dolci",
+                "ingredient" : "Lievito per dolci",
                 "quantity" : 8
             },
             {
@@ -11773,7 +11773,7 @@
                 "quantity" : 150
             },
             {
-                "ingredient" : "Cioccolata",
+                "ingredient" : "Cioccolato",
                 "quantity" : 100
             },
             {
@@ -12369,7 +12369,7 @@
                 "quantity" : 120
             },
             {
-                "ingredient" : "Scorza limone q.b",
+                "ingredient" : "Scorza di limone q.b",
                 "quantity" : 0
             },
             {
@@ -12459,7 +12459,7 @@
                 "quantity" : 150
             },
             {
-                "ingredient" : "Pomodoro pelato",
+                "ingredient" : "Pomodori pelati",
                 "quantity" : 1000
             },
             {
@@ -12529,7 +12529,7 @@
                 "quantity" : 0
             },
             {
-                "ingredient" : "Scorza limone q.b",
+                "ingredient" : "Scorza di limone q.b",
                 "quantity" : 0
             },
             {
@@ -12579,7 +12579,7 @@
                 "quantity" : 0
             },
             {
-                "ingredient" : "Bietola",
+                "ingredient" : "Bieta",
                 "quantity" : 400
             },
             {
@@ -13551,7 +13551,7 @@
                 "quantity" : 20
             },
             {
-                "ingredient" : "Scorza limone q.b",
+                "ingredient" : "Scorza di limone q.b",
                 "quantity" : 0
             },
             {
@@ -13817,7 +13817,7 @@
         "city" : "Pontremoli Massa Carrara",
         "ingredients" : [
             {
-                "ingredient" : "Bietola",
+                "ingredient" : "Bieta",
                 "quantity" : 700
             },
             {
