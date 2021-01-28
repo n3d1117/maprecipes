@@ -9,10 +9,16 @@ import VueRouter from 'vue-router'
 import Home from './components/home/Home'
 import Map from './components/map/Map'
 import Recipe from './components/recipe/Recipe'
+import VueLazyload from 'vue-lazyload'
 
 Vue.component('l-map', LMap);
 Vue.component('l-tile-layer', LTileLayer);
 Vue.component('l-marker', LMarker);
+
+const loadimage = require('./assets/loading.png')
+Vue.use(VueLazyload, {
+    loading: loadimage
+})
 
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)

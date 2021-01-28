@@ -4,7 +4,7 @@
       <div class="card result_block_card">
         <div class="card-body result_block_card_body">
           <img class="img-fluid mb-2 result_block_card_body_img"
-               :src="require(`@/assets/${recipe.photos[0]}`)"
+               v-lazy="require(`@/assets/${recipe.photos[0]}`)"
                :alt="recipe.dish_name"
           >
           <h4 class="card-title mb-0 text-center">{{ recipe.dish_name }}</h4>

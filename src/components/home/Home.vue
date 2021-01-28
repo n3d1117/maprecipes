@@ -37,7 +37,7 @@
       </div>
     </div>
 
-    <ContactForm></ContactForm>
+<!--    <ContactForm></ContactForm>-->
 
     <HomeFooter></HomeFooter>
 
