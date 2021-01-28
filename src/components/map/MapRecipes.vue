@@ -13,9 +13,9 @@
         :attribution="attribution"
     />
 
-    <l-control position="bottomleft">
+<!--    <l-control position="bottomleft">
       <MapLegend></MapLegend>
-    </l-control>
+    </l-control>-->
 
     <l-marker
         v-bind:key="recipe.dish_id"
@@ -32,11 +32,13 @@
 
 <script>
 import { latLng } from "leaflet";
-import { LMap, LTileLayer, LMarker, LControl } from "vue2-leaflet";
+import { LMap, LTileLayer, LMarker/*, LControl*/ } from "vue2-leaflet";
 import recipes from '@/recipes.json'
 import region_centers from '@/region_centers.json'
 import MapPopup from "@/components/map/MapPopup";
+/*
 import MapLegend from "@/components/map/MapLegend";
+*/
 import L from 'leaflet';
 import 'leaflet-fullscreen/dist/leaflet.fullscreen.css';
 import 'leaflet-fullscreen/dist/Leaflet.fullscreen';
@@ -48,8 +50,8 @@ export default {
     LMap,
     LTileLayer,
     LMarker,
-    LControl,
-    MapLegend
+    /*LControl,
+    MapLegend*/
   },
   data() {
     return {
@@ -191,8 +193,8 @@ export default {
     }
   },
   mounted() {
-    const map = this.$refs.recipes_map.mapObject;
-    map.addControl(new window.L.Control.Fullscreen());
+    /*const map = this.$refs.recipes_map.mapObject;
+    map.addControl(new window.L.Control.Fullscreen());*/
   }
 }
 </script>

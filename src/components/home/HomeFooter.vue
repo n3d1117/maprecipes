@@ -23,9 +23,9 @@
             <li>
               <router-link to="/map" class="text-white">Mappa dei Piatti</router-link>
             </li>
-            <li>
+<!--            <li>
               <a data-toggle="modal" data-target="#richiedi-ricetta-modal" class="text-white">Richiedi Ricetta</a>
-            </li>
+            </li>-->
           </ul>
         </div>
       </div>

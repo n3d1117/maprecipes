@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <ScrollToTopArrow></ScrollToTopArrow>
+<!--    <ScrollToTopArrow></ScrollToTopArrow>-->
 
     <MainLayer>
       <div style="margin-bottom: 200px">
@@ -10,7 +10,7 @@
           <SearchBar @callback="didSearchForQuery" ref="searchbar"></SearchBar>
         </div>
       </div>
-      <ScrollDownIcon @callback="scrollToResults"></ScrollDownIcon>
+<!--      <ScrollDownIcon @callback="scrollToResults"></ScrollDownIcon>-->
     </MainLayer>
 
     <div id="bottom-bg">
@@ -22,7 +22,9 @@
           <div class="col-md-9">
             <h1 id="title-label" class="mt-4 text-left">{{ titleLabel }}</h1>
 
+<!--
             <NoResult v-if="isEmpty"></NoResult>
+-->
 
             <HomeResultBlock class="scrollspy" id="list-item-1" v-if="filteredAntipasti.length > 0" v-bind:recipes="filteredAntipasti" title="Antipasti"></HomeResultBlock>
             <HomeResultBlock class="scrollspy" id="list-item-2" v-if="filteredPrimi.length > 0" v-bind:recipes="filteredPrimi" title="Primi"></HomeResultBlock>
@@ -49,19 +51,23 @@ import HomeSidebar from "@/components/home/HomeSidebar";
 import HomeResultBlock from "@/components/home/HomeResultBlock";
 import MainLayer from "@/components/MainLayer";
 import HomeFooter from "@/components/home/HomeFooter";
+/*
 import ScrollToTopArrow from "@/components/home/ScrollToTopArrow";
+*/
 import recipes from '@/recipes.json'
+/*
 import ScrollDownIcon from "@/components/home/ScrollDownIcon";
 import ContactForm from "@/components/home/ContactForm";
 import NoResult from "@/components/home/NoResult";
+ */
 
 export default {
   name: 'Home',
   components: {
-    NoResult,
-    ContactForm,
-    ScrollDownIcon,
-    ScrollToTopArrow,
+    /*    NoResult,
+        ContactForm,
+        ScrollDownIcon,
+        ScrollToTopArrow,*/
     HomeFooter,
     MainLayer,
     HomeResultBlock,
