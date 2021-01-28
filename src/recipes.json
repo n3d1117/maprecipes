@@ -13540,15 +13540,15 @@
         "ingredients" : [
             {
                 "ingredient" : "Caffe",
-                "quantity" : 40
+                "quantity" : 160
             },
             {
                 "ingredient" : "Rum",
-                "quantity" : 30
+                "quantity" : 120
             },
             {
                 "ingredient" : "Zucchero",
-                "quantity" : 20
+                "quantity" : 80
             },
             {
                 "ingredient" : "Scorza di limone q.b",

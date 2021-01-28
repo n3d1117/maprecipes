@@ -7,7 +7,7 @@
           <img class="mb-2" src="../../assets/logo.png" alt="logo" width="200px">
 
           <p id="footer-content">
-            GeoRecipes è una web app che cataloga ricette italiane suddividendole per antipasti, primi, secondi,
+            MapRecipes è una web app che cataloga ricette italiane suddividendole per antipasti, primi, secondi,
             contorni e dolci, geolocalizzandole su una mappa con la possibilità di filtrarle per nome e località.
           </p>
 
@@ -33,7 +33,7 @@
 
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
       © 2021 Copyright:
-      <router-link to="/" class="text-white">georecipes.it</router-link>
+      <router-link id="martin-router-link-2" to="/" class="text-white">map.recipes</router-link>
     </div>
   </footer>
 </template>
@@ -45,9 +45,15 @@ export default {
   name: 'HomeFooter',
   mounted() {
     const martinRouterLink = document.getElementById("martin-router-link");
+    const martinRouterLink2 = document.getElementById("martin-router-link-2");
 
     if (martinRouterLink != null) {
       martinRouterLink.onclick = function () {
+        $('html, body').animate({scrollTop: 0}, 'slow');
+      }
+    }
+    if (martinRouterLink2 != null) {
+      martinRouterLink2.onclick = function () {
         $('html, body').animate({scrollTop: 0}, 'slow');
       }
     }

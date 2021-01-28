@@ -81,7 +81,7 @@ export default {
     },
     sendEmail(e) {
       this.isSending = true
-      emailjs.sendForm('service_ycjta4v', 'template_vh0p5hj', e.target, 'user_nO3zcnja0Qu6nleGeHvZf')
+      emailjs.sendForm('service_nf65m4x', 'template_ialtj2q', e.target, 'user_nO3zcnja0Qu6nleGeHvZf')
           .then((result) => {
             console.log('SUCCESS!', result.status, result.text);
             this.isSending = false
@@ -102,6 +102,10 @@ export default {
 
 .modal-title {
   font-size: 30px;
+}
+
+.modal-header button {
+  font-size: 40px;
 }
 
 .modal-footer {

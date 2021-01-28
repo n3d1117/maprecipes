@@ -304,16 +304,15 @@ export default {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  cursor: auto !important;
 }
+
 .sbx-medium__submit::before {
   display: inline-block;
   margin-right: -4px;
   height: 100%;
   vertical-align: middle;
   content: '';
-}
-.sbx-medium__submit:hover, .sbx-medium__submit:active {
-  cursor: pointer;
 }
 .sbx-medium__submit:focus {
   outline: 0;
