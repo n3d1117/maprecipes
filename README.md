@@ -1,6 +1,5 @@
 # maprecipes
-[![Netlify Status](https://api.netlify.com/api/v1/badges/984eb531-7ad8-462a-8c90-0e8700c551f1/deploy-status)](https://app.netlify.com/sites/georecipes/deploys)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/984eb531-7ad8-462a-8c90-0e8700c551f1/deploy-status)](https://app.netlify.com/sites/maprecipes/deploys)
 ## Project setup
 ```
 npm install

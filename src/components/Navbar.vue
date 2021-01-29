@@ -3,7 +3,7 @@
 
     <b-navbar-brand class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-8">
       <router-link to="/">
-        <img id="georecipes_logo_img" src="../assets/logo.png" alt="logo">
+        <img id="maprecipes_logo_img" src="../assets/logo.png" alt="logo">
       </router-link>
     </b-navbar-brand>
 
@@ -33,7 +33,7 @@
 
 <script>
 export default {
-  name: 'GeoRecipesNavbar'
+  name: 'Navbar'
 }
 </script>
 
@@ -43,7 +43,7 @@ export default {
   background-color: transparent !important;
 }
 
-#georecipes_logo_img {
+#maprecipes_logo_img {
   max-width: 100%;
   max-height: 100%;
 }

@@ -1,7 +1,7 @@
 <template>
 
   <BackgroundLayer>
-    <GeoRecipesNavbar></GeoRecipesNavbar>
+    <Navbar></Navbar>
     <Jumbotron>
       <slot></slot>
     </Jumbotron>
@@ -10,14 +10,14 @@
 </template>
 
 <script>
-import GeoRecipesNavbar from '@/components/GeoRecipesNavbar'
+import Navbar from '@/components/Navbar'
 import Jumbotron from '@/components/Jumbotron'
 import BackgroundLayer from '@/components/BackgroundLayer'
 
 export default {
   name: 'MainLayer',
   components: {
-    GeoRecipesNavbar, Jumbotron, BackgroundLayer
+    Navbar, Jumbotron, BackgroundLayer
   }
 }
 </script>
