@@ -4386,9 +4386,9 @@
         },
         "dish_type": "Primi",
         "photos": [
-            "emilia_romagna/mantova/tortelli_mantovani_1.jpeg",
-            "emilia_romagna/mantova/tortelli_mantovani_2.jpeg",
-            "emilia_romagna/mantova/tortelli_mantovani_3.jpeg"
+            "lombardia/mantova/tortelli_mantovani_1.jpeg",
+            "lombardia/mantova/tortelli_mantovani_2.jpeg",
+            "lombardia/mantova/tortelli_mantovani_3.jpeg"
         ],
         "video_recipe": "https://www.youtube.com/watch?v=rH-A-raQRe0",
         "city": "Mantova",
@@ -4434,7 +4434,7 @@
                 "ingredient": "Burro"
             }
         ],
-        "region": "Emilia Romagna",
+        "region": "Lombardia",
         "product_history": "L'origine dei tortelli di zucca, la cui variante più nota sono i tortelli mantovani, si inserisce nell'antica e popolare tradizione culinaria di paste ripiene dell'Italia settentrionale. Tale tradizione risale almeno al Basso Medioevo mentre la prima testimonianza della zucca come ingrediente risale alla fine del 1500. Lo scopo di tali preparazioni era di ottenere un piatto gustoso e nutriente, con quel poco che l'economia contadina forniva.",
         "preparation": "Preparate il ripieno il giorno prima. Tagliate a pezzi la zucca con la buccia, togliete i semi e filamenti e mettete in forno a 180 gradi. Passate la polpa al setaccio e mettete il ricavato in una terrina con gli amaretti ridotti in polvere, la mostarda tritata fine, un paio di cucchiai del suo sugo, quattro cucchiaiate di formaggio grattugiato, la buccia e il succo di un limone. Amalgamate tutti gli ingredienti e teneteli coperti al fresco. Se prima di usarlo il ripieno non risultasse asciutto, mettete ancora qualche amaretto sbriciolato. Preparate la pasta sfoglia, tagliatela a strisce, distribuite il ripieno a mucchietti distanziati in fila sulla sfoglia, ricopriteli con l'altra striscia, premete con le dita intorno al ripieno per saldare la pasta e fare in modo che non vi sia dell'aria, e tagliateli con una rotellina dentellata in forma quadrata. Lessateli in acqua bollente salata e appena la pasta sarà cotta ma al dente, scolateli col mestolo bucato, mettendoli in una zuppiera calda, a strati con burro fuso e formaggio grattugiato.",
         "coords": [
@@ -4452,9 +4452,9 @@
         },
         "dish_type": "Dolci",
         "photos": [
-            "emilia_romagna/mantova/sbrisolona_1.jpeg",
-            "emilia_romagna/mantova/sbrisolona_2.jpeg",
-            "emilia_romagna/mantova/sbrisolona_3.jpeg"
+            "lombardia/mantova/sbrisolona_1.jpeg",
+            "lombardia/mantova/sbrisolona_2.jpeg",
+            "lombardia/mantova/sbrisolona_3.jpeg"
         ],
         "video_recipe": "https://www.youtube.com/watch?v=yPLMpYMvGxE",
         "city": "Mantova",
@@ -4496,7 +4496,7 @@
                 "ingredient": "Farina gialla"
             }
         ],
-        "region": "Emilia Romagna",
+        "region": "Lombardia",
         "product_history": "Il nome deriva dal sostantivo brìsa, che in mantovano vuol dire briciola e pare che la ricetta risalga a prima del '600 quando arrivò anche alla corte dei Gonzaga.\nSi tratta di una torta di povere origini, all'inizio infatti gli ingredienti erano quelli tipici della tradizione contadina (farina di mais, strutto e nocciole) e negli anni si sono raffinati.",
         "preparation": "Scottate le mandorle in una pentola con acqua bollente per alcuni minuti, scolatele e privatele della pellicina, infine tritatele finemente. Setacciate sulla spianatoia le due qualità di farina e mescolatele fra loro. Aggiungete le mandorle tritate, lo zucchero, i semi di vaniglia estratti dal baccello, la scorza grattugiata di un limone, due tuorli, il burro e lo strutto. Impastate velocemente gli ingredienti con le mani, lavorandoli il tempo sufficiente a legarli fra loro. Disponete l'impasto in una teglia per torte di una ventina di cm di diametro, imburrata e infarinata, e infornate. Fate cuocere a 180 gradi per un'ora. Trascorso questo tempo, togliete il dolce dal forno, lasciatelo raffreddare, poi levatelo dalla teglia, cercando di sbriciolarlo il meno possibile, sistematelo su un piatto di portata e servite guarnendo con ulteriori mandorle.",
         "coords": [
@@ -14698,5 +14698,1075 @@
         ],
         "dish_name" : "Pan co' Santi",
         "dish_id" : 238
+    },
+    {
+        "related_recipes": {
+            "420": "Risotto alla Milanese",
+            "418": "Gnoch di mùrador al gorgonzola",
+            "419": "Taròz"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "lombardia/milano/cotoletta_milanese_1.jpeg",
+            "lombardia/milano/cotoletta_milanese_2.jpeg",
+            "lombardia/milano/cotoletta_milanese_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=Ygihwwxcra8",
+        "city": "Milano",
+        "ingredients": [
+            {
+                "ingredient": "Lombata di vitello",
+                "quantity": 300
+            },
+            {
+                "ingredient": "Burro",
+                "quantity": 50
+            },
+            {
+                "ingredient": "Uova",
+                "quantity": 120
+            },
+            {
+                "ingredient": "Pangrattato q.b",
+                "quantity": 0
+            },
+            {
+                "ingredient": "Grana",
+                "quantity": 30
+            },
+            {
+                "ingredient": "Noce moscata q.b",
+                "quantity": 0
+            },
+            {
+                "ingredient": "Sale q.b",
+                "quantity": 0
+            },
+            {
+                "ingredient": "Limone",
+                "quantity": 60
+            }
+        ],
+        "region": "Lombardia",
+        "product_history": "Secondo alcuni storici, la prima indicazione della cotoletta nella cucina milanese risale al piatto di lombolos cum panitio contenuto nell'elenco delle portate del pranzo dei canonici di Sant'Ambrogio durante le festività solenni nel secolo duodecimo, descrizione riportata da Pietro Verri:\n«pullos frigidos, gambas de vino, et carnem porcinam frigidam: in secunda, pullos plenos, carnem vaccinam cum piperata, et turtellam de lavezolo: in tertia, pullos rostidos, lombolos cum panitio, et porcellos plenos»\n(P. Verri, Storia di Milano, cap VI)\nSulla base di questa citazione il Comune di Milano, il 17 marzo 2008, ha assegnato con una delibera la \"denominazione comunale\" (De.Co.) alla \"Costoletta alla Milanese\".\nLa cotoletta è al centro di una disputa accademica fra la cucina italiana, che appunto la considera \"milanese\", e la cucina austriaca, secondo la quale sarebbe solo una versione della Wiener Schnitzel viennese. Forse versioni di schnitzel precedenti a quella milanese esistevano già in Austria, ma infarinate e non impanate: lo suggerirebbero delle note a margine di un rapporto del maresciallo Josef Radetzky, che riportavano di una cotoletta cucinata a Milano che prima era passata nell'uovo e poi fritta nel burro, e che a differenza della viennese era impanata.",
+        "preparation": "Eliminate da ogni fettina di carne eventuali tracce di pelle e di grasso esterno, poi con l'aiuto di un batticarne procedete ad appiattirle senza farle però diventare troppo sottili. Sbattete entrambe le uova all'interno di un piatto e immergetevi le cotolette una alla volta, facendo colare l'uovo in eccesso; attenzione che per la cotoletta alla milanese non si deve infarinare la carne. A questo punto passate la cotoletta nel pangrattato, insaporito eventualmente da un cucchiaio di grana padano grattugiato: esercitate una certa pressione sulla carne per far aderire meglio il pane grattugiato. In una padella fate scaldare bene il burro e immergete le cotolette una alla volta dorandole per circa 2 minuti per lato, quindi adagiatele nel piatto, decorate con qualche fettina di limone e servitele immediatamente a tavola.",
+        "coords": [
+            45.494425,
+            9.188017
+        ],
+        "dish_name": "Costoletta alla Milanese",
+        "dish_id": 422
+    },
+    {
+        "related_recipes": {
+            "420": "Risotto alla Milanese",
+            "422": "Costoletta alla Milanese",
+            "419": "Taròz"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "lombardia/milano/panettone_1.jpeg",
+            "lombardia/milano/panettone_2.jpeg",
+            "lombardia/milano/panettone_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=9oiR6wSNWMc",
+        "city": "Milano",
+        "ingredients": [
+            {
+                "quantity": 1300,
+                "ingredient": "Farina di forza"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Lievito madre"
+            },
+            {
+                "quantity": 180,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 720,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 350,
+                "ingredient": "Uvetta"
+            },
+            {
+                "quantity": 125,
+                "ingredient": "Scorza d'arancia"
+            },
+            {
+                "quantity": 125,
+                "ingredient": "Scorza di cedro candita"
+            },
+            {
+                "quantity": 25,
+                "ingredient": "Latte in polvere"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Miele"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Malto"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Vaniglia"
+            }
+        ],
+        "region": "Lombardia",
+        "product_history": "Le origini del panettone sfumano a tratti nella leggenda. Sono due le storie che godono di maggior credito:\nMesser Ulivo degli Atellani, falconiere, abitava nella Contrada delle Grazie a Milano. Innamorato di Algisa, bellissima figlia di un fornaio, si fece assumere dal padre di lei come garzone e, per incrementare le vendite, provò a inventare un dolce: con la migliore farina del mulino impastò uova, burro, miele e uva sultanina. Poi infornò. Fu un successo strabiliante, tutti vollero assaggiare il nuovo pane e qualche tempo dopo i due giovani innamorati si sposarono e vissero felici e contenti.\nIl cuoco al servizio di Ludovico il Moro fu incaricato di preparare un sontuoso pranzo di Natale a cui erano stati invitati molti nobili del circondario, ma il dolce, dimenticato per errore nel forno, quasi si carbonizzò. Vista la disperazione del cuoco, Toni, un piccolo sguattero, propose una soluzione: «Con quanto è rimasto in dispensa – un po' di farina, burro, uova, della scorza di cedro e qualche uvetta – stamani ho cucinato questo dolce. Se non avete altro, potete portarlo in tavola». Il cuoco acconsentì e, tremante, si mise dietro una tenda a spiare la reazione degli ospiti. Tutti furono entusiasti e al duca, che voleva conoscere il nome di quella prelibatezza, il cuoco rivelò il segreto: «L'è 'l pan del Toni». Da allora è il \"pane di Toni\", ossia il \"panettone\".",
+        "preparation": "Versate un pizzico di zucchero in 80 g di acqua tiepida (un po' più calda della temperatura ambiente) e aggiungete metà della pasta madre, mescolate bene, formate una pallina poi lasciatela lievitare nel forno spento coperta dalla pellicola  e successivamente lasciatela riposare in frigo per una notte. Togliete dal frigo l'impasto, lasciatelo riscaldare a temperatura ambiente per due ore, poi aggiungete 150 grammi di farina, la restante pasta madre e realizzate un impasto omogeneo. Aggiungete a questo mix 2 uova, 180 g di farina, 50 g di zucchero e mescolate bene in un mixer, con l'apparecchio sempre in funzione aggiungete 150 grammi di burro a temperatura ambiente a pezzi e incorporatelo bene. Formate una palla, coprirla con la pellicola e tenere l'impasto per 2 ore nel forno spento a lievitare (dovrà raddoppiare di dimensioni) poi spostatelo in frigo per una notte. Mentre la pasta lievita preparate la frutta candita che dovrà essere unita alla fine ma nel frattempo prenderà sapore. Mettete l'uvetta a rinvenire in acqua tiepida per almeno mezz'ora e tritare a dadini molto piccoli la frutta candita, unite poi il tutto a 50 grammi di farina e tenete da parte. Togliete l'impasto dal frigo e lasciatelo riscaldare per almeno due ore, poi aggiungete il sale, la vaniglia, il miele, i tuorli, 150 g di zucchero e mescolate bene. Aggiungete il rimanente burro a pezzetti ed impastate fino ad amalgamarlo completamente. Aggiungete la rimanente farina (setacciata se possibile) ed impastate con il gancio fino a ottenere un impasto liscio. Mettete nuovamente l'impasto a lievitare nel forno spento coperto dalla pellicola per ulteriori due ore poi rovesciatelo sul piano di lavoro. A parte preparate gli stampi per il panettone, imburrandoli e spolverandoli con la farina (di carta o di metallo a seconda della disponibilità). Se non sono reperibili è possibile realizzarli con la carta forno e qualche spilletta. Impastate brevemente sul piano di lavoro infarinato e stendere la pasta dandole la forma di un ovale allungato di circa 1 cm di spessore. Aggiungete metà della frutta candita, impastate nuovamente e aggiungete i restanti canditi prima di formare la palla finale. È importante non aggiungere la frutta candita nelle fasi precedenti in quanto gli enzimi della frutta potrebbero inibire la lievitazione. Distribuite l'impasto negli stampi fino a circa metà dell'altezza dandogli sempre una forma a palla, poi tenete gli stampi coperti dalla pellicola in un luogo caldo per almeno due ore a lievitare finché l'impasto non avrà raggiunto il bordo superiore dello stampo. Intanto preriscaldate il forno a 200 °C. Quando l'impasto sarà lievitato al punto giusto togliete la pellicola e lasciare asciugare la superficie del panettone per circa 15 minuti, poi infornate a 200 °C per 10 minuti nella parte bassa del forno, abbassate la temperatura a 190 °C e proseguire per altri 10 minuti prima di abbassare ulteriormente la temperatura a 170 °C e proseguite la cottura per circa 50 minuti. Prima di togliere il panettone dal forno verificate la cottura all'interno con uno spiedino lungo, al termine togliete il panettone dal forno e lasciatelo intiepidire prima di sfornarlo e lasciarlo raffreddare completamente. Se preferite il salato al dolce non potete perdervi il panettone gastronomico salato.",
+        "coords": [
+            45.478777,
+            9.2201
+        ],
+        "dish_name": "Panettone",
+        "dish_id": 423
+    },
+    {
+        "related_recipes": {
+            "420": "Risotto alla Milanese",
+            "423": "Panettone",
+            "422": "Costoletta alla Milanese"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "lombardia/milano/ossobuco_milanese_1.jpeg",
+            "lombardia/milano/ossobuco_milanese_2.jpeg",
+            "lombardia/milano/ossobuco_milanese_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=9GUTC2Qwrf0",
+        "city": "Milano",
+        "ingredients": [
+            {
+                "quantity": 1000,
+                "ingredient": "Ossibuchi di vitello"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Farina q.b"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Sedano"
+            },
+            {
+                "quantity": 250,
+                "ingredient": "Vino bianco"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Alloro"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Pimento"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Cannella"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Scorza di limone"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Prezzemolo"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio"
+            }
+        ],
+        "region": "Lombardia",
+        "product_history": "L'ossobuco (Insubre: òss bus in milanese. òs büüs altra grafia; pronuncia: /ˌɔz ˈbyːs/) è un taglio di carne di bovino (la parte superiore della gamba in corrispondenza della tibia), da cui deriva un tipico piatto della cucina milanese. Ci sono vari modi di prepararlo. Può essere servito come seconda portata, ma solitamente accompagna il risotto allo zafferano. La parte da cucinare proviene dalla tibia della vitella da latte, da cui si ricavano fette di circa 3-4 cm di altezza, contenenti l'osso che, nel piatto mostra, appunto, il buco contenente il midollo. Parte integrante della ricetta dell'osso buco alla milanese è la gremolada, trito finissimo a base di limone, aglio e prezzemolo.",
+        "preparation": "Infarinate gli ossibuchi, quindi in una padella dal fondo spesso fate soffriggere l'aglio, la cipolla e il sedano con l'olio e il burro; la padella deve essere grande a sufficienza da contenere tutti gli ossibuchi disposti in un unico strato. Cuocete per circa 5 minuti a fiamma bassa, in modo che gli ingredienti si ammorbidiscano ma non rosolino, quindi aggiungete gli ossibuchi e cuocete per 12-15 minuti, o fino a quando non siano ben rosolati. Sistemateli in un unico strato, aggiungete vino, alloro e cannella, portate a ebollizione e coprite, quindi abbassate la fiamma, sobbollite per 15 minuti, aggiungete 125 ml di acqua calda, coprite e fate cuocere per altri 45-60 minuti. Controllate il volume del sugo una o due volte durante la cottura, e aggiungete altra acqua calda se è necessario, in modo che la carne sia sufficientemente tenera; per fare la gremolata, intanto, unite il prezzemolo e l'aglio alla scorza di limone tritata. Mettete gli ossibuchi in un vassoio e teneteli al caldo, togliete la foglia d'alloro, aumentate la fiamma sotto la padella e fate cuocere mescolando spesso per 1 o 2 minuti fino a quando la salsa non si restringe, grattando il fondo della padella mentre si mescola in modo che non si attacchi. Salate, pepate e rimettete gli ossibuchi nella salsa, fate scaldare, quindi aggiungete metà gremolata e mescolate, riservando l'altra metà per cospargere la carne; al momento di servire accompagnate con del risotto alla milanese.",
+        "coords": [
+            45.462052,
+            9.159928
+        ],
+        "dish_name": "Ossobuco alla Milanese",
+        "dish_id": 424
+    },
+    {
+        "related_recipes": {
+            "423": "Panettone",
+            "422": "Costoletta alla Milanese",
+            "424": "Ossobuco alla Milanese"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "lombardia/milano/colomba_1.jpeg",
+            "lombardia/milano/colomba_2.jpeg",
+            "lombardia/milano/colomba_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=SHKlQLGlaew",
+        "city": "Milano",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Acqua"
+            },
+            {
+                "quantity": 25,
+                "ingredient": "Lievito di birra"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 170,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Essenza di vaniglia"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Limone"
+            },
+            {
+                "quantity": 70,
+                "ingredient": "Arancia"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Canditi"
+            },
+            {
+                "quantity": 70,
+                "ingredient": "Mandorle"
+            }
+        ],
+        "region": "Lombardia",
+        "product_history": "Fu Dino Villani, direttore pubblicità della ditta milanese Motta, già celebre per i suoi panettoni natalizi, che, negli anni trenta del '900, per sfruttare gli stessi macchinari e la stessa pasta, ideò un dolce simile al panettone, ma destinato alle solennità della Pasqua. La ricetta poi venne ripresa da Angelo Vergani che nel 1944 fondò la Vergani srl, azienda di Milano che ancora oggi produce colombe.\nDa allora la colomba pasquale si diffuse sulle tavole di tutti gli italiani, e anche ben oltre i confini dell'Italia. L'impasto originale, a base di farina, burro, uova, zucchero e buccia d'arancia candita, con una ricca glassatura alle mandorle, ha successivamente assunto varie forme e varianti.",
+        "preparation": "Sciogliere il lievito in 100 ml di acqua tiepida ma non bollente, poi aggiungere 140/150 gr di farina passati attraverso un colino per evitare la formazione di grumi e iniziate a mescolare, lavorando l'impasto fino ad ottenere un panetto morbido. Lasciare riposare il panetto in un contenitore con acqua tiepida incidendo una croce sulla superficie. Tenere il contenitore coperto e lasciar lievitare per mezz'ora al termine della quale il panetto sarà raddoppiato di volume e galleggerà. A parte in un contenitore di dimensioni adeguate versare la restante farina, lo zucchero, i tuorli, 100 gr di burro ammorbidito, un pizzico di sale, un cucchiaio di essenza di vaniglia e la buccia grattugiata del limone e dell'arancia. Lavorare l'impasto aggiungendo tanto latte fino ad ottenere un impasto lavorabile, e quando gli ingredienti appariranno sufficientemente amalgamati prendere il panetto con il lievito, sgocciolarlo e aggiungerlo all'impasto. Trasferire l'impasto su una spianatoia e lavorarlo finché risulterà un panetto morbido, omogeneo e un poco appiccicoso, quindi mettere in una ciotola nel forno spento a lievitare per 1 ora. Trascorso il periodo aggiungere all'impasto 50 gr di burro ammorbidito e lavorarlo energeticamente per almeno 10 minuti, quindi rimettere il panetto nel contenitore nel quale ha lievitato e rimetterlo nel forno spento a lievitare per altre 4 ore. Al termine l'impasto avrà un volume doppio di quello iniziale. Riprendere ancora una volta l'impasto ed aggiungere gli ultimi 50 gr di burro ammorbidito e, se graditi, unire i canditi, proseguendo la lavorazione dell'impasto per altri 15 minuti prima di sistemarlo nell'apposito stampo per colomba. Porre lo stampo con l'impasto nel forno sempre spento e lasciar lievitare per 2/3 ore o fino a che il dolce non sia arrivato quasi ad altezza del bordo dello stampo. A questo punto togliere lo stampo dal forno ponendolo in un luogo asciutto e senza ventilazione coprendolo con uno straccio mentre si accenderà il forno preriscaldandolo a 190 °C. Nel frattempo si preparerà la glassa battendo gli albumi in una ciotola con lo zucchero semolato. Prima di infornare la colomba si stenderà la glassa ottenuta cospargendo poi il tutto con la granella di zucchero e le mandorle. Cuocere la colomba nel forno già caldo per 10 minuti a 190 °C poi abbassare la temperatura del forno a 180 °C e proseguire la cottura per altri 30 minuti. Al termine si estrarrà la colomba dal forno lasciandola a raffreddare su una gratella. Una volta raffreddata completamente, servite in tavola.",
+        "coords": [
+            45.479034,
+            9.146719
+        ],
+        "dish_name": "Colomba pasquale",
+        "dish_id": 425
+    },
+    {
+        "related_recipes": {
+            "423": "Panettone",
+            "425": "Colomba pasquale",
+            "424": "Ossobuco alla Milanese"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "lombardia/bergamo/casoncelli_1.jpeg",
+            "lombardia/bergamo/casoncelli_2.jpeg",
+            "lombardia/bergamo/casoncelli_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=FH-BYgAo8F0",
+        "city": "Bergamo",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 75,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Salsiccia"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Carne macinata"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Prezzemolo"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Pangrattato"
+            },
+            {
+                "quantity": 70,
+                "ingredient": "Parmigiano"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Noce moscata q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Salvia q.b"
+            }
+        ],
+        "region": "Lombardia",
+        "product_history": "Il ripieno conferisce ai Casoncelli un sapore lievemente dolciastro, caratteristica tipica del panorama culinario medioevale e rinascimentale nel quale hanno origine; una documentazione certa attesta la loro esistenza già nel 1386. Sotto il dominio veneziano il ripieno si arricchí con spezie, amaretti e ingredienti di origine lontana. La ricetta attuale è il consolidamento della versione ottocentesca. In Val Gandino e in alta Val Seriana vengono chiamati Caronséi (pronunciati [kaɾonˈsɛj]).",
+        "preparation": "Setacciate la farina con il sale sulla spianatoia e impastatela con uova e olio, lavorate l'impasto per almeno 15 minuti, poi avvolgetelo in una pellicola per alimenti e lasciatelo riposare per una mezz'ora, quindi tirate una sfoglia sottile e ricavatene dei dischi dal diametro di 8 cm. Lavate il prezzemolo e tritatelo finemente con l'aglio, rosolateli a fuoco medio con il burro in un tegame di coccio, poi spellate la salsiccia, sbriciolatela e unitela alla carne macinata, mescolate e cuocete per 10 minuti prima di togliere dal fuoco. Versate il composto in una terrina, fatelo freddare, poi aggiungetevi il pane grattugiato, il parmigiano, le uova, salate, pepate e profumate con una generosa grattugiata di noce moscata. Lavorate bene gli ingredienti affinché si amalgamino perfettamente, riempite i dischetti con una piccola noce di ripieno, chiudeteli a metà e sigillate bene i bordi. Fate soffriggere il burro con la salvia e intanto lessate i casoncelli in abbondante acqua salata, scolateli in una terrina e conditeli con il burro caldo profumato con la salvia e il parmigiano.",
+        "coords": [
+            45.698437,
+            9.65816
+        ],
+        "dish_name": "Casoncelli alla Bergamasca",
+        "dish_id": 426
+    },
+    {
+        "related_recipes": {
+            "425": "Colomba pasquale",
+            "424": "Ossobuco alla Milanese",
+            "426": "Casoncelli alla Bergamasca"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "lombardia/brescia/malfatti_1.jpeg",
+            "lombardia/brescia/malfatti_2.jpeg",
+            "lombardia/brescia/malfatti_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=Wv0OY3unNuk",
+        "city": "Brescia",
+        "ingredients": [
+            {
+                "quantity": 400,
+                "ingredient": "Spinaci"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Ricotta"
+            },
+            {
+                "quantity": 160,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Parmigiano"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Noce moscata q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            }
+        ],
+        "region": "Lombardia",
+        "product_history": "I Malfatti sono un primo piatto tradizionale della cucina lombarda.\nQuesto piatto veniva preparato per affrontare i periodi di mancanza di cibo utilizzando infatti materia prima trovata nei campi, come cicoria selvatica, tarassaco o dente di leone, bietole, erbette o alto. Preparati con pane raffermo ammollato nell’acqua o latte, uova e formaggio. Tutto amalgamato insieme creando così un piatto che seppur povero era ricco, nutriente e saporito.",
+        "preparation": "Pulite e lavate gli spinaci con cura, quindi cuoceteli in acqua salata per una decina di minuti e al termine della cottura scolateli, strizzateli per bene e tritateli aiutandovi con una mezzaluna. Fate insaporire una piccola cipolla in 20 grammi di burro, poi unite il trito di spinaci e lasciate cuocere mescolando per 5 minuti; al termine eliminate la cipolla e lasciate raffreddare il composto. Unite alla ricotta gli spinaci raffreddati e aggiungete le uova, metà del parmigiano grattugiato, la farina, un pizzico di noce moscata e lavorate brevemente, salando e pepando. Dopo aver ottenuto in tal modo un composto abbastanza solido, formate con le mani degli gnocchetti rotondi grandi, da passare poi nella farina. Cuocete i malfatti che avete ottenuto in abbondante acqua salata per pochi minuti e scolateli, conditeli con burro fuso e parmigiano e serviteli in tavola ancora caldi.",
+        "coords": [
+            45.567385,
+            10.218869
+        ],
+        "dish_name": "Malfatti",
+        "dish_id": 427
+    },
+    {
+        "related_recipes": {
+            "425": "Colomba pasquale",
+            "427": "Malfatti",
+            "426": "Casoncelli alla Bergamasca"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "lombardia/brescia/polenta_osei_1.jpeg",
+            "lombardia/brescia/polenta_osei_2.jpeg",
+            "lombardia/brescia/polenta_osei_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=mj6uZf47i5c",
+        "city": "Brescia",
+        "ingredients": [
+            {
+                "quantity": 350,
+                "ingredient": "Farina di mais"
+            },
+            {
+                "quantity": 400,
+                "ingredient": "Uccelletti"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Lardo"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Salvia q.b"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            }
+        ],
+        "region": "Lombardia",
+        "product_history": "Già nel 1800 questa specialità veniva preparata dalle donne venete quando i mariti tornavano dalla caccia con un bottino piuttosto misero, come allodole e tordi.\nNonostante sia un piatto storico gli ingredienti di questi ricetta vanno in conflitto con le leggi europee sulla caccia, per questo motivo l’Italia ha pagato a caro prezzo, con multe molto salate, la sua permissività coi cacciatori del nord Italia che bersagliano questi particolari osei.",
+        "preparation": "Preparate la polenta con la farina di mais cotta in 1,25 litri d'acqua e un pizzico di sale per 1 ora e 15 minuti. Intanto avvolgete ogni uccelletto in una fettina di lardo o di pancetta. Infilate su uno spiedo di legno 3 uccelletti cosi preparati, alternandoli con foglie di salvia lavate. Proseguite in questo modo fino a esaurimento degli uccelletti, preparando 4 spiedini. In un tegame fate rosolare il burro e fatevi cuocere gli spiedini, salati e pepati, a fuoco moderato, facendoli dorare in modo uniforme. Versate la polenta in un piatto e mettetevi sopra gli spiedini. Distribuite sulla polenta e uccelletti il fondo di cottura degli spiedini e servite in tavola.",
+        "coords": [
+            45.525311,
+            10.213761
+        ],
+        "dish_name": "Polenta e osei",
+        "dish_id": 428
+    },
+    {
+        "related_recipes": {
+            "428": "Polenta e osei",
+            "427": "Malfatti",
+            "426": "Casoncelli alla Bergamasca"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "lombardia/monza/risotto_monzese_1.jpeg",
+            "lombardia/monza/risotto_monzese_2.jpeg",
+            "lombardia/monza/risotto_monzese_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=O8fgtFyMc3E",
+        "city": "Monza",
+        "ingredients": [
+            {
+                "quantity": 280,
+                "ingredient": "Riso Carnaroli"
+            },
+            {
+                "quantity": 320,
+                "ingredient": "Salsiccia"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Zafferano"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Parmigiano"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Vino bianco"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Brodo q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Lombardia",
+        "product_history": "Le origini del risotto alla milanese risalgono al Medioevo e sono collegate a un'analoga ricetta della cucina araba e della cucina ebraica. Nel Medioevo, in Italia, questa pietanza era conosciuta come riso col zafran.\nIl risotto alla milanese nacque nel 1574 alla tavola del vetraio belga Valerio di Fiandra, che all'epoca risiedeva a Milano poiché stava lavorando alle vetrate del Duomo di Milano. Per il matrimonio di sua figlia i suoi colleghi vetrai fecero aggiungere a un risotto bianco al burro dello zafferano: questa spezia era infatti utilizzata dai vetrai per ottenere una particolare colorazione gialla dei vetri. Il nuovo piatto ebbe subito successo, sia per il suo sapore che per la sua tonalità gialla, che ricordava l'oro, sinonimo di ricchezza. Lo zafferano ha anche riconosciute proprietà farmacologiche e quindi il risotto giallo si diffuse presto nelle osterie e nelle taverne milanesi.\nIl risotto alla milanese scomparì subito dalle cronache per ricomparire sui documenti nel 1809, quando viene definito \"riso giallo in padella\". In seguito, nel 1829, su un altro libro di ricette, la celebre pietanza meneghina viene definita \"risotto alla milanese giallo\", prendendo la denominazione con cui è universalmente conosciuta ancora oggi.",
+        "preparation": "Pulite e tagliate finemente la cipolla. Tagliate la salsiccia a rondelle, rosolatela in casseruola a fiamma vivace con metà burro, unite la cipolla ed il riso e fate tostare per un minuto, quindi versate il vino bianco. Lasciate evaporare, coprite con il brodo caldo, unite lo zafferano, salate e portate a termine la cottura. Togliete il risotto dal fuoco e amalgamatelo con il burro rimasto e il parmigiano.",
+        "coords": [
+            45.576213,
+            9.269102
+        ],
+        "dish_name": "Risotto alla Monzese",
+        "dish_id": 429
+    },
+    {
+        "related_recipes": {
+            "429": "Risotto alla Monzese",
+            "428": "Polenta e osei",
+            "427": "Malfatti"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "lombardia/como/ciambella_comasca_cipolle_1.jpeg",
+            "lombardia/como/ciambella_comasca_cipolle_2.jpeg",
+            "lombardia/como/ciambella_comasca_cipolle_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=-mag5vL-AYU",
+        "city": "Como",
+        "ingredients": [
+            {
+                "quantity": 300,
+                "ingredient": "Pasta di pane"
+            },
+            {
+                "quantity": 500,
+                "ingredient": "Cipolle rosse"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            },
+            {
+                "quantity": 250,
+                "ingredient": "Taleggio"
+            }
+        ],
+        "region": "Lombardia",
+        "product_history": "Ciambella rustica, originaria dell'Alto Lago, nata verosimilmente come piatto unico, sul modello del pane condito diffuso, con centinaia di varianti, in tutta la nostra penisola. Un vero e proprio archetipo alimentare dei paesi mediterranei, solo che si pensi, stando a quanto tramanda Erodoto, che proprio a pane e cipolle (crude o arrostite) furono nutriti i milioni di schiavi che alzarono le piramidi dei faraoni.",
+        "preparation": "Sbucciate le cipolle e tagliatele a fettine sottili. In un tegame, fate fondere il burro, aggiungete le cipolle e fatele appassire, senza lasciarle colorire. Insaporitele con un pizzico di sale e di pepe appena macinato. Lavorate un poco la pasta, incorporatevi 2 cucchiai di olio, sagomatela a ciambella, adagiatela in una placca da forno spennellata con l'olio rimasto e premete la superficie della ciambella con il palmo della mano per appiattirla. Ponete la placca in forno, preriscaldato a 200 °C, dopo circa venti di minuti di cottura, distribuite sulla pasta le cipolle ed il formaggio a cubetti e spolverizzate con lo zucchero. Proseguite la cottura per altri 20 minuti circa, controllando la cottura con uno stuzzicadenti. A fine cottura togliete la ciambella dal forno e servitela calda in tavola.",
+        "coords": [
+            45.798112,
+            9.072653
+        ],
+        "dish_name": "Fitascetta Comasca",
+        "dish_id": 430
+    },
+    {
+        "related_recipes": {
+            "429": "Risotto alla Monzese",
+            "428": "Polenta e osei",
+            "430": "Fitascetta Comasca"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "lombardia/cremona/torrone_cremona_1.jpeg",
+            "lombardia/cremona/torrone_cremona_2.jpeg",
+            "lombardia/cremona/torrone_cremona_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=baF0nKURsco",
+        "city": "Cremona",
+        "ingredients": [
+            {
+                "quantity": 300,
+                "ingredient": "Miele"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Acqua"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Nocciole"
+            },
+            {
+                "quantity": 550,
+                "ingredient": "Mandorle"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Canditi"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Vanillina"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Scorza di limone"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Ostie da pasticceria"
+            }
+        ],
+        "region": "Lombardia",
+        "product_history": "Nella versione della tradizione cremonese, il primo torrone sarebbe stato servito il 25 ottobre 1441 al banchetto per le nozze, celebrate a Cremona, fra Francesco Sforza e Bianca Maria Visconti. Il dolce, sempre secondo la tradizione, venne modellato riproducendo la forma del Torrazzo, la torre campanaria della città, da cui avrebbe preso il nome. Questo episodio viene rievocato ogni anno con una Festa del Torrone. Tuttavia, la prima notizia certa riguardo al torrone a Cremona risale al 1543, anno in cui il comune acquistò del torrone per farne dono ad alcune autorità, soprattutto milanesi.",
+        "preparation": "Per cominciare occorre versare il miele in una pentola e riscaldarlo a fiamma bassissima, dopo qualche minuto aggiungete anche lo zucchero e iniziate a mescolare. Proseguite la cottura mantenendo sempre la fiamma molto bassa e senza mai smettere di mescolare per circa 30 minuti, a parte invece montate a neve gli albumi. Aggiungete gradualmente gli albumi montati al miele e allo zucchero, versandone altro soltanto quando quello di prima risulterà completamente amalgamato. Proseguite la cottura per altri 40 minuti senza mai smettere di girare, quindi aggiungete la vanillina, mandorle, canditi e scorze mescolando bene per distribuirli uniformemente nel composto. Preparate una teglia sistemando sul fondo prima la pellicola e poi un foglio di ostia, quindi passate a livellare il composto in maniera da ottenere uno spessore uniforme. Coprite il composto con un secondo foglio di ostia, poi con l'auto di un pestello fatelo aderire bene alla superficie e, quando il torrone sarà completamente raffreddato, toglietelo dalla teglia e rifilate i bordi eliminando la pellicola di plastica. A questo punto tagliate il torrone a pezzetti o a barrette con l'aiuto di un coltello affilato, quindi conservatelo nella carta forno fino al momento di offrirlo ai vostri commensali.",
+        "coords": [
+            45.148168,
+            10.00178
+        ],
+        "dish_name": "Torrone di Cremona",
+        "dish_id": 431
+    },
+    {
+        "related_recipes": {
+            "429": "Risotto alla Monzese",
+            "430": "Fitascetta Comasca",
+            "431": "Torrone di Cremona"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "lombardia/cremona/marubini_cremonesi_1.jpeg",
+            "lombardia/cremona/marubini_cremonesi_2.jpeg",
+            "lombardia/cremona/marubini_cremonesi_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=Sutx9dwxHo4",
+        "city": "Cremona",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 480,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 350,
+                "ingredient": "Spalla di vitello"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Lonza di maiale"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Cervella di vitello"
+            },
+            {
+                "quantity": 1500,
+                "ingredient": "Biancostato di manzo"
+            },
+            {
+                "quantity": 500,
+                "ingredient": "Salame"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Grana"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Pangrattato"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Erbe aromatiche q.b"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Aglio"
+            }
+        ],
+        "region": "Lombardia",
+        "product_history": "Platina, l’insigne storico umanista nato a Piadena nel 1421, che per primo intravide nella gastronomia una forma d’arte, riporta nella sua opera fondamentale, De Honesta Voluptate ed Valitudine, la ricetta dettagliata di questo piatto già famoso nelle corti dell’epoca, senza citarne però la definizione specifica cremonese, ma comprendendo questi prelibati fagottini di pasta ripiena nella grande famiglia dei ravioli, con una precisazione attinente la misura: ‘non siano maiori d’una mezza castagna’. Ciò indusse a ricercare l’origine filologica del termine marubino nel vocabolo marrone, castagna, in dialetto cremonese maròon.",
+        "preparation": "Iniziate a preparare i 3 brodi: lessate il biancostato con metà delle verdure e delle erbe aromatiche e con 3 litri d'acqua, regolate di sale e cuocete per due ore e mezza schiumando il brodo. In un'altra pentola lessate la gallina con le verdure e gli aromi rimanenti, mentre in una terza pentola fate lessare il salame a fiamma bassa per 20 minuti con acqua sufficiente a coprirlo. Mentre i brodi cuociono preparate la pasta impastando a lungo la farina con l'olio e cinque uova; al termine formate una palla, avvolgetela nella pellicola e lasciatela riposare per 30 minuti. Mentre i brodi cuociono preparate la pasta impastando a lungo la farina con l'olio e cinque uova; al termine formate una palla, avvolgetela nella pellicola e lasciatela riposare per 30 minuti. Stendete la pasta in una sfoglia molto sottile, dividetela a metà e spennellate una delle due parti con l'uovo rimasto, poi suddividete la farcitura in mucchietti regolari e coprite con la seconda sfoglia, ritagliando con la rotella tanti quadrati di circa 4 cm di lato. Filtrate i 3 brodi riunendoli poi in un'unica pentola, portate a ebollizione e cuocete i marubini per pochi minuti, servendoli col brodo spolverato con il grana stravecchio grattugiato.",
+        "coords": [
+            45.13549,
+            10.039811
+        ],
+        "dish_name": "Marubini Cremonesi",
+        "dish_id": 432
+    },
+    {
+        "related_recipes": {
+            "432": "Marubini Cremonesi",
+            "430": "Fitascetta Comasca",
+            "431": "Torrone di Cremona"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "lombardia/valtellina/canederli_valtellinese_1.jpeg",
+            "lombardia/valtellina/canederli_valtellinese_2.jpeg",
+            "lombardia/valtellina/canederli_valtellinese_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=PFlp3kQPYPg",
+        "city": "Valtellina Sondrio",
+        "ingredients": [
+            {
+                "quantity": 400,
+                "ingredient": "Funghi porcini"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Pane"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 1500,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Noce moscata q.b"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Salvia"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Ricotta"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            }
+        ],
+        "region": "Lombardia",
+        "product_history": "I termini canederlo e canederli sono germanismi, ovvero un adattamento dialettale del termine tedesco knödel. Una prima rappresentazione dei canederli si trova in un affresco nella cappella di castel d'Appiano risalente attorno al 1180.",
+        "preparation": "Spezzettate il pane raffermo in una ciotola con il latte e fatelo ammorbidire per 1 ora, finché risulterà gonfio ma abbastanza asciutto. Tagliate la parte terrosa del gambo dei funghi, strofinateli con un telo per eliminare i residui di terriccio e tritateli. In un tegame con 20 g di burro mettete la cipolla e l'aglio tritati, unite i funghi e fate insaporire. Versate il composto di funghi in una terrina e amalgamatevi la farina, il pane strizzato, l'uovo, sale, pepe e una grattata di noce moscata. Con le mani leggermente inumidite formate tante palline del diametro di 3-4 cm e pressatele bene. Fatele cuocere in acqua salata in ebollizione per circa 10 minuti. Nel frattempo fate scaldare il burro rimasto con la salvia. Scolate gli gnocchi con un mestolo forato, disponeteli su un piatto da portata, conditeli con il burro fuso, spolverizzateli con la ricotta grattugiata e un poco di erba cipollina (facoltativa) e serviteli subito in tavola.",
+        "coords": [
+            46.165360, 9.819690
+        ],
+        "dish_name": "Canederli alla valtellinese",
+        "dish_id": 433
+    },
+    {
+        "related_recipes": {
+            "432": "Marubini Cremonesi",
+            "433": "Canederli alla valtellinese",
+            "431": "Torrone di Cremona"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "lombardia/valtellina/pizzoccheri_1.jpeg",
+            "lombardia/valtellina/pizzoccheri_2.jpeg",
+            "lombardia/valtellina/pizzoccheri_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=CiGU2TaZXx8",
+        "city": "Valtellina Sondrio",
+        "ingredients": [
+            {
+                "quantity": 200,
+                "ingredient": "Farina di grano"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Farina 00"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 350,
+                "ingredient": "Verza"
+            },
+            {
+                "quantity": 180,
+                "ingredient": "Patate"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Salvia"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 350,
+                "ingredient": "Formaggi misti"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Parmigiano q.b"
+            }
+        ],
+        "region": "Lombardia",
+        "product_history": "La prima testimonianza certa sulla coltivazione del grano saraceno (chiamato formentone) in Valtellina risale al 1616, quando il governatore della Valle dell'Adda (appartenente al cantone dei Grigioni in Svizzera) scrisse che «Il saraceno veniva coltivato soprattutto sul versante retico delle Alpi, in particolare nel comprensorio di Teglio, in quanto caratterizzato da un clima più mite grazie ad una maggiore esposizione al sole»\nIl grano saraceno venne coltivato fino al XIX secolo, diffondendosi anche in aree disagiate e improduttive, poiché tale specie matura in breve tempo ed è molto adatta per i terreni alpini. In seguito, grazie ai maggiori scambi commerciali dovuti all'annessione della Valtellina al Regno Lombardo-Veneto, la produzione di farina di grano saraceno entrò in declino, a favore di altri sfarinati più richiesti dal mercato.\nNella provincia di Sondrio, tuttavia, la coltura del grano saraceno è continuata per il consumo famigliare o per la vendita diretta ai consumatori locali.\nL'usanza di preparare i pizzoccheri è certamente contemporanea all'introduzione del grano saraceno in Valtellina e in provincia di Sondrio. Le prime fonti indirette si trovano in alcuni antichi testamenti del XVIII secolo, in cui venivano lasciati agli eredi gli attrezzi da cucina, fra cui «una scarella per li Pizzoccheri e il rodelino per li ravioli» (1750) oppure «le resene per li Pizzoccheri» (1775).\nI documenti storici attestano che i pizzoccheri della Valtellina sono legati ad eventi, tradizioni ed enogastronomia del luogo d'origine, tanto che il loro condimento tradizionale è preparato con ingredienti locali e tipici (burro, formaggio, verdure quali verze e patate). Nel corso degli anni sono stati organizzati eventi e sagre popolari che celebrano il prodotto: quella più celebre è il \"Pizzocchero d'oro\" a Teglio.",
+        "preparation": "Per i pizzoccheri mescolate le due varietà di farina in una terrina aggiungendo un pizzico di sale. Fate una fontanella al centro e aggiungetevi l'uovo. Mescolatelo poi alla farina aggiungendo gradualmente il latte continuando a mescolare fino a che non otterrete un composto soffice. Potrete avere bisogno di una quantità maggiore o minore di latte rispetto a quella indicata qui, a seconda della consistenza della farina. Continuate ad impastare per qualche minuto finché la pasta non sarà elastica, poi coprite e lasciate riposare per 1 ora. Poi usate la macchina o un mattarello per stendere una sfoglia di pasta sottile e tagliatela in strisce di 1 cm di larghezza. Per la salsa: portate ad ebollizione una pentola d'acqua salata. Aggiungete la verza e le patate e fatele cuocere per 3-5 minuti o finché non saranno cotte all'interno e poi gettate la pasta per gli ultimi 2 minuti di cottura. Scolate tutto tenendo da parte una tazza dell'acqua di cottura. Asciugate la pentola e riutilizzatela. Scaldate l'olio con le erbette e l'aglio per circa 1 minuto. Unite il mix di formaggi, mescolate brevemente e infine aggiungete la pasta regolando di sale e pepe. Spegnete il fuoco e mescolate delicatamente, aggiungendo un po' dell'acqua di cottura per diluire la salsa, se necessario. Servite con aggiunta di parmigiano grattugiato.",
+        "coords": [
+            46.176320, 9.842657
+        ],
+        "dish_name": "Pizzoccheri",
+        "dish_id": 434
+    },
+    {
+        "related_recipes": {
+            "434": "Pizzoccheri",
+            "432": "Marubini Cremonesi",
+            "433": "Canederli alla valtellinese"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "lombardia/pavia/risotto_certosina_1.jpeg",
+            "lombardia/pavia/risotto_certosina_2.jpeg",
+            "lombardia/pavia/risotto_certosina_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=Z4q0JccQkEY",
+        "city": "Pavia",
+        "ingredients": [
+            {
+                "quantity": 300,
+                "ingredient": "Riso"
+            },
+            {
+                "quantity": 400,
+                "ingredient": "Gamberi"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Piselli"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Funghi"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Rane"
+            },
+            {
+                "quantity": 180,
+                "ingredient": "Pesce persico"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Vino bianco"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Pomodori"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Porri"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Prezzemolo q.b"
+            }
+        ],
+        "region": "Lombardia",
+        "product_history": "La ricetta del risotto alla certosina è stata inventata dai frati della Certosa di Pavia, da cui il nome della pietanza. I monaci hanno poi trasmesso la ricetta alle osterie, alle taverne e alle famiglie del luogo, che ne hanno mantenuto la tradizione, seppur con qualche modifica rispetto alla ricetta originale, fino ai giorni nostri. Una delle varianti operate sulla ricetta originale è l'aggiunta del burro: i frati, per via delle loro regole monastiche, non possono mangiarlo.\nGli ingredienti principali del risotto alla certosina sono il riso, i piselli, i funghi, i gamberi d'acqua dolce, il pesce persico e le rane: è quindi un piatto ricco che veniva originariamente consumato nei giorni di festa. Gli ingredienti richiamano gli aspetti naturali del Pavese, ovvero i fiumi (Po e Ticino), gli orti e i boschi.",
+        "preparation": "In una pentola versate un cucchiaio d’olio e 20 grammi di burro, tritate i porri e metteteli nella pentola assieme a qualche foglia di sedano ed alla carota a fettine. Regolate di sale e dopo qualche minuto aggiungete le rane. Dopo 5 minuti aggiungete metà vino lasciandolo poi evaporare. Pulite le rane separando le cosce e tenendole da parte e aggiungete 1 litro e 1/2 d’acqua salata alla pentola. Dopo aver lessato i gamberi in acqua salata, privateli del guscio e unite la polpa alle rane, mentre i gusci andranno tritati, uniti al brodo di rane e cotti brevemente, al termine filtrate il brodo. Cuocete il riso in una padella con 30 grammi di burro ed un cucchiaio d’olio, insaporendo prima mezza cipolla tritata; cuocete per circa 18 minuti aggiungendo un mestolo alla volta il brodo di rane tenuto caldo. In un altro tegame versate il rimanente burro ed un quarto di cipolla tritata, sistematevi i filetti di pesce, unendoli al restante vino e lasciando evaporare. Aggiungete i pomodori pelati, i funghi a rondelle, la polpa dei gamberi, le cosce delle rane e i piselli. Coprite e fate cuocere per circa 10-15 minuti. Disponete il risotto nei piatti individuali, al centro sistemate il pesce, poi le cosce di rana, qualche gambero e i funghi. Bagnate col sugo, decorate con qualche rametto di prezzemolo e servite subito.",
+        "coords": [
+            45.189274,
+            9.161123
+        ],
+        "dish_name": "Risotto alla Certosina",
+        "dish_id": 435
+    },
+    {
+        "related_recipes": {
+            "434": "Pizzoccheri",
+            "435": "Risotto alla Certosina",
+            "433": "Canederli alla valtellinese"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "lombardia/varese/dolce_varese_amor_polenta_1.jpeg",
+            "lombardia/varese/dolce_varese_amor_polenta_2.jpeg",
+            "lombardia/varese/dolce_varese_amor_polenta_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=58QfD3oZLHo",
+        "city": "Varese",
+        "ingredients": [
+            {
+                "quantity": 100,
+                "ingredient": "Farina di mais"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 70,
+                "ingredient": "Mandorle"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Vanillina"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Lievito per dolci"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Zucchero a velo q.b"
+            }
+        ],
+        "region": "Lombardia",
+        "product_history": "Antonio Zamberletti, detto Carlo, storico pasticcere varesotto, è il papà dell'amor polenta. Si narra che nel 1939 desiderasse regalare un dolce tipico alla sua città e per realizzarlo voleva ingredienti locali così da racchiudere Varese in un guscio di dolcezza ed essere amata da tutti i suoi concittadini.",
+        "preparation": "In una ciotola unite insieme il burro, le uova e lo zucchero e mescolate facendo amalgamare per bene gli ingredienti, fino a ottenere un impasto omogeneo. Aggiungete ora entrambi i tipi di farina, quella di mais e quella normale, insieme alla vanillina, al lievito e al rum. Tritate le mandorle, unitele al composto e mescolate con cura. Imburrate l'apposito stampo per Dolce Varese o Amor Polenta e versate il composto all'interno. In alternativa potete utilizzare un comune stampo per plumcake. Fate cuocere in forno a 180 gradi per 40 minuti e prima di servire in tavola spolverizzate abbondantemente con zucchero a velo.",
+        "coords": [
+            45.832819,
+            8.808651
+        ],
+        "dish_name": "Dolce Varese (Amor Polenta)",
+        "dish_id": 436
+    },
+    {
+        "related_recipes": {
+            "436": "Dolce Varese (Amor Polenta)",
+            "434": "Pizzoccheri",
+            "435": "Risotto alla Certosina"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "lombardia/varese/bruscitti_1.jpeg",
+            "lombardia/varese/bruscitti_2.jpeg",
+            "lombardia/varese/bruscitti_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=wqfs0k8CYyg",
+        "city": "Varese",
+        "ingredients": [
+            {
+                "quantity": 800,
+                "ingredient": "Polpa di manzo"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Pancetta"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Semi di finocchio"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Vino rosso"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            }
+        ],
+        "region": "Lombardia",
+        "product_history": "L'origine del piatto è riconducibile alla spolpatura totale delle ossa dei manzi, cioè al recupero di quelle parti che erano scartate dalle tavole dei più ricchi. Fino al boom economico, per i bruscitti si utilizzavano i tagli dell'animale più duri, che necessitavano di una più lunga cottura.\nNel 1975 a Busto Arsizio venne fondato, su iniziativa di Bruno Grampa, il Magistero dei Bruscitti, un'associazione che ha come intento quello di diffondere la conoscenza della cucina rustica bustocca. A capo dell'associazione vi è un \"Maestro\". I \"Maestri\" che si sono susseguiti alla guida del Magistero sono stati: Bruno Grampa, Nino Miglierina, Ferruccio Pozzi Luraschi, Angelo Grampa, Ernani Ferrario e Antonio Colombo.\nIl 16 dicembre 2012 il sindaco di Busto Arsizio Gigi Farioli ha attribuito la civica benemerenza al Magistero dei Bruscitti e ha istituito Ul dí di bruscitti (che in dialetto bustocco significa \"il giorno dei bruscitti\"), che cade ogni secondo giovedì di novembre.",
+        "preparation": "Tagliate la carne a pezzi e riducetela a dadini molto piccoli. Riunite i semi di finocchio e l'aglio sbucciato in un sacchettino e legatelo. Tritate finemente la pancetta. In una casseruola mettete la carne, il burro, la pancetta, sale e pepe e il sacchetto degli odori. Coprite e cuocete a fuoco bassissimo; mescolando, di tanto in tanto. Regolate di sale e, se dovesse asciugarsi troppo, aggiungete qualche altro pezzettino di burro. Togliete gli odori, irrorate con il vino e portate a bollore a fuoco vivace. Rimettete il coperchio e, a fuoco molto basso, cuocete ancora per pochi minuti, finché il fondo di cottura sarà ben legato. Servite con polenta calda.",
+        "coords": [
+            45.809163,
+            8.843744
+        ],
+        "dish_name": "Bruscitti",
+        "dish_id": 437
     }
 ]
