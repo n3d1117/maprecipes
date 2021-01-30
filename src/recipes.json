@@ -15768,5 +15768,595 @@
         ],
         "dish_name": "Bruscitti",
         "dish_id": 437
+    },
+    {
+        "related_recipes": {
+            "437": "Brodetto d'Ancona",
+            "441": "Pasticciata Pesarese",
+            "439": "Brodetto all'anconetana"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "marche/ancona/cicerchiata_1.jpeg",
+            "marche/ancona/cicerchiata_2.jpeg",
+            "marche/ancona/cicerchiata_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=WS9oZFQppR0",
+        "city": "Ancona",
+        "ingredients": [
+            {
+                "quantity": 500,
+                "ingredient": "Miele"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Mandorle"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Frutta candita"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Limone"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Farina q.b"
+            },
+            {
+                "quantity": 30,
+                "ingredient": "Liquore aromatico"
+            },
+            {
+                "quantity": 180,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio di semi q.b"
+            }
+        ],
+        "region": "Marche",
+        "product_history": "Per l'Atlante dei prodotti tradizionali d'Abruzzo (ARSSA - Regione Abruzzo, 2004), l'origine del prodotto sarebbe da ricercarsi in Abruzzo, in particolare nell'area del Sangro \"grazie allo sviluppo dell'apicoltura che, ieri come oggi, rendeva disponibile miele di ottima qualità\". L'origine del nome in tali zone, è da attribuirsi alle parole dialettali utilizzate per le forme a cerchio, come allo stesso modo esiste uno strumento musicale chiamato vatta-cicerchie (batti-cerchio).\nPer altri, invece, facendo riferimento ad epoche più antiche, sarebbe originario dell'Umbria storica (ovvero, grossomodo, l'Umbria a est del Tevere e le Marche) e solo la sua successiva diffusione dall'Umbria alle Marche centrali, all'Abruzzo e infine al Molise avrebbe contribuito all'opinione che si tratti di un dolce abruzzese.\nSecondo altri ancora, la cicerchiata è invece un dolce marchigiano.",
+        "preparation": "Unite le uova sbattute alla scorza grattugiata del limone, all'olio di oliva e al liquore, mescolate bene questi ingredienti e aggiungete gradualmente la farina, evitando la formazione di grumi e facendo in modo che l'impasto finale risulti abbastanza morbido. Lasciate riposare per circa 30 minuti l'impasto prima di ricavarne dei bastoncini di circa 1 cm di diametro che verranno tagliati a pezzetti lunghi circa un cm e passati tra i palmi delle mani con un movimento rotatorio per ottenere infine delle palline. Versate in padella abbondante olio di semi e, una volta bollente, friggetevi le palline di pasta lasciandole dorare e sgocciolandole poi su carta assorbente.  Nel frattempo riscaldate il miele e lasciatelo imbiondire prima di togliere la pentola dal fuoco e incorporare le mandorle, i canditi e le palline di pasta fritte. Preparate uno stampo ad anello ungendolo leggermente, distribuitevi le palline unite al miele livellando il tutto, fate raffreddare il composto e capovolgete lo stampo su un piatto da portata servendo la cicerchiata in tavola e decorandola a piacere con frutta candita e confetti.",
+        "coords": [
+            43.615964,
+            13.51266
+        ],
+        "dish_name": "Cicerchiata",
+        "dish_id": 438
+    },
+    {
+        "related_recipes": {
+            "438": "Cicerchiata",
+            "440": "Vincisgrassi",
+            "441": "Pasticciata Pesarese"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "marche/ancona/brodetto_ancona_1.jpeg",
+            "marche/ancona/brodetto_ancona_2.jpeg",
+            "marche/ancona/brodetto_ancona_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=eAaLH1uKO80",
+        "city": "Ancona",
+        "ingredients": [
+            {
+                "quantity": 1000,
+                "ingredient": "Pesce"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Seppie"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Vino bianco"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Zafferano"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Pane"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Pepe q.b"
+            }
+        ],
+        "region": "Marche",
+        "product_history": "Il brodetto di pesce è un piatto tipico della cucina marinara, in particolare veneta, termolese, marchigiana, romagnola ed abruzzese. Una caratteristica fondamentale è la sua preparazione: vengono utilizzate numerose varietà di pesce quali seppie, triglie, sogliole, palombo, rospo, pannocchie (in romagnolo \"canocchie\"), scorfano, merluzzo, frutti di mare, calamari, razze, gallinelle, San Pietro, vongole, granchi, cozze e tracine.\nNella provincia di Ancona viene utilizzata la variante del brodetto all'anconetana che si presenta molto densa. Fu inventata nelle barche dei pescatori cucinando il pesce di scarsa quantità o qualità per la vendita. Si usavano pesci poveri, un tegame di terra cotta basso e si cuoceva tutto a fuoco lento.",
+        "preparation": "Pulite i pesci, lavateli e tagliate a pezzi i più grossi. Pulite le seppie eliminando l'osso, la vescichetta dell'inchiostro e la bocca, raschiate con un coltello per eliminare la pelle, poi lavatele e tagliatele a pezzi. Sbucciate e tritate finemente la cipolla, fatela soffriggere poi in un tegame con 2 cucchiai d'olio. Unite le seppie, salate, pepate. Bagnate con un bicchiere d'acqua nel quale avrete sciolto lo zafferano. Fate cuocere per 45 minuti. In una casseruola capiente scaldate il restante olio. Unite le seppie, il pomodoro ed i pesci. Cospargete con il fondo di cottura delle seppie, unite il vino e tanta acqua sufficiente a coprire a filo i pesci. Cuocete per 15 minuti. Tostate nel frattempo le fette di pane. Assaggiate il brodetto ed eventualmente aggiustate di sale. Servite accompagnando con le fette di pane.",
+        "coords": [
+            43.598314,
+            13.504077
+        ],
+        "dish_name": "Brodetto all'anconetana",
+        "dish_id": 439
+    },
+    {
+        "related_recipes": {
+            "438": "Cicerchiata",
+            "439": "Brodetto all'anconetana",
+            "441": "Pasticciata Pesarese"
+        },
+        "dish_type": "Primi",
+        "photos": [
+            "marche/ancona/vincisgrassi_1.jpeg",
+            "marche/ancona/vincisgrassi_2.jpeg",
+            "marche/ancona/vincisgrassi_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=Jc9QBSnBc_4",
+        "city": "Ancona",
+        "ingredients": [
+            {
+                "quantity": 240,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Semolino"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 180,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 15,
+                "ingredient": "Marsala"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 250,
+                "ingredient": "Pollo"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Vino bianco"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Animella di vitello"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Grana"
+            },
+            {
+                "quantity": 400,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Noce moscata q.b"
+            }
+        ],
+        "region": "Marche",
+        "product_history": "Secondo una tradizione, il nome del piatto deriverebbe dal fatto che una cuoca anconetana lo preparò in onore del generale austriaco Alfred von Windisch-Graetz che combatté e vinse l'assedio di Ancona del 1799 contro le truppe napoleoniche serrate in città. Il generale avrebbe apprezzato molto il piatto, che gli venne dedicato tramite una semplificazione ed italianizzazione (dal nome del generale deriverebbe il termine \"vincisgrassi\"). La tradizione non specifica però se il piatto fosse stato inventato in onore del generale o se invece fosse un piatto già conosciuto in precedenza.",
+        "preparation": "Preparazione della pasta: fate fondere 20 g di burro in una piccola casseruola. Unitelo poi alla farina e agli altri ingredienti Impastando fino a ottenere un composto omogeneo al quale darete la forma di una palla. Stendete con il matterello una sfoglia sottile e tagliatela a rettangoli delle dimensioni di 15 per 20 cm. Fate cuocere la pasta in una pentola d'acqua leggermente salata; scolatela con delicatezza e disponetela ad asciugare su un telo. Preparazione del ragù: in un tegame sciogliete il burro e fatevi soffriggere la cipolla finemente affettata; aggiungete le rigaglie tagliate a dadini e, quando saranno rosolate, bagnate con il vino bianco; lasciatelo evaporare poi salate, pepate e lasciate cuocere mantenendo il tegame coperto. Sbollentate le animelle in acqua leggermente salata e versatele nel tegame un quarto d'ora dopo che vi avete messo le rigaglie. Continuate la cottura a fuoco lento e a pentola coperta per circa 1 ora e mezzo. Preparazione della besciamella: fate fondere il burro in una piccola casseruola e aggiungete lentamente a pioggia la farina mescolando con un cucchiaio di legno perché non si formino grumi: dovrete ottenere una crema liscia. Versate gradatamente il latte caldo continuando a mescolare, aggiungete la noce moscata, sale e pepe. Imburrate la teglia; disponete sul fondo uno strato di strisce di pasta, uno sottilissimo di besciamella, alcuni cucchiai di ragù e cospargete con parte del grana grattugiato. Continuate nello stesso modo fino a esaurire gli ingredienti: l'ultimo strato dovrà essere composto di abbondante besciamella e di grana. Cuocete per 30-40 minuti in forno caldo a 200 °C, quindi servite la preparazione direttamente in tavola.",
+        "coords": [
+            43.569714,
+            13.512316
+        ],
+        "dish_name": "Vincisgrassi",
+        "dish_id": 440
+    },
+    {
+        "related_recipes": {
+            "440": "Vincisgrassi",
+            "438": "Cicerchiata",
+            "439": "Brodetto all'anconetana"
+        },
+        "dish_type": "Secondi",
+        "photos": [
+            "marche/pesaro_urbino/pasticciata_pesarese_1.jpeg",
+            "marche/pesaro_urbino/pasticciata_pesarese_2.jpeg",
+            "marche/pesaro_urbino/pasticciata_pesarese_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=wNgmO7d-HX4",
+        "city": "Pesaro e Urbino",
+        "ingredients": [
+            {
+                "quantity": 800,
+                "ingredient": "Magatello"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Pancetta"
+            },
+            {
+                "quantity": 10,
+                "ingredient": "Aglio"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Cannella q.b"
+            },
+            {
+                "quantity": 15,
+                "ingredient": "Chiodi di garofano"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Olio EVO"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Sedano"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Vino rosso"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Carote"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Concentrato di pomodori"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Cipolla q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Noce moscata q.b"
+            }
+        ],
+        "region": "Marche",
+        "product_history": "La pasticciata pesarese ha diverse varianti, a volte familiari a volte legate territoriali: piccole modifiche alla ricetta che ne possono variare il sapore. Ad esempio, nella versione dell’Accademia Italiana della Cucina è previsto l’impiego del pomodoro, in quella dell’Istituto Alberghiero di Pesaro, invece, del pomodoro rosso non se ne parla. In altre ricette ho trovato la cannella, in altre ancora la maggiorana, in alcune si deve lardellare la carne, mentre altre lo proibiscono, e così via.",
+        "preparation": "Iniziate mescolando all'interno di una ciotolina la cannella, il sale e il pepe, tagliate quindi la pancetta a listarelle piccolissime e passatele negli aromi presenti nella ciotolina. Steccate il pezzo di carne con le listerelle di pancetta e pezzetti di aglio, chiudete poi il tutto con pizzichi di maggiorana, introducendo in una fessura il chiodo di garofano. Tritate grossolanamente la cipolla, la carota e un gambo di sedano e fateli appassire con l'olio in una casseruola, unite poi la carne e fatela dorare da tutti i lati, senza mai pungerla. Bagnate con il vino rosso e fatelo sfumare, poi salate, unite il concentrato di pomodoro sciolto nell'acqua calda, un pizzico di maggiorana e due gambi di sedano tritati. Incoperchiate e portate a cottura a fiamma moderata, a fine cottura date un'abbondante grattugiata di noce moscata, affettate la carne e servitela nappata con il sugo ben caldo e con un contorno di verdure o polenta a piacere.",
+        "coords": [
+            43.715528,
+            12.533649
+        ],
+        "dish_name": "Pasticciata Pesarese",
+        "dish_id": 441
+    },
+    {
+        "related_recipes": {
+            "441": "Pasticciata Pesarese",
+            "440": "Vincisgrassi",
+            "439": "Brodetto all'anconetana"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "marche/pesaro_urbino/bostrengo_1.jpeg",
+            "marche/pesaro_urbino/bostrengo_2.jpeg",
+            "marche/pesaro_urbino/bostrengo_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=MkScwE4OYlM",
+        "city": "Pesaro e Urbino",
+        "ingredients": [
+            {
+                "quantity": 300,
+                "ingredient": "Farina di grano"
+            },
+            {
+                "quantity": 300,
+                "ingredient": "Farina di mais"
+            },
+            {
+                "quantity": 150,
+                "ingredient": "Fichi"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Riso"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Uvetta"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Noci"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Latte"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Pane"
+            },
+            {
+                "quantity": 70,
+                "ingredient": "Arancia"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Mela"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Burro"
+            }
+        ],
+        "region": "Marche",
+        "product_history": "Oggi,una lode alle mie zone d’origine :il bostrengo uno dei più antichi dolci della tradizione culinaria marchigiana delle verdi colline del  Montefeltro. Il bostrengo o bustreng (in dialetto) è chiamato  nella parte bassa delle Marche frustingo. Sicuramente un dolce “povero”con ingredienti che anticamente , in ogni casa  conservavano in dispensa come il riso, il pane,lo zucchero, le mele, le noci, miele e cotto lentamente nei forni delle stufe. Oggi è possibile gustare il buonissimo e sano bustrengo anche nelle versioni a base di spezie e cacao. Per la sua compatta consistenza  è adattissimo come dolcetto anche da pic-nic.",
+        "preparation": "Ammorbidire il pane raffermo in acqua calda, strizzarlo, sminuzzarlo e metterlo da parte. Sminuzzare i fichi e tritare le noci. Sbucciare la mela e tagliarla dadini, grattugiare la buccia dell' arancia. Mescolare il burro ammorbidito con lo zucchero. Aggiungere le due farine e il riso cotto, mescolare bene. Aggiungere uno alla volta il resto degli ingredienti. Mettere l'impasto in una teglia imburrata e cuocere per un'ora a 180 °C. Una volta cotto, sfornare e cospargere di zucchero a velo. Quando il dolce si è raffreddato, tagliarlo a quadratini e servirlo.",
+        "coords": [
+            43.644019,
+            12.80556
+        ],
+        "dish_name": "Bostrengo",
+        "dish_id": 442
+    },
+    {
+        "related_recipes": {
+            "441": "Pasticciata Pesarese",
+            "440": "Vincisgrassi",
+            "439": "Brodetto all'anconetana"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "marche/ascoli_piceno/calcioni_ascoli_1.jpeg",
+            "marche/ascoli_piceno/calcioni_ascoli_2.jpeg",
+            "marche/ascoli_piceno/calcioni_ascoli_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=80QyaVodNGE",
+        "city": "Ascoli Piceno",
+        "ingredients": [
+            {
+                "quantity": 300,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Lievito di birra"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Burro"
+            },
+            {
+                "quantity": 200,
+                "ingredient": "Fontina"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Prezzemolo"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Uvetta"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Pinoli"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Olio di semi"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Uova"
+            }
+        ],
+        "region": "Marche",
+        "product_history": "Un tempo le famiglie andavano incontro ai pastori che con i loro greggi attraversavano zone rurali e villaggi, barattando galline, uova, carne, frumento, vino o vino cotto per ricevere latte, formaggio o agnelli. Il formaggio locale per eccellenza era il pecorino e un tempo veniva usato solo quello per realizzare questa succulenta ricetta. In seguito sono stati introdotti il parmigiano e da alcune famiglie anche la ricotta.",
+        "preparation": "Mettete la farina a fontana sulla spianatoia e, nel centro, versate il lievito sbriciolato e diluito con poca acqua. Aggiungete il burro ammorbidito e iniziate a lavorare, facendo una pasta compatta come quella del pane; e se occorre, unite poca acqua. Lasciate lievitare, al caldo, per circa 10 minuti, quindi tirate una sfoglia sottile e ricavatene dei dischi da circa 10 cm di diametro. Tritate il formaggio scelto e mescolatelo, in una terrina, con il trito di prezzemolo. Unite anche l'uvetta, precedentemente ammollata e asciugata, e i pinoli. Distribuite il composto al centro di ogni disco. Ripiegate ora ogni disco a metà e saldate i bordi con la rondella dei ravioli. Fate dorare i calcioni, tre alla volta, nella padella dei fritti con olio fumante, voltandoli  quando saranno coloriti da un lato; man mano che sono pronti, raccoglieteli e metteteli nel forno tiepido per farli asciugare bene. Serviteli caldissimi, sul piatto da portata.",
+        "coords": [
+            42.853869,
+            13.590816
+        ],
+        "dish_name": "Calcioni di Ascoli",
+        "dish_id": 443
+    },
+    {
+        "related_recipes": {
+            "443": "Calcioni di Ascoli",
+            "441": "Pasticciata Pesarese",
+            "440": "Vincisgrassi"
+        },
+        "dish_type": "Antipasti",
+        "photos": [
+            "marche/ascoli_piceno/olive_ascolana_1.jpeg",
+            "marche/ascoli_piceno/olive_ascolana_2.jpeg",
+            "marche/ascoli_piceno/olive_ascolana_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=YE0o_ANPUmk",
+        "city": "Ascoli Piceno",
+        "ingredients": [
+            {
+                "quantity": 30,
+                "ingredient": "Olive"
+            },
+            {
+                "quantity": 250,
+                "ingredient": "Carni miste macinate"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Prosciutto crudo"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Mortadella"
+            },
+            {
+                "quantity": 70,
+                "ingredient": "Parmigiano"
+            },
+            {
+                "quantity": 60,
+                "ingredient": "Cipolla"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Carote"
+            },
+            {
+                "quantity": 40,
+                "ingredient": "Sedano"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Mollica"
+            },
+            {
+                "quantity": 180,
+                "ingredient": "Uova"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Noce moscata q.b"
+            },
+            {
+                "quantity": 20,
+                "ingredient": "Concentrato di pomodori"
+            }
+        ],
+        "region": "Marche",
+        "product_history": "Devono il loro nome alla città di Ascoli Piceno. Sono composte da olive verdi in salamoia, farcite all'interno da un composto tenero a base di carne.\nRappresentano una specialità gastronomica del territorio ascolano e sono uno dei piatti più rappresentativi del Piceno. Si accompagnano spesso ad altre fritture come i rustici, la carne, la verdura (il fritto misto all'ascolana prevede carciofi, zucchine e cotolette d'agnello) e la crema fritta.\nL'ascolano Benedetto Marini, a seguito delle sue ricerche, data la nascita della ricetta delle olive all'ascolana ripiene e fritte nell'anno 1800. Al tempo, i cuochi che prestavano servizio presso le famiglie della locale nobiltà, accordandosi tra loro, inventarono il ripieno delle olive per consumare le notevoli quantità e varietà di carni che avevano a disposizione, dovute alla maggiorazione delle regalie che gravavano sui contadini verso i loro padroni.\nVengono spesso preparate in occasione di festività e ricorrenze. In città e nei dintorni le olive ripiene si possono acquistare nei locali negozi di pasta all'uovo e gastronomie.",
+        "preparation": "Private le olive del nocciolo con un taglio unico a spirale sulla polpa, in modo da poter riprendere poi la forma originaria dell'oliva con il nastro di polpa riavvolto. Fate rosolare in una padella con poco olio le carni e le verdure fatte a pezzi grossolanamente, unitevi il concentrato diluito in poca acqua tiepida, salate e pepate: la carne non dovrà essere del tutto cotta. Eliminate le verdure e tritate finemente il composto unendovi prosciutto e mortadella, quindi lavoratelo con le spezie, un pizzico di scorza di limone grattugiata, un uovo, il prezzemolo tritato, la mollica bagnata e strizzata, il parmigiano. A questo punto fate in modo che le olive riprendano la forma originaria inserendovi il composto quindi infarinatele, passatele nelle uova sbattute e rigiratele nel pangrattato. Friggete le olive farcite e impanate in abbondante olio d'oliva bollente, privatele dell'olio in eccesso sgocciolandole sulla carta assorbente, quindi servitele ben calde.",
+        "coords": [
+            42.84657,
+            13.634418
+        ],
+        "dish_name": "Olive all'ascolana",
+        "dish_id": 444
+    },
+    {
+        "related_recipes": {
+            "443": "Calcioni di Ascoli",
+            "441": "Pasticciata Pesarese",
+            "444": "Olive all'ascolana"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "marche/macerata/scroccafusi_1.jpeg",
+            "marche/macerata/scroccafusi_2.jpeg",
+            "marche/macerata/scroccafusi_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=dyAVN-Ou4ns",
+        "city": "Macerata",
+        "ingredients": [
+            {
+                "quantity": 400,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 120,
+                "ingredient": "Strutto"
+            },
+            {
+                "quantity": 50,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Burro q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Marche",
+        "product_history": "Come spesso avviene per le più gustose ricette della tradizione locale, anche gli Scroccafusi, il dolce per eccellenza del Carnevale marchigiano, sono un prodotto dalle origini antiche, nato dalla cultura rurale e contadina. Il loro nome sembra essere legato ad una delle principali prerogative di questa specialità: quella di scrocchiare sotto i denti all'assaggio. Sono diffusi, per lo meno con questo nome, soprattutto nel Maceratese ed infatti in altre località della regione le frittelle di Carnevale assumono altre denominazioni, tra cui “stummeri” ad Arquata del Tronto, e “cecetti” ad Osimo, facendo riferimento alla loro forma e alle dimensioni ridotte.",
+        "preparation": "Versate la farina sul tavolo e nel centro mettete 90 grammi di strutto e un pizzico di sale. Impastate piano fino a formare un composto omogeneo e lavoratelo per 15 minuti. Avvolgete la pasta in un panno infarinato e lasciatela riposare in luogo fresco per circa 2 ore. Trascorso il tempo dividete l'impasto in tante palline che disporrete sulla placca del forno imburrata e leggermente infarinata, e spennellate con il rimanente strutto fuso. Ponete in forno caldo, cuocete a 200° per 35 minuti circa. Lasciateli raffreddare e spolverizzateli di zucchero a velo.",
+        "coords": [
+            43.297261,
+            13.436255
+        ],
+        "dish_name": "Scroccafusi",
+        "dish_id": 445
+    },
+    {
+        "related_recipes": {
+            "443": "Calcioni di Ascoli",
+            "445": "Scroccafusi",
+            "444": "Olive all'ascolana"
+        },
+        "dish_type": "Dolci",
+        "photos": [
+            "marche/macerata/beccute_1.jpeg",
+            "marche/macerata/beccute_2.jpeg",
+            "marche/macerata/beccute_3.jpeg"
+        ],
+        "video_recipe": "https://www.youtube.com/watch?v=Xyso5LgeOF0",
+        "city": "Macerata",
+        "ingredients": [
+            {
+                "quantity": 600,
+                "ingredient": "Farina"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Pinoli"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Gherigli di noci"
+            },
+            {
+                "quantity": 80,
+                "ingredient": "Mandorle"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Uvetta"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Fichi"
+            },
+            {
+                "quantity": 100,
+                "ingredient": "Zucchero"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Olio EVO q.b"
+            },
+            {
+                "quantity": 0,
+                "ingredient": "Sale q.b"
+            }
+        ],
+        "region": "Marche",
+        "product_history": "La ricetta nasce nell’ambito della cultura contadina, per riciclare gli avanzi della polenta. In particolare questa veniva impastata con un po’ d’acqua e variamente arricchita con gli ingredienti prima elencati, secondo la disponibilità del momento. Attualmente le beccute non sono più un piatto povero e, pur mantenendo la genuinità di una volta, sono divenute dei dolci ricchi di ingredienti e di sapori.",
+        "preparation": "Mettete ad ammorbidire in acqua tiepida i fichi secchi e, separatamente, l'uvetta. Tritate grossolanamente le noci e le mandorle. In una capiente terrina mescolate la farina con quattro cucchiai d'olio, lo zucchero, un pizzico di sale, i fichi secchi scolati e tagliati a pezzetti, l'uvetta ben strizzata, i pinoli, le noci e le mandorle. Unite ora, un po' per volta, dell'acqua calda fino ad ottenere un composto morbido e omogeneo. Dividete la pasta in piccole porzioni cui darete la forma di pagnottine, ungete con un filo d'olio una teglia da forno e allineatevi le beccute. Infornate a media temperatura per mezz'ora e servite.",
+        "coords": [
+            43.295512,
+            13.454451
+        ],
+        "dish_name": "Beccute",
+        "dish_id": 446
     }
 ]
