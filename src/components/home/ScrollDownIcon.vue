@@ -1,7 +1,10 @@
 <template>
-  <div class="arrow" @click="onClick">
-    <span></span>
-    <span></span>
+  <div
+    class="arrow"
+    @click="onClick"
+  >
+    <span />
+    <span />
   </div>
 </template>
 

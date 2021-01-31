@@ -1,63 +1,70 @@
 <template>
   <MainLayer>
-
-    <div class="container p-0 mb-5" id="recipe_block">
-
+    <div
+      id="recipe_block"
+      class="container p-0 mb-5"
+    >
       <div class="row d-flex d-lg-block">
-
         <div class="col-lg-3 order-1 float-left">
           <div id="ingredients_block_outer">
             <div id="ingredients_block_inner">
-
               <IngredientsBlock
-                  :ingredients="recipe.ingredients"
-                  :video_link="recipe.video_recipe"
+                :ingredients="recipe.ingredients"
+                :video_link="recipe.video_recipe"
               />
-
             </div>
           </div>
         </div>
 
         <div class="col-lg-9 order-0 float-left">
           <div class="row">
-
             <div class="col-lg-7">
-              <RecipeInfo :region="recipe.region" :city="recipe.city" :name="recipe.dish_name"/>
+              <RecipeInfo
+                :region="recipe.region"
+                :city="recipe.city"
+                :name="recipe.dish_name"
+              />
             </div>
 
             <div class="col-lg-5">
-              <CarouselBlock :photos="recipe.photos" :title="recipe.dish_name"/>
+              <CarouselBlock
+                :photos="recipe.photos"
+                :title="recipe.dish_name"
+              />
             </div>
-
           </div>
         </div>
 
         <div class="col-lg-9 order-1 float-left">
           <div class="row">
             <div class="col col-12">
-              <PrepHistoryBlock title="Preparazione" :text="recipe.preparation"/>
+              <PrepHistoryBlock
+                title="Preparazione"
+                :text="recipe.preparation"
+              />
             </div>
           </div>
         </div>
 
         <div class="col-lg-9 order-1 float-left">
           <div class="row mt-3">
-            <div class="col-lg-8" id="storia-prodotto-column">
-
-              <PrepHistoryBlock title="Storia del prodotto" :text="recipe.product_history"/>
+            <div
+              id="storia-prodotto-column"
+              class="col-lg-8"
+            >
+              <PrepHistoryBlock
+                title="Storia del prodotto"
+                :text="recipe.product_history"
+              />
             </div>
 
             <div class="col-lg-4">
-              <RelatedRecipes :related_recipes="recipe.related_recipes"/>
+              <RelatedRecipes :related_recipes="recipe.related_recipes" />
             </div>
-
           </div>
         </div>
-
       </div>
-
     </div>
-
   </MainLayer>
 </template>
 

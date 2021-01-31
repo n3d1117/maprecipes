@@ -1,40 +1,69 @@
 <template>
   <div>
-
-    <svg xmlns="http://www.w3.org/2000/svg" id="svg-el">
-      <symbol xmlns="http://www.w3.org/2000/svg" id="sbx-icon-search-13" viewBox="0 0 40 40">
-        <path d="M26.804 29.01c-2.832 2.34-6.465 3.746-10.426 3.746C7.333 32.756 0 25.424 0 16.378 0 7.333 7.333 0 16.378 0c9.046 0 16.378 7.333 16.378 16.378 0 3.96-1.406 7.594-3.746 10.426l10.534 10.534c.607.607.61 1.59-.004 2.202-.61.61-1.597.61-2.202.004L26.804 29.01zm-10.426.627c7.323 0 13.26-5.936 13.26-13.26 0-7.32-5.937-13.257-13.26-13.257C9.056 3.12 3.12 9.056 3.12 16.378c0 7.323 5.936 13.26 13.258 13.26z" fill-rule="evenodd"/>
+    <svg
+      id="svg-el"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <symbol
+        id="sbx-icon-search-13"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 40 40"
+      >
+        <path
+          d="M26.804 29.01c-2.832 2.34-6.465 3.746-10.426 3.746C7.333 32.756 0 25.424 0 16.378 0 7.333 7.333 0 16.378 0c9.046 0 16.378 7.333 16.378 16.378 0 3.96-1.406 7.594-3.746 10.426l10.534 10.534c.607.607.61 1.59-.004 2.202-.61.61-1.597.61-2.202.004L26.804 29.01zm-10.426.627c7.323 0 13.26-5.936 13.26-13.26 0-7.32-5.937-13.257-13.26-13.257C9.056 3.12 3.12 9.056 3.12 16.378c0 7.323 5.936 13.26 13.258 13.26z"
+          fill-rule="evenodd"
+        />
       </symbol>
-      <symbol xmlns="http://www.w3.org/2000/svg" id="sbx-icon-clear-2" viewBox="0 0 20 20">
-        <path d="M8.96 10L.52 1.562 0 1.042 1.04 0l.522.52L10 8.96 18.438.52l.52-.52L20 1.04l-.52.522L11.04 10l8.44 8.438.52.52L18.96 20l-.522-.52L10 11.04l-8.438 8.44-.52.52L0 18.96l.52-.522L8.96 10z" fill-rule="evenodd" />
+      <symbol
+        id="sbx-icon-clear-2"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+      >
+        <path
+          d="M8.96 10L.52 1.562 0 1.042 1.04 0l.522.52L10 8.96 18.438.52l.52-.52L20 1.04l-.52.522L11.04 10l8.44 8.438.52.52L18.96 20l-.522-.52L10 11.04l-8.438 8.44-.52.52L0 18.96l.52-.522L8.96 10z"
+          fill-rule="evenodd"
+        />
       </symbol>
     </svg>
 
     <vue-autosuggest
-        v-model="query"
-        :suggestions="suggestions"
-        @input="fetchSuggestions"
-        @selected="onSelected"
-        @keyup.enter="onEnter"
-        :get-suggestion-value="getSuggestionValue"
-        :renderSuggestion="getSuggestionValue"
-        :sectionConfigs="sectionConfigs"
-        :input-props="{id:'autosuggest__input', placeholder:'Cerca una città o un piatto...', spellcheck: false, type:'search', name:'search', class:'pt-sm-1 pt-2'}"
+      v-model="query"
+      :suggestions="suggestions"
+      :get-suggestion-value="getSuggestionValue"
+      :render-suggestion="getSuggestionValue"
+      :section-configs="sectionConfigs"
+      :input-props="{id:'autosuggest__input', placeholder:'Cerca una città o un piatto...', spellcheck: false, type:'search', name:'search', class:'pt-sm-1 pt-2'}"
+      @input="fetchSuggestions"
+      @selected="onSelected"
+      @keyup.enter="onEnter"
     />
 
-    <button type="submit" title="Ricerca parola chiave." class="sbx-medium__submit">
-      <svg role="img" aria-label="Search">
-        <use xlink:href="#sbx-icon-search-13"></use>
+    <button
+      type="submit"
+      title="Ricerca parola chiave."
+      class="sbx-medium__submit"
+    >
+      <svg
+        role="img"
+        aria-label="Search"
+      >
+        <use xlink:href="#sbx-icon-search-13" />
       </svg>
     </button>
-    <button type="reset" title="Cancella la ricerca." class="sbx-medium__reset" @click="resetInput">
-      <svg role="img" aria-label="Reset">
-        <use xlink:href="#sbx-icon-clear-2"></use>
+    <button
+      type="reset"
+      title="Cancella la ricerca."
+      class="sbx-medium__reset"
+      @click="resetInput"
+    >
+      <svg
+        role="img"
+        aria-label="Reset"
+      >
+        <use xlink:href="#sbx-icon-clear-2" />
       </svg>
     </button>
-
   </div>
-
 </template>
 
 <script>
@@ -112,6 +141,23 @@ export default {
       }
     }
   },
+  mounted() {
+    const reset = $('.sbx-medium__reset');
+    const search = $(".sbx-medium__submit");
+
+    reset.click(function() {
+      search.focus();
+      reset.hide();
+    });
+
+    if (this.mapMode) {
+      search.css({'left':'5px'});
+      reset.css({'right':'35px'});
+    } else {
+      search.css({'left':'20px'});
+      reset.css({'right':'25px'});
+    }
+  },
   methods: {
     onEnter() {
       if (this.query !== '') {
@@ -171,23 +217,6 @@ export default {
     normalized(string) {
       return string.normalize('NFD').replace(/[\u0300-\u036f]/g, "")
     },
-  },
-  mounted() {
-    const reset = $('.sbx-medium__reset');
-    const search = $(".sbx-medium__submit");
-
-    reset.click(function() {
-      search.focus();
-      reset.hide();
-    });
-
-    if (this.mapMode) {
-      search.css({'left':'5px'});
-      reset.css({'right':'35px'});
-    } else {
-      search.css({'left':'20px'});
-      reset.css({'right':'25px'});
-    }
   }
 }
 </script>

@@ -1,10 +1,22 @@
 <template>
   <div class="legend">
-    <p v-b-toggle.accordion>Legenda <b-icon icon="chevron-up" font-scale="0.8" :rotate="rotateDeg"/></p>
+    <p v-b-toggle.accordion>
+      Legenda <b-icon
+        icon="chevron-up"
+        font-scale="0.8"
+        :rotate="rotateDeg"
+      />
+    </p>
     <b-collapse id="accordion">
-      <b-row :key="type.name" v-for="type in dishTypes">
+      <b-row
+        v-for="type in dishTypes"
+        :key="type.name"
+      >
         <b-col cols="3">
-          <i class="icon" :style="{ backgroundImage: `url(https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-${type.color}.png)` }"></i>
+          <i
+            class="icon"
+            :style="{ backgroundImage: `url(https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-${type.color}.png)` }"
+          />
         </b-col>
         <b-col class="pl-2 text-left">
           {{ type.name }}

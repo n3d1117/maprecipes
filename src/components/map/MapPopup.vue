@@ -1,29 +1,37 @@
 <template>
   <l-popup :options="{ maxWidth: 'auto' }">
-
     <div id="popupContainer">
-
       <b-row class="d-flex justify-content-center mt-3 pt-1 mb-2 text-center">
-        <img class="popup-img"
-             width="95%"
-             height="100%"
-             v-lazy="require(`@/assets/${recipe.photos[0]}`)"
-             :alt="recipe.dish_name"
+        <img
+          v-lazy="require(`@/assets/${recipe.photos[0]}`)"
+          class="popup-img"
+          width="95%"
+          height="100%"
+          :alt="recipe.dish_name"
         >
       </b-row>
-      <b-row id="title" class="d-flex justify-content-center mb-2 pt-1 text-center">
+      <b-row
+        id="title"
+        class="d-flex justify-content-center mb-2 pt-1 text-center"
+      >
         {{ recipe.dish_name }}
       </b-row>
       <b-row class="d-flex justify-content-center">
-
-        <router-link :to="'/recipe/' + recipe.dish_id" target="_blank">
-          <button class="btn btn-primary btn-hoverable" type="button">
-            <b-icon icon="receipt" id="receipt-icon"/>&nbsp; RICETTA
+        <router-link
+          :to="'/recipe/' + recipe.dish_id"
+          target="_blank"
+        >
+          <button
+            class="btn btn-primary btn-hoverable"
+            type="button"
+          >
+            <b-icon
+              id="receipt-icon"
+              icon="receipt"
+            />&nbsp; RICETTA
           </button>
         </router-link>
-
       </b-row>
-
     </div>
   </l-popup>
 </template>
@@ -33,10 +41,10 @@ import { LPopup } from "vue2-leaflet";
 
 export default {
   name: 'MapPopup',
-  props: ['recipe'],
   components: {
     LPopup
-  }
+  },
+  props: ['recipe']
 }
 </script>
 

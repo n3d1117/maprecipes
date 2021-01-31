@@ -1,7 +1,10 @@
 <template>
-  <div class="jumbotron d-flex align-items-center m-0 p-0" id="djumbo">
+  <div
+    id="djumbo"
+    class="jumbotron d-flex align-items-center m-0 p-0"
+  >
     <div class="container text-center">
-      <slot></slot>
+      <slot />
     </div>
   </div>
 </template>

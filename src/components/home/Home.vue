@@ -1,46 +1,85 @@
 <template>
   <div>
-
-<!--    <ScrollToTopArrow></ScrollToTopArrow>-->
+    <!--    <ScrollToTopArrow></ScrollToTopArrow>-->
 
     <MainLayer>
       <div style="margin-bottom: 200px">
-        <h1 id="searchbar_title">TROVA LE RICETTE DELLA TUA CITTÀ</h1>
+        <h1 id="searchbar_title">
+          TROVA LE RICETTE DELLA TUA CITTÀ
+        </h1>
         <div class="offset-lg-2 col-lg-8">
-          <SearchBar @callback="didSearchForQuery" ref="searchbar"/>
+          <SearchBar
+            ref="searchbar"
+            @callback="didSearchForQuery"
+          />
         </div>
       </div>
-<!--      <ScrollDownIcon @callback="scrollToResults"/>-->
+      <!--      <ScrollDownIcon @callback="scrollToResults"/>-->
     </MainLayer>
 
     <div id="bottom-bg">
       <div class="container">
         <div class="row">
-
-          <HomeSidebar ref="sidebar" @callback="onRegionChange"/>
+          <HomeSidebar
+            ref="sidebar"
+            @callback="onRegionChange"
+          />
 
           <div class="col-md-9">
-            <h1 id="title-label" class="mt-4 text-left">{{ titleLabel }}</h1>
+            <h1
+              id="title-label"
+              class="mt-4 text-left"
+            >
+              {{ titleLabel }}
+            </h1>
 
-<!--
+            <!--
             <NoResult v-if="isEmpty"/>
 -->
 
-            <HomeResultBlock class="scrollspy" id="list-item-1" v-if="filteredAntipasti.length > 0" :recipes="filteredAntipasti" title="Antipasti"/>
-            <HomeResultBlock class="scrollspy" id="list-item-2" v-if="filteredPrimi.length > 0" :recipes="filteredPrimi" title="Primi"/>
-            <HomeResultBlock class="scrollspy" id="list-item-3" v-if="filteredSecondi.length > 0" :recipes="filteredSecondi" title="Secondi"/>
-            <HomeResultBlock class="scrollspy" id="list-item-4" v-if="filteredContorni.length > 0" :recipes="filteredContorni" title="Contorni"/>
-            <HomeResultBlock class="scrollspy" id="list-item-5" v-if="filteredDolci.length > 0" :recipes="filteredDolci" title="Dolci"/>
-
+            <HomeResultBlock
+              v-if="filteredAntipasti.length > 0"
+              id="list-item-1"
+              class="scrollspy"
+              :recipes="filteredAntipasti"
+              title="Antipasti"
+            />
+            <HomeResultBlock
+              v-if="filteredPrimi.length > 0"
+              id="list-item-2"
+              class="scrollspy"
+              :recipes="filteredPrimi"
+              title="Primi"
+            />
+            <HomeResultBlock
+              v-if="filteredSecondi.length > 0"
+              id="list-item-3"
+              class="scrollspy"
+              :recipes="filteredSecondi"
+              title="Secondi"
+            />
+            <HomeResultBlock
+              v-if="filteredContorni.length > 0"
+              id="list-item-4"
+              class="scrollspy"
+              :recipes="filteredContorni"
+              title="Contorni"
+            />
+            <HomeResultBlock
+              v-if="filteredDolci.length > 0"
+              id="list-item-5"
+              class="scrollspy"
+              :recipes="filteredDolci"
+              title="Dolci"
+            />
           </div>
         </div>
       </div>
     </div>
 
-<!--    <ContactForm/>-->
+    <!--    <ContactForm/>-->
 
-    <HomeFooter/>
-
+    <HomeFooter />
   </div>
 </template>
 
@@ -84,6 +123,66 @@ export default {
       contorni: this.filterByRecipeTypeAndSort('Contorni'),
       dolci: this.filterByRecipeTypeAndSort('Dolci')
     }
+  },
+  computed: {
+    titleLabel: function() {
+      if (this.query === '')
+        return 'Elenco Ricette'
+      if (this.isEmpty)
+        return "Nessun risultato per '" + this.query + "'"
+      return "Risultati per '" + this.query + "'"
+    },
+    filteredAntipasti: function() {
+      return this.filterByQuery(this.antipasti)
+    },
+    filteredPrimi: function() {
+      return this.filterByQuery(this.primi)
+    },
+    filteredSecondi: function() {
+      return this.filterByQuery(this.secondi)
+    },
+    filteredContorni: function() {
+      return this.filterByQuery(this.contorni)
+    },
+    filteredDolci: function() {
+      return this.filterByQuery(this.dolci)
+    },
+    isEmpty: function() {
+      return this.filteredAntipasti.length === 0 &&
+          this.filteredPrimi.length === 0 &&
+          this.filteredSecondi.length === 0 &&
+          this.filteredContorni.length === 0 &&
+          this.filteredDolci.length === 0
+    }
+  },
+  mounted() {
+
+    // Smooth scroll when clicking on # href
+    // https://stackoverflow.com/a/18365991
+    $('a[href*=\\#]').on('click', function(event){
+      event.preventDefault();
+      if ($(this.hash).offset())
+        $('html,body').animate(
+            { scrollTop:$(this.hash).offset().top },
+            'slow'
+        );
+    });
+
+    // Scrollspy logic to activate correct list group item on scroll
+    $(window).bind('scroll', function() {
+      const currentTop = $(window).scrollTop();
+      const elems = $('.scrollspy');
+      const height = $(window).height();
+      elems.each(function() {
+        const elemTop 	= $(this).offset().top - (height/3);
+        const elemBottom 	= elemTop + $(this).height();
+        if (currentTop >= elemTop && currentTop <= elemBottom) {
+          const id = $(this).attr('id');
+          const navElem = $('a[href="#' + id + '"]');
+          navElem.addClass('active').siblings().removeClass('active');
+        }
+      })
+    });
   },
   methods: {
     filterByRecipeTypeAndSort(type) {
@@ -162,66 +261,6 @@ export default {
         scrollTop: $("#title-label").offset().top - 20
       }, 'slow');
     }
-  },
-  computed: {
-    titleLabel: function() {
-      if (this.query === '')
-        return 'Elenco Ricette'
-      if (this.isEmpty)
-        return "Nessun risultato per '" + this.query + "'"
-      return "Risultati per '" + this.query + "'"
-    },
-    filteredAntipasti: function() {
-      return this.filterByQuery(this.antipasti)
-    },
-    filteredPrimi: function() {
-      return this.filterByQuery(this.primi)
-    },
-    filteredSecondi: function() {
-      return this.filterByQuery(this.secondi)
-    },
-    filteredContorni: function() {
-      return this.filterByQuery(this.contorni)
-    },
-    filteredDolci: function() {
-      return this.filterByQuery(this.dolci)
-    },
-    isEmpty: function() {
-      return this.filteredAntipasti.length === 0 &&
-          this.filteredPrimi.length === 0 &&
-          this.filteredSecondi.length === 0 &&
-          this.filteredContorni.length === 0 &&
-          this.filteredDolci.length === 0
-    }
-  },
-  mounted() {
-
-    // Smooth scroll when clicking on # href
-    // https://stackoverflow.com/a/18365991
-    $('a[href*=\\#]').on('click', function(event){
-      event.preventDefault();
-      if ($(this.hash).offset())
-        $('html,body').animate(
-            { scrollTop:$(this.hash).offset().top },
-            'slow'
-        );
-    });
-
-    // Scrollspy logic to activate correct list group item on scroll
-    $(window).bind('scroll', function() {
-      const currentTop = $(window).scrollTop();
-      const elems = $('.scrollspy');
-      const height = $(window).height();
-      elems.each(function() {
-        const elemTop 	= $(this).offset().top - (height/3);
-        const elemBottom 	= elemTop + $(this).height();
-        if (currentTop >= elemTop && currentTop <= elemBottom) {
-          const id = $(this).attr('id');
-          const navElem = $('a[href="#' + id + '"]');
-          navElem.addClass('active').siblings().removeClass('active');
-        }
-      })
-    });
   }
 }
 </script>

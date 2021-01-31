@@ -1,5 +1,8 @@
 <template>
-  <hr class="mt-0" id="horizontal_separator">
+  <hr
+    id="horizontal_separator"
+    class="mt-0"
+  >
 </template>
 
 <script>

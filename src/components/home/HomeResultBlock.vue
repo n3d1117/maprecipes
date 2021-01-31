@@ -1,18 +1,18 @@
 <template>
   <div class="mb-4">
-    <h2 class="result_block_tipo_piatto text-left">{{ title }}</h2>
+    <h2 class="result_block_tipo_piatto text-left">
+      {{ title }}
+    </h2>
 
-    <HorizontalSeparator/>
+    <HorizontalSeparator />
 
     <div class="container">
       <div class="row">
-
         <RecipeCard
-            v-for="recipe in recipes"
-            :key="recipe.dish_id"
-            :recipe="recipe"
+          v-for="recipe in recipes"
+          :key="recipe.dish_id"
+          :recipe="recipe"
         />
-
       </div>
     </div>
   </div>

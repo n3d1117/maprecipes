@@ -1,12 +1,10 @@
 <template>
-
   <BackgroundLayer>
-    <Navbar/>
+    <Navbar />
     <Jumbotron>
-      <slot></slot>
+      <slot />
     </Jumbotron>
   </BackgroundLayer>
-
 </template>
 
 <script>

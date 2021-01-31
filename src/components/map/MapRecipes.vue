@@ -1,32 +1,31 @@
 <template>
   <l-map
-      id="map"
-      class="mb-3"
-      ref="recipes_map"
-      v-if="showMap"
-      :zoom="zoom"
-      :center="center"
-      :options="mapOptions"
+    v-if="showMap"
+    id="map"
+    ref="recipes_map"
+    class="mb-3"
+    :zoom="zoom"
+    :center="center"
+    :options="mapOptions"
   >
     <l-tile-layer
-        :url="url"
-        :attribution="attribution"
+      :url="url"
+      :attribution="attribution"
     />
 
     <l-control position="bottomleft">
-      <MapLegend/>
+      <MapLegend />
     </l-control>
 
     <l-marker
-        :key="recipe.dish_id"
-        v-for="recipe in filteredRecipes"
-        :lat-lng="convertCoords(recipe.coords)"
-        :icon="getIcon(recipe)"
-        ref="markers"
+      v-for="recipe in filteredRecipes"
+      :key="recipe.dish_id"
+      ref="markers"
+      :lat-lng="convertCoords(recipe.coords)"
+      :icon="getIcon(recipe)"
     >
-      <MapPopup :recipe="recipe"/>
+      <MapPopup :recipe="recipe" />
     </l-marker>
-
   </l-map>
 </template>
 
@@ -73,6 +72,25 @@ export default {
       resultType: '',
       isFilteringByDropdown: false
     };
+  },
+  computed: {
+    filteredRecipes() {
+      if (this.isFilteringByDropdown) {
+        if (this.dishType === 'Tutti i piatti')
+          return recipes
+        return recipes.filter(recipe => {
+          return recipe.dish_type === this.dishType
+        });
+      } else {
+        if (this.query === '')
+          return recipes
+        return this.filterByQuery(recipes)
+      }
+    }
+  },
+  mounted() {
+    /*const map = this.$refs.recipes_map.mapObject;
+    map.addControl(new window.L.Control.Fullscreen());*/
   },
   methods: {
     generateMarker(color) {
@@ -174,25 +192,6 @@ export default {
       this.center = latLng(42.4698256,12.5936345)
       this.setZoom(5.3)
     }
-  },
-  computed: {
-    filteredRecipes() {
-      if (this.isFilteringByDropdown) {
-        if (this.dishType === 'Tutti i piatti')
-          return recipes
-        return recipes.filter(recipe => {
-          return recipe.dish_type === this.dishType
-        });
-      } else {
-        if (this.query === '')
-          return recipes
-        return this.filterByQuery(recipes)
-      }
-    }
-  },
-  mounted() {
-    /*const map = this.$refs.recipes_map.mapObject;
-    map.addControl(new window.L.Control.Fullscreen());*/
   }
 }
 </script>

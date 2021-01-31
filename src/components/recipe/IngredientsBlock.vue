@@ -1,36 +1,67 @@
 <template>
   <div>
     <h1 class="pt-3">
-      <b-icon icon="receipt" id="receipt_icon" class="p-0 m-0"/>&nbsp; Ingredienti
+      <b-icon
+        id="receipt_icon"
+        icon="receipt"
+        class="p-0 m-0"
+      />&nbsp; Ingredienti
     </h1>
 
-    <div class="ml-2 mr-2" id="regola_porzioni">
+    <div
+      id="regola_porzioni"
+      class="ml-2 mr-2"
+    >
       <div class="row mt-2">
-        <h4 class="text-right col-6 mb-0">Porzioni:</h4>
+        <h4 class="text-right col-6 mb-0">
+          Porzioni:
+        </h4>
         <div class="qty col-6 text-left">
-          <span class="minus bg-dark" v-on:click="decreaseCounter">-</span>
-          <input type="number" class="count" name="qty" v-model.number="counter" disabled>
-          <span class="plus bg-dark" v-on:click="increaseCounter">+</span>
+          <span
+            class="minus bg-dark"
+            @click="decreaseCounter"
+          >-</span>
+          <input
+            v-model.number="counter"
+            type="number"
+            class="count"
+            name="qty"
+            disabled
+          >
+          <span
+            class="plus bg-dark"
+            @click="increaseCounter"
+          >+</span>
         </div>
       </div>
     </div>
 
-    <ul id="lista_ingredienti" class="mt-3 mr-2">
-      <li v-for="ingredient in orderedIngredients"
-          :key="ingredient.ingredient">
+    <ul
+      id="lista_ingredienti"
+      class="mt-3 mr-2"
+    >
+      <li
+        v-for="ingredient in orderedIngredients"
+        :key="ingredient.ingredient"
+      >
         <span v-if="ingredient.quantity === 0">{{ ingredient.ingredient }}</span>
         <span v-else>{{ ingredient.ingredient }} {{ ingredient.quantity }} gr</span>
       </li>
     </ul>
 
-    <a :href="video_link" target="_blank">
+    <a
+      :href="video_link"
+      target="_blank"
+    >
       <div class="pb-3">
-        <button class="btn btn-primary btn-hoverable" type="button">
-          <b-icon icon="youtube"/>&nbsp; VIDEORICETTA
+        <button
+          class="btn btn-primary btn-hoverable"
+          type="button"
+        >
+          <b-icon icon="youtube" />&nbsp; VIDEORICETTA
         </button>
       </div>
     </a>
-
   </div>
 </template>
 
