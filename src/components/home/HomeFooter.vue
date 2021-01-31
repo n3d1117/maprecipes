@@ -39,9 +39,13 @@
                 Mappa dei Piatti
               </router-link>
             </li>
-            <!--            <li>
-              <a data-toggle="modal" data-target="#richiedi-ricetta-modal" class="text-white">Richiedi Ricetta</a>
-            </li>-->
+            <li>
+              <a
+                data-toggle="modal"
+                data-target="#richiedi-ricetta-modal"
+                class="text-white"
+              >Richiedi Ricetta</a>
+            </li>
           </ul>
         </div>
       </div>

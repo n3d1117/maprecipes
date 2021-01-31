@@ -89,8 +89,8 @@ export default {
     }
   },
   mounted() {
-    /*const map = this.$refs.recipes_map.mapObject;
-    map.addControl(new window.L.Control.Fullscreen());*/
+    const map = this.$refs.recipes_map.mapObject;
+    map.addControl(new window.L.Control.Fullscreen());
   },
   methods: {
     generateMarker(color) {

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!--    <ScrollToTopArrow></ScrollToTopArrow>-->
+    <ScrollToTopArrow />
 
     <MainLayer>
       <div style="margin-bottom: 200px">
@@ -14,7 +14,7 @@
           />
         </div>
       </div>
-      <!--      <ScrollDownIcon @callback="scrollToResults"/>-->
+      <ScrollDownIcon @callback="scrollToResults" />
     </MainLayer>
 
     <div id="bottom-bg">
@@ -32,10 +32,8 @@
             >
               {{ titleLabel }}
             </h1>
-
-            <!--
-            <NoResult v-if="isEmpty"/>
--->
+            
+            <NoResult v-if="isEmpty" />
 
             <HomeResultBlock
               v-if="filteredAntipasti.length > 0"
@@ -77,7 +75,7 @@
       </div>
     </div>
 
-    <!--    <ContactForm/>-->
+    <ContactForm />
 
     <HomeFooter />
   </div>
@@ -90,23 +88,19 @@ import HomeSidebar from "@/components/home/HomeSidebar";
 import HomeResultBlock from "@/components/home/HomeResultBlock";
 import MainLayer from "@/components/MainLayer";
 import HomeFooter from "@/components/home/HomeFooter";
-/*
 import ScrollToTopArrow from "@/components/home/ScrollToTopArrow";
-*/
 import recipes from '@/recipes.json'
-/*
 import ScrollDownIcon from "@/components/home/ScrollDownIcon";
 import ContactForm from "@/components/home/ContactForm";
 import NoResult from "@/components/home/NoResult";
- */
 
 export default {
   name: 'Home',
   components: {
-    /*    NoResult,
-        ContactForm,
-        ScrollDownIcon,
-        ScrollToTopArrow,*/
+    NoResult,
+    ContactForm,
+    ScrollDownIcon,
+    ScrollToTopArrow,
     HomeFooter,
     MainLayer,
     HomeResultBlock,
