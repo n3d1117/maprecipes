@@ -50,7 +50,7 @@
     </ul>
 
     <a
-      :href="video_link"
+      :href="videoLink"
       target="_blank"
     >
       <div class="pb-3">
@@ -69,7 +69,7 @@
 
 export default {
   name: 'IngredientsBlock',
-  props: ['ingredients', 'video_link'],
+  props: ['ingredients', 'videoLink'],
   data: function() {
     return {
       counter: 4,

@@ -10,7 +10,7 @@
             <div id="ingredients_block_inner">
               <IngredientsBlock
                 :ingredients="recipe.ingredients"
-                :video_link="recipe.video_recipe"
+                :video-link="recipe.video_recipe"
               />
             </div>
           </div>
@@ -59,7 +59,7 @@
             </div>
 
             <div class="col-lg-4">
-              <RelatedRecipes :related_recipes="recipe.related_recipes" />
+              <RelatedRecipes :related-recipes="recipe.related_recipes" />
             </div>
           </div>
         </div>

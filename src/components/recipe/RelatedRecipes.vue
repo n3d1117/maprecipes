@@ -11,7 +11,7 @@
       class="ml-lg-0 ml-3 mb-3 pl-4 mr-3 text-left"
     >
       <li
-        v-for="(name, id) in related_recipes"
+        v-for="(name, id) in relatedRecipes"
         :key="id"
         class="mb-1"
       >
@@ -26,7 +26,7 @@
 <script>
 export default {
   name: 'RelatedRecipes',
-  props: ['related_recipes']
+  props: ['relatedRecipes']
 }
 </script>
 
