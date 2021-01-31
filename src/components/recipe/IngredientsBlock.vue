@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="pt-3">
-      <b-icon icon="receipt" id="receipt_icon" class="p-0 m-0"></b-icon>&nbsp; Ingredienti
+      <b-icon icon="receipt" id="receipt_icon" class="p-0 m-0"/>&nbsp; Ingredienti
     </h1>
 
     <div class="ml-2 mr-2" id="regola_porzioni">
@@ -17,7 +17,7 @@
 
     <ul id="lista_ingredienti" class="mt-3 mr-2">
       <li v-for="ingredient in orderedIngredients"
-          v-bind:key="ingredient.ingredient">
+          :key="ingredient.ingredient">
         <span v-if="ingredient.quantity === 0">{{ ingredient.ingredient }}</span>
         <span v-else>{{ ingredient.ingredient }} {{ ingredient.quantity }} gr</span>
       </li>
@@ -26,7 +26,7 @@
     <a :href="video_link" target="_blank">
       <div class="pb-3">
         <button class="btn btn-primary btn-hoverable" type="button">
-          <b-icon icon="youtube"></b-icon>&nbsp; VIDEORICETTA
+          <b-icon icon="youtube"/>&nbsp; VIDEORICETTA
         </button>
       </div>
     </a>

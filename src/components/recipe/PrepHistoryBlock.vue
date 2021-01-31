@@ -3,15 +3,15 @@
 
     <h1 class="mb-0 ml-3 ml-lg-0 text-left block_title">{{ title }}
       <a class="lens-minus pl-2 pr-1" href="javascript:" v-on:click="decreaseFontSize">
-        <b-icon icon="zoom-out" font-scale="0.8"></b-icon>
+        <b-icon icon="zoom-out" font-scale="0.8"/>
       </a>
       <a class="lens-plus" href="javascript:" v-on:click="increaseFontSize">
-        <b-icon icon="zoom-in" font-scale="0.8"></b-icon>
+        <b-icon icon="zoom-in" font-scale="0.8"/>
       </a>
     </h1>
     <textarea class="w-100 p-2 ml-lg-0 ml-3 textarea_recipe"
               :style="{ fontSize: fontSize + 'px' }"
-              disabled="" readonly="" v-model="text"></textarea>
+              disabled="" readonly="" v-model="text"/>
   </div>
 </template>
 

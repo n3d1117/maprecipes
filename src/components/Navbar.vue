@@ -9,8 +9,8 @@
 
     <b-navbar-toggle target="nav-collapse">
       <template #default="{ expanded }">
-        <b-icon v-if="expanded" icon="x"></b-icon>
-        <b-icon v-else icon="list"></b-icon>
+        <b-icon v-if="expanded" icon="x"/>
+        <b-icon v-else icon="list"/>
       </template>
     </b-navbar-toggle>
 
@@ -22,7 +22,7 @@
         </b-nav-item>
         <b-nav-item>
           <router-link to="/map" class="nav-link btn-hoverable" id="navbar_mappa_piatti">
-            &nbsp;&nbsp;<b-icon id="geo-icon" icon="geo-alt" class="ml-lg-0 ml-2"></b-icon>&nbsp; MAPPA DEI PIATTI&nbsp;&nbsp;
+            &nbsp;&nbsp;<b-icon id="geo-icon" icon="geo-alt" class="ml-lg-0 ml-2"/>&nbsp; MAPPA DEI PIATTI&nbsp;&nbsp;
           </router-link>
         </b-nav-item>
       </b-navbar-nav>

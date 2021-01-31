@@ -7,7 +7,7 @@
         controls
         indicators
     >
-      <b-carousel-slide v-for="photo in photos" v-bind:key="photo">
+      <b-carousel-slide v-for="photo in photos" :key="photo">
         <template #img>
           <img
               class="d-block img-fluid w-100"

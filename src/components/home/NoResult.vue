@@ -7,7 +7,7 @@
 
     <b-row class="d-flex justify-content-center mb-5">
       <button class="btn btn-primary btn-hoverable" type="button" data-toggle="modal" data-target="#richiedi-ricetta-modal">
-        <b-icon id="icon" icon="pencil-square" class="mr-2"></b-icon>RICHIEDI RICETTA
+        <b-icon id="icon" icon="pencil-square" class="mr-2"/>RICHIEDI RICETTA
       </button>
     </b-row>
 

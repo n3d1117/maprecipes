@@ -19,8 +19,8 @@
         :get-suggestion-value="getSuggestionValue"
         :renderSuggestion="getSuggestionValue"
         :sectionConfigs="sectionConfigs"
-        :input-props="{id:'autosuggest__input', placeholder:'Cerca una città o un piatto...', spellcheck: false, type:'search', name:'search', class:'pt-sm-1 pt-2'}">
-    </vue-autosuggest>
+        :input-props="{id:'autosuggest__input', placeholder:'Cerca una città o un piatto...', spellcheck: false, type:'search', name:'search', class:'pt-sm-1 pt-2'}"
+    />
 
     <button type="submit" title="Ricerca parola chiave." class="sbx-medium__submit">
       <svg role="img" aria-label="Search">

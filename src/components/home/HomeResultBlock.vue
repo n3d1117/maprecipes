@@ -2,16 +2,16 @@
   <div class="mb-4">
     <h2 class="result_block_tipo_piatto text-left">{{ title }}</h2>
 
-    <HorizontalSeparator></HorizontalSeparator>
+    <HorizontalSeparator/>
 
     <div class="container">
       <div class="row">
 
         <RecipeCard
             v-for="recipe in recipes"
-            v-bind:key="recipe.dish_id"
-            v-bind:recipe="recipe"
-        ></RecipeCard>
+            :key="recipe.dish_id"
+            :recipe="recipe"
+        />
 
       </div>
     </div>

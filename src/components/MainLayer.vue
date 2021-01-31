@@ -1,7 +1,7 @@
 <template>
 
   <BackgroundLayer>
-    <Navbar></Navbar>
+    <Navbar/>
     <Jumbotron>
       <slot></slot>
     </Jumbotron>

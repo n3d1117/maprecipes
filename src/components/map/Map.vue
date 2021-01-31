@@ -7,19 +7,19 @@
       <div class="row col-lg-8 col-sm-12 mx-auto">
 
         <div class="col-md-9 col-xs-12 my-auto pr-md-4 pr-0 pl-0">
-          <SearchBar @callback="didSearchForQuery" :map-mode="true" ref="searchbar"></SearchBar>
+          <SearchBar @callback="didSearchForQuery" :map-mode="true" ref="searchbar"/>
         </div>
 
         <div class="col-md-3 col-xs-12 mt-md-0 mt-xs-2 mt-2 pl-0 pr-0">
           <b-dropdown id="piatto-dropdown" size="lg" :text="dropdownTitle" class="col-12 p-0">
-            <b-dropdown-item v-bind:key="type" v-for="type in dishTypes" @click="onTypeChange(type)">{{ type }}</b-dropdown-item>
+            <b-dropdown-item :key="type" v-for="type in dishTypes" @click="onTypeChange(type)">{{ type }}</b-dropdown-item>
           </b-dropdown>
         </div>
 
       </div>
 
       <div class="mt-4 offset-lg-2 col-lg-8 col-sm-12 d-flex align-items-center">
-        <MapRecipes ref="map"></MapRecipes>
+        <MapRecipes ref="map"/>
       </div>
     </div>
 

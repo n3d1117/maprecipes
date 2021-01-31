@@ -10,9 +10,9 @@
             <div id="ingredients_block_inner">
 
               <IngredientsBlock
-                  v-bind:ingredients="recipe.ingredients"
-                  v-bind:video_link="recipe.video_recipe"
-              ></IngredientsBlock>
+                  :ingredients="recipe.ingredients"
+                  :video_link="recipe.video_recipe"
+              />
 
             </div>
           </div>
@@ -22,11 +22,11 @@
           <div class="row">
 
             <div class="col-lg-7">
-              <RecipeInfo v-bind:region="recipe.region" v-bind:city="recipe.city" v-bind:name="recipe.dish_name"></RecipeInfo>
+              <RecipeInfo :region="recipe.region" :city="recipe.city" :name="recipe.dish_name"/>
             </div>
 
             <div class="col-lg-5">
-              <CarouselBlock v-bind:photos="recipe.photos" v-bind:title="recipe.dish_name"></CarouselBlock>
+              <CarouselBlock :photos="recipe.photos" :title="recipe.dish_name"/>
             </div>
 
           </div>
@@ -35,7 +35,7 @@
         <div class="col-lg-9 order-1 float-left">
           <div class="row">
             <div class="col col-12">
-              <PrepHistoryBlock title="Preparazione" :text="recipe.preparation"></PrepHistoryBlock>
+              <PrepHistoryBlock title="Preparazione" :text="recipe.preparation"/>
             </div>
           </div>
         </div>
@@ -44,11 +44,11 @@
           <div class="row mt-3">
             <div class="col-lg-8" id="storia-prodotto-column">
 
-              <PrepHistoryBlock title="Storia del prodotto" :text="recipe.product_history"></PrepHistoryBlock>
+              <PrepHistoryBlock title="Storia del prodotto" :text="recipe.product_history"/>
             </div>
 
             <div class="col-lg-4">
-              <RelatedRecipes v-bind:related_recipes="recipe.related_recipes"></RelatedRecipes>
+              <RelatedRecipes :related_recipes="recipe.related_recipes"/>
             </div>
 
           </div>

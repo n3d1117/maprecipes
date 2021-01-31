@@ -1,8 +1,8 @@
 <template>
   <div class="legend">
-    <p v-b-toggle.accordion>Legenda <b-icon icon="chevron-up" font-scale="0.8" :rotate="rotateDeg"></b-icon></p>
+    <p v-b-toggle.accordion>Legenda <b-icon icon="chevron-up" font-scale="0.8" :rotate="rotateDeg"/></p>
     <b-collapse id="accordion">
-      <b-row v-bind:key="type.name" v-for="type in dishTypes">
+      <b-row :key="type.name" v-for="type in dishTypes">
         <b-col cols="3">
           <i class="icon" :style="{ backgroundImage: `url(https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-${type.color}.png)` }"></i>
         </b-col>

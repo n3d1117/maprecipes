@@ -2,7 +2,7 @@
   <div>
     <h1 id="related_recipes_title" class="mb-1 ml-3 ml-lg-0 mt-xl-0 mt-2 text-left">Ricette correlate</h1>
     <ul id="related_recipes_list" class="ml-lg-0 ml-3 mb-3 pl-4 mr-3 text-left">
-      <li v-for="(name, id) in related_recipes" v-bind:key="id" class="mb-1">
+      <li v-for="(name, id) in related_recipes" :key="id" class="mb-1">
         <router-link :to="'/recipe/' + id">{{ name }}</router-link>
       </li>
     </ul>

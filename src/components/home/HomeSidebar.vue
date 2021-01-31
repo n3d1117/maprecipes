@@ -9,7 +9,7 @@
         <b-list-group-item href="#list-item-5" class="text-center bottom-list-item">Dolci</b-list-group-item>
       </b-list-group>
       <b-dropdown id="regione-dropdown" size="lg" :text="dropdownTitle" class="col-12 p-0 mt-3 mb-md-3">
-        <b-dropdown-item v-bind:key="region" v-for="region in regions" @click="onRegionChange(region)">{{ region }}</b-dropdown-item>
+        <b-dropdown-item :key="region" v-for="region in regions" @click="onRegionChange(region)">{{ region }}</b-dropdown-item>
       </b-dropdown>
     </div>
   </div>

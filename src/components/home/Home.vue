@@ -7,39 +7,39 @@
       <div style="margin-bottom: 200px">
         <h1 id="searchbar_title">TROVA LE RICETTE DELLA TUA CITTÀ</h1>
         <div class="offset-lg-2 col-lg-8">
-          <SearchBar @callback="didSearchForQuery" ref="searchbar"></SearchBar>
+          <SearchBar @callback="didSearchForQuery" ref="searchbar"/>
         </div>
       </div>
-<!--      <ScrollDownIcon @callback="scrollToResults"></ScrollDownIcon>-->
+<!--      <ScrollDownIcon @callback="scrollToResults"/>-->
     </MainLayer>
 
     <div id="bottom-bg">
       <div class="container">
         <div class="row">
 
-          <HomeSidebar ref="sidebar" @callback="onRegionChange"></HomeSidebar>
+          <HomeSidebar ref="sidebar" @callback="onRegionChange"/>
 
           <div class="col-md-9">
             <h1 id="title-label" class="mt-4 text-left">{{ titleLabel }}</h1>
 
 <!--
-            <NoResult v-if="isEmpty"></NoResult>
+            <NoResult v-if="isEmpty"/>
 -->
 
-            <HomeResultBlock class="scrollspy" id="list-item-1" v-if="filteredAntipasti.length > 0" v-bind:recipes="filteredAntipasti" title="Antipasti"></HomeResultBlock>
-            <HomeResultBlock class="scrollspy" id="list-item-2" v-if="filteredPrimi.length > 0" v-bind:recipes="filteredPrimi" title="Primi"></HomeResultBlock>
-            <HomeResultBlock class="scrollspy" id="list-item-3" v-if="filteredSecondi.length > 0" v-bind:recipes="filteredSecondi" title="Secondi"></HomeResultBlock>
-            <HomeResultBlock class="scrollspy" id="list-item-4" v-if="filteredContorni.length > 0" v-bind:recipes="filteredContorni" title="Contorni"></HomeResultBlock>
-            <HomeResultBlock class="scrollspy" id="list-item-5" v-if="filteredDolci.length > 0" v-bind:recipes="filteredDolci" title="Dolci"></HomeResultBlock>
+            <HomeResultBlock class="scrollspy" id="list-item-1" v-if="filteredAntipasti.length > 0" :recipes="filteredAntipasti" title="Antipasti"/>
+            <HomeResultBlock class="scrollspy" id="list-item-2" v-if="filteredPrimi.length > 0" :recipes="filteredPrimi" title="Primi"/>
+            <HomeResultBlock class="scrollspy" id="list-item-3" v-if="filteredSecondi.length > 0" :recipes="filteredSecondi" title="Secondi"/>
+            <HomeResultBlock class="scrollspy" id="list-item-4" v-if="filteredContorni.length > 0" :recipes="filteredContorni" title="Contorni"/>
+            <HomeResultBlock class="scrollspy" id="list-item-5" v-if="filteredDolci.length > 0" :recipes="filteredDolci" title="Dolci"/>
 
           </div>
         </div>
       </div>
     </div>
 
-<!--    <ContactForm></ContactForm>-->
+<!--    <ContactForm/>-->
 
-    <HomeFooter></HomeFooter>
+    <HomeFooter/>
 
   </div>
 </template>

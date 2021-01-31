@@ -7,7 +7,7 @@
         <img class="popup-img"
              width="95%"
              height="100%"
-             :src="require(`@/assets/${recipe.photos[0]}`)"
+             v-lazy="require(`@/assets/${recipe.photos[0]}`)"
              :alt="recipe.dish_name"
         >
       </b-row>
@@ -18,7 +18,7 @@
 
         <router-link :to="'/recipe/' + recipe.dish_id" target="_blank">
           <button class="btn btn-primary btn-hoverable" type="button">
-            <b-icon icon="receipt" id="receipt-icon"></b-icon>&nbsp; RICETTA
+            <b-icon icon="receipt" id="receipt-icon"/>&nbsp; RICETTA
           </button>
         </router-link>
 
