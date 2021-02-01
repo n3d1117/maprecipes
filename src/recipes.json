@@ -5014,10 +5014,6 @@
                 "ingredient": "Sale q.b"
             },
             {
-                "quantity": 0,
-                "ingredient": "Sale q.b"
-            },
-            {
                 "quantity": 50,
                 "ingredient": "Pecorino"
             }
@@ -6522,10 +6518,6 @@
             {
                 "quantity": 400,
                 "ingredient": "Farina"
-            },
-            {
-                "quantity": 0,
-                "ingredient": "Sale q.b"
             },
             {
                 "quantity": 0,
@@ -17602,10 +17594,6 @@
             },
             {
                 "ingredient" : "Zucchero semolato q.b",
-                "quantity" : 0
-            },
-            {
-                "ingredient" : "Sale q.b",
                 "quantity" : 0
             },
             {
