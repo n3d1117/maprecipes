@@ -33,7 +33,10 @@
       </div>
 
       <div class="mt-4 offset-lg-2 col-lg-8 col-sm-12 d-flex align-items-center">
-        <MapRecipes ref="map" />
+        <MapRecipes
+          ref="map"
+          @didResetType="didResetType"
+        />
       </div>
     </div>
   </MainLayer>
@@ -60,12 +63,7 @@ export default {
   },
   methods: {
     onTypeChange(type) {
-      if (type === 'Tutti i piatti')
-        this.$refs.map.resetZoom()
       this.setDropdownTitle(type)
-      this.$refs.map.query = ''
-      this.$refs.searchbar.query = ''
-      this.$refs.map.isFilteringByDropdown = true
       this.$refs.map.dishType = type
     },
     setDropdownTitle(type) {
@@ -75,11 +73,12 @@ export default {
         this.dropdownTitle = type
     },
     didSearchForQuery(data) {
-      this.setDropdownTitle('Tutti i piatti')
-      this.$refs.map.dishType = 'Tutti i piatti'
-      this.$refs.map.isFilteringByDropdown = false
       this.$refs.map.query = data.selected
       this.$refs.map.resultType = data.resultType
+    },
+    didResetType() {
+      this.setDropdownTitle('Tutti i piatti')
+      this.$refs.map.dishType = 'Tutti i piatti'
     }
   }
 }

@@ -69,23 +69,30 @@ export default {
       violetIcon: this.generateMarker('violet'),
       dishType: 'Tutti i piatti',
       query: '',
-      resultType: '',
-      isFilteringByDropdown: false
+      resultType: ''
     };
   },
   computed: {
     filteredRecipes() {
-      if (this.isFilteringByDropdown) {
-        if (this.dishType === 'Tutti i piatti')
-          return recipes
-        return recipes.filter(recipe => {
+
+      let filteredRecipes = recipes;
+
+      if (this.query !== '') {
+        filteredRecipes = this.filterByQuery(filteredRecipes)
+      }
+
+      if (this.dishType !== 'Tutti i piatti') {
+        let filteredByType = filteredRecipes.filter(recipe => {
           return recipe.dish_type === this.dishType
         });
-      } else {
-        if (this.query === '')
-          return recipes
-        return this.filterByQuery(recipes)
+        if (filteredByType.length !== 0) {
+          filteredRecipes = filteredByType
+        } else {
+          this.$emit('didResetType')
+        }
       }
+
+      return filteredRecipes
     }
   },
   mounted() {
