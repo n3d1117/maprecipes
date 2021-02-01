@@ -20,7 +20,7 @@
           id="icon"
           icon="pencil-square"
           class="mr-2"
-        />RICHIEDI RICETTA
+        />SUGGERISCI RICETTA
       </button>
     </b-row>
   </div>

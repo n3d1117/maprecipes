@@ -36,7 +36,7 @@
                 to="/map"
                 class="text-white"
               >
-                Mappa dei Piatti
+                Mappa dei piatti
               </router-link>
             </li>
             <li>
@@ -44,7 +44,7 @@
                 data-toggle="modal"
                 data-target="#richiedi-ricetta-modal"
                 class="text-white"
-              >Richiedi Ricetta</a>
+              >Suggerisci ricetta</a>
             </li>
           </ul>
         </div>
