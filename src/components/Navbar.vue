@@ -104,4 +104,10 @@ export default {
   margin-bottom: 5px;
 }
 
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.5);
+  border-color: rgba(96, 96, 96, 0.75);
+  border-width: 2px;
+}
+
 </style>
