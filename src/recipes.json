@@ -2945,7 +2945,7 @@
     },
     {
         "related_recipes": {
-            "54": "Passatelli in Brodo",
+            "55": "Passatelli in Brodo",
             "58": "Torta degli Addobbi",
             "59": "Carote alla Parmigiana"
         },
@@ -3019,8 +3019,8 @@
     },
     {
         "related_recipes": {
-            "55": "Lasagne alla Bolognese",
-            "54": "Passatelli in Brodo",
+            "56": "Lasagne alla Bolognese",
+            "55": "Passatelli in Brodo",
             "59": "Carote alla Parmigiana"
         },
         "dish_type": "Dolci",
@@ -3085,8 +3085,8 @@
     },
     {
         "related_recipes": {
-            "55": "Lasagne alla Bolognese",
-            "54": "Passatelli in Brodo",
+            "56": "Lasagne alla Bolognese",
+            "55": "Passatelli in Brodo",
             "58": "Torta degli Addobbi"
         },
         "dish_type": "Contorni",
