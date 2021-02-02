@@ -186,7 +186,7 @@ export default {
     },
     didSearchForQuery(data) {
       this.resultType = data.resultType
-      this.query = data.selected
+      this.query = data.selected.trim()
 
       if (this.query !== '') {
         if (this.resultType === 'recipe') {

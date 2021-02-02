@@ -134,7 +134,7 @@ export default {
       }
     },
     query() {
-      if (this.query === '') {
+      if (this.query.trim() === '') {
         $('.sbx-medium__reset').hide();
       } else {
         $('.sbx-medium__reset').show();
@@ -160,7 +160,7 @@ export default {
   },
   methods: {
     onEnter() {
-      if (this.query !== '') {
+      if (this.query.trim() !== '') {
         this.resultType = 'none'
         this.selected = this.query
       }
@@ -171,11 +171,12 @@ export default {
     fetchSuggestions(query) {
       this.suggestions = [];
       this.selected = null;
-      if (query.length > 0) {
-        this.suggestions.push({ name: "default", data: this.filterRecipes(query) });
-        this.suggestions.push({ name: "regions", data: this.filterRegions(query) });
-        this.suggestions.push({ name: "cities", data: this.filterCities(query) });
-        this.suggestions.push({ name: "ingredients", data: this.filterIngredients(query) });
+      const trimmedQuery = query.trim()
+      if (trimmedQuery.length > 0) {
+        this.suggestions.push({ name: "default", data: this.filterRecipes(trimmedQuery) });
+        this.suggestions.push({ name: "regions", data: this.filterRegions(trimmedQuery) });
+        this.suggestions.push({ name: "cities", data: this.filterCities(trimmedQuery) });
+        this.suggestions.push({ name: "ingredients", data: this.filterIngredients(trimmedQuery) });
       } else {
         this.callbackReset()
       }

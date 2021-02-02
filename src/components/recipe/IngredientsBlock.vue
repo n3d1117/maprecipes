@@ -98,7 +98,7 @@ export default {
   },
   methods: {
     increaseCounter: function() {
-      if (this.counter < 12) {
+      if (this.counter < 15) {
         this.counter += 1;
       }
     },
