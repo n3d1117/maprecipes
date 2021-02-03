@@ -22,14 +22,14 @@
               <RecipeInfo
                 :region="recipe.region"
                 :city="recipe.city"
-                :name="recipe.dish_name"
+                :name="recipe.name"
               />
             </div>
 
             <div class="col-lg-5">
               <CarouselBlock
                 :photos="recipe.photos"
-                :title="recipe.dish_name"
+                :title="recipe.name"
               />
             </div>
           </div>
@@ -92,7 +92,7 @@ export default {
   props: ['id'],
   computed: {
     recipe() {
-      return recipes.find(recipe => recipe.dish_id == this.id)
+      return recipes.find(recipe => recipe.id == this.id)
     }
   },
   mounted() {

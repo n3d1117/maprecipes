@@ -19,7 +19,7 @@
 
     <l-marker
       v-for="recipe in filteredRecipes"
-      :key="recipe.dish_id"
+      :key="recipe.id"
       ref="markers"
       :lat-lng="convertCoords(recipe.coords)"
       :icon="getIcon(recipe)"
@@ -83,7 +83,7 @@ export default {
 
       if (this.dishType !== 'Tutti i piatti') {
         let filteredByType = filteredRecipes.filter(recipe => {
-          return recipe.dish_type === this.dishType
+          return recipe.type === this.dishType
         });
         if (filteredByType.length !== 0) {
           filteredRecipes = filteredByType
@@ -114,7 +114,7 @@ export default {
       return latLng(arr[0], arr[1])
     },
     getIcon(recipe) {
-      switch (recipe.dish_type) {
+      switch (recipe.type) {
         case 'Antipasti': return this.violetIcon
         case 'Primi': return this.blueIcon
         case 'Contorni': return this.greenIcon
@@ -131,7 +131,7 @@ export default {
       }
 
       const filteredByRecipeName = array.filter(recipe => {
-        return (normalized(recipe.dish_name.toLowerCase()).indexOf(normalized(query.toLowerCase())) > -1)
+        return (normalized(recipe.name.toLowerCase()).indexOf(normalized(query.toLowerCase())) > -1)
       })
       const filteredByRegion = array.filter(recipe => {
         return (normalized(recipe.region.toLowerCase()).indexOf(normalized(query.toLowerCase())) > -1)
@@ -140,7 +140,7 @@ export default {
         return (normalized(recipe.city.toLowerCase()).indexOf(normalized(query.toLowerCase())) > -1)
       })
       const filteredByIngredient = array.filter(recipe => {
-        const allIngredients = recipe.ingredients.flatMap(ing => ing.ingredient.replace(' q.b',''))
+        const allIngredients = recipe.ingredients.flatMap(ing => ing.name.replace(' q.b',''))
         return allIngredients.some(function(ingredient) {
           return (normalized(ingredient.toLowerCase()).indexOf(normalized(query.toLowerCase())) > -1)
         });
@@ -179,7 +179,7 @@ export default {
     zoomAndCenter() {
       switch (this.resultType) {
         case 'recipe':
-          this.center = this.convertCoords(recipes.find(recipe => recipe.dish_name === this.query).coords)
+          this.center = this.convertCoords(recipes.find(recipe => recipe.name === this.query).coords)
           this.setZoom(10)
           break;
         case 'region':

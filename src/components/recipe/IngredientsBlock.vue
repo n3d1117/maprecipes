@@ -42,10 +42,10 @@
     >
       <li
         v-for="ingredient in orderedIngredients"
-        :key="ingredient.ingredient"
+        :key="ingredient.name"
       >
-        <span v-if="ingredient.quantity === 0">{{ ingredient.ingredient }}</span>
-        <span v-else>{{ ingredient.ingredient }} {{ ingredient.quantity }} gr</span>
+        <span v-if="ingredient.quantity === 0">{{ ingredient.name }}</span>
+        <span v-else>{{ ingredient.name }} {{ ingredient.quantity }} gr</span>
       </li>
     </ul>
 
@@ -90,7 +90,7 @@ export default {
       return ingredientsCopy.sort((a, b) => {
         // if same quantity, order alphabetically
         if (a.quantity === b.quantity)
-          return (a.ingredient < b.ingredient) ? 1 : -1;
+          return (a.name < b.name) ? 1 : -1;
         // otherwise order by quantity
         return (a.quantity < b.quantity) ? 1 : -1;
       });

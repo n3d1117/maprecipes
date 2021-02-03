@@ -181,8 +181,8 @@ export default {
   methods: {
     filterByRecipeTypeAndSort(type) {
       return recipes
-          .filter(recipe => recipe.dish_type === type)
-          .sort((a, b) => (a.dish_name > b.dish_name) ? 1 : -1);
+          .filter(recipe => recipe.type === type)
+          .sort((a, b) => (a.name > b.name) ? 1 : -1);
     },
     didSearchForQuery(data) {
       this.resultType = data.resultType
@@ -190,8 +190,8 @@ export default {
 
       if (this.query !== '') {
         if (this.resultType === 'recipe') {
-          const result = recipes.find(recipe => recipe.dish_name === this.query)
-          this.$router.push({name: 'recipe', params: {id: result.dish_id}})
+          const result = recipes.find(recipe => recipe.name === this.query)
+          this.$router.push({name: 'recipe', params: {id: result.id}})
         } else {
           this.$refs.sidebar.dropdownTitle = 'Regione'
           this.scrollToResults()
@@ -210,7 +210,7 @@ export default {
       }
 
       const filteredByRecipeName = array.filter(recipe => {
-        return (normalized(recipe.dish_name.toLowerCase()).indexOf(normalized(query.toLowerCase())) > -1)
+        return (normalized(recipe.name.toLowerCase()).indexOf(normalized(query.toLowerCase())) > -1)
       })
       const filteredByRegion = array.filter(recipe => {
         return (normalized(recipe.region.toLowerCase()).indexOf(normalized(query.toLowerCase())) > -1)
@@ -219,7 +219,7 @@ export default {
         return (normalized(recipe.city.toLowerCase()).indexOf(normalized(query.toLowerCase())) > -1)
       })
       const filteredByIngredient = array.filter(recipe => {
-        const allIngredients = recipe.ingredients.flatMap(ing => ing.ingredient.replace(' q.b',''))
+        const allIngredients = recipe.ingredients.flatMap(ing => ing.name.replace(' q.b',''))
         return allIngredients.some(function(ingredient) {
           return (normalized(ingredient.toLowerCase()).indexOf(normalized(query.toLowerCase())) > -1)
         });

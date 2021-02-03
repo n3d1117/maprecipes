@@ -7,18 +7,18 @@
           class="popup-img"
           width="95%"
           height="100%"
-          :alt="recipe.dish_name"
+          :alt="recipe.name"
         >
       </b-row>
       <b-row
         id="title"
         class="d-flex justify-content-center mb-2 pt-1 text-center"
       >
-        {{ recipe.dish_name }}
+        {{ recipe.name }}
       </b-row>
       <b-row class="d-flex justify-content-center">
         <router-link
-          :to="'/recipe/' + recipe.dish_id"
+          :to="'/recipe/' + recipe.id"
           target="_blank"
         >
           <button

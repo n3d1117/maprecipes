@@ -19,7 +19,7 @@
               id="exampleModalLabel"
               class="modal-title"
             >
-              Suggerisci una Ricetta
+              Suggerisci una ricetta
             </h5>
             <button
               type="button"

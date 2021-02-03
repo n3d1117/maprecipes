@@ -182,7 +182,7 @@ export default {
       }
     },
     filterRecipes(query) {
-      const allRecipeNames = this.recipes.map(recipe => recipe.dish_name)
+      const allRecipeNames = this.recipes.map(recipe => recipe.name)
       return this.filterAndSort(allRecipeNames, query)
     },
     filterRegions(query) {
@@ -195,7 +195,7 @@ export default {
     },
     filterIngredients(query) {
       const allIngredients = this.recipes.flatMap(recipe => recipe.ingredients)
-      const allIngredientNames = allIngredients.flatMap(ing => ing.ingredient.replace(' q.b',''))
+      const allIngredientNames = allIngredients.flatMap(ing => ing.name.replace(' q.b',''))
       return this.filterAndSort(allIngredientNames, query)
     },
     filterAndSort(array, query) {

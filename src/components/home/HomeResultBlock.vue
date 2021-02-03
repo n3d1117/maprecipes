@@ -10,7 +10,7 @@
       <div class="row">
         <RecipeCard
           v-for="recipe in recipes"
-          :key="recipe.dish_id"
+          :key="recipe.id"
           :recipe="recipe"
         />
       </div>

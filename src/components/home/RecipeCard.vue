@@ -2,17 +2,17 @@
   <div class="col mb-3 col-lg-3 col-6">
     <router-link
       class="result_block_anchor"
-      :to="'/recipe/' + recipe.dish_id"
+      :to="'/recipe/' + recipe.id"
     >
       <div class="card result_block_card">
         <div class="card-body result_block_card_body">
           <img
             v-lazy="require(`@/assets/${recipe.photos[0]}`)"
             class="img-fluid mb-2 result_block_card_body_img"
-            :alt="recipe.dish_name"
+            :alt="recipe.name"
           >
           <h4 class="card-title mb-0 text-center">
-            {{ recipe.dish_name }}
+            {{ recipe.name }}
           </h4>
           <ul class="text-left mb-0 pb-0 pl-3">
             <li>Regione: {{ recipe.region }}</li>
