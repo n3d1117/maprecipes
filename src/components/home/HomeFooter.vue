@@ -12,7 +12,7 @@
 
           <p id="footer-content">
             MapRecipes è una web app che cataloga ricette italiane suddividendole per antipasti, primi, secondi,
-            contorni e dolci, geolocalizzandole su una mappa con la possibilità di filtrarle per nome e località.
+            contorni e dolci, geolocalizzandole su una mappa con la possibilità di filtrarle per nome, località o ingredienti.
           </p>
         </div>
 
