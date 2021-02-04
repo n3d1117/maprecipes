@@ -32,7 +32,7 @@
       :get-suggestion-value="getSuggestionValue"
       :render-suggestion="getSuggestionValue"
       :section-configs="sectionConfigs"
-      :input-props="{id:'autosuggest__input', placeholder:'Cerca una città o un piatto...', spellcheck: false, type:'search', name:'search', class:'pt-sm-1 pt-2'}"
+      :input-props="{id:'autosuggest__input', placeholder:'Cerca una città, un piatto, una regione o un ingrediente...', spellcheck: false, type:'search', name:'search', class:'pt-sm-1 pt-2'}"
       @input="fetchSuggestions"
       @selected="onSelected"
       @keyup.enter="onEnter"
@@ -157,6 +157,20 @@ export default {
       search.css({'left':'20px'});
       reset.css({'right':'25px'});
     }
+
+    function updatePlaceholder() {
+      if ($(window).width() < 1199) {
+        $('#autosuggest__input').attr('placeholder', 'Città, piatto, regione o ingrediente');
+      } else {
+        $('#autosuggest__input').attr('placeholder', 'Cerca una città, un piatto, una regione o un ingrediente...');
+      }
+    }
+
+    updatePlaceholder();
+
+    $(window).resize(function() {
+      updatePlaceholder();
+    });
   },
   methods: {
     onEnter() {
