@@ -46,6 +46,13 @@
                 class="text-white"
               >Suggerisci ricetta</a>
             </li>
+            <li>
+              <a
+                href="https://github.com/n3d1117/maprecipes"
+                class="text-white"
+                target="_blank"
+              >Vedi su GitHub</a>
+            </li>
           </ul>
         </div>
       </div>
