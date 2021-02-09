@@ -29,8 +29,8 @@ The idea for this project was born from the mutual interest in the gastronomic f
 Our goal is to make the final product as easy, accessible and user friendly as possible, for people of any age.
 
 # Project Documents
-* Report is available [here](report.pdf)
-* Presentation is available [here](presentation.pdf)
+* Report is available [here](/documents/report.pdf)
+* Presentation is available [here](/documents/presentation.pdf)
 
 # Development
 
