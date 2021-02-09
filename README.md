@@ -3,6 +3,9 @@
 </p>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/984eb531-7ad8-462a-8c90-0e8700c551f1/deploy-status)](https://app.netlify.com/sites/maprecipes/deploys)
+[![Vue](https://img.shields.io/badge/vue-2.6.11-brightgreen)](https://vuejs.org)
+[![BootstrapVue](https://img.shields.io/badge/BootstrapVue-2.21.2-blueviolet)](https://bootstrap-vue.org)
+[![Leaflet](https://img.shields.io/badge/Leaflet-1.7.1-orange)](https://leafletjs.com)
 
 # Overview
 - **Academic Year**: 2020-2021
@@ -36,6 +39,7 @@ Our goal is to make the final product as easy, accessible and user friendly as p
 
 ## Requirements
 * [Node.js](https://nodejs.org/en/) (tested on v15.5.1)
+* [npm](https://www.npmjs.com) (tested on v6.14.11)
 
 ## Project setup
 ```bash
