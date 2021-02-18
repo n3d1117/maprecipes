@@ -142,6 +142,37 @@ export default {
       adapt_ingredients_block_outer();
       fixStoriaProdottoBorder();
     });
+  },
+  metaInfo() {
+    return {
+      title: 'MapRecipes',
+      titleTemplate: `%s - ${this.recipe.name} (${this.recipe.city})`,
+      htmlAttrs: {
+        lang: 'it'
+      },
+      meta: [
+        {
+          name: 'description',
+          content: `${this.recipe.product_history.length > 150 ? this.recipe.product_history.substring(0, 150 - 3) + "..." : this.recipe.product_history}`
+        },
+        {
+          property: 'og:description',
+          content: `${this.recipe.product_history.length > 150 ? this.recipe.product_history.substring(0, 150 - 3) + "..." : this.recipe.product_history}`
+        },
+        {
+          property: 'og:title',
+          content: `MapRecipes - ${this.recipe.name}`
+        },
+        {
+          property: 'og:image',
+          content: require(`@/assets/${this.recipe.photos[0]}`)
+        },
+        {
+          property: 'og:url',
+          content: `${window.location.origin + this.$route.fullPath}`
+        }
+      ],
+    }
   }
 }
 

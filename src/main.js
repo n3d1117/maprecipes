@@ -10,6 +10,7 @@ import Home from './components/home/Home'
 import Map from './components/map/Map'
 import Recipe from './components/recipe/Recipe'
 import VueLazyload from 'vue-lazyload'
+import VueMeta from 'vue-meta'
 
 Vue.component('l-map', LMap);
 Vue.component('l-tile-layer', LTileLayer);
@@ -20,6 +21,7 @@ Vue.use(VueLazyload, {
     loading: loadimage
 })
 
+Vue.use(VueMeta)
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)
 Vue.use(VueRouter)

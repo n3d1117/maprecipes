@@ -80,6 +80,31 @@ export default {
       this.setDropdownTitle('Tutti i piatti')
       this.$refs.map.dishType = 'Tutti i piatti'
     }
+  },
+  metaInfo: {
+    title: 'MapRecipes',
+    titleTemplate: '%s - Mappa dei Piatti',
+    htmlAttrs: {
+      lang: 'it'
+    },
+    meta: [
+      {
+        name: 'description',
+        content: 'Geolocalizza le ricette su una mappa interattiva!'
+      },
+      {
+        property: 'og:description',
+        content: 'Geolocalizza le ricette su una mappa interattiva!'
+      },
+      {
+        property: 'og:title',
+        content: 'MapRecipes - Mappa dei Piatti',
+      },
+      {
+        property: 'og:image',
+        content: require(`@/assets/img.png`)
+      }
+    ],
   }
 }
 

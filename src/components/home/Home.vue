@@ -255,6 +255,31 @@ export default {
         scrollTop: $("#title-label").offset().top - 20
       }, 'slow');
     }
+  },
+  metaInfo: {
+    title: 'MapRecipes',
+    titleTemplate: '%s - Home',
+    htmlAttrs: {
+      lang: 'it'
+    },
+    meta: [
+      {
+        name: 'description',
+        content: 'MapRecipes cataloga ricette italiane suddividendole per tipi di piatti, geolocalizzandole su una mappa con la possibilità di filtrarle.'
+      },
+      {
+        property: 'og:description',
+        content: 'MapRecipes cataloga ricette italiane suddividendole per tipi di piatti, geolocalizzandole su una mappa con la possibilità di filtrarle.'
+      },
+      {
+        property: 'og:title',
+        content: 'MapRecipes - Home'
+      },
+      {
+        property: 'og:image',
+        content: require(`@/assets/img.png`)
+      }
+    ],
   }
 }
 </script>
