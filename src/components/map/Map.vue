@@ -102,7 +102,7 @@ export default {
       },
       {
         property: 'og:image',
-        content: require(`@/assets/img.png`)
+        content: `${window.location.origin}` + require(`@/assets/img.png`)
       }
     ],
   }

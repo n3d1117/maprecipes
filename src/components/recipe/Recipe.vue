@@ -165,7 +165,7 @@ export default {
         },
         {
           property: 'og:image',
-          content: require(`@/assets/${this.recipe.photos[0]}`)
+          content: `${window.location.origin}` + require(`@/assets/${this.recipe.photos[0]}`)
         },
         {
           property: 'og:url',
